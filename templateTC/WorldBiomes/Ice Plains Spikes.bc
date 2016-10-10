@@ -463,7 +463,7 @@ RareBuildingType: disabled
 SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "PolarBear", "weight": 1, "min": 1, "max": 2}]
+SpawnCreatures: [{"mob": "Rabbit", "weight": 10, "min": 2, "max": 3}, {"mob": "PolarBear", "weight": 1, "min": 1, "max": 2}, {"mob": "Wolf", "weight": 8, "min": 4, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]

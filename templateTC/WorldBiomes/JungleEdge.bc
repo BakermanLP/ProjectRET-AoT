@@ -390,6 +390,8 @@ Plant(PUMPKIN,1,3.0,0,128,GRASS)
 # CustomObject(UseWorld)
 Tree(4,JungleForest1,5,JungleForest2,5,JungleForest3,5,JungleForest4,5,JungleForest5,5,JungleForest6,5,JungleForest7,5,JungleForest8,5)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
+Sapling(SmallJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,6,JungleForest5,6,JungleForest6,6,JungleForest7,6,JungleForest8,6,JungleRainforest1,6,JungleRainforest2,6,JungleRainforest3,5,JungleRainforest4,5,JungleRainforest5,5,JungleRainforest6,5,JungleRainforest7,5,JungleRainforest8,5,JungleRainforest9,5,JungleRainforest10,5)
+Sapling(BigJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,6,JungleForest5,6,JungleForest6,6,JungleForest7,6,JungleForest8,6,JungleRainforest1,6,JungleRainforest2,6,JungleRainforest3,5,JungleRainforest4,5,JungleRainforest5,5,JungleRainforest6,5,JungleRainforest7,5,JungleRainforest8,5,JungleRainforest9,5,JungleRainforest10,5)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -464,10 +466,10 @@ RareBuildingType: jungleTemple
 # changes to this setting are ignored and overwritten.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.pirate", "weight": 100, "min": 4, "max": 4}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Quark.pirate", "weight": 100, "min": 4, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
