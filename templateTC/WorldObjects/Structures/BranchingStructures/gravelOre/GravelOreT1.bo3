@@ -157,7 +157,7 @@ Block(0,0,0,GRAVEL)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,GravelOreT2,NORTH,20.0,GoldOreT1,NORTH,1580.0,IronOreT1,NORTH,63210.0,CoalOreT1,NORTH,1707200.0,120.0)
+WeightedBranch(0,0,0,GravelOreT2,NORTH,20.0,GoldOreT1,NORTH,1840.0,IronOreT1,NORTH,85570.0,CoalOreT1,NORTH,2681810.0,120.0)
 Branch(0,1,0,GravelOreT3,NORTH,50.0)
 Branch(1,0,0,GravelOreT2,NORTH,50.0)
 Branch(0,0,1,GravelOreT2,NORTH,70.0)
