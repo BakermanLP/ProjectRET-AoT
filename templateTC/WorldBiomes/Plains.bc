@@ -399,11 +399,15 @@ CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsc
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(OakFallenTree1,OakFallenTree2,OakFallenTree3,OakFallenTree4)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-# CustomObject(UseWorld)
 Tree(1,OakForestSmall1,2,OakForestSmall2,2,OakForestSmall3,2,OakForestSmall4,2,OakForestSmall5,2,OakForestSmall6,2,OakForestSmall8,2,OakForestSmall9,2,OakForestSmall11,2,OakForestSmall12,2,OakForestSmall13,2,BirchForest1,2,BirchForest2,2,BirchForest3,2,BirchForest4,2,BirchForest5,2,BirchForest6,2,BirchForest7,2,BlackSpruceS1,2,BlackSpruceS2,2,BlackSpruceS3,2,BlackSpruceS4,2)
 Sapling(Oak,OakForestSmall9,6,OakForestSmall8,6,OakForestSmall6,6,OakForestSmall5,6,OakForestSmall4,5,OakForestSmall3,5,OakForestSmall2,5,OakForestSmall13,5,OakForestSmall12,5,OakForestSmall11,6,OakForestSmall10,5,OakForestSmall1,5,OakForestLarge5,5,OakForestLarge4,5,OakForestLarge3,5,OakForestLarge2,5,OakForestLarge1,5,OakForestMedium2,5,OakForestMedium1,5)
 Sapling(Birch,BirchForest1,15,BirchForest2,15,BirchForest3,14,BirchForest4,14,BirchForest5,14,BirchForest6,14,BirchForest7,14)
 Sapling(Redwood,BlackSpruceS1,25,BlackSpruceS2,25,BlackSpruceS3,25,BlackSpruceS4,25)
+Sapling(SmallJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,6,JungleForest5,6,JungleForest6,6,JungleForest7,6,JungleForest8,6,JungleRainforest1,6,JungleRainforest2,6,JungleRainforest3,5,JungleRainforest4,5,JungleRainforest5,5,JungleRainforest6,5,JungleRainforest7,5,JungleRainforest8,5,JungleRainforest9,5,JungleRainforest10,5)
+Sapling(BigJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,6,JungleForest5,6,JungleForest6,6,JungleForest7,6,JungleForest8,6,JungleRainforest1,6,JungleRainforest2,6,JungleRainforest3,5,JungleRainforest4,5,JungleRainforest5,5,JungleRainforest6,5,JungleRainforest7,5,JungleRainforest8,5,JungleRainforest9,5,JungleRainforest10,5)
+Sapling(Acacia,AcaciaSavanna1,10,AcaciaSavanna2,10,AcaciaSavanna3,10,AcaciaSavanna4,10,AcaciaSavanna5,10,AcaciaSavanna6,10,AcaciaSavanna7,10,AcaciaSavanna8,10,AcaciaSavanna9,10,AcaciaSavanna10,10)
+Sapling(DarkOak,DarkOakEnderThin1,12,DarkOakEnderThin2,11,DarkOakEnderThin3,11,DarkOakEnderThin4,11,DarkOakEnderThin5,11,DarkOakEnderThin6,11,DarkOakEnderThin7,11,DarkOakEnderThin8,11,DarkOakEnderThin9,11)
+Sapling(HughRedwood,GrandFir1,10,GrandFir2,10,GrandFir3,10,GrandFir4,10,GrandFir5,10,GrandFir6,10,GrandFir7,10,GrandFir8,10,GrandFir9,10,GrandFir10,10)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

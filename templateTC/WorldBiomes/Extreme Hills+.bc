@@ -246,7 +246,7 @@ CooledLavaBlock: STATIONARY_LAVA
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.0
+BiomeTemperature: 0.2
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
@@ -355,9 +355,10 @@ Ore(basemetals:silver_ore,10,8,100.0,0,32,STONE)
 Ore(basemetals:tin_ore,10,8,100.0,0,128,STONE)
 Ore(basemetals:lead_ore,8,5,100.0,0,64,STONE)
 Ore(basemetals:zinc_ore,8,5,100.0,0,96,STONE)
-Ore(basemetals:mercury_ore,8,3,100.0,1,32,STONE)
 Ore(basemetals:nickel_ore,8,1,100.0,32,96,STONE)
 Ore(basemetals:platinum_ore,8,1,100.0,1,32,STONE)
+Ore(electricadvantage:li_ore,8,1,100.0,1,32,STONE)
+Ore(electricadvantage:sulfur_ore,8,1,100.0,1,32,STONE)
 Ore(modernmetals:aluminum_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:cadmium_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:chromium_ore,8,10,100.0,0,96,STONE)
@@ -365,12 +366,10 @@ Ore(modernmetals:iridium_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:magnesium_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:manganese_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:osmium_ore,8,10,100.0,0,96,STONE)
-Ore(modernmetals:plutonium_ore,8,10,100.0,0,96,STONE)
-Ore(modernmetals:rutile_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:tantalum_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:tungsten_ore,8,10,100.0,0,96,STONE)
-Ore(modernmetals:uranium_ore,8,10,100.0,0,96,STONE)
 Ore(modernmetals:zirconium_ore,8,10,100.0,0,96,STONE)
+Ore(bigreactors:brOre,8,10,100.0,0,96,STONE)
 Ore(forestry:resources:0,8,10,100.0,0,96,STONE)
 ### Custom Ores END
 UnderGroundLake(25,60,2,5.0,0,49)
