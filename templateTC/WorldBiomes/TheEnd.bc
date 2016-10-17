@@ -373,10 +373,11 @@ Ore(tconstruct:ore:0,8,10,100.0,0,96,NETHERRACK)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-#Plant(FIRE,6,100.0,32,127,NETHERRACK)
-IceSpike(OBSIDIAN,SmallSpike,2,100,0,-1,OBSIDIAN)
-IceSpike(OBSIDIAN,HugeSpike,1,100,0,-1,OBSIDIAN)
-CustomObject(NetherClaw)
+Plant(forestry:beehives:4,1,50.0,32,127,minecraft:end_stone)
+IceSpike(OBSIDIAN,SmallSpike,2,100,0,-1,minecraft:end_stone)
+IceSpike(OBSIDIAN,HugeSpike,1,100,0,-1,minecraft:end_stone)
+CustomObject(NetherClaw,ObsidianSpikeLarge1,ObsidianSpikeLarge2,ObsidianSpikeMedium1,ObsidianSpikeMedium2,ObsidianSpikeMedium3,ObsidianSpikeSmall1,ObsidianSpikeSmall2,ObsidianSpikeSmall3)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

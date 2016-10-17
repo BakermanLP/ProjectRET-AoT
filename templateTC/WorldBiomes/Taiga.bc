@@ -383,6 +383,11 @@ Dungeon(8,100.0,0,128)
 Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Plant(harvestcraft:frostgarden,1,100.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:shadedgarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:soggygarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:tropicalgarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:windygarden,1,100.0,0,128,GRASS,DIRT)
 Boulder(STONE,2,30.0,0,256,GRASS,DIRT,STONE)
 Tree(7,HugeTaiga2,8,HugeTaiga1,22,Taiga1,22,Taiga2,55)
 CustomStructure(TotemBase,0.01,Bricktowerbranching,0.15,GravelOreT1,1.0,CaveMine1,0.01,RedbrickHouseBranching,0.15,LargeCave1,0.01,WitchVillageBranching,0.15,WatchTower2,0.01,WatchTower3,0.01,StandingStonesBranching,0.1,SurfaceDungeon1,0.2,SurfaceDungeon2,0.2,DngStart,0.15,DecorativeRuins0,0.3,CastleBranching,0.15)
@@ -393,7 +398,7 @@ Sapling(SmallJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest
 Sapling(BigJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,6,JungleForest5,6,JungleForest6,6,JungleForest7,6,JungleForest8,6,JungleRainforest1,6,JungleRainforest2,6,JungleRainforest3,5,JungleRainforest4,5,JungleRainforest5,5,JungleRainforest6,5,JungleRainforest7,5,JungleRainforest8,5,JungleRainforest9,5,JungleRainforest10,5)
 Sapling(Acacia,AcaciaSavanna1,10,AcaciaSavanna2,10,AcaciaSavanna3,10,AcaciaSavanna4,10,AcaciaSavanna5,10,AcaciaSavanna6,10,AcaciaSavanna7,10,AcaciaSavanna8,10,AcaciaSavanna9,10,AcaciaSavanna10,10)
 Sapling(DarkOak,DarkOakEnderThin1,12,DarkOakEnderThin2,11,DarkOakEnderThin3,11,DarkOakEnderThin4,11,DarkOakEnderThin5,11,DarkOakEnderThin6,11,DarkOakEnderThin7,11,DarkOakEnderThin8,11,DarkOakEnderThin9,11)
-Sapling(HughRedwood,GrandFir1,10,GrandFir2,10,GrandFir3,10,GrandFir4,10,GrandFir5,10,GrandFir6,10,GrandFir7,10,GrandFir8,10,GrandFir9,10,GrandFir10,10)
+Sapling(HugeRedwood,GrandFir1,10,GrandFir2,10,GrandFir3,10,GrandFir4,10,GrandFir5,10,GrandFir6,10,GrandFir7,10,GrandFir8,10,GrandFir9,10,GrandFir10,10)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

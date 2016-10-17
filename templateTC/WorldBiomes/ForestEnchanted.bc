@@ -408,12 +408,17 @@ Plant(botania:flower:12,5,100.0,0,128,GRASS,DIRT)
 Plant(botania:flower:13,5,100.0,0,128,GRASS,DIRT)
 Plant(botania:flower:14,5,100.0,0,128,GRASS,DIRT)
 Plant(botania:flower:15,5,100.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:frostgarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:shadedgarden,1,100.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:soggygarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:tropicalgarden,1,50.0,0,128,GRASS,DIRT)
+Plant(harvestcraft:windygarden,1,50.0,0,128,GRASS,DIRT)
 ### Custom Plants END
 Reed(SUGAR_CANE_BLOCK,5,100.0,0,128,GRASS,DIRT,SAND)
 CustomObject(plainsrock4,plainsrock3,plainsrock2,plainsrock1,boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(ShrubOak1,ShrubOak2,ShrubOak3,ShrubOak4,ShrubOak5,ShrubOak6)
 CustomObject(PumpkinHead2,PumpkinHead3)
-Tree(3,OakForestEnchanted1,10,OakForestEnchanted2,10,OakForestEnchanted3,10,OakForestEnchanted4,10,OakForestEnchanted5,10,OakForestEnchanted6,10,OakForestEnchanted7,10)
+Tree(2,OakForestEnchanted1,10,OakForestEnchanted2,10,OakForestEnchanted3,10,OakForestEnchanted4,10,OakForestEnchanted5,10,OakForestEnchanted6,10,OakForestEnchanted7,10)
 Sapling(Oak,OakForestEnchanted1,15,OakForestEnchanted2,15,OakForestEnchanted3,14,OakForestEnchanted4,14,OakForestEnchanted5,14,OakForestEnchanted6,14,OakForestEnchanted7,14)
 
 #######################################################################
