@@ -391,7 +391,7 @@ Plant(harvestcraft:shadedgarden,1,50.0,0,128,GRASS,DIRT)
 Plant(harvestcraft:soggygarden,1,100.0,0,128,GRASS,DIRT)
 Plant(harvestcraft:tropicalgarden,1,100.0,0,128,GRASS,DIRT)
 Plant(harvestcraft:windygarden,1,50.0,0,128,GRASS,DIRT)
-CustomStructure(TotemBase,0.01,JungleBranching,0.08,GravelOreT1,1.0,RuinsPath1,0.08)
+CustomStructure(TotemBase,0.01,JungleBranching,0.08,GravelOreT1,1.0,RuinsPath1,0.08,JungleBranching,0.5)
 CustomObject(ShrubJungle1,ShrubJungle2,ShrubJungle3,ShrubJungle4,ShrubJungle5)
 CustomObject(VolcanoMedium1,VolcanoMedium2,VolcanoMedium3,VolcanoMedium4,VolcanoMedium5,VolcanoSmall1,VolcanoSmall2)
 Tree(5,JungleForest1,5,JungleForest2,5,JungleForest3,5,JungleForest4,5,JungleForest5,5,JungleForest6,5,JungleForest7,5,JungleForest8,5)
@@ -404,6 +404,7 @@ Sapling(BigJungle,JungleForest1,6,JungleForest2,6,JungleForest3,6,JungleForest4,
 Sapling(Acacia,AcaciaSavanna1,10,AcaciaSavanna2,10,AcaciaSavanna3,10,AcaciaSavanna4,10,AcaciaSavanna5,10,AcaciaSavanna6,10,AcaciaSavanna7,10,AcaciaSavanna8,10,AcaciaSavanna9,10,AcaciaSavanna10,10)
 Sapling(DarkOak,DarkOakEnderThin1,12,DarkOakEnderThin2,11,DarkOakEnderThin3,11,DarkOakEnderThin4,11,DarkOakEnderThin5,11,DarkOakEnderThin6,11,DarkOakEnderThin7,11,DarkOakEnderThin8,11,DarkOakEnderThin9,11)
 Sapling(HugeRedwood,GrandFir1,10,GrandFir2,10,GrandFir3,10,GrandFir4,10,GrandFir5,10,GrandFir6,10,GrandFir7,10,GrandFir8,10,GrandFir9,10,GrandFir10,10)
+Plant(lucky:lucky_block,1,100.0,0,128,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -246,12 +246,12 @@ CooledLavaBlock: STATIONARY_LAVA
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.2
+BiomeTemperature: 0.1
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
 # On default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeWetness: 0.3
+BiomeWetness: 0.5
 
 # Biome sky color.
 SkyColor: #7BA5FF
