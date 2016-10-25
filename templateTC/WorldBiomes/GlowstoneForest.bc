@@ -366,7 +366,6 @@ Ore(nethermetals:nether_tantalum_ore,8,10,100.0,0,96,NETHERRACK)
 Ore(nethermetals:nether_titanium_ore,8,10,100.0,0,96,NETHERRACK)
 Ore(nethermetals:nether_tungsten_ore,8,10,100.0,0,96,NETHERRACK)
 Ore(nethermetals:nether_zirconium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(bigreactors:brOre:2,8,10,100.0,0,96,NETHERRACK)
 Ore(tconstruct:ore:1,8,10,100.0,0,96,NETHERRACK)
 Ore(tconstruct:ore:0,8,10,100.0,0,96,NETHERRACK)
 ### Custom Ores ENDE

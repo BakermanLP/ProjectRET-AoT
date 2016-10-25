@@ -47,7 +47,7 @@ BiomeColor: #FF9920
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: DesertOasis
+ReplaceToBiomeName: 
 
 ####################
 # Isle biomes only #
@@ -101,16 +101,16 @@ BiomeSizeWhenBorder: 11
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -2.1
+BiomeHeight: 0.125
 
 # Biome volatility.
-BiomeVolatility: 0.1
+BiomeVolatility: 0.05
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 8
+SmoothRadius: 2
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -122,14 +122,14 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: -2.0
+Volatility1: 0.0
 
-Volatility2: -2.0
+Volatility2: 0.0
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
-VolatilityWeight1: 2.5
+VolatilityWeight1: 0.5
 
-VolatilityWeight2: 2.4
+VolatilityWeight2: 0.45
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -370,8 +370,8 @@ SmallLake(WATER,1,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Tree(5,Acacia,50,GroundBush,100)
-CustomObject(JunglePalm1,JunglePalm2,JunglePalm3,JunglePalm4,JunglePalm5,JunglePalm6,JunglePalm7,JunglePalm8,JunglePalm9)
+Tree(2,GroundBush,100)
+Tree(4,JunglePalm1,10,JunglePalm2,10,JunglePalm3,10,JunglePalm4,10,JunglePalm5,10,JunglePalm6,10,JunglePalm7,10,JunglePalm8,10,JunglePalm9,10,JunglePalm10,10)
 CustomObject(DesertRockMedium4,DesertRockMedium3,DesertRockMedium2,DesertRockMedium1,DesertRockLarge4,DesertRockLarge3,DesertRockLarge2,DesertRockLarge1,DesertRockSmall4,DesertRockSmall3,DesertRockSmall2,DesertRockSmall1,DesertRockMedium5)
 Grass(DeadBush,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
 Reed(SUGAR_CANE_BLOCK,3,100.0,0,128,GRASS,DIRT,SAND)
