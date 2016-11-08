@@ -73,7 +73,7 @@ SourceBlocks: GRASS
 MaxPercentageOutsideSourceBlock: 100
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
-OutsideSourceBlock: placeAnyway
+OutsideSourceBlock: dontPlace
 
 
 #######################################################################
@@ -116,7 +116,7 @@ RandomBlock(1,-1,1,COBBLESTONE,33,MOSSY_COBBLESTONE,33,GRAVEL,33,GRASS,100)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 52
 
 MaxHeight: 256
 
@@ -134,7 +134,7 @@ Block(-4,-1,0,128:5)
 RandomBlock(-4,-1,1,24,30,24:1,30,24:2,100)
 RandomBlock(-4,0,-2,24,30,24:1,30,24:2,100)
 RandomBlock(-4,0,-1,24,30,24:1,30,24:2,30,AIR,100)
-Block(-4,0,0,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(-4,0,0,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 RandomBlock(-4,0,1,24,30,24:1,30,24:2,100)
 RandomBlock(-4,1,-2,24,30,24:1,30,24:2,30,AIR,100)
 Block(-4,1,-1,AIR)
@@ -304,7 +304,7 @@ Block(-1,2,2,AIR)
 Block(-1,2,3,AIR)
 RandomBlock(0,-5,-4,24,30,24:1,30,24:2,100)
 RandomBlock(0,-5,-3,24,30,24:1,30,24:2,100)
-Block(0,-5,-2,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(0,-5,-2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 RandomBlock(0,-5,0,24,30,24:1,30,24:2,100)
 Block(0,-5,1,GRAVEL)
 RandomBlock(0,-5,2,24,30,24:1,30,24:2,100)
@@ -606,8 +606,11 @@ Block(5,2,0,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of AIR just below the object
 #   BlockCheck(0,-1,0,AIR:0)      Require white AIR just below the object
-#   BlockCheckNot(0,-1,0,AIR:0)   Require that there is no white AIR below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   BlockCheckNot(0,0,0,AIR:0)   Require that there is no white AIR below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheckNot(0,0,0,STATIONARY_WATER)
+BlockCheckNot(0,0,0,LOG) 
+BlockCheck(0,-1,0,SAND,SANDSTONE)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #

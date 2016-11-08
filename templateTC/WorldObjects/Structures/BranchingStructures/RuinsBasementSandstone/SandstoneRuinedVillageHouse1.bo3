@@ -45,7 +45,7 @@ RotateRandomly: false
 SpawnHeight: highestBlock
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 52
 
 MaxHeight: 256
 
@@ -411,8 +411,8 @@ Block(0,-4,3,24)
 Block(0,-4,4,24)
 Block(0,-3,-4,24)
 Block(0,-3,-3,BED_BLOCK:1)
-Block(0,-3,-2,AIR)
-RandomBlock(0,-3,-1,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,50)
+Block(0,-3,-2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
+RandomBlock(0,-3,-1,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,100)
 Block(0,-3,0,AIR)
 Block(0,-3,1,AIR)
 Block(0,-3,2,AIR)
@@ -874,12 +874,15 @@ Block(3,7,4,AIR)
 # You can use "Solid" as a BlockName for matching all solid blocks or "All" to match all blocks that aren't air.
 
 # Examples:
-#   BlockCheck(0,-1,0,GRASS,DIRT)  Require grass or dirt just below the object
+#     Require grass or dirt just below the object
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheckNot(0,0,0,STATIONARY_WATER) 
+BlockCheckNot(0,0,0,LOG) 
+BlockCheck(0,-1,0,SAND,SANDSTONE)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

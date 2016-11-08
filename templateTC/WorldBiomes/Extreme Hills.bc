@@ -383,7 +383,7 @@ Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(Dandelion,4,100.0,0,128,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
 CustomObject(HangingRockMedium1,HangingRockMedium2,HangingRockMedium3,HangingRockMedium4,HangingRockMedium5,HangingRockMedium6,HangingRockSmall1,HangingRockSmall2,HangingRockSmall3,HangingRockSmall4,HangingRockSmall5,HangingRockSmall6)
-CustomStructure(TotemBase,0.01,Bricktowerbranching,0.15,GravelOreT1,1.0,BrickRuinsPath1,0.15,CaveMine1,0.01,RedbrickHouseBranching,0.15,LargeCave1,0.01)
+CustomStructure(TotemBase,0.05,Bricktowerbranching,0.15,GravelOreT1,1.0,BrickRuinsPath1,0.2,CaveMine1,0.1,RedbrickHouseBranching,0.1,LargeCave1,0.09)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

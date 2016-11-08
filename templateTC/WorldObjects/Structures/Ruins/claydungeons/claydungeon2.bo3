@@ -36,10 +36,10 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 0.08
+Rarity: 0.06
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: true
+RotateRandomly: false
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestSolidBlock
@@ -885,7 +885,7 @@ Block(-1,-3,-7,HARD_CLAY)
 Block(-1,-3,-6,HARD_CLAY)
 Block(-1,-3,-5,HARD_CLAY)
 Block(-1,-3,-4,STAINED_CLAY:14)
-Block(-1,-3,-3,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(-1,-3,-3,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
 Block(-1,-3,-2,AIR)
 Block(-1,-3,-1,AIR)
 Block(-1,-3,0,AIR)
@@ -2310,7 +2310,7 @@ Block(7,3,1,STAINED_CLAY:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

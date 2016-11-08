@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 100.0
+Rarity: 0.5
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -101,7 +101,7 @@ Block(-9,-1,-1,SPRUCE_WOOD_STAIRS:4)
 Block(-9,-1,0,WOOD_STAIRS:4)
 Block(-9,-1,1,SPRUCE_WOOD_STAIRS:4)
 Block(-9,0,-1,WOOD:1)
-Block(-9,0,0,JUKEBOX)
+RandomBlock(-9,0,0,JUKEBOX:1,../../nbt/Misc/RecordPlayer1.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer2.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer3.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer4.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer5.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer6.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer7.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer8.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer9.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer10.nbt,50,JUKEBOX:1,../../nbt/Misc/RecordPlayer11.nbt,100)
 Block(-9,0,1,WOOD)
 Block(-9,1,-1,WOOD:1)
 Block(-9,1,0,STAINED_GLASS:3)
@@ -174,7 +174,7 @@ Block(-5,-2,-1,SPRUCE_WOOD_STAIRS:6)
 Block(-5,-2,0,WOOD)
 Block(-5,-2,1,SPRUCE_WOOD_STAIRS:7)
 Block(-5,-1,-2,SPRUCE_WOOD_STAIRS:6)
-Block(-5,-1,-1,CHEST,../../nbt/Chests/Chest_quark_pirate_chest.nbt)
+Block(-5,-1,-1,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_QuarkPirate.nbt)
 Block(-5,-1,0,STAINED_GLASS:3)
 Block(-5,-1,1,STAINED_GLASS:3)
 Block(-5,-1,2,SPRUCE_WOOD_STAIRS:7)
@@ -463,7 +463,7 @@ Block(10,4,0,WOOD_STAIRS:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,-1,0,WATER)
 #######################################################################

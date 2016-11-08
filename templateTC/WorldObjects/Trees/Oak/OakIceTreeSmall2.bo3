@@ -28,7 +28,7 @@ SettingsMode: WriteDisable
 #######################################################################
 
 # This needs to be set to true to spawn the object in the Tree and Sapling resources.
-Tree: false
+Tree: true
 
 # The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
@@ -39,13 +39,13 @@ Frequency: 1
 Rarity: 10.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 51
 
 MaxHeight: 256
 
@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: DIRT,SAND,GRASS,DIRT:2,STATIONARY_WATER,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,AIR,STONE,GRAVEL,31,31:1,31:2,32,37,38,39,40
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 0
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway

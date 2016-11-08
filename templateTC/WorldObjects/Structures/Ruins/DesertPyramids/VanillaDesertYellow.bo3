@@ -70,7 +70,7 @@ SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 60
+MaxPercentageOutsideSourceBlock: 100
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -1149,7 +1149,7 @@ Block(-8,-11,-2,SMOOTH_BRICK)
 Block(-8,-11,-1,SMOOTH_BRICK)
 Block(-8,-11,0,SMOOTH_BRICK)
 Block(-8,-11,1,SMOOTH_BRICK)
-Block(-8,-11,2,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(-8,-11,2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(-8,-11,3,AIR)
 Block(-8,-11,4,SMOOTH_BRICK)
 Block(-8,-11,5,SMOOTH_BRICK)
@@ -1166,7 +1166,7 @@ Block(-8,-10,-6,SANDSTONE)
 Block(-8,-10,-5,SANDSTONE)
 Block(-8,-10,-4,SMOOTH_BRICK)
 Block(-8,-10,-3,AIR)
-Block(-8,-10,-2,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(-8,-10,-2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(-8,-10,-1,AIR)
 Block(-8,-10,0,SMOOTH_BRICK)
 Block(-8,-10,1,SMOOTH_BRICK)
@@ -7685,7 +7685,7 @@ Block(5,-12,2,AIR)
 Block(5,-12,3,AIR)
 Block(5,-12,4,AIR)
 Block(5,-12,5,AIR)
-Block(5,-12,6,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(5,-12,6,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(5,-12,7,SMOOTH_BRICK)
 Block(5,-12,8,SANDSTONE)
 Block(5,-12,9,SANDSTONE)
@@ -8686,7 +8686,7 @@ Block(7,-12,-5,SANDSTONE)
 Block(7,-12,-4,SANDSTONE)
 Block(7,-12,-3,SMOOTH_BRICK)
 Block(7,-12,-2,SMOOTH_BRICK)
-Block(7,-12,-1,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(7,-12,-1,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(7,-12,0,SMOOTH_BRICK)
 Block(7,-12,1,SMOOTH_BRICK)
 Block(7,-12,2,SMOOTH_BRICK)
@@ -10692,7 +10692,7 @@ Block(10,10,11,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

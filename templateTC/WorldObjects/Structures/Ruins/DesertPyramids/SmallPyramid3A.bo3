@@ -286,7 +286,7 @@ Block(-5,1,-5,SANDSTONE:2)
 Block(-5,1,-1,SANDSTONE)
 Block(-5,1,0,SANDSTONE)
 Block(-5,1,1,SANDSTONE)
-Block(-5,1,2,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(-5,1,2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(-5,1,5,SANDSTONE:2)
 Block(-5,1,6,SANDSTONE:1)
 Block(-5,2,-5,SANDSTONE)
@@ -437,7 +437,7 @@ Block(-3,1,5,SANDSTONE:2)
 Block(-3,1,6,SANDSTONE:1)
 Block(-3,2,-5,SANDSTONE)
 Block(-3,2,-1,SANDSTONE)
-Block(-3,2,0,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
+RandomBlock(-3,2,0,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
 Block(-3,2,1,SANDSTONE)
 Block(-3,2,5,SANDSTONE)
 Block(-3,3,-4,SANDSTONE)
@@ -714,7 +714,7 @@ Block(1,0,5,SANDSTONE)
 Block(1,0,6,SANDSTONE)
 Block(1,1,-6,SANDSTONE:1)
 Block(1,1,-5,SANDSTONE:2)
-RandomBlock(1,1,-2,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,50)
+RandomBlock(1,1,-2,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,100)
 Block(1,1,5,SANDSTONE:2)
 Block(1,1,6,SANDSTONE:1)
 Block(1,2,-5,SANDSTONE)
@@ -1079,7 +1079,7 @@ Block(6,0,6,SANDSTONE)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

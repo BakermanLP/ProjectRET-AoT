@@ -45,7 +45,7 @@ RotateRandomly: true
 SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
-MinHeight: 0
+MinHeight: 51
 
 MaxHeight: 67
 
@@ -56,7 +56,7 @@ MaxBranchDepth: 10
 
 # When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
 # If you writer.write the BO3 name directly in the BiomeConfigs, this will be ignored.
-ExcludedBiomes: 
+ExcludedBiomes: All
 
 
 #######################################################################
@@ -66,11 +66,11 @@ ExcludedBiomes:
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: DIRT,SAND,GRASS,DIRT:2,STATIONARY_WATER,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,AIR,STONE,GRAVEL,31,31:1,31:2,32,37,38,39,40
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 20
+MaxPercentageOutsideSourceBlock: 0
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -153,7 +153,8 @@ Block(1,2,0,LEAVES:5)
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

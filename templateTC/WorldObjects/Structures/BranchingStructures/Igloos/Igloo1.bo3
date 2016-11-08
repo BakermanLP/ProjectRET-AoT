@@ -139,7 +139,7 @@ Block(0,0,3,SNOW_BLOCK)
 Block(0,1,-3,SNOW_BLOCK)
 Block(0,1,-2,SNOW_BLOCK)
 Block(0,1,-1,SNOW)
-Block(0,1,1,CHEST,../../nbt/Chests/Chest_igloo_chest.nbt)
+Block(0,1,1,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_Igloo.nbt)
 Block(0,1,3,SNOW_BLOCK)
 Block(0,2,-3,SNOW:1)
 Block(0,2,-2,SNOW_BLOCK)
@@ -293,7 +293,7 @@ Block(4,3,0,SNOW)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

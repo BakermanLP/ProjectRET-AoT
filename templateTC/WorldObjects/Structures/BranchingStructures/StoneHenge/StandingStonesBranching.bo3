@@ -107,9 +107,9 @@ OutsideSourceBlock: placeAnyway
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-
+BlockCheck(0,-1,0,GRASS,DIRT)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #
@@ -129,4 +129,4 @@ OutsideSourceBlock: placeAnyway
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
-WeightedBranch(0,0,0,StandingStones2,NORTH,50,StandingStones3,NORTH,50,100)
+Branch(0,0,0,StandingStones2,NORTH,100)

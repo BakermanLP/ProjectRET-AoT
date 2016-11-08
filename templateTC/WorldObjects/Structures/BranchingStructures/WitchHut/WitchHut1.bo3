@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 100.0
+Rarity: 0.5
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -406,7 +406,7 @@ Block(-2,-9,-5,SMOOTH_BRICK)
 Block(-2,-9,-4,COBBLESTONE)
 Block(-2,-9,-3,MOSSY_COBBLESTONE)
 Block(-2,-9,-2,MOSSY_COBBLESTONE)
-RandomBlock(-2,-9,-1,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,45,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,45,MOB_SPAWNER,../../nbt/Spawner/Spider.nbt,10)
+RandomBlock(-2,-9,-1,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,45,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,45,MOB_SPAWNER,../../nbt/Spawner/Spider.nbt,100)
 Block(-2,-9,0,MOSSY_COBBLESTONE)
 Block(-2,-9,1,MOSSY_COBBLESTONE)
 Block(-2,-9,2,MOSSY_COBBLESTONE)
@@ -661,7 +661,7 @@ Block(-1,1,-3,LOG)
 Block(-1,1,-1,CARPET:14)
 Block(-1,1,0,CARPET:14)
 Block(-1,1,1,CARPET:14)
-RandomBlock(-1,1,3,FURNACE:2,../../nbt/Misc/Furnace.nbt,30,FURNACE:2,../../nbt/Misc/Furnace2.nbt,30,FURNACE:2,../../nbt/Misc/Furnace3.nbt,30,AIR,10)
+RandomBlock(-1,1,3,FURNACE:2,../../nbt/Misc/Furnace.nbt,30,FURNACE:2,../../nbt/Misc/Furnace2.nbt,30,FURNACE:2,../../nbt/Misc/Furnace3.nbt,100)
 Block(-1,1,4,WOOD)
 Block(-1,1,5,STEP)
 Block(-1,2,-4,BRICK)
@@ -669,7 +669,7 @@ RandomBlock(-1,2,-3,BOOKSHELF,50,AIR,100)
 Block(-1,2,4,BRICK)
 Block(-1,3,-4,BRICK)
 Block(-1,3,-3,BOOKSHELF)
-RandomBlock(-1,3,4,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,11,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,11,AIR,1)
+RandomBlock(-1,3,4,FLOWER_POT,../../nbt/Misc/FlowerPot1.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot2.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot3.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot81.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot4.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot5.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot6.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot7.nbt,22,FLOWER_POT,../../nbt/Misc/FlowerPot8.nbt,100)
 Block(-1,4,-4,LOG)
 RandomBlock(-1,4,-3,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
 Block(-1,4,4,LOG)
@@ -1338,8 +1338,8 @@ Block(3,12,0,WOOD_STEP)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object \nBlockCheck(0,-1,0,GRASS,GRAVEL,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -39,15 +39,15 @@ Frequency: 1
 Rarity: 20.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
-RotateRandomly: false
+RotateRandomly: true
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
-SpawnHeight: highestBlock
+SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 80
+MaxHeight: 120
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -828,7 +828,8 @@ Block(7,5,0,COBBLESTONE)
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheck(0,-1,0,GRASS,DIRT,GRAVEL)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -849,3 +850,5 @@ Block(7,5,0,COBBLESTONE)
 # Weighted Branches spawn branches with a dependent chance of spawning.
 # WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
 # MaxChanceOutOf - The chance all branches have to spawn out of, assumed to be 100 when left blank
+Branch(-16,0,0,GravelOreMossCobbleT1,NORTH,50)
+Branch(16,0,0,GravelOreMossCobbleT1,NORTH,50)

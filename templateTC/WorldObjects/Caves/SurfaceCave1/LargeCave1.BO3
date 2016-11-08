@@ -48,9 +48,9 @@ RotateRandomly: false
 SpawnHeight: randomY
 
 # The height limits for the BO3.
-MinHeight: 6
+MinHeight: 20
 
-MaxHeight: 15
+MaxHeight: 28
 
 # Objects can have other objects attached to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -888,7 +888,7 @@ Block(-4,8,5,AIR)
 Block(-4,8,6,AIR)
 Block(-4,8,7,AIR)
 Block(-4,8,8,AIR)
-Block(-4,9,-3,57)
+Block(-4,9,-3,AIR)
 Block(-4,9,-2,AIR)
 Block(-4,9,-1,AIR)
 Block(-4,9,0,AIR)
@@ -2501,7 +2501,7 @@ Block(7,42,-1,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

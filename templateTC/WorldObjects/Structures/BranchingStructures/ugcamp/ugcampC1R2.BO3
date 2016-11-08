@@ -545,7 +545,7 @@ Block(-2,0,-5,3)
 Block(-2,0,-4,3:1)
 Block(-2,0,-3,3)
 Block(-2,0,-2,3)
-Block(-2,1,-7,CHEST,../../nbt/Chests/Chest_quark_pirate_chest.nbt)
+Block(-2,1,-7,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_QuarkPirate.nbt)
 Block(-2,1,-6,17:3)
 Block(-2,1,-5,AIR)
 Block(-2,1,-4,AIR)
@@ -958,7 +958,7 @@ Block(6,8,-7,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

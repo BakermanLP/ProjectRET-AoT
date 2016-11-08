@@ -47,7 +47,7 @@ SpawnHeight: highestSolidBlock
 # The height limits for the BO3.
 MinHeight: 51
 
-MaxHeight: 70
+MaxHeight: 54
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the

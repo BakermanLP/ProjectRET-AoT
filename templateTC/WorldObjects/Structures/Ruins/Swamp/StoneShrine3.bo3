@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: AIR,STONE,DIRT,GRASS,DIRT:2,HARD_CLAY,CLAY,STONE:1,STONE:3,STONE:5,SAND,GRAVEL,COBBLESTONE,MOSSY_COBBLESTONE
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 10
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -273,7 +273,7 @@ Block(2,4,-2,SMOOTH_BRICK:3)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

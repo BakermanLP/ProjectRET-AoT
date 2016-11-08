@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 100.0
+Rarity: 0.5
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -198,7 +198,7 @@ Block(0,-1,0,AIR)
 Block(0,-1,1,SMOOTH_BRICK)
 Block(0,-1,2,SMOOTH_BRICK)
 Block(0,0,-2,SMOOTH_STAIRS:6)
-Block(0,0,1,BED_BLOCK:3)
+Block(0,0,1,AIR)
 Block(0,0,2,SMOOTH_STAIRS:7)
 Block(0,1,-2,SMOOTH_BRICK)
 Block(0,1,2,SMOOTH_BRICK)
@@ -228,8 +228,8 @@ Block(1,-1,0,SMOOTH_BRICK)
 Block(1,-1,1,AIR)
 Block(1,-1,2,SMOOTH_BRICK)
 Block(1,0,-2,SMOOTH_STAIRS:6)
-Block(1,0,-1,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
-Block(1,0,1,BED_BLOCK:11)
+Block(1,0,-1,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
+Block(1,0,1,AIR)
 Block(1,0,2,SMOOTH_STAIRS:7)
 Block(1,1,-2,SMOOTH_BRICK)
 Block(1,1,2,SMOOTH_BRICK)
@@ -331,9 +331,9 @@ Block(3,6,0,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-BlockCheckNot(0,-1,0,STATIONARY_WATER) 
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheckNot(0,0,0,STATIONARY_WATER) 
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

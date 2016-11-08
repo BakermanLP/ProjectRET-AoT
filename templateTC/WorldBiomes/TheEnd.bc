@@ -183,13 +183,13 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 #######################################################################
 
 # Change this to generate something else than stone in the biome.
-StoneBlock: minecraft:end_stone
+StoneBlock: ENDER_STONE
 
 # Surface block, usually GRASS.
-SurfaceBlock: minecraft:end_stone
+SurfaceBlock: ENDER_STONE
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: minecraft:end_stone
+GroundBlock: ENDER_STONE
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -342,40 +342,47 @@ Ore(STONE:1,33,10,100.0,0,79,STONE)
 Ore(STONE:3,33,10,100.0,0,79,STONE)
 Ore(STONE:5,33,10,100.0,0,79,STONE)
 ### Custom Ores START
-Ore(endmetals:end_copper_ore,8,20,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_lead_ore,8,20,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_mercury_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_nickel_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_platinum_ore,8,10,100.0,0,32,NETHERRACK)
-Ore(endmetals:end_silver_ore,8,10,100.0,0,32,NETHERRACK)
-Ore(endmetals:end_tin_ore,8,20,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_zinc_ore,8,12,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_aluminum_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_cadmium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_chromium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_iridium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_magnesium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_manganese_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_osmium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_plutonium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_rutile_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_tantalum_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_titanium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_tungsten_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_uranium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(endmetals:end_zirconium_ore,8,10,100.0,0,96,NETHERRACK)
-Ore(tconstruct:ore:1,8,10,100.0,0,96,NETHERRACK)
-Ore(tconstruct:ore:0,8,10,100.0,0,96,NETHERRACK)
+Ore(endmetals:end_coal_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_iron_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_gold_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_lapis_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_redstone_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_diamond_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_emerald_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_copper_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_lead_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_mercury_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_nickel_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_platinum_ore,8,10,100.0,0,32,ENDER_STONE)
+Ore(endmetals:end_silver_ore,8,10,100.0,0,32,ENDER_STONE)
+Ore(endmetals:end_tin_ore,8,20,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_zinc_ore,8,12,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_aluminum_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_cadmium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_chromium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_iridium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_magnesium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_manganese_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_osmium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_plutonium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_rutile_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_tantalum_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_titanium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_tungsten_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_uranium_ore,8,10,100.0,0,96,ENDER_STONE)
+Ore(endmetals:end_zirconium_ore,8,10,100.0,0,96,ENDER_STONE)
+# Ore(tconstruct:ore:1,8,10,100.0,0,96,ENDER_STONE)
+# Ore(tconstruct:ore:0,8,10,100.0,0,96,ENDER_STONE)
 ### Custom Ores ENDE
 #UnderGroundLake(25,60,2,5.0,0,49)
-#Liquid(LAVA,20,100.0,8,128,NETHERRACK)
+#Liquid(LAVA,20,100.0,8,128,ENDER_STONE)
 #SmallLake(LAVA,10,7.0,8,119)
-UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
-UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
-Plant(forestry:beehives:4,1,50.0,32,127,minecraft:end_stone)
-IceSpike(OBSIDIAN,SmallSpike,2,100,0,-1,minecraft:end_stone)
-IceSpike(OBSIDIAN,HugeSpike,1,100,0,-1,minecraft:end_stone)
+# UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+# UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+# UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+Plant(forestry:beehives:4,1,50.0,32,127,ENDER_STONE)
+IceSpike(OBSIDIAN,SmallSpike,2,100,0,-1,ENDER_STONE)
+IceSpike(OBSIDIAN,HugeSpike,1,100,0,-1,ENDER_STONE)
 CustomObject(NetherClaw,ObsidianSpikeLarge1,ObsidianSpikeLarge2,ObsidianSpikeMedium1,ObsidianSpikeMedium2,ObsidianSpikeMedium3,ObsidianSpikeSmall1,ObsidianSpikeSmall2,ObsidianSpikeSmall3)
 
 

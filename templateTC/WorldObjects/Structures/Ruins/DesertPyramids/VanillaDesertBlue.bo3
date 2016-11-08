@@ -70,7 +70,7 @@ SourceBlocks: AIR
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 60
+MaxPercentageOutsideSourceBlock: 100
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: placeAnyway
@@ -3158,7 +3158,7 @@ Block(-4,-11,-6,SANDSTONE)
 Block(-4,-11,-5,SANDSTONE)
 Block(-4,-11,-4,SANDSTONE)
 Block(-4,-11,-3,SANDSTONE)
-Block(-4,-11,-2,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(-4,-11,-2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(-4,-11,-1,AIR)
 Block(-4,-11,0,AIR)
 Block(-4,-11,1,AIR)
@@ -4218,7 +4218,7 @@ Block(-2,-9,4,AIR)
 Block(-2,-9,5,AIR)
 Block(-2,-9,6,AIR)
 Block(-2,-9,7,AIR)
-Block(-2,-9,8,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
+RandomBlock(-2,-9,8,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
 Block(-2,-9,9,SANDSTONE)
 Block(-2,-9,10,SANDSTONE)
 Block(-2,-9,11,SANDSTONE)
@@ -5215,7 +5215,7 @@ Block(0,-9,-7,SANDSTONE)
 Block(0,-9,-6,SANDSTONE)
 Block(0,-9,-5,SANDSTONE)
 Block(0,-9,-4,SANDSTONE)
-Block(0,-9,-3,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(0,-9,-3,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(0,-9,-2,AIR)
 Block(0,-9,-1,AIR)
 Block(0,-9,0,AIR)
@@ -5227,7 +5227,7 @@ Block(0,-9,5,AIR)
 Block(0,-9,6,AIR)
 Block(0,-9,7,AIR)
 Block(0,-9,8,AIR)
-Block(0,-9,9,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(0,-9,9,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(0,-9,10,SANDSTONE)
 Block(0,-9,11,SANDSTONE)
 Block(0,-9,12,SANDSTONE)
@@ -6204,7 +6204,7 @@ Block(2,-10,-5,SANDSTONE)
 Block(2,-10,-4,SANDSTONE)
 Block(2,-10,-3,SANDSTONE)
 Block(2,-10,-2,SANDSTONE:1)
-Block(2,-10,-1,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
+RandomBlock(2,-10,-1,SKULL:1,../../nbt/Misc/Skull.nbt,50,AIR,100)
 Block(2,-10,0,AIR)
 Block(2,-10,1,SANDSTONE:1)
 Block(2,-10,2,AIR)
@@ -6212,7 +6212,7 @@ Block(2,-10,3,AIR)
 Block(2,-10,4,AIR)
 Block(2,-10,5,SANDSTONE:1)
 Block(2,-10,6,AIR)
-Block(2,-10,7,CHEST,../../nbt/Chests/Chest_desert_pyramid.nbt)
+Block(2,-10,7,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_DesertPyramid.nbt)
 Block(2,-10,8,SANDSTONE:1)
 Block(2,-10,9,SANDSTONE)
 Block(2,-10,10,SANDSTONE)
@@ -10690,7 +10690,7 @@ Block(10,10,13,AIR)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

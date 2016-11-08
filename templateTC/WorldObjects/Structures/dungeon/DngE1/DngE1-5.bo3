@@ -47,7 +47,7 @@ SpawnHeight: randomY
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 256
+MaxHeight: 90
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -534,7 +534,7 @@ Block(-5,7,2,AIR)
 Block(-5,7,3,AIR)
 Block(-5,7,4,AIR)
 Block(-5,7,5,AIR)
-Block(-5,7,6,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(-5,7,6,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
 Block(-5,7,7,COBBLESTONE)
 Block(-5,8,-8,COBBLESTONE)
 Block(-5,8,-7,AIR)
@@ -2429,7 +2429,6 @@ Block(7,6,-7,AIR)
 Block(7,6,-6,AIR)
 Block(7,6,-5,AIR)
 Block(7,6,-4,AIR)
-Block(7,6,-3,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
 Block(7,6,-2,COBBLESTONE)
 Block(7,6,-1,COBBLESTONE)
 Block(7,6,0,COBBLESTONE)

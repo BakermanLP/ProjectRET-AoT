@@ -344,8 +344,7 @@ Block(-7,0,0,80)
 Block(-7,0,1,1)
 Block(-7,0,2,80)
 Block(-7,0,3,13)
-Block(-7,0,4,CHEST,../../nbt/Chests/Chest_igloo_chest.nbt)
-Block(-7,0,5,13)
+Block(-7,0,4,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_Igloo.nbt)
 Block(-7,0,6,80)
 Block(-7,0,7,80)
 Block(-7,0,8,80)
@@ -1301,7 +1300,7 @@ Block(0,3,5,80)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

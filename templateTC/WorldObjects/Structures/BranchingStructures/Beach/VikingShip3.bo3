@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 100.0
+Rarity: 0.5
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -103,7 +103,7 @@ Block(-10,-1,-1,SPRUCE_WOOD_STAIRS:4)
 Block(-10,-1,0,WOOD_STAIRS:4)
 Block(-10,-1,1,SPRUCE_WOOD_STAIRS:4)
 Block(-10,0,-1,WOOD:1)
-Block(-10,0,0,CHEST,../../nbt/Chests/Chest_quark_pirate_chest.nbt)
+Block(-10,0,0,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_QuarkPirate.nbt)
 Block(-10,0,1,WOOD)
 Block(-10,1,-1,WOOD:1)
 Block(-10,1,0,WOOL)
@@ -117,12 +117,12 @@ Block(-9,-2,-1,SPRUCE_WOOD_STAIRS:6)
 Block(-9,-2,0,WOOD_STAIRS:4)
 Block(-9,-2,1,SPRUCE_WOOD_STAIRS:7)
 Block(-9,-1,-2,SPRUCE_WOOD_STAIRS:6)
-Block(-9,-1,-1,REDSTONE_BLOCK)
+Block(-9,-1,-1,TNT)
 Block(-9,-1,0,WOOL)
 Block(-9,-1,1,WOOL)
 Block(-9,-1,2,SPRUCE_WOOD_STAIRS:7)
 Block(-9,0,-2,WOOD:1)
-Block(-9,0,-1,REDSTONE_BLOCK)
+Block(-9,0,-1,TNT)
 Block(-9,0,0,WOOL)
 Block(-9,0,1,WOOL)
 Block(-9,0,2,WOOD:1)
@@ -165,7 +165,7 @@ Block(-7,-2,-1,SPRUCE_WOOD_STAIRS:6)
 Block(-7,-2,0,WOOD)
 Block(-7,-2,1,SPRUCE_WOOD_STAIRS:7)
 Block(-7,-1,-2,SPRUCE_WOOD_STAIRS:6)
-Block(-7,-1,-1,REDSTONE_BLOCK)
+Block(-7,-1,-1,TNT)
 Block(-7,-1,0,WOOL)
 Block(-7,-1,1,WOOL)
 Block(-7,-1,2,SPRUCE_WOOD_STAIRS:7)
@@ -212,7 +212,7 @@ Block(-5,-2,1,SPRUCE_WOOD_STAIRS:7)
 Block(-5,-1,-2,SPRUCE_WOOD_STAIRS:6)
 Block(-5,-1,-1,WOOL)
 Block(-5,-1,0,WOOL)
-Block(-5,-1,1,REDSTONE_BLOCK)
+Block(-5,-1,1,TNT)
 Block(-5,-1,2,SPRUCE_WOOD_STAIRS:7)
 Block(-5,0,-2,WOOD:1)
 Block(-5,0,-1,WOOL)
@@ -230,7 +230,7 @@ Block(-4,-2,1,SPRUCE_WOOD_STAIRS:7)
 Block(-4,-1,-2,SPRUCE_WOOD_STAIRS:6)
 Block(-4,-1,-1,WOOL)
 Block(-4,-1,0,WOOL)
-Block(-4,-1,1,REDSTONE_BLOCK)
+Block(-4,-1,1,TNT)
 Block(-4,-1,2,SPRUCE_WOOD_STAIRS:7)
 Block(-4,0,-2,WOOD:1)
 Block(-4,0,-1,WOOL)
@@ -493,7 +493,7 @@ Block(9,4,0,WOOD_STAIRS:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 BlockCheck(0,-1,0,WATER)
 #######################################################################

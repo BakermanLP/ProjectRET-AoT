@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 20.0
+Rarity: 10.0
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: true
@@ -66,7 +66,7 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: AIR
+SourceBlocks: DIRT,SAND,GRASS,DIRT:2,STATIONARY_WATER,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,AIR,STONE,GRAVEL,31,31:1,31:2,32,37,38,39,40
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
@@ -991,6 +991,7 @@ Block(-6,20,4,LEAVES:3)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object 
+BlockCheck(0,-1,0,GRASS,DIRT,DIRT:2,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,SAND) 
 
 
 #######################################################################

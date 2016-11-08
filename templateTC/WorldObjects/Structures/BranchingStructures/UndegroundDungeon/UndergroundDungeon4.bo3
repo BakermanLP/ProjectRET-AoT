@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 1.0
+Rarity: 0.5
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: false
@@ -47,7 +47,7 @@ SpawnHeight: randomY
 # The height limits for the BO3.
 MinHeight: 0
 
-MaxHeight: 52
+MaxHeight: 35
 
 # Objects can have other objects attacthed to it: branches. Branches can also
 # have branches attached to it, which can also have branches, etc. This is the
@@ -66,11 +66,11 @@ ExcludedBiomes: All
 #######################################################################
 
 # The block(s) the BO3 should spawn in.
-SourceBlocks: STONE,DIRT,SAND,GRAVEL,CLAY,OBSIDIAN,STATIONARY_LAVA,STATIONARY_WATER,COAL_ORE,IRON_ORE,GOLD_ORE,REDSTONE_ORE,DIAMOND_ORE,LAPIS_ORE,EMERALD_ORE,106
+SourceBlocks: STONE,DIRT
 
 # The maximum percentage of the BO3 that can be outside the SourceBlock.
 # The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
-MaxPercentageOutsideSourceBlock: 5
+MaxPercentageOutsideSourceBlock: 45
 
 # What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
 OutsideSourceBlock: dontPlace
@@ -283,7 +283,7 @@ Block(-5,-4,-2,AIR)
 Block(-5,-4,-1,AIR)
 Block(-5,-4,0,AIR)
 Block(-5,-4,1,AIR)
-Block(-5,-4,2,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(-5,-4,2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
 Block(-5,-4,3,AIR)
 Block(-5,-4,4,SMOOTH_BRICK)
 Block(-5,-3,-6,COBBLESTONE)
@@ -519,7 +519,7 @@ Block(-3,-5,3,SMOOTH_BRICK:1)
 Block(-3,-5,4,SMOOTH_BRICK:2)
 RandomBlock(-3,-4,-6,AIR,10,SMOOTH_BRICK:1,10,SMOOTH_BRICK:2,10,SMOOTH_BRICK,10,MOSSY_COBBLESTONE,60)
 Block(-3,-4,-5,AIR)
-RandomBlock(-3,-4,-4,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,50)
+RandomBlock(-3,-4,-4,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,100)
 Block(-3,-4,-3,AIR)
 Block(-3,-4,-2,AIR)
 Block(-3,-4,-1,AIR)
@@ -1680,7 +1680,7 @@ Block(6,0,4,SMOOTH_BRICK:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

@@ -130,7 +130,7 @@ Block(0,4,-1,WOOD:1)
 Block(0,4,0,WOOD:1)
 Block(0,4,2,WOOD:1)
 Block(0,5,-3,WOOD:1)
-RandomBlock(0,5,-2,WORKBENCH,50,FURNACE:2,../../nbt/Misc/Furnace.nbt,30,FURNACE:2,../../nbt/Misc/Furnace2.nbt,30,FURNACE:2,../../nbt/Misc/Furnace3.nbt,30,AIR,10)
+RandomBlock(0,5,-2,WORKBENCH,50,FURNACE:2,../../nbt/Misc/Furnace.nbt,30,FURNACE:2,../../nbt/Misc/Furnace2.nbt,30,FURNACE:2,../../nbt/Misc/Furnace3.nbt,100)
 Block(0,6,-3,FENCE)
 Block(1,4,-3,WOOD:1)
 Block(1,4,-2,WOOD:1)
@@ -195,7 +195,7 @@ Block(3,7,-2,SPRUCE_WOOD_STAIRS:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

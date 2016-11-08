@@ -187,8 +187,10 @@ Plant(RedMushroom,1,50.0,0,256,GRASS,DIRT)
 Plant(BrownMushroom,1,50.0,0,256,GRASS,DIRT)
 Grass(Tallgrass,NotGrouped,30,100.0,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Plant(minecraft:cake,5,100.0,0,128,WOOL)
+Plant(minecraft:cake,3,100.0,0,128,WOOL)
 Liquid(WATER,20,100.0,8,128,STONE)
+SmallLake(forestry:fluid.for.honey,100,7.0,8,119)
+SmallLake(tconstruct:milk,100,7.0,8,119)
 # Liquid(LAVA,10,100.0,8,128,STONE)
 
 #######################################################################

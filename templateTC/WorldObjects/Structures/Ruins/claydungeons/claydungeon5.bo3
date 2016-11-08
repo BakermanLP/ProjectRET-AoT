@@ -36,7 +36,7 @@ Frequency: 1
 
 # The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
 # Ignored by Tree(..), Sapling(..) and CustomStructure(..)
-Rarity: 0.08
+Rarity: 0.06
 
 # If you set this to true, the BO3 will be placed with a random rotation.
 RotateRandomly: true
@@ -816,7 +816,7 @@ Block(-2,-10,8,STAINED_CLAY:1)
 Block(-2,-10,9,HARD_CLAY)
 Block(-2,-9,-4,HARD_CLAY)
 Block(-2,-9,-3,STAINED_CLAY:1)
-Block(-2,-9,-2,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(-2,-9,-2,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
 Block(-2,-9,-1,AIR)
 Block(-2,-9,0,STAINED_CLAY:1)
 Block(-2,-9,1,STAINED_CLAY:1)
@@ -2027,7 +2027,7 @@ Block(3,-10,9,HARD_CLAY)
 Block(3,-9,-4,HARD_CLAY)
 Block(3,-9,-3,STAINED_CLAY:1)
 Block(3,-9,-2,AIR)
-Block(3,-9,-1,CHEST,../../nbt/Chests/Chest_simple_dungeon.nbt)
+Block(3,-9,-1,randomrestockablecrates:BlockCrate1,../../nbt/Crates/Crate1_SimpleDungeon.nbt)
 Block(3,-9,0,STAINED_CLAY:1)
 Block(3,-9,1,STAINED_CLAY:1)
 Block(3,-9,2,AIR)
@@ -2155,7 +2155,6 @@ Block(3,0,1,AIR)
 Block(3,0,2,AIR)
 Block(3,0,3,AIR)
 Block(3,0,4,AIR)
-RandomBlock(3,0,5,MOB_SPAWNER,../../nbt/Spawner/Zombie.nbt,50,MOB_SPAWNER,../../nbt/Spawner/Skeleton.nbt,100)
 Block(3,0,6,AIR)
 Block(3,0,7,AIR)
 Block(3,0,8,STAINED_CLAY:1)
@@ -2964,7 +2963,7 @@ Block(7,2,6,STAINED_CLAY:1)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,AIR)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
 
 #######################################################################

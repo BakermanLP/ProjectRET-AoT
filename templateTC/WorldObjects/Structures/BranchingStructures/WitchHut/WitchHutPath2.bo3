@@ -42,7 +42,7 @@ Rarity: 100.0
 RotateRandomly: false
 
 # The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
-SpawnHeight: randomY
+SpawnHeight: highestSolidBlock
 
 # The height limits for the BO3.
 MinHeight: 0
@@ -143,8 +143,8 @@ Block(1,0,1,COBBLE_WALL)
 #   BlockCheck(0,-1,0,Solid)       Require any solid block just below the object
 #   BlockCheck(0,-1,0,WOOL)        Require any type of wool just below the object
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
-#   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
-#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
+#   BlockCheckNot(0,0,0,WOOL:0)   Require that there is no white wool below the object
+#   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object \nBlockCheck(0,-1,0,GRASS,GRAVEL,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
