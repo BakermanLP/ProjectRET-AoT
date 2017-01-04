@@ -95,7 +95,6 @@ Block(0,1,1,LEAVES:1)
 Block(0,2,0,LEAVES:1)
 Block(0,4,0,LEAVES:1)
 Block(0,1,-1,LEAVES:1)
-Block(0,-1,0,LOG:1)
 Block(-1,1,0,LEAVES:1)
 Block(1,1,0,LEAVES:1)
 
