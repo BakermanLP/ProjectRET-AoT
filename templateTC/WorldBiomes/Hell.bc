@@ -452,7 +452,7 @@ RareBuildingType: disabled
 # changes to this setting are ignored and overwritten.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "PigZombie", "weight": 100, "min": 4, "max": 4}, {"mob": "LavaSlime", "weight": 2, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 1, "min": 4, "max": 4}, {"mob": "Quark.wraith", "weight": 60, "min": 4, "max": 6}, {"mob": "Blaze", "weight": 20, "min": 1, "max": 3}, {"mob": "mocreatures.FireOgre", "weight": 6, "min": 1, "max": 2}, {"mob": "mocreatures.FlameWraith", "weight": 5, "min": 1, "max": 2}, {"mob": "mocreatures.HellRat", "weight": 6, "min": 1, "max": 4}, {"mob": "mocreatures.HorseMob", "weight": 8, "min": 1, "max": 3}, {"mob": "mocreatures.Manticore", "weight": 8, "min": 1, "max": 3}, {"mob": "mocreatures.Scorpion", "weight": 6, "min": 1, "max": 3}]
+SpawnMonsters: [{"mob": "Ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "PigZombie", "weight": 100, "min": 4, "max": 4}, {"mob": "LavaSlime", "weight": 2, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 1, "min": 4, "max": 4}, {"mob": "Quark.wraith", "weight": 60, "min": 4, "max": 6}, {"mob": "Blaze", "weight": 20, "min": 1, "max": 3}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 SpawnCreatures: []

@@ -464,8 +464,8 @@ SpawnMonsters: []
 SpawnCreatures: [{"mob": "MushroomCow", "weight": 8, "min": 4, "max": 8}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
-SpawnWaterCreatures: [{"mob": "mocreatures.Anchovy", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.AngelFish", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.Angler", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.Bass", "weight": 10, "min": 1, "max": 4}, {"mob": "mocreatures.ClownFish", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.Cod", "weight": 10, "min": 1, "max": 4}, {"mob": "mocreatures.Dolphin", "weight": 6, "min": 2, "max": 4}, {"mob": "mocreatures.Fishy", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.GoldFish", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.HippoTang", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.Manderin", "weight": 12, "min": 1, "max": 6}, {"mob": "mocreatures.Piranha", "weight": 4, "min": 1, "max": 3}, {"mob": "mocreatures.Salmon", "weight": 10, "min": 1, "max": 4}]
+SpawnWaterCreatures: []
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
-SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}, {"mob": "mocreatures.Crab", "weight": 8, "min": 1, "max": 2}, {"mob": "mocreatures.DragonFly", "weight": 6, "min": 1, "max": 2}]
+SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
 
