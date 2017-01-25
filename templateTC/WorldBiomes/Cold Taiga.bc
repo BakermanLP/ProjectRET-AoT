@@ -474,7 +474,7 @@ RareBuildingType: igloo
 SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.dweller", "weight": 10, "min": 1, "max": 2}, {"mob": "Quark.ashen", "weight": 10, "min": 1, "max": 2}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "Wolf", "weight": 8, "min": 4, "max": 4}, {"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}]
+SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "Wolf", "weight": 8, "min": 4, "max": 4}, {"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "earthlifemod.Deer", "weight": 15, "min": 8, "max": 10}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]

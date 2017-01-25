@@ -461,7 +461,7 @@ RareBuildingType: disabled
 SpawnMonsters: []
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "MushroomCow", "weight": 8, "min": 4, "max": 8}]
+SpawnCreatures: [{"mob": "MushroomCow", "weight": 8, "min": 4, "max": 8}, {"mob": "reptilemod.Komodo", "weight": 10, "min": 1, "max": 4}, {"mob": "reptilemod.Savanna", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Perentie", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Lace", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.CrocMonitor", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Croc", "weight": 5, "min": 1, "max": 4}, {"mob": "reptilemod.LargeCroc", "weight": 4, "min": 1, "max": 4}, {"mob": "reptilemod.Alligator", "weight": 5, "min": 1, "max": 4}, {"mob": "reptilemod.Iguana", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Chameleon", "weight": 12, "min": 1, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: []
