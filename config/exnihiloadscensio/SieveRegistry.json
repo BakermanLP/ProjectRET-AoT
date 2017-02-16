@@ -58,7 +58,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreAluminium",
+        "name": "modernmetals:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -66,7 +66,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreAluminium",
+        "name": "modernmetals:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -74,7 +74,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreAluminium",
+        "name": "modernmetals:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -82,7 +82,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCobalt",
+        "name": "tconstruct:nuggets",
         "meta": 0
       },
       "chance": 0.2,
@@ -90,7 +90,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCobalt",
+        "name": "tconstruct:nuggets",
         "meta": 0
       },
       "chance": 0.2,
@@ -98,7 +98,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCobalt",
+        "name": "tconstruct:nuggets",
         "meta": 0
       },
       "chance": 0.1,
@@ -106,7 +106,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCopper",
+        "name": "basemetals:copper_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -114,7 +114,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCopper",
+        "name": "basemetals:copper_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -122,7 +122,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreCopper",
+        "name": "basemetals:copper_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -130,7 +130,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreLead",
+        "name": "basemetals:lead_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -138,7 +138,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreLead",
+        "name": "basemetals:lead_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -146,7 +146,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreLead",
+        "name": "basemetals:lead_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -154,7 +154,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreTin",
+        "name": "basemetals:tin_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -162,7 +162,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreTin",
+        "name": "basemetals:tin_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -170,7 +170,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreTin",
+        "name": "basemetals:tin_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -178,7 +178,31 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreArdite",
+        "name": "tconstruct:nuggets",
+        "meta": 1
+      },
+      "chance": 0.2,
+      "meshLevel": 2
+    },
+    {
+      "drop": {
+        "name": "tconstruct:nuggets",
+        "meta": 1
+      },
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+    {
+      "drop": {
+        "name": "tconstruct:nuggets",
+        "meta": 1
+      },
+      "chance": 0.1,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "basemetals:nickel_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -186,7 +210,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreArdite",
+        "name": "basemetals:nickel_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -194,7 +218,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreArdite",
+        "name": "basemetals:nickel_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -202,7 +226,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreNickel",
+        "name": "basemetals:silver_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -210,7 +234,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreNickel",
+        "name": "basemetals:silver_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -218,7 +242,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreNickel",
+        "name": "basemetals:silver_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -226,7 +250,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreSilver",
+        "name": "basemetals:iron_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -234,7 +258,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreSilver",
+        "name": "basemetals:iron_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -242,7 +266,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreSilver",
+        "name": "basemetals:iron_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -250,7 +274,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreIron",
+        "name": "minecraft:gold_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -258,7 +282,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreIron",
+        "name": "minecraft:gold_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -266,31 +290,7 @@
     },
     {
       "drop": {
-        "name": "exnihiloadscensio:itemOreIron",
-        "meta": 0
-      },
-      "chance": 0.1,
-      "meshLevel": 4
-    },
-    {
-      "drop": {
-        "name": "exnihiloadscensio:itemOreGold",
-        "meta": 0
-      },
-      "chance": 0.2,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "exnihiloadscensio:itemOreGold",
-        "meta": 0
-      },
-      "chance": 0.2,
-      "meshLevel": 3
-    },
-    {
-      "drop": {
-        "name": "exnihiloadscensio:itemOreGold",
+        "name": "minecraft:gold_nugget",
         "meta": 0
       },
       "chance": 0.1,
