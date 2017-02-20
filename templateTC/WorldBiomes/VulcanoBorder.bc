@@ -446,10 +446,10 @@ RareBuildingType: disabled
 # changes to this setting are ignored and overwritten.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.dweller", "weight": 10, "min": 1, "max": 2}, {"mob": "Quark.ashen", "weight": 10, "min": 1, "max": 2}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "reptilemod.Komodo", "weight": 10, "min": 1, "max": 4}, {"mob": "reptilemod.Savanna", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Griseus", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Perentie", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Lace", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.CrocMonitor", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.DesertTortoise", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.LittleTurtle", "weight": 10, "min": 1, "max": 4}, {"mob": "reptilemod.Tortoise", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Iguana", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Chameleon", "weight": 12, "min": 1, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]

@@ -461,10 +461,11 @@ RareBuildingType: disabled
 SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.dweller", "weight": 10, "min": 1, "max": 2}, {"mob": "Quark.ashen", "weight": 10, "min": 1, "max": 2}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}, {"mob": "animania.CowHereford", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.BullHereford", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.CalfHereford", "weight": 35, "min": 1, "max": 1}, {"mob": "animania.HenPlymouthRock", "weight": 80, "min": 1, "max": 4}, {"mob": "animania.RoosterPlymouthRock", "weight": 80, "min": 1, "max": 4}, {"mob": "animania.ChickPlymouthRock", "weight": 35, "min": 1, "max": 1}, {"mob": "animania.SowLargeWhite", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.HogLargeWhite", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.PigletLargeWhite", "weight": 1, "min": 1, "max": 1}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+

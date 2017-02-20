@@ -461,14 +461,12 @@ RareBuildingType: desertPyramid
 # are the values used by vanilla for this biome. They are read-only:
 # changes to this setting are ignored and overwritten.
 
-# The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.dweller", "weight": 10, "min": 1, "max": 2}, {"mob": "Quark.ashen", "weight": 10, "min": 1, "max": 2}]
-
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "betteragriculture.EntityMobSheep1", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep2", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep3", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep4", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep5", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep6", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep7", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep8", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep9", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobSheep10", "weight": 10, "min": 2, "max": 4}, {"mob": "reptilemod.Griseus", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.DesertTortoise", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Iguana", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Chameleon", "weight": 12, "min": 1, "max": 4}]
+SpawnCreatures: [{"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "animania.CowHereford", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.BullHereford", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.CalfHereford", "weight": 35, "min": 1, "max": 1}, {"mob": "animania.HenPlymouthRock", "weight": 80, "min": 1, "max": 4}, {"mob": "animania.RoosterPlymouthRock", "weight": 80, "min": 1, "max": 4}, {"mob": "animania.ChickPlymouthRock", "weight": 35, "min": 1, "max": 1}, {"mob": "animania.SowLargeWhite", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.HogLargeWhite", "weight": 70, "min": 1, "max": 3}, {"mob": "animania.PigletLargeWhite", "weight": 1, "min": 1, "max": 1}, {"mob": "animania.Hamster", "weight": 80, "min": 1, "max": 2}, {"mob": "reptilemod.Griseus", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.DesertTortoise", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Iguana", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.Chameleon", "weight": 12, "min": 1, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+

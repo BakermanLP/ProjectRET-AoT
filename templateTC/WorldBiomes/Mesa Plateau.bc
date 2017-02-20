@@ -467,3 +467,4 @@ SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
+

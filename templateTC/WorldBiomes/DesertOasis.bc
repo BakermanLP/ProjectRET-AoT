@@ -482,11 +482,10 @@ RareBuildingType: desertPyramid
 # In custom biomes, you can add your own mobgroups in the lists below. In the vanilla biomes,
 # your changes are ignored.
 
-# The monsters (skeletons, zombies, etc.) that spawn in this biome
 SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}, {"mob": "Quark.dweller", "weight": 10, "min": 1, "max": 2}, {"mob": "Quark.ashen", "weight": 10, "min": 1, "max": 2}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: [{"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "betteragriculture.EntityMobCow1", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow2", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow3", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow4", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow5", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow6", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow7", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow8", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow9", "weight": 10, "min": 2, "max": 4}, {"mob": "betteragriculture.EntityMobCow10", "weight": 10, "min": 2, "max": 4}]
+SpawnCreatures: [{"mob": "Rabbit", "weight": 4, "min": 2, "max": 3}, {"mob": "animania.Hamster", "weight": 80, "min": 1, "max": 2}, {"mob": "reptilemod.Griseus", "weight": 12, "min": 1, "max": 4}, {"mob": "reptilemod.DesertTortoise", "weight": 12, "min": 1, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
 SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
