@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:1
 fancyGraphics:false
 ao:2
-renderClouds:fast
-resourcePacks:["Faithful 1.10.2-r4.zip","FaithfulMods 1.10.2-r7.zip"]
+renderClouds:false
+resourcePacks:["Faithful 1.10.2-r4.zip","FaithfulMods 1.10.2-r7.zip","[1.10.2]Dramatic Skys [v1.7].zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_US
