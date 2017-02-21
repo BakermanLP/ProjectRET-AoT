@@ -217,9 +217,7 @@ SurfaceAndGroundControl:
 # Example :
 #   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
-ReplacedBlocks: (GRASS,tconstruct:slime_grass:1,50,75),(DIRT,tconstruct:slime_dirt,50,75)
-ReplacedBlocks: (GRASS,tconstruct:slime_grass:2,75,100),(DIRT,tconstruct:slime_dirt:1,75,100)
-ReplacedBlocks: (GRASS,tconstruct:slime_grass:3,100,125),(DIRT,tconstruct:slime_dirt:2,100,125)
+ReplacedBlocks: (GRASS,tconstruct:slime_grass:1,50,75),(DIRT,tconstruct:slime_dirt,50,75),(GRASS,tconstruct:slime_grass:2,75,100),(DIRT,tconstruct:slime_dirt:1,75,100),(GRASS,tconstruct:slime_grass:3,100,125),(DIRT,tconstruct:slime_dirt:2,100,125)
 
 ################################
 # Water / Lava & Frozen States #
