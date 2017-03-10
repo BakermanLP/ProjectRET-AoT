@@ -1,4 +1,157 @@
 # Changelog
+## Changelog v0.3 -> v0.4
+### Mod Updates
+* Baubles-1.10.2-1.3.8.jar -> 1.10.2-1.3.9
+* bdlib-1.12.2.20-mc1.10.2.jar -> 1.12.3.22-mc1.10.2
+* BetterAchievements-1.10.2-0.3.2.39.jar -> 1.10.2-0.3.3.10
+* BetterQuesting-2.3.209.jar -> 2.3.225
+* BirdsNests1.10-1.4.jar -> 1.5.1
+* BlockDrops-1.10.2-1.1.0.jar -> 1.10.2-1.1.1
+* Bookshelf-API-1.10.2-3.3.0.jar -> 1.10.2-5.0.0-B92
+* Ceramics-1.10.2-1.1.4b.jar -> 1.10.2-1.1.5
+* ChestTransporter-1.10.2-2.5.6.jar -> 1.10.2-2.5.9
+* Chisel-MC1.10.2-0.0.7.7.jar -> 0.0.8.12
+* compatlayer-1.10-0.1.7.jar -> 1.10-0.2.2
+* CraftTweaker-1.10.2-3.0.17.jar -> 1.10.2-3.0.23
+* DynamicSurroundings-1.10.2-3.2.2.0.jar -> 1.10.2-3.3.1.1
+* endertanks-1.10.0-1.4.9.jar -> 1.10.0-1.4.11
+* EngineersWorkshop-1.1.4-1.10.2.jar -> 1.1.6-1.10.2
+* ExCompressum_1.10.2-2.0.68.jar -> 1.10.2-2.0.87
+* exnihiloadscensio-1.10.2-0.1.12.jar -> 1.10.2-0.1.17
+* Fluidity-6.1.3.jar -> 6.1.4
+* foamfix-0.5.2-anarchy.jar -> 0.6.1-anarchy
+* forestry_1.10.2-5.2.17.360.jar -> 1.10.2-5.2.17.368
+* hatchery-1.10.2-0.2.7.jar -> 1.10.2-0.2.10
+* IronBackpacks-1.10.2-2.2.22.jar -> 1.10.2-2.2.23
+* jei_1.10.2-3.14.3.403.jar -> 1.10.2-3.14.7.416
+* jeibees-0.9.0.4-mc1.10.2.jar -> 0.9.0.5-mc1.10.2
+* journeymap-1.10.2-5.4.4.jar -> 1.10.2-5.4.6
+* JustEnoughResources-1.10.2-0.5.7.96.jar -> 1.10.2-0.5.8.98
+* malisiscore-1.10.2-4.2.10.jar -> 1.10.2-4.3.0
+* malisisdoors-1.10.2-5.1.8.jar -> 1.10.2-5.2.0
+* Mantle-1.10.2-1.1.4.jar -> 1.10.2-1.1.5
+* morebees-1.10.2-1.3.1.jar -> 1.10.2-1.3.2
+* moreshears-1.10.2-1.0.2-release.jar -> 1.10.2-1.0.5-release
+* MouseTweaks-2.6.4-mc1.10.2.jar -> 2.8-mc1.10.2
+* multibeds-1.10.0-1.2.3.jar -> 1.10.0-1.2.4
+* multistorage-1.10.0-1.2.13.jar -> 1.10.0-1.2.15
+* OptiFine_1.10.2_HD_U_D4.jar -> 1.10.2_HD_U_D6
+* platforms-1.10.0-1.2.8.jar -> 1.10.0-1.2.9
+* ProgressiveAutomation-1.10.2-1.6.53.jar -> 1.10.2-1.7.0
+* RFExpansion-2.3.24.jar -> 2.3.26
+* shetiphiancore-1.10.0-3.3.6.jar -> 1.10.0-3.3.8
+* StandardExpansion-2.3.122.jar -> 2.3.128
+* StorageDrawers-1.10.2-3.5.17.jar -> 1.10.2-3.6.1
+* StorageDrawersExtras-1.10.2-1.0.0.jar -> 1.10-1.1.0
+* TConstruct-1.10.2-2.6.2.jar -> 1.10.2-2.6.3
+* terraincontrol-forge-2.8.2-163.jar -> 2.8.2-e859eb7-PG-modded
+* theoneprobe-1.10-1.3.3.jar -> 1.1x-1.4.4
+* tinyprogressions-1.10.2-1.0.19.jar -> 1.10.2-1.0.32
+* topaddons-1.10.2-0.9.0.jar -> 1.10.2-0.9.1c
+* UniDict-1.10.2-2.5c.jar -> 1.10.2-2.7
+* usefulnullifiers-1.2.1.jar -> 1.3.4
+* zerocore-1.10.2-0.0.8.2.jar -> 1.10.2-0.1.0.4
+
+### Mod Additions
+*
+* achievementbooks-1.0b78-MC1.10.2.jar
+* animania-1.10-1.0.2.jar
+* AppleCore-mc1.10.2-2.1.1.jar
+* ArchitectureCraft-1.7.1-mc1.10.2.jar
+* bqautoreload-1.5.0.jar
+* BQMIE-1.10.2-1.0.0.1-universal.jar
+* ceanimals-1.10.2-1.3.0.jar
+* chiselsandbits-12.12.jar
+* CodeChickenLib-1.10.2-2.5.6.233-universal.jar
+* CoFHCore-1.10.2-4.0.1.137-universal.jar
+* CraftingTweaks_1.10.2-6.1.16.jar
+* CustomNPCs_1.10.2(20nov16).jar
+* CustomStartingGear-1.10.2-1.0.0.5-universal.jar
+* DrawersBits-1.10.2-0.35.jar
+* EnhancedVisuals v1.0.12 mc1.9-1.10.jar
+* EnhancedVisuals v1.0.12 mc1.9-1.10.jar
+* EnhancedVisuals v1.0.12 mc1.9-1.10.jar
+* EpicSiegeMod-11.0.152.jar
+* ExtraBitManipulation-1.10.2-2.3.2.jar
+* Guidebook-1.10.2-1.5.0.jar
+* HarvestTweaks-1.10.2-0.1.2.jar
+* LootTableTweaker-1.10.2-1.0.0.6.jar
+* malisisadvert-1.10.2-4.2.0.jar
+* MCMultiPart-1.3.0-universal.jar
+* mob_properties-1.10.2-1.0.3.jar
+* mpbasic-1.10.2-1.1.5.jar
+* mputils-1.10.2-1.2.5.jar
+* NPCIntegration-2.3.19.jar
+* Plants-1.10.2-beta-0.5.3.jar
+* Quadrum-0.7.0-MC1.10.2.jar
+* ReAuth-1.10-3.4.1.jar
+* replaymod-1.10.2-2.0.0-b6.jar
+* SpiceOfLife-mc1.9.4-1.3.8.jar
+* StorageBoats-1.7.jar
+* tinker_io-1.10.2-release 2.4.3.jar
+* ToughAsNails-1.9.4-1.1.1.jar
+* TS2K16-1.0.3.jar
+* VTweaks-1.10.x-1.4.9.12.jar
+
+### Mod Deletions
+* AdditionalLootTables_1.10.2-1.06.jar
+* Autosapling-1.3.3-MC1.10.jar
+* Flowercraftmod v6.01 - MC1.10.2 Forge.jar
+* InventoryTweaks-1.62-dev-66.jar
+* Lockdown-5.0.0_retedition.jar
+* LootTweaker-1.10.2-0.0.1.jar
+* morefuelsmod-1.10.x-1.5.2.jar
+* moreloottables-1.10.2-0.2.0.jar
+* Morpheus-1.10.2-3.1.13.jar
+* PerfectSpawn-MC1.10.2-1.4.jar
+* SimpleAchievements-MC1.9.4-1.2.2-27.jar
+* tumbleweed-1.10-0.3.1.jar
+
+### Config Changes
+* Update der Default Options
+* Anpassungen an InGame Changelog
+* Anpassen default options um Resourcepack
+* Update CHANGELOG.md
+* Altes CHANGELOG.md erzeugen
+* Erste Einstellungen im Mod MPUtils und MPBasic
+* Neue Buttons für den Startbildschirm und ein paar Verbesserungen
+* Abschalten VSync wegen 2 Minuten Ladezeit beim Starten des Clients * Scheint ein Problem in der Implementierung des Lade Bildschirms zu sein
+* Change Substratum to BaseMetal in Unidict
+* Kleine Optimierungen durch forge
+* Anlegen des scripts Ordners
+* Neue Musik für das Start Menü
+* Siebe können automatisch Ergebnisse in Chest unter ihnen droppen
+* Austausch Better Agriculture durch Animania
+* Entfernen Tumbleweed wegen Problemen mit Feldern, die kaputt gehen
+* Neue Birdsnest Version mit folgenden Konfig Änderungen - Birds Nests sollten jetzt stacken - Versionsnummer soll nicht geprüft werden.
+* Wegfall AutoSapling Mod und MoreFuels und ersetzen durch VTweaks - Muss noch näher konfiguriert werden
+* Neuer Pflanzen Mod im Austausch für Flowercraft
+* Kleine Anpassungen an der Tinkers Construct Insel
+* Vereinfachung EpicSieg Mod, war reichlich hart
+* Kleinere Änderungen ExCompressum Config
+* Update Default Options
+* Update Dynanic Surrounding Config
+* Update Progressiveautomation Config
+* Ein wenig Verbesserung an der TC Insel
+* Umstellung Mobs und Creatures - Wegfall betteragriculture - Hinzufügen Animania - Chicken aus Chicken Mod - Leichte Überarbeitung der Mob Spawns
+* Und noch zweimal den Guardian entfernen
+* Guardian aus Deep Ocean entfernen
+* Umstellung von den Dusts auf Nuggets
+* Import Tough as nails config und Änderung - "Enable Lowered Starting Health" von true auf false
+* Mit ExNihilo Hammer Stone zu Cobblestone
+* Änderung Main Menü - Neue Button Grafiken - Neuer Button "Changelog"
+* Ausserhalb der vorgegebenen Karte soll normales Terrain entstehen
+* Import Default Sieve Ergebnisse
+* Fine Tuning an Dynamic Surrounds
+* Monster schwerer machen Initialer Import der Config - Muss noch angepasst werden!
+* TheOneProbe Starterzettel entfernt
+* Log Chicken und Flint Chicken sind nun kreuzbar ( Ref #37 )
+* Drops von Tumbleweeds reduziert
+* Ref #37 : Hardcore Darkness auf Modus 2 gestellt
+* Ref #37 : Entfernen der Lucky Blocks aus der World Generation
+* Tumbleweed Default Config
+
+
 ## Changelog v0.2 -> v0.3
 ### Mod Updates, Deletions and Additions
 * Too many
