@@ -149,6 +149,15 @@
     
     "labels":
     {
+        "version":
+        {
+            "text" : "Modpack Version v0.3",
+            "posX" : -107,
+            "posY" : -20,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "bottom_right"
+        },
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
