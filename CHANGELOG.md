@@ -2,6 +2,7 @@
 ## Changelog v0.2 -> v0.3
 ### Mod Updates, Deletions and Additions
 * Too many
+
 ### Config Changes
 * Kleine Formatierungs Änderungen
 * Liste der Mods für spätere Zeitalter / Kapitel
