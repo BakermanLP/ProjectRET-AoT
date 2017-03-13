@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:["faithful32-1.10.2-latest.zip"]
+resourcePacks:["faithful32-1.10.2-latest.zip","DramaticSkys.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_US
