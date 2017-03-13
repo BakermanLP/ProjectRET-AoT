@@ -5,6 +5,7 @@
     "0:8": "akashictome:tome,1,0,{akashictome:is_morphing:1b,akashictome:data:{tconstruct:{id:\"tconstruct:book\",Count:1b,tag:{akashictome:displayName:\"Materials and You\",akashictome:definedMod:\"tconstruct\",akashictome:is_morphing:1b,display:{Name:\"§rAkashic Tome (§aMaterials and You§r)\"},mantle:{book:{page:\"materials.pigiron\"}}},Damage:0s}}}",
     "0:5": "harvestcraft:applejuiceItem,4",
     "0:0": "minecraft:crafting_table",
+    "0:2": "toughasnails:water_bottle,3",
     "0:3": "harvestcraft:heartybreakfastItem",
     "0:7": "minecraft:torch,4"
   }
