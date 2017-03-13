@@ -29,15 +29,16 @@ key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_of.key.zoom:46:NONE
-key_Toggle SelectionBox:48:NONE
-key_Toggle Light Level:38:NONE
-key_replaymod.input.marker:50:NONE
-key_replaymod.input.thumbnail:49:NONE
-key_replaymod.input.playpause:25:NONE
-key_replaymod.input.rollclockwise:38:NONE
-key_replaymod.input.rollcounterclockwise:36:NONE
-key_replaymod.input.resettilt:37:NONE
-key_replaymod.input.pathpreview:35:NONE
+key_Toggle SelectionBox:0:NONE
+key_Toggle Light Level:0:NONE
+key_replaymod.input.marker:0:NONE
+key_replaymod.input.thumbnail:0:NONE
+key_replaymod.input.playpause:0:NONE
+key_replaymod.input.rollclockwise:0:NONE
+key_replaymod.input.rollcounterclockwise:0:NONE
+key_replaymod.input.resettilt:0:NONE
+key_replaymod.input.pathpreview:0:NONE
+key_quark.keybind.toggleAutojump:36:NONE
 key_quark.emote.wave:0:NONE
 key_quark.emote.salute:0:NONE
 key_quark.emote.yes:0:NONE
@@ -48,23 +49,22 @@ key_quark.emote.point:0:NONE
 key_quark.emote.shrug:0:NONE
 key_quark.emote.facepalm:0:NONE
 key_quark.emote.headbang:0:NONE
-key_quark.keybind.toggleAutojump:36:NONE
 key_key.betterquesting.quests:0:NONE
 key_keys.clockhud.toggle:0:NONE
-key_Scene1 start/pause:79:NONE
-key_Scene2 start/pause:80:NONE
-key_Scene3 start/pause:81:NONE
-key_Scene reset:82:NONE
+key_Scene1 start/pause:0:NONE
+key_Scene2 start/pause:0:NONE
+key_Scene3 start/pause:0:NONE
+key_Scene reset:0:NONE
 key_Quest Log:38:NONE
 key_Open Backpack:0:NONE
 key_Equip/Unequip Backpack:0:NONE
 key_oreexcavation.key.excavate:47:NONE
 key_oreexcavation.key.shape:0:NONE
-key_replaymod.input.playeroverview:48:NONE
-key_replaymod.input.lighting:44:NONE
+key_replaymod.input.playeroverview:0:NONE
+key_replaymod.input.lighting:0:NONE
 key_replaymod.input.settings:0:NONE
 key_key.chunkEdgeIndicator:67:NONE
-key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.toggleOverlay:24:NONE
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19:NONE
 key_key.jei.showUses:22:NONE
@@ -98,26 +98,30 @@ key_mod.chiselsandbits.other.pickbit:0:NONE
 key_mod.chiselsandbits.other.undo:0:NONE
 key_mod.chiselsandbits.other.redo:0:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
-key_key.cofh.multimode:47:NONE
+key_key.cofh.multimode:0:NONE
 key_key.craftingtweaks.rotate:0:NONE
 key_key.craftingtweaks.balance:0:NONE
 key_key.craftingtweaks.clear:0:NONE
 key_key.craftingtweaks.toggleButtons:0:NONE
-key_key.craftingtweaks.compressOne:0:CONTROL
+key_key.craftingtweaks.compressOne:0:NONE
 key_key.craftingtweaks.compressStack:0:NONE
-key_key.craftingtweaks.compressAll:0:SHIFT
+key_key.craftingtweaks.compressAll:0:NONE
 key_key.craftingtweaks.decompressOne:0:NONE
 key_key.craftingtweaks.decompressStack:0:NONE
 key_key.craftingtweaks.decompressAll:0:NONE
-key_keybinding.extrabitmanipulation.design:19:NONE
-key_keybinding.extrabitmanipulation.throw.bit:19:NONE
-key_keybinding.extrabitmanipulation.bitmapping:19:NONE
+key_keybinding.extrabitmanipulation.design:0:NONE
+key_keybinding.extrabitmanipulation.throw.bit:0:NONE
+key_keybinding.extrabitmanipulation.bitmapping:0:NONE
 key_keybinding.extrabitmanipulation.shift:0:NONE
 key_keybinding.extrabitmanipulation.control:0:NONE
 key_keybinding.extrabitmanipulation.alt:0:NONE
+key_justenoughbuttons.key.makecopy:0:NONE
+key_justenoughbuttons.key.hideall:35:CONTROL
+key_justenoughbuttons.key.chunkoverlay:0:NONE
+key_justenoughbuttons.key.moboverlay:0:NONE
 key_key.llor.hotkey:65:NONE
-key_Quick Commands:83:NONE
-key_key.toggleLiquids:38:NONE
+key_Quick Commands:0:NONE
+key_key.toggleLiquids:0:NONE
 key_key.toggleVisible:0:NONE
 key_key.betterfoliage.gui:66:NONE
 key_key.journeymap.map_toggle:50:NONE
@@ -127,3 +131,5 @@ key_key.journeymap.minimap_type:0:NONE
 key_key.journeymap.minimap_type:0:NONE
 key_key.journeymap.minimap_preset:0:NONE
 key_key.journeymap.create_waypoint:210:NONE
+key_BetterFps:0:NONE
+key_TC Pregenerator HUD toggle:0:NONE
