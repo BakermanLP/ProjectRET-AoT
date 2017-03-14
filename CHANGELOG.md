@@ -1,4 +1,65 @@
 # Changelog
+## Changelog v0.4 -> v0.5
+### Mod Updates
+* AppleCore-mc1.10.2-2.1.1.jar -> 2.1.2
+* CoFHCore-1.10.2-4.0.1.137-universal.jar -> 1.10.2-4.1.0.155-universal
+* CraftTweaker-1.10.2-3.0.23.jar -> 1.10.2-3.0.24
+* DrawersBits-1.10.2-0.35.jar -> 1.10.2-0.36
+* DynamicSurroundings-1.10.2-3.3.1.1.jar -> 1.10.2-3.3.2.0
+* EngineersWorkshop-1.1.6-1.10.2.jar -> 1.2.0-1.10.2
+* ModTweaker2-2.0.9.jar -> 2.0.10
+* NPCIntegration-2.3.19.jar -> 2.3.21
+* StandardExpansion-2.3.128.jar -> 2.3.131
+* VTweaks-1.10.x-1.4.9.12.jar -> 1.10.x-1.4.9.13
+
+### Mod Additions
+*
+* justenoughbuttons-1.10.2-1.7.3.jar
+* Morpheus-1.10.2-3.1.13.jar
+* replaymod-1.10.2-2.0.0-b6.jar
+
+### Mod Deletions
+* [1.10.2]UncraftingTable-1.6.1-pre10.jar
+* chickens-4.3.2.jar
+* hatchery-1.10.2-0.2.10.jar
+* MoreChickens-1.10.2-1.0.11.jar
+* StorageBoats-1.7.jar
+* tinker_io-1.10.2-release 2.4.3.jar
+* ToughAsNails-1.9.4-1.1.1.jar
+
+### Config Changes
+* Verschieben der Server Configs wegen neuer Struktur und Bereinigung
+* Anpassungen an Default Keybindings
+* Forge Bucket in TConstruct
+* Item nur zu Debug und Entwicklungs Zwecken, Nicht Craftbar!
+* Zu gute Items aus GrappleMod entfernt fürs erste Kapitel - Ref #52
+* Entfernen ENLF - Ref #37
+* Removed ToughAsNails vorerst wegen zu vieler Probleme - Close #43
+* Disable Slate Ore - Close #40
+* BetterQuesting rewrite config
+* Disable Sleeping Bag von VTweaks Ref #55
+* Formating epicsiegemod.cfg
+* ExNihilo Config Update durch Mod Update
+* EngineersWorkshop Config Update und Ref #48
+* Config Update DynamicSurroundings durch Mod Update
+* Anpassungen Start Inventar
+* Zusatz Resourcepack für hübschen Himmel
+* Initial Commit for Enhanced Visuals - Ref #58
+* Config Cleanup ExtraUtilities, da nicht im Modpack
+* Config nicht mehr nötig wegen neuer TerrainControl Version
+* Versuch einer Lösung für Ref #56
+* Dead Crops sollten seltener auftreten, Seasons ausgeschaltet Ref #43
+* Water Bottles in Starting Inventory - Close #54
+* Challenger Mob aus VTweaks ausschalten, führte zu Abstürzen
+* Umbau Serverconfigs wegen journeymap config
+* Journeymap uses WorldIDs now, Ref #44
+* Zielgenauigkeit erhöht
+* Mounted Creeper deaktiviert
+* Korrektur
+* Update epicsiegemod.cfg
+* Version 0.4
+
+
 ## Changelog v0.3 -> v0.4
 ### Mod Updates
 * Baubles-1.10.2-1.3.8.jar -> 1.10.2-1.3.9
