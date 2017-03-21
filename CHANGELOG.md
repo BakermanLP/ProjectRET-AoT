@@ -1,4 +1,71 @@
 # Changelog
+## Changelog v0.5 -> v0.6
+### Mod Updates
+* achievementbooks-1.0b78-MC1.10.2.jar -> 1.0b82-MC1.10.2
+* animania-1.10-1.0.2.jar -> 1.10-1.0.4
+* compatlayer-1.10-0.2.2.jar -> 1.10-0.2.5
+* CustomNPCs_1.10.2(20nov16).jar -> 1.10.2(17mar17)
+* DynamicSurroundings-1.10.2-3.3.2.0.jar -> 1.10.2-3.3.2.1
+* EngineersWorkshop-1.2.0-1.10.2.jar -> 1.2.1-1.10.2
+* ExCompressum_1.10.2-2.0.87.jar -> 1.10.2-2.0.97
+* foamfix-0.6.1-anarchy.jar -> 0.6.2-beta2-anarchy
+* furnus-1.10.2-1.91.jar -> 1.10.2-1.92
+* malisiscore-1.10.2-4.3.0.jar -> 1.10.2-4.4.0
+* ModernMetals-0.11.0.jar -> 1.10.2-2.5.0-beta1.20
+* multistorage-1.10.0-1.2.15.jar -> 1.10.0-1.2.16
+* OptiFine_1.10.2_HD_U_D6.jar -> 1.10.2_HD_U_D7
+* tellme-1.10.2-0.5.0.jar -> 1.10.2-0.5.2
+* tinyprogressions-1.10.2-1.0.32.jar -> 1.10.2-1.1.0
+* VTweaks-1.10.x-1.4.9.13.jar -> 1.10.x-1.4.9.15
+
+### Mod Additions
+* Additional-Compression-1.10.2-3.0.jar
+* BaseGems-1.10.2-2.5.0-beta1.11.jar
+* BaseMetals-1.10.2-2.5.0-beta1.58.jar
+* BaseMinerals-1.10.2-2.5.0-beta1.10.jar
+* Better With Mods-0.14.18-1.10.2.jar
+* Buckets-1.10.2-0.0.1-alpha1.jar
+* Decocraft-2.3.6.1_1.10.2.jar
+* EndMetals-1.10.2-1.2.0-beta1.12.jar
+* FantasyMetals-1.10.2-2.5.0-beta1.11.jar
+* keywizard-1.10.2-1.2.jar
+* MetallicCrops-1.10.2-1.0.4.jar
+* NetherMetals-1.10.2-1.2.0-beta1.14.jar
+* orespawn-2.0.0.15-1.10.2.jar
+* World-Stripper-1.3.0-1.10.2.jar
+
+### Mod Deletions
+* BaseMetals_1.10.2-2.4.0.11.jar
+* BQMIE-1.10.2-1.0.0.1-universal.jar
+* compactstorage-2.1-1.9.4.jar
+* EndMetals_1.9-1.0.4.jar
+* Fluidity-6.1.4.jar
+* NetherMetals_1.9-1.1.2.jar
+
+### Config Changes
+* Noch ein paar Aussprüche
+* Noch etwas Customizing ist hier nötig :)
+* ITLT konfiguriert: - Custom Icon für Window - Custom Window Title
+* Basemetal Hammer ähnlich zu ExCompressum Hammer machen
+* engineersWorkshop config update durch mod update
+* Animania config update durch mod update
+* Umbenennen Bloodmoon.cfg
+* Initale Config für Additional Compression - ExCompression Compat führte zum Absturz
+* Sehr vieles in Better With Mods ausgeschaltet, - da sich andere Mods darum kümmern - da die Funktion eher störend ist
+* Import default config Better with mods
+* Initiale Config für Tiny Progression - Disable Party Pickaxe ( Close #79 ) - Disable Growth Crystal Tier 2 + 3
+* Enable Tinkers Construct Support in EndMetals und NetherMetals
+* Big Update BaseMetals und Co - Kleinere Anpassungen an Quark, sonst startet der Client nicht - Neue Mods BaseGems, FantasyMetals, BaseMinerals - OreSpawn ist harte Abhängigkeit - alte Configs gelöscht
+* Mist, falsche Datei kopiert :)
+* Umstellung auf Forge Bucket Model
+* Config Updates durch Mod Updates
+* Enfernen Slime Boots und Slimesling - Close #61
+* Umstellung Basemetals Part 1
+* Drawers and Bits config file - Ref #65
+* Merge branch 'master' of https://github.com/BakermanLP/ProjectRET-AoT
+* Forestry Greenhouse deaktivieren für Stone Age - Close #66 - Ref #48
+* Und nochmal verdoppelt die Treffsicherheit
+
 ## Changelog v0.4 -> v0.5
 ### Mod Updates
 * AppleCore-mc1.10.2-2.1.1.jar -> 2.1.2
