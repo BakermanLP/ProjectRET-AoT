@@ -1,0 +1,89 @@
+ Base Gems                  | basegems:agate                                      | tile.basegems.agate.name                            
+ Base Gems                  | basegems:alexandrite                                | tile.basegems.alexandrite.name                      
+ Base Gems                  | basegems:amber                                      | tile.basegems.amber.name                            
+ Base Gems                  | basegems:amethyst                                   | tile.basegems.amethyst.name                         
+ Base Gems                  | basegems:ametrine                                   | tile.basegems.ametrine.name                         
+ Base Gems                  | basegems:aquamarine                                 | tile.basegems.aquamarine.name                       
+ Base Gems                  | basegems:beryl                                      | tile.basegems.beryl.name                            
+ Base Gems                  | basegems:blackdiamond                               | tile.basegems.blackdiamond.name                     
+ Base Gems                  | basegems:bluetopaz                                  | tile.basegems.bluetopaz.name                        
+ Base Gems                  | basegems:carnelian                                  | tile.basegems.carnelian.name                        
+ Base Gems                  | basegems:citrine                                    | tile.basegems.citrine.name                          
+ Base Gems                  | basegems:garnet                                     | tile.basegems.garnet.name                           
+ Base Gems                  | basegems:goldenberyl                                | tile.basegems.goldenberyl.name                      
+ Base Gems                  | basegems:heliodor                                   | tile.basegems.heliodor.name                         
+ Base Gems                  | basegems:indicolite                                 | tile.basegems.indicolite.name                       
+ Base Gems                  | basegems:iolite                                     | tile.basegems.iolite.name                           
+ Base Gems                  | basegems:jade                                       | tile.basegems.jade.name                             
+ Base Gems                  | basegems:jasper                                     | tile.basegems.jasper.name                           
+ Base Gems                  | basegems:lepidolite                                 | tile.basegems.lepidolite.name                       
+ Base Gems                  | basegems:malachite                                  | tile.basegems.malachite.name                        
+ Base Gems                  | basegems:moldavite                                  | tile.basegems.moldavite.name                        
+ Base Gems                  | basegems:moonstone                                  | tile.basegems.moonstone.name                        
+ Base Gems                  | basegems:morganite                                  | tile.basegems.morganite.name                        
+ Base Gems                  | basegems:onyx                                       | tile.basegems.onyx.name                             
+ Base Gems                  | basegems:opal                                       | tile.basegems.opal.name                             
+ Base Gems                  | basegems:peridot                                    | tile.basegems.peridot.name                          
+ Base Gems                  | basegems:ruby                                       | tile.basegems.ruby.name                             
+ Base Gems                  | basegems:sapphire                                   | tile.basegems.sapphire.name                         
+ Base Gems                  | basegems:spinel                                     | tile.basegems.spinel.name                           
+ Base Gems                  | basegems:tanzanite                                  | tile.basegems.tanzanite.name                        
+ Base Gems                  | basegems:topaz                                      | tile.basegems.topaz.name                            
+ Base Gems                  | basegems:turquoise                                  | tile.basegems.turquoise.name                        
+ Base Gems                  | basegems:violetsapphire                             | tile.basegems.violetsapphire.name                   
+ Base Metals                | basemetals:adamantine                               | Molten Adamantine                                   
+ Base Metals                | basemetals:antimony                                 | Molten Antimony                                     
+ Base Metals                | basemetals:aquarium                                 | Molten Aquarium                                     
+ Base Metals                | basemetals:bismuth                                  | Molten Bismuth                                      
+ Base Metals                | basemetals:brass                                    | Molten Brass                                        
+ Base Metals                | basemetals:bronze                                   | Molten Bronze                                       
+ Base Metals                | basemetals:charcoal                                 | Liquifacted Charcoal                                
+ Base Metals                | basemetals:coal                                     | Liquifacted Coal                                    
+ Base Metals                | basemetals:coldiron                                 | Molten Cold-Iron                                    
+ Base Metals                | basemetals:copper                                   | Molten Copper                                       
+ Base Metals                | basemetals:cupronickel                              | Molten Cupronickel                                  
+ Base Metals                | basemetals:diamond                                  | Molten Diamond                                      
+ Base Metals                | basemetals:electrum                                 | Molten Electrum                                     
+ Base Metals                | basemetals:emerald                                  | Molten Emerald                                      
+ Base Metals                | basemetals:ender                                    | Molten Ender                                        
+ Base Metals                | basemetals:gold                                     | Molten Gold                                         
+ Base Metals                | basemetals:invar                                    | Molten Invar                                        
+ Base Metals                | basemetals:iron                                     | Molten Iron                                         
+ Base Metals                | basemetals:lead                                     | Molten Lead                                         
+ Base Metals                | basemetals:mercury                                  | Liquid Mercury                                      
+ Base Metals                | basemetals:mithril                                  | Molten Mithril                                      
+ Base Metals                | basemetals:nickel                                   | Molten Nickel                                       
+ Base Metals                | basemetals:obsidian                                 | Molten Obsidian                                     
+ Base Metals                | basemetals:pewter                                   | Molten Pewter                                       
+ Base Metals                | basemetals:platinum                                 | Molten Platinum                                     
+ Base Metals                | basemetals:prismarine                               | Molten Prismarine                                   
+ Base Metals                | basemetals:redstone                                 | Molten Redstone                                     
+ Base Metals                | basemetals:silver                                   | Molten Silver                                       
+ Base Metals                | basemetals:starsteel                                | Molten Star-Steel                                   
+ Base Metals                | basemetals:steel                                    | Molten Steel                                        
+ Base Metals                | basemetals:tin                                      | Molten Tin                                          
+ Base Metals                | basemetals:zinc                                     | Molten Zinc                                         
+ Base Minerals              | baseminerals:lithium                                | Molten Silicon                                      
+ Base Minerals              | baseminerals:silicon                                | tile.baseminerals.silicon.name                      
+ Fantasy Metals             | fantasymetals:enderium                              | tile.fantasymetals.enderium.name                    
+ Fantasy Metals             | fantasymetals:lumium                                | tile.fantasymetals.lumium.name                      
+ Fantasy Metals             | fantasymetals:prismarinium                          | tile.fantasymetals.prismarinium.name                
+ Fantasy Metals             | fantasymetals:signalum                              | tile.fantasymetals.signalum.name                    
+ Modern Metals              | modernmetals:aluminum                               | Molten Aluminum                                     
+ Modern Metals              | modernmetals:aluminumbrass                          | Molten Aluminum Brass                               
+ Modern Metals              | modernmetals:cadmium                                | Molten Cadmium                                      
+ Modern Metals              | modernmetals:chromium                               | Molten Chromium                                     
+ Modern Metals              | modernmetals:galvanizedsteel                        | Molten Galvanized Steel                             
+ Modern Metals              | modernmetals:iridium                                | Molten Iridium                                      
+ Modern Metals              | modernmetals:magnesium                              | Molten Magnesium                                    
+ Modern Metals              | modernmetals:manganese                              | Molten Manganese                                    
+ Modern Metals              | modernmetals:nichrome                               | Molten Nichrome                                     
+ Modern Metals              | modernmetals:osmium                                 | Molten Osmium                                       
+ Modern Metals              | modernmetals:plutonium                              | Molten Plutonium                                    
+ Modern Metals              | modernmetals:rutile                                 | Molten Rutile                                       
+ Modern Metals              | modernmetals:stainlesssteel                         | Molten Stainless Steel                              
+ Modern Metals              | modernmetals:tantalum                               | Molten Tantalum                                     
+ Modern Metals              | modernmetals:titanium                               | Molten Titanium                                     
+ Modern Metals              | modernmetals:tungsten                               | Molten Tungsten                                     
+ Modern Metals              | modernmetals:uranium                                | Molten Uranium                                      
+ Modern Metals              | modernmetals:zirconium                              | Molten Zirconium                                    
