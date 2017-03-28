@@ -350,10 +350,82 @@
   "minecraft:sand:0": [
     {
       "drop": {
-        "name": "minecraft:dye",
-        "meta": 3
+        "name": "basemetals:copper_nugget",
+        "meta": 0
       },
-      "chance": 0.03,
+      "chance": 0.039,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "minecraft:gold_nugget",
+        "meta": 0
+      },
+      "chance": 0.0078,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:iron_nugget",
+        "meta": 0
+      },
+      "chance": 0.0780,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:lead_nugget",
+        "meta": 0
+      },
+      "chance": 0.0195,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:nickel_nugget",
+        "meta": 0
+      },
+      "chance": 0.0039,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:platinum_nugget",
+        "meta": 0
+      },
+      "chance": 0.0005,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:silver_nugget",
+        "meta": 0
+      },
+      "chance": 0.0156,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:tin_nugget",
+        "meta": 0
+      },
+      "chance": 0.0390,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "basemetals:zinc_nugget",
+        "meta": 0
+      },
+      "chance": 0.0156,
+      "meshLevel": 1
+    },
+    {
+      "drop": {
+        "name": "modernmetals:aluminum_nugget",
+        "meta": 0
+      },
+      "chance": 0.0312,
       "meshLevel": 1
     }
   ],
