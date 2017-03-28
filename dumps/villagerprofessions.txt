@@ -1,0 +1,13 @@
++---------------------+---------------------------------------+
+| Registry name       | Careers                               |
++---------------------+---------------------------------------+
+| forestry:apiarist   | apiarist                              |
+| forestry:arborist   | arborist                              |
+| minecraft:butcher   | butcher, leather                      |
+| minecraft:farmer    | farmer, fisherman, shepherd, fletcher |
+| minecraft:librarian | librarian                             |
+| minecraft:priest    | cleric                                |
+| minecraft:smith     | armor, weapon, tool                   |
++---------------------+---------------------------------------+
+| Registry name       | Careers                               |
++---------------------+---------------------------------------+

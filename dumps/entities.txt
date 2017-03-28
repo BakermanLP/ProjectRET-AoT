@@ -1,0 +1,303 @@
++----------------------+------------------------+------------------------------------------------------+-----------------------------+-------+
+| Mod ID               | Mod name               | Entity name                                          | Entity class name           |    ID |
++----------------------+------------------------+------------------------------------------------------+-----------------------------+-------+
+| ExtraBitManipulation | Extra Bit Manipulation | ExtraBitManipulation.ExtraBitManipulation:entity_bit | EntityBit                   |     0 |
+| Quark                | Quark                  | Quark.ashen                                          | EntityAshen                 |     1 |
+| Quark                | Quark                  | Quark.dweller                                        | EntityDweller               |     2 |
+| Quark                | Quark                  | Quark.pirate                                         | EntityPirate                |     3 |
+| Quark                | Quark                  | Quark.quark:arrow_ender                              | EntityArrowEnder            |     5 |
+| Quark                | Quark                  | Quark.quark:arrow_explosive                          | EntityArrowExplosive        |     6 |
+| Quark                | Quark                  | Quark.quark:arrow_torch                              | EntityArrowTorch            |     7 |
+| Quark                | Quark                  | Quark.quark:colored_item_frame                       | EntityColoredItemFrame      |     0 |
+| Quark                | Quark                  | Quark.wraith                                         | EntityWraith                |     4 |
+| animania             | Animania               | animania.BullAngus                                   | EntityBullAngus             |   507 |
+| animania             | Animania               | animania.BullFriesian                                | EntityBullFriesian          |   504 |
+| animania             | Animania               | animania.BullHereford                                | EntityBullHereford          |   513 |
+| animania             | Animania               | animania.BullHolstein                                | EntityBullHolstein          |   501 |
+| animania             | Animania               | animania.BullLonghorn                                | EntityBullLonghorn          |   510 |
+| animania             | Animania               | animania.CalfAngus                                   | EntityCalfAngus             |   508 |
+| animania             | Animania               | animania.CalfFriesian                                | EntityCalfFriesian          |   505 |
+| animania             | Animania               | animania.CalfHereford                                | EntityCalfHereford          |   514 |
+| animania             | Animania               | animania.CalfHolstein                                | EntityCalfHolstein          |   502 |
+| animania             | Animania               | animania.CalfLonghorn                                | EntityCalfLonghorn          |   511 |
+| animania             | Animania               | animania.ChickLeghorn                                | EntityChickLeghorn          |   535 |
+| animania             | Animania               | animania.ChickOrpington                              | EntityChickOrpington        |   538 |
+| animania             | Animania               | animania.ChickPlymouthRock                           | EntityChickPlymouthRock     |   532 |
+| animania             | Animania               | animania.ChickRhodeIslandRed                         | EntityChickRhodeIslandRed   |   544 |
+| animania             | Animania               | animania.ChickWyandotte                              | EntityChickWyandotte        |   541 |
+| animania             | Animania               | animania.CowAngus                                    | EntityCowAngus              |   506 |
+| animania             | Animania               | animania.CowFriesian                                 | EntityCowFriesian           |   503 |
+| animania             | Animania               | animania.CowHereford                                 | EntityCowHereford           |   512 |
+| animania             | Animania               | animania.CowHolstein                                 | EntityCowHolstein           |   500 |
+| animania             | Animania               | animania.CowLonghorn                                 | EntityCowLonghorn           |   509 |
+| animania             | Animania               | animania.FerretGrey                                  | EntityFerretGrey            |   523 |
+| animania             | Animania               | animania.FerretWhite                                 | EntityFerretWhite           |   526 |
+| animania             | Animania               | animania.Hamster                                     | EntityHamster               |   520 |
+| animania             | Animania               | animania.Hedgehog                                    | EntityHedgehog              |   529 |
+| animania             | Animania               | animania.HedgehogAlbino                              | EntityHedgehogAlbino        |   550 |
+| animania             | Animania               | animania.HenLeghorn                                  | EntityHenLeghorn            |   533 |
+| animania             | Animania               | animania.HenOrpington                                | EntityHenOrpington          |   536 |
+| animania             | Animania               | animania.HenPlymouthRock                             | EntityHenPlymouthRock       |   530 |
+| animania             | Animania               | animania.HenRhodeIslandRed                           | EntityHenRhodeIslandRed     |   542 |
+| animania             | Animania               | animania.HenWyandotte                                | EntityHenWyandotte          |   539 |
+| animania             | Animania               | animania.HogDuroc                                    | EntityHogDuroc              |   613 |
+| animania             | Animania               | animania.HogHampshire                                | EntityHogHampshire          |   616 |
+| animania             | Animania               | animania.HogLargeBlack                               | EntityHogLargeBlack         |   607 |
+| animania             | Animania               | animania.HogLargeWhite                               | EntityHogLargeWhite         |   610 |
+| animania             | Animania               | animania.HogOldSpot                                  | EntityHogOldSpot            |   604 |
+| animania             | Animania               | animania.HogYorkshire                                | EntityHogYorkshire          |   601 |
+| animania             | Animania               | animania.PeachickBlue                                | EntityPeachickBlue          |   582 |
+| animania             | Animania               | animania.PeachickWhite                               | EntityPeachickWhite         |   585 |
+| animania             | Animania               | animania.PeacockBlue                                 | EntityPeacockBlue           |   580 |
+| animania             | Animania               | animania.PeacockWhite                                | EntityPeacockWhite          |   583 |
+| animania             | Animania               | animania.PeafowlBlue                                 | EntityPeafowlBlue           |   581 |
+| animania             | Animania               | animania.PeafowlWhite                                | EntityPeafowlWhite          |   584 |
+| animania             | Animania               | animania.PigletDuroc                                 | EntityPigletDuroc           |   614 |
+| animania             | Animania               | animania.PigletHampshire                             | EntityPigletHampshire       |   617 |
+| animania             | Animania               | animania.PigletLargeBlack                            | EntityPigletLargeBlack      |   608 |
+| animania             | Animania               | animania.PigletLargeWhite                            | EntityPigletLargeWhite      |   611 |
+| animania             | Animania               | animania.PigletOldSpot                               | EntityPigletOldSpot         |   605 |
+| animania             | Animania               | animania.PigletYorkshire                             | EntityPigletYorkshire       |   602 |
+| animania             | Animania               | animania.RoosterLeghorn                              | EntityRoosterLeghorn        |   534 |
+| animania             | Animania               | animania.RoosterOrpington                            | EntityRoosterOrpington      |   537 |
+| animania             | Animania               | animania.RoosterPlymouthRock                         | EntityRoosterPlymouthRock   |   531 |
+| animania             | Animania               | animania.RoosterRhodeIslandRed                       | EntityRoosterRhodeIslandRed |   543 |
+| animania             | Animania               | animania.RoosterWyandotte                            | EntityRoosterWyandotte      |   540 |
+| animania             | Animania               | animania.SowDuroc                                    | EntitySowDuroc              |   612 |
+| animania             | Animania               | animania.SowHampshire                                | EntitySowHampshire          |   615 |
+| animania             | Animania               | animania.SowLargeBlack                               | EntitySowLargeBlack         |   606 |
+| animania             | Animania               | animania.SowLargeWhite                               | EntitySowLargeWhite         |   609 |
+| animania             | Animania               | animania.SowOldSpot                                  | EntitySowOldSpot            |   603 |
+| animania             | Animania               | animania.SowYorkshire                                | EntitySowYorkshire          |   600 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken1                  | EntityMobChicken1           |    32 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken10                 | EntityMobChicken10          |    41 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken11                 | EntityMobChicken11          |    42 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken2                  | EntityMobChicken2           |    33 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken3                  | EntityMobChicken3           |    34 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken4                  | EntityMobChicken4           |    35 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken5                  | EntityMobChicken5           |    36 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken6                  | EntityMobChicken6           |    37 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken7                  | EntityMobChicken7           |    38 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken8                  | EntityMobChicken8           |    39 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobChicken9                  | EntityMobChicken9           |    40 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow1                      | EntityMobCow1               |     0 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow10                     | EntityMobCow10              |     9 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow2                      | EntityMobCow2               |     1 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow3                      | EntityMobCow3               |     2 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow4                      | EntityMobCow4               |     3 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow5                      | EntityMobCow5               |     4 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow6                      | EntityMobCow6               |     5 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow7                      | EntityMobCow7               |     6 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow8                      | EntityMobCow8               |     7 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobCow9                      | EntityMobCow9               |     8 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobNpcFemale1                | EntityMobNpcFemale1         |    10 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobNpcMale                   | EntityMobNpcMale            |    11 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig1                      | EntityMobPig1               |    22 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig10                     | EntityMobPig10              |    31 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig2                      | EntityMobPig2               |    23 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig3                      | EntityMobPig3               |    24 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig4                      | EntityMobPig4               |    25 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig5                      | EntityMobPig5               |    26 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig6                      | EntityMobPig6               |    27 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig7                      | EntityMobPig7               |    28 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig8                      | EntityMobPig8               |    29 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobPig9                      | EntityMobPig9               |    30 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep1                    | EntityMobSheep1             |    12 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep10                   | EntityMobSheep10            |    21 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep2                    | EntityMobSheep2             |    13 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep3                    | EntityMobSheep3             |    14 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep4                    | EntityMobSheep4             |    15 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep5                    | EntityMobSheep5             |    16 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep6                    | EntityMobSheep6             |    17 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep7                    | EntityMobSheep7             |    18 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep8                    | EntityMobSheep8             |    19 |
+| betteragriculture    | Better Agriculture     | betteragriculture.EntityMobSheep9                    | EntityMobSheep9             |    20 |
+| betterquesting       | Better Questing        | betterquesting.placeholder                           | EntityPlaceholder           |     0 |
+| betterwithmods       | Better With Mods       | betterwithmods.BWMDynamite                           | EntityDynamite              |     1 |
+| betterwithmods       | Better With Mods       | betterwithmods.BWMMiningCharge                       | EntityMiningCharge          |     2 |
+| betterwithmods       | Better With Mods       | betterwithmods.ExtendingRope                         | EntityExtendingRope         |     0 |
+| betterwithmods       | Better With Mods       | betterwithmods.entityBroadheadArrow                  | EntityBroadheadArrow        |     5 |
+| betterwithmods       | Better With Mods       | betterwithmods.entityFallingGourd                    | EntityFallingGourd          |     6 |
+| betterwithmods       | Better With Mods       | betterwithmods.entityItemBuoy                        | EntityItemBuoy              |     3 |
+| betterwithmods       | Better With Mods       | betterwithmods.entityShearedCreeper                  | EntityShearedCreeper        |     4 |
+| betterwithmods       | Better With Mods       | betterwithmods.falling_block_custom                  | EntityFallingBlockCustom    |     7 |
+| customnpcs           | CustomNPCs             | CustomNpc                                            | EntityCustomNpc             |    23 |
+| customnpcs           | CustomNPCs             | CustomNpc64x32                                       | EntityNPC64x32              |    24 |
+| customnpcs           | CustomNPCs             | NpcDragon                                            | EntityNpcDragon             |    20 |
+| customnpcs           | CustomNPCs             | NpcSlime                                             | EntityNpcSlime              |    19 |
+| customnpcs           | CustomNPCs             | customnpcs.CustomNpc                                 | EntityCustomNpc             |    23 |
+| customnpcs           | CustomNPCs             | customnpcs.CustomNpc64x32                            | EntityNPC64x32              |    24 |
+| customnpcs           | CustomNPCs             | customnpcs.CustomNpcChairMount                       | EntityChairMount            |    25 |
+| customnpcs           | CustomNPCs             | customnpcs.NpcDragon                                 | EntityNpcDragon             |    20 |
+| customnpcs           | CustomNPCs             | customnpcs.NpcSlime                                  | EntityNpcSlime              |    19 |
+| customnpcs           | CustomNPCs             | customnpcs.magicprojectile                           | EntityMagicProjectile       |    27 |
+| customnpcs           | CustomNPCs             | customnpcs.npcEnderman                               | EntityNPCEnderman           |    21 |
+| customnpcs           | CustomNPCs             | customnpcs.npcGolem                                  | EntityNPCGolem              |    22 |
+| customnpcs           | CustomNPCs             | customnpcs.npccrystal                                | EntityNpcCrystal            |    15 |
+| customnpcs           | CustomNPCs             | customnpcs.npcdwarffemale                            | EntityNPCDwarfFemale        |     9 |
+| customnpcs           | CustomNPCs             | customnpcs.npcdwarfmale                              | EntityNPCDwarfMale          |     4 |
+| customnpcs           | CustomNPCs             | customnpcs.npcelffemale                              | EntityNPCElfFemale          |    14 |
+| customnpcs           | CustomNPCs             | customnpcs.npcelfmale                                | EntityNPCElfMale            |    13 |
+| customnpcs           | CustomNPCs             | customnpcs.npcenderchibi                             | EntityNpcEnderchibi         |    16 |
+| customnpcs           | CustomNPCs             | customnpcs.npcfurryfemale                            | EntityNPCFurryFemale        |    10 |
+| customnpcs           | CustomNPCs             | customnpcs.npcfurrymale                              | EntityNPCFurryMale          |     5 |
+| customnpcs           | CustomNPCs             | customnpcs.npchumanfemale                            | EntityNPCHumanFemale        |     3 |
+| customnpcs           | CustomNPCs             | customnpcs.npchumanmale                              | EntityNPCHumanMale          |     0 |
+| customnpcs           | CustomNPCs             | customnpcs.npcnagafemale                             | EntityNpcNagaFemale         |    18 |
+| customnpcs           | CustomNPCs             | customnpcs.npcnagamale                               | EntityNpcNagaMale           |    17 |
+| customnpcs           | CustomNPCs             | customnpcs.npcorcfemale                              | EntityNPCOrcFemale          |    12 |
+| customnpcs           | CustomNPCs             | customnpcs.npcorcfmale                               | EntityNPCOrcMale            |    11 |
+| customnpcs           | CustomNPCs             | customnpcs.npcpony                                   | EntityNpcPony               |     2 |
+| customnpcs           | CustomNPCs             | customnpcs.npcskeleton                               | EntityNpcSkeleton           |     8 |
+| customnpcs           | CustomNPCs             | customnpcs.npcvillager                               | EntityNPCVillager           |     1 |
+| customnpcs           | CustomNPCs             | customnpcs.npczombiefemale                           | EntityNpcMonsterFemale      |     7 |
+| customnpcs           | CustomNPCs             | customnpcs.npczombiemale                             | EntityNpcMonsterMale        |     6 |
+| customnpcs           | CustomNPCs             | customnpcs.throwableitem                             | EntityProjectile            |    26 |
+| customnpcs           | CustomNPCs             | npcEnderman                                          | EntityNPCEnderman           |    21 |
+| customnpcs           | CustomNPCs             | npcGolem                                             | EntityNPCGolem              |    22 |
+| customnpcs           | CustomNPCs             | npccrystal                                           | EntityNpcCrystal            |    15 |
+| customnpcs           | CustomNPCs             | npcdwarffemale                                       | EntityNPCDwarfFemale        |     9 |
+| customnpcs           | CustomNPCs             | npcdwarfmale                                         | EntityNPCDwarfMale          |     4 |
+| customnpcs           | CustomNPCs             | npcelffemale                                         | EntityNPCElfFemale          |    14 |
+| customnpcs           | CustomNPCs             | npcelfmale                                           | EntityNPCElfMale            |    13 |
+| customnpcs           | CustomNPCs             | npcenderchibi                                        | EntityNpcEnderchibi         |    16 |
+| customnpcs           | CustomNPCs             | npcfurryfemale                                       | EntityNPCFurryFemale        |    10 |
+| customnpcs           | CustomNPCs             | npcfurrymale                                         | EntityNPCFurryMale          |     5 |
+| customnpcs           | CustomNPCs             | npchumanfemale                                       | EntityNPCHumanFemale        |     3 |
+| customnpcs           | CustomNPCs             | npchumanmale                                         | EntityNPCHumanMale          |     0 |
+| customnpcs           | CustomNPCs             | npcnagafemale                                        | EntityNpcNagaFemale         |    18 |
+| customnpcs           | CustomNPCs             | npcnagamale                                          | EntityNpcNagaMale           |    17 |
+| customnpcs           | CustomNPCs             | npcorcfemale                                         | EntityNPCOrcFemale          |    12 |
+| customnpcs           | CustomNPCs             | npcorcfmale                                          | EntityNPCOrcMale            |    11 |
+| customnpcs           | CustomNPCs             | npcpony                                              | EntityNpcPony               |     2 |
+| customnpcs           | CustomNPCs             | npcskeleton                                          | EntityNpcSkeleton           |     8 |
+| customnpcs           | CustomNPCs             | npcvillager                                          | EntityNPCVillager           |     1 |
+| customnpcs           | CustomNPCs             | npczombiefemale                                      | EntityNpcMonsterFemale      |     7 |
+| customnpcs           | CustomNPCs             | npczombiemale                                        | EntityNpcMonsterMale        |     6 |
+| earthlifemod         | Earth Life             | earthlifemod.Casuar                                  | EntityCasuar                |     0 |
+| earthlifemod         | Earth Life             | earthlifemod.Chimpanzee                              | EntityChimpanzee            |     2 |
+| earthlifemod         | Earth Life             | earthlifemod.Deer                                    | EntityDeer                  |     6 |
+| earthlifemod         | Earth Life             | earthlifemod.Flamingo                                | EntityFlamingo              |     4 |
+| earthlifemod         | Earth Life             | earthlifemod.Giraffe                                 | EntityGiraffe               |     1 |
+| earthlifemod         | Earth Life             | earthlifemod.Hyrax                                   | EntityHyrax                 |     7 |
+| earthlifemod         | Earth Life             | earthlifemod.Monitor                                 | EntityMonitor               |     3 |
+| earthlifemod         | Earth Life             | earthlifemod.Panda                                   | EntityPanda                 |     9 |
+| earthlifemod         | Earth Life             | earthlifemod.Stork                                   | EntityStork                 |     5 |
+| earthlifemod         | Earth Life             | earthlifemod.Unicorn                                 | EntityUnicorn               |     8 |
+| earthlifemod         | Earth Life             | earthlifemod.WhitePumpkin                            | EntityWhitePumpkin          |    10 |
+| excompressum         | Ex Compressum          | excompressum.AngryChicken                            | EntityAngryChicken          |     0 |
+| exnihiloadscensio    | Ex Nihilo Adscensio    | exnihiloadscensio.Thrown Stone                       | ProjectileStone             |     0 |
+| forestry             | Forestry               | forestry.cart.apiary                                 | EntityMinecartApiary        |     2 |
+| forestry             | Forestry               | forestry.cart.beehouse                               | EntityMinecartBeehouse      |     1 |
+| grapplemod           | Grappling hook mod     | grapplemod.enderArrow                                | enderArrow                  |     1 |
+| grapplemod           | Grappling hook mod     | grapplemod.grappleArrow                              | grappleArrow                |     0 |
+| grapplemod           | Grappling hook mod     | grapplemod.hookArrow                                 | hookArrow                   |     2 |
+| grapplemod           | Grappling hook mod     | grapplemod.magnetArrow                               | magnetArrow                 |     3 |
+| grapplemod           | Grappling hook mod     | grapplemod.multihookArrow                            | multihookArrow              |     4 |
+| gravestone           | Gravestone             | gravestone.player_ghost                              | EntityGhostPlayer           |   378 |
+| hardcorewither       | Hardcore Wither        | hardcorewither.BlazeMinion                           | EntityBlazeMinion           |     0 |
+| hardcorewither       | Hardcore Wither        | hardcorewither.GhastMinion                           | EntityGhastMinion           |     1 |
+| hardcorewither       | Hardcore Wither        | hardcorewither.SkeletonMinion                        | EntitySkeletonMinion        |     2 |
+| lucky                | Lucky Block            | LuckyPotion                                          | EntityLuckyPotion           | 24654 |
+| lucky                | Lucky Block            | LuckyProjectile                                      | EntityLuckyProjectile       | 24653 |
+| lucky                | Lucky Block            | lucky.LuckyPotion                                    | EntityLuckyPotion           | 24654 |
+| lucky                | Lucky Block            | lucky.LuckyProjectile                                | EntityLuckyProjectile       | 24653 |
+| minecraft            | Minecraft              | AreaEffectCloud                                      | EntityAreaEffectCloud       |     3 |
+| minecraft            | Minecraft              | ArmorStand                                           | EntityArmorStand            |    30 |
+| minecraft            | Minecraft              | Arrow                                                | EntityTippedArrow           |    10 |
+| minecraft            | Minecraft              | Bat                                                  | EntityBat                   |    65 |
+| minecraft            | Minecraft              | Blaze                                                | EntityBlaze                 |    61 |
+| minecraft            | Minecraft              | Boat                                                 | EntityBoat                  |    41 |
+| minecraft            | Minecraft              | CaveSpider                                           | EntityCaveSpider            |    59 |
+| minecraft            | Minecraft              | Chicken                                              | EntityChicken               |    93 |
+| minecraft            | Minecraft              | Cow                                                  | EntityCow                   |    92 |
+| minecraft            | Minecraft              | Creeper                                              | EntityCreeper               |    50 |
+| minecraft            | Minecraft              | DragonFireball                                       | EntityDragonFireball        |    26 |
+| minecraft            | Minecraft              | EnderCrystal                                         | EntityEnderCrystal          |   200 |
+| minecraft            | Minecraft              | EnderDragon                                          | EntityDragon                |    63 |
+| minecraft            | Minecraft              | Enderman                                             | EntityEnderman              |    58 |
+| minecraft            | Minecraft              | Endermite                                            | EntityEndermite             |    67 |
+| minecraft            | Minecraft              | EntityHorse                                          | EntityHorse                 |   100 |
+| minecraft            | Minecraft              | EyeOfEnderSignal                                     | EntityEnderEye              |    15 |
+| minecraft            | Minecraft              | FallingSand                                          | EntityFallingBlock          |    21 |
+| minecraft            | Minecraft              | Fireball                                             | EntityLargeFireball         |    12 |
+| minecraft            | Minecraft              | FireworksRocketEntity                                | EntityFireworkRocket        |    22 |
+| minecraft            | Minecraft              | Ghast                                                | EntityGhast                 |    56 |
+| minecraft            | Minecraft              | Giant                                                | EntityGiantZombie           |    53 |
+| minecraft            | Minecraft              | Guardian                                             | EntityGuardian              |    68 |
+| minecraft            | Minecraft              | Item                                                 | EntityItem                  |     1 |
+| minecraft            | Minecraft              | ItemFrame                                            | EntityItemFrame             |    18 |
+| minecraft            | Minecraft              | LavaSlime                                            | EntityMagmaCube             |    62 |
+| minecraft            | Minecraft              | LeashKnot                                            | EntityLeashKnot             |     8 |
+| minecraft            | Minecraft              | MinecartChest                                        | EntityMinecartChest         |    43 |
+| minecraft            | Minecraft              | MinecartCommandBlock                                 | EntityMinecartCommandBlock  |    40 |
+| minecraft            | Minecraft              | MinecartFurnace                                      | EntityMinecartFurnace       |    44 |
+| minecraft            | Minecraft              | MinecartHopper                                       | EntityMinecartHopper        |    46 |
+| minecraft            | Minecraft              | MinecartRideable                                     | EntityMinecartEmpty         |    42 |
+| minecraft            | Minecraft              | MinecartSpawner                                      | EntityMinecartMobSpawner    |    47 |
+| minecraft            | Minecraft              | MinecartTNT                                          | EntityMinecartTNT           |    45 |
+| minecraft            | Minecraft              | Mob                                                  | EntityLiving                |    48 |
+| minecraft            | Minecraft              | Monster                                              | EntityMob                   |    49 |
+| minecraft            | Minecraft              | MushroomCow                                          | EntityMooshroom             |    96 |
+| minecraft            | Minecraft              | Ozelot                                               | EntityOcelot                |    98 |
+| minecraft            | Minecraft              | Painting                                             | EntityPainting              |     9 |
+| minecraft            | Minecraft              | Pig                                                  | EntityPig                   |    90 |
+| minecraft            | Minecraft              | PigZombie                                            | EntityPigZombie             |    57 |
+| minecraft            | Minecraft              | PolarBear                                            | EntityPolarBear             |   102 |
+| minecraft            | Minecraft              | PrimedTnt                                            | EntityTNTPrimed             |    20 |
+| minecraft            | Minecraft              | Rabbit                                               | EntityRabbit                |   101 |
+| minecraft            | Minecraft              | Sheep                                                | EntitySheep                 |    91 |
+| minecraft            | Minecraft              | Shulker                                              | EntityShulker               |    69 |
+| minecraft            | Minecraft              | ShulkerBullet                                        | EntityShulkerBullet         |    25 |
+| minecraft            | Minecraft              | Silverfish                                           | EntitySilverfish            |    60 |
+| minecraft            | Minecraft              | Skeleton                                             | EntitySkeleton              |    51 |
+| minecraft            | Minecraft              | Slime                                                | EntitySlime                 |    55 |
+| minecraft            | Minecraft              | SmallFireball                                        | EntitySmallFireball         |    13 |
+| minecraft            | Minecraft              | SnowMan                                              | EntitySnowman               |    97 |
+| minecraft            | Minecraft              | Snowball                                             | EntitySnowball              |    11 |
+| minecraft            | Minecraft              | SpectralArrow                                        | EntitySpectralArrow         |    24 |
+| minecraft            | Minecraft              | Spider                                               | EntitySpider                |    52 |
+| minecraft            | Minecraft              | Sponge.Human                                         | EntityHuman                 |    90 |
+| minecraft            | Minecraft              | Squid                                                | EntitySquid                 |    94 |
+| minecraft            | Minecraft              | ThrownEgg                                            | EntityEgg                   |     7 |
+| minecraft            | Minecraft              | ThrownEnderpearl                                     | EntityEnderPearl            |    14 |
+| minecraft            | Minecraft              | ThrownExpBottle                                      | EntityExpBottle             |    17 |
+| minecraft            | Minecraft              | ThrownPotion                                         | EntityPotion                |    16 |
+| minecraft            | Minecraft              | Villager                                             | EntityVillager              |   120 |
+| minecraft            | Minecraft              | VillagerGolem                                        | EntityIronGolem             |    99 |
+| minecraft            | Minecraft              | Witch                                                | EntityWitch                 |    66 |
+| minecraft            | Minecraft              | WitherBoss                                           | EntityWither                |    64 |
+| minecraft            | Minecraft              | WitherSkull                                          | EntityWitherSkull           |    19 |
+| minecraft            | Minecraft              | Wolf                                                 | EntityWolf                  |    95 |
+| minecraft            | Minecraft              | XPOrb                                                | EntityXPOrb                 |     2 |
+| minecraft            | Minecraft              | Zombie                                               | EntityZombie                |    54 |
+| platforms            | Platforms              | platforms.gui-item                                   | EntityGuiItem               |     2 |
+| props                | Decocraft              | props.FakeChairEntity                                | EntityChairMount            |     0 |
+| reptilemod           | Reptile Mod            | reptilemod.Alligator                                 | EntityGator                 |    11 |
+| reptilemod           | Reptile Mod            | reptilemod.Chameleon                                 | EntityChameleon             |    12 |
+| reptilemod           | Reptile Mod            | reptilemod.Croc                                      | EntityCroc                  |     5 |
+| reptilemod           | Reptile Mod            | reptilemod.CrocMonitor                               | EntitySalvadorii            |    13 |
+| reptilemod           | Reptile Mod            | reptilemod.DesertTortoise                            | EntityDesertTortoise        |     6 |
+| reptilemod           | Reptile Mod            | reptilemod.Griseus                                   | EntityGriseus               |     2 |
+| reptilemod           | Reptile Mod            | reptilemod.Iguana                                    | EntityIguana                |     9 |
+| reptilemod           | Reptile Mod            | reptilemod.Komodo                                    | EntityKomodo                |     0 |
+| reptilemod           | Reptile Mod            | reptilemod.Lace                                      | EntityLace                  |     4 |
+| reptilemod           | Reptile Mod            | reptilemod.LargeCroc                                 | EntityLargeCroc             |     8 |
+| reptilemod           | Reptile Mod            | reptilemod.LittleTurtle                              | EntityLittleTurtle          |     7 |
+| reptilemod           | Reptile Mod            | reptilemod.Perentie                                  | EntityPerentie              |     3 |
+| reptilemod           | Reptile Mod            | reptilemod.Savanna                                   | EntitySavanna               |     1 |
+| reptilemod           | Reptile Mod            | reptilemod.Tortoise                                  | EntityTortoise              |    10 |
+| tconstruct           | Tinkers' Construct     | tconstruct.Fancy Item Frame                          | EntityFancyItemFrame        |     2 |
+| tconstruct           | Tinkers' Construct     | tconstruct.Indestructible Item                       | IndestructibleEntityItem    |     0 |
+| tconstruct           | Tinkers' Construct     | tconstruct.Throwball                                 | EntityThrowball             |     3 |
+| tconstruct           | Tinkers' Construct     | tconstruct.arrow                                     | EntityArrow                 |    10 |
+| tconstruct           | Tinkers' Construct     | tconstruct.blueslime                                 | EntityBlueSlime             |     1 |
+| tconstruct           | Tinkers' Construct     | tconstruct.bolt                                      | EntityBolt                  |    11 |
+| tconstruct           | Tinkers' Construct     | tconstruct.shuriken                                  | EntityShuriken              |    12 |
+| testdummy            | MmmMmmMmmMmm           | testdummy.Dummy                                      | EntityDummy                 |     0 |
+| testdummy            | MmmMmmMmmMmm           | testdummy.FloatingNumber                             | EntityFloatingNumber        |     1 |
+| testdummy            | MmmMmmMmmMmm           | testdummy.FloatingNumberDPS                          | EntityDpsFloatingNumber     |     2 |
+| waddles              | Waddles                | waddles.penguin                                      | EntityAdeliePenguin         |     0 |
++----------------------+------------------------+------------------------------------------------------+-----------------------------+-------+
+| Mod ID               | Mod name               | Entity name                                          | Entity class name           |    ID |
++----------------------+------------------------+------------------------------------------------------+-----------------------------+-------+

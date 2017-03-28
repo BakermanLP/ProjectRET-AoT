@@ -1,0 +1,41 @@
++--------------------+---------------------------+-------------------------+----+-------------------------+--------+---------------+
+| Mod name           | Registry name             | Potion Name             | ID | Liquid color            | Is bad | Is beneficial |
++--------------------+---------------------------+-------------------------+----+-------------------------+--------+---------------+
+| Better With Mods   | betterwithmods:true_sight | bwm.effect.true_sight   | 34 | 0x00D9C043 (  14270531) |  false |         false |
+| Minecraft          | minecraft:absorption      | effect.absorption       | 22 | 0x002552A5 (   2445989) |  false |          true |
+| Minecraft          | minecraft:blindness       | effect.blindness        | 15 | 0x001F1F23 (   2039587) |   true |         false |
+| Minecraft          | minecraft:fire_resistance | effect.fireResistance   | 12 | 0x00E49A3A (  14981690) |  false |          true |
+| Minecraft          | minecraft:glowing         | effect.glowing          | 24 | 0x0094A061 (   9740385) |  false |         false |
+| Minecraft          | minecraft:haste           | effect.digSpeed         |  3 | 0x00D9C043 (  14270531) |  false |          true |
+| Minecraft          | minecraft:health_boost    | effect.healthBoost      | 21 | 0x00F87D23 (  16284963) |  false |          true |
+| Minecraft          | minecraft:hunger          | effect.hunger           | 17 | 0x00587653 (   5797459) |   true |         false |
+| Minecraft          | minecraft:instant_damage  | effect.harm             |  7 | 0x00430A09 (   4393481) |   true |          true |
+| Minecraft          | minecraft:instant_health  | effect.heal             |  6 | 0x00F82423 (  16262179) |  false |          true |
+| Minecraft          | minecraft:invisibility    | effect.invisibility     | 14 | 0x007F8392 (   8356754) |  false |          true |
+| Minecraft          | minecraft:jump_boost      | effect.jump             |  8 | 0x0022FF4C (   2293580) |  false |          true |
+| Minecraft          | minecraft:levitation      | effect.levitation       | 25 | 0x00CEFFFF (  13565951) |   true |         false |
+| Minecraft          | minecraft:luck            | effect.luck             | 26 | 0x00339900 (   3381504) |  false |          true |
+| Minecraft          | minecraft:mining_fatigue  | effect.digSlowDown      |  4 | 0x004A4217 (   4866583) |   true |         false |
+| Minecraft          | minecraft:nausea          | effect.confusion        |  9 | 0x00551D4A (   5578058) |   true |         false |
+| Minecraft          | minecraft:night_vision    | effect.nightVision      | 16 | 0x001F1FA1 (   2039713) |  false |          true |
+| Minecraft          | minecraft:poison          | effect.poison           | 19 | 0x004E9331 (   5149489) |   true |         false |
+| Minecraft          | minecraft:regeneration    | effect.regeneration     | 10 | 0x00CD5CAB (  13458603) |  false |          true |
+| Minecraft          | minecraft:resistance      | effect.resistance       | 11 | 0x0099453A (  10044730) |  false |          true |
+| Minecraft          | minecraft:saturation      | effect.saturation       | 23 | 0x00F82423 (  16262179) |  false |          true |
+| Minecraft          | minecraft:slowness        | effect.moveSlowdown     |  2 | 0x005A6C81 (   5926017) |   true |         false |
+| Minecraft          | minecraft:speed           | effect.moveSpeed        |  1 | 0x007CAFC6 (   8171462) |  false |          true |
+| Minecraft          | minecraft:strength        | effect.damageBoost      |  5 | 0x00932423 (   9643043) |  false |          true |
+| Minecraft          | minecraft:unluck          | effect.unluck           | 27 | 0x00C0A44D (  12624973) |   true |         false |
+| Minecraft          | minecraft:water_breathing | effect.waterBreathing   | 13 | 0x002E5299 (   3035801) |  false |          true |
+| Minecraft          | minecraft:weakness        | effect.weakness         | 18 | 0x00484D48 (   4738376) |   true |         false |
+| Minecraft          | minecraft:wither          | effect.wither           | 20 | 0x00352A27 (   3484199) |   true |         false |
+| Quark              | quark:curse               | quark.potion.curse.name |  0 | 0x00000000 (         0) |   true |         false |
+| Tinkers' Construct | tconstruct:dot            | potion.dot              | 32 | 0x00FFFFFF (  16777215) |   true |         false |
+| Tinkers' Construct | tconstruct:enderference   | potion.enderference     | 28 | 0x0021985F (   2201695) |   true |         false |
+| Tinkers' Construct | tconstruct:insatiable     | potion.insatiable       | 29 | 0x00FFFFFF (  16777215) |   true |         false |
+| Tinkers' Construct | tconstruct:magnetic       | potion.magnetic         | 30 | 0x00FFFFFF (  16777215) |  false |         false |
+| Tinkers' Construct | tconstruct:momentum       | potion.momentum         | 31 | 0x00FFFFFF (  16777215) |  false |         false |
+| Tinkers' Construct | tconstruct:splinter       | potion.splinter         | 33 | 0x00FFFFFF (  16777215) |   true |         false |
++--------------------+---------------------------+-------------------------+----+-------------------------+--------+---------------+
+| Mod name           | Registry name             | Potion Name             | ID | Liquid color            | Is bad | Is beneficial |
++--------------------+---------------------------+-------------------------+----+-------------------------+--------+---------------+
