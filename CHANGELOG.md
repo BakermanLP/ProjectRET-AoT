@@ -1,4 +1,154 @@
 # Changelog
+## Changelog v0.6 -> v0.7
+### Mod Updates
+* achievementbooks-1.0b78-MC1.10.2.jar -> 1.0b82-MC1.10.2
+* animania-1.10-1.0.2.jar -> 1.10-1.0.4.1
+* ChestTransporter-1.10.2-2.5.9.jar -> 1.10.2-2.5.10
+* Chisel-MC1.10.2-0.0.8.12.jar -> 0.0.9.15
+* CoFHCore-1.10.2-4.1.0.155-universal.jar -> 1.10.2-4.1.1.156-universal
+* compatlayer-1.10-0.2.2.jar -> 1.10-0.2.5
+* CustomNPCs_1.10.2(20nov16).jar -> 1.10.2(17mar17)
+* DynamicSurroundings-1.10.2-3.3.2.0.jar -> 1.10.2-3.3.3.0
+* EngineersWorkshop-1.2.0-1.10.2.jar -> 1.2.1-1.10.2
+* ExCompressum_1.10.2-2.0.87.jar -> 1.10.2-2.0.97
+* exnihiloadscensio-1.10.2-0.1.17.jar -> 1.10.2-0.1.19
+* foamfix-0.6.1-anarchy.jar -> 0.6.2-beta2-anarchy
+* furnus-1.10.2-1.91.jar -> 1.10.2-1.92
+* malisiscore-1.10.2-4.3.0.jar -> 1.10.2-4.4.0
+* ModernMetals-0.11.0.jar -> 1.10.2-2.5.0-beta1.21
+* ModTweaker2-2.0.10.jar -> 2.0.11
+* MTLib-1.0.1.jar -> 1.0.2
+* multistorage-1.10.0-1.2.15.jar -> 1.10.0-1.2.16
+* OptiFine_1.10.2_HD_U_D6.jar -> 1.10.2_HD_U_D7
+* Plants-1.10.2-beta-0.5.3.jar -> 1.10.2-beta-0.8.5
+* StorageDrawers-1.10.2-3.6.1.jar -> 1.10.2-3.6.2
+* tellme-1.10.2-0.5.0.jar -> 1.10.2-0.5.2
+* theoneprobe-1.1x-1.4.4.jar -> 1.1x-1.4.5
+* tinyprogressions-1.10.2-1.0.32.jar -> 1.10.2-1.2.0-Hotfix
+* UniDict-1.10.2-2.7.jar -> 1.10.2-2.8
+* VTweaks-1.10.x-1.4.9.13.jar -> 1.10.x-1.4.9.16
+
+### Mod Additions
+* BaseGems-1.10.2-2.5.0-beta1.11.jar
+* BaseMetals-1.10.2-2.5.0-beta1.59.jar
+* BaseMinerals-1.10.2-2.5.0-beta1.10.jar
+* Better With Mods-0.14.19-1.10.2.jar
+* Buckets-1.10.2-0.0.1-alpha1.jar
+* Decocraft-2.3.6.1_1.10.2.jar
+* EndMetals-1.10.2-1.2.0-beta1.12.jar
+* FantasyMetals-1.10.2-2.5.0-beta1.11.jar
+* keywizard-1.10.2-1.2.jar
+* LootTweaker-1.10.2-0.0.5.1.jar
+*
+* NetherMetals-1.10.2-1.2.0-beta1.14.jar
+* orespawn-2.0.0.15-1.10.2.jar
+* World-Stripper-1.3.0-1.10.2.jar
+
+### Mod Deletions
+* AgriculturalExpansion[1.9.4][1.10.2]-r1.2.2.jar
+* BaseMetals_1.10.2-2.4.0.11.jar
+* BetterAgriculture-[1.10.2]-1.0.1.jar
+* BQMIE-1.10.2-1.0.0.1-universal.jar
+* compactstorage-2.1-1.9.4.jar
+* EndMetals_1.9-1.0.4.jar
+* Fluidity-6.1.4.jar
+* LootTableTweaker-1.10.2-1.0.0.6.jar
+* NetherMetals_1.9-1.1.2.jar
+
+### Config Changes
+* Dump von - Biomen - Blöcken - Enchantments - Entities - Fluids - Items - Loot Tables - Potions - Villagerprofessions zum nachschlagen und suchen
+* ExCompressum ausschalten der Auto-* Maschinen - Ref #48
+* Plants Config Changes durch Mod Update
+* VTweaks Config Changes durch Mod Update
+* Anpassung Water Strainer nach Tests durch euch - Ref #75 - Strainer Survivalist Mesh angepasst an neue Zahlen - Wide wird Rohstoffe werden - Tight werden Edelsteine, Redstone usw werden
+* Config Changes durch Mod Update
+* UniDict Config Changes durch Mod Update
+* Erste Anpassung an Ex Nihilo Sieve - Ref #75 - Sand im Sieve ist angepasst worden nach unseren ermittelten Zahlen
+* Dynamic Surroundings Config Update durch Mod Update
+* Tiny Progression Config Changes durch Mod Update
+* Nach dem Update und dem entfernen des Chickens Mods hier die - Vanilla Chickens ausschalten
+* Debug Tools ausschalten, da sonst: - Beim Klicken mit Gold Nugget auf Compacting Drawer komische Effekte passieren
+* Material Liste zur Diskussion Ref #75
+* Version v0.6
+
+
+## Changelog v0.6 -> v0.7
+### Mod Updates
+* achievementbooks-1.0b78-MC1.10.2.jar -> 1.0b82-MC1.10.2
+* animania-1.10-1.0.2.jar -> 1.10-1.0.4.1
+* BaseMetals-1.10.2-2.5.0-beta1.59.jar 1.10.2-2.4.0.11
+* ChestTransporter-1.10.2-2.5.9.jar -> 1.10.2-2.5.10
+* Chisel-MC1.10.2-0.0.8.12.jar -> 0.0.9.15
+* CoFHCore-1.10.2-4.1.0.155-universal.jar -> 1.10.2-4.1.1.156-universal
+* compatlayer-1.10-0.2.2.jar -> 1.10-0.2.5
+* CustomNPCs_1.10.2(20nov16).jar -> 1.10.2(17mar17)
+* DynamicSurroundings-1.10.2-3.3.2.0.jar -> 1.10.2-3.3.3.0
+* EndMetals_1.9-1.0.4.jar -> 1.10.2-1.2.0-beta1.12
+* EngineersWorkshop-1.2.0-1.10.2.jar -> 1.2.1-1.10.2
+* ExCompressum_1.10.2-2.0.87.jar -> 1.10.2-2.0.97
+* exnihiloadscensio-1.10.2-0.1.17.jar -> 1.10.2-0.1.19
+* foamfix-0.6.1-anarchy.jar -> 0.6.2-beta2-anarchy
+* furnus-1.10.2-1.91.jar -> 1.10.2-1.92
+* malisiscore-1.10.2-4.3.0.jar -> 1.10.2-4.4.0
+* ModernMetals-0.11.0.jar -> 1.10.2-2.5.0-beta1.21
+* ModTweaker2-2.0.10.jar -> 2.0.11
+* MTLib-1.0.1.jar -> 1.0.2
+* multistorage-1.10.0-1.2.15.jar -> 1.10.0-1.2.16
+* NetherMetals_1.9-1.1.2.jar -> 1.10.2-1.2.0-beta1.14
+* OptiFine_1.10.2_HD_U_D6.jar -> 1.10.2_HD_U_D7
+* Plants-1.10.2-beta-0.5.3.jar -> 1.10.2-beta-0.8.5
+* StorageDrawers-1.10.2-3.6.1.jar -> 1.10.2-3.6.2
+* tellme-1.10.2-0.5.0.jar -> 1.10.2-0.5.2
+* theoneprobe-1.1x-1.4.4.jar -> 1.1x-1.4.5
+* tinyprogressions-1.10.2-1.0.32.jar -> 1.10.2-1.2.0-Hotfix
+* UniDict-1.10.2-2.7.jar -> 1.10.2-2.8
+* VTweaks-1.10.x-1.4.9.13.jar -> 1.10.x-1.4.9.16
+
+### Mod Additions
+* BaseGems-1.10.2-2.5.0-beta1.11.jar
+* BaseMinerals-1.10.2-2.5.0-beta1.10.jar
+* Better With Mods-0.14.19-1.10.2.jar
+* Buckets-1.10.2-0.0.1-alpha1.jar
+* Decocraft-2.3.6.1_1.10.2.jar
+* FantasyMetals-1.10.2-2.5.0-beta1.11.jar
+* keywizard-1.10.2-1.2.jar
+* LootTweaker-1.10.2-0.0.5.1.jar
+* orespawn-2.0.0.15-1.10.2.jar
+* World-Stripper-1.3.0-1.10.2.jar
+
+### Mod Deletions
+* AgriculturalExpansion[1.9.4][1.10.2]-r1.2.2.jar
+* BetterAgriculture-[1.10.2]-1.0.1.jar
+* BQMIE-1.10.2-1.0.0.1-universal.jar
+* compactstorage-2.1-1.9.4.jar
+* Fluidity-6.1.4.jar
+* LootTableTweaker-1.10.2-1.0.0.6.jar
+
+### Config Changes
+* Dump von - Biomen - Blöcken - Enchantments - Entities - Fluids - Items - Loot Tables - Potions - Villagerprofessions zum nachschlagen und suchen
+* ExCompressum ausschalten der Auto-* Maschinen - Ref #48
+* Plants Config Changes durch Mod Update
+* VTweaks Config Changes durch Mod Update
+* Anpassung Water Strainer nach Tests durch euch - Ref #75 - Strainer Survivalist Mesh angepasst an neue Zahlen - Wide wird Rohstoffe werden - Tight werden Edelsteine, Redstone usw werden
+* Config Changes durch Mod Update
+* UniDict Config Changes durch Mod Update
+* Erste Anpassung an Ex Nihilo Sieve - Ref #75 - Sand im Sieve ist angepasst worden nach unseren ermittelten Zahlen
+* Dynamic Surroundings Config Update durch Mod Update
+* Tiny Progression Config Changes durch Mod Update
+* Nach dem Update und dem entfernen des Chickens Mods hier die - Vanilla Chickens ausschalten
+* Debug Tools ausschalten, da sonst: - Beim Klicken mit Gold Nugget auf Compacting Drawer komische Effekte passieren
+* Material Liste zur Diskussion Ref #75
+* Version v0.6
+
+
+## Changelog v0.6 -> v0.6.1
+### Mod Deletions
+* Additional-Compression
+
+### Config Changes
+* Version v0.6
+
+
 ## Changelog v0.5 -> v0.6
 ### Mod Updates
 * achievementbooks-1.0b78-MC1.10.2.jar -> 1.0b82-MC1.10.2
