@@ -16,8 +16,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Fancy Fluid Storage (FFS)
 * buildersguide
 * generators (mit starken Einschränkungen)
-* hopperducts (Eventuell auch von Anfang an?)
-* multistorage (Eventuell auch von Anfang an?) 
 * Pressure (mit starken Einschränkungen)
 * Automated Redstone (Einschränkungen?)
 * Steam Advantage
