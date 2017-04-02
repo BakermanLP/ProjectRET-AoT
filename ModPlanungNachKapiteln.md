@@ -7,6 +7,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Bloodmagic
 * GuideAPI (Abhängigkeit von BloodMagic)
 * NotEnoughWands
+* Totemic
 * roots
 
 ### Steam Punk
