@@ -63,8 +63,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 
 ## Eventuelle weitere Mods
 * Magneticraft (Bis Electric Age nur wenige Blöcke eventuell)
+* NuclearCraft
 * Psi (im Magic Age)
 * Buildcraft (Steam Power?)
-
-## Anmerkungen
-* Eventuelles drehen von Magic und Steampunk in der Reihenfolge
