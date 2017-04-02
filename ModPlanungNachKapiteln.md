@@ -10,6 +10,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Totemic
 * roots
 * Charset
+* Inductive Automation (mit Einschränkungen)
 * endertanks
 * Fancy Fluid Storage (FFS)
 * buildersguide
@@ -17,6 +18,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * hopperducts (Eventuell auch von Anfang an?)
 * multistorage (Eventuell auch von Anfang an?) 
 * Pressure (mit starken Einschränkungen)
+* Automated Redstone (Einschränkungen?)
 * Steam Advantage
 * Tinker IO
 * topaddons
@@ -31,12 +33,15 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 #### Zusätzliche Mods
 * Bookshelf API (Neotech Abhängigkeit)
 * Common Capabilities
+* Deep Resonance
 * Electric Advantage
 * EnderIO
 * Neotech
+* RF Tools
 * Tesla
 * TIS-3D
 * woot
+* XNet
 
 #### Config Änderungen
 * Pressure Pipes komplett freischalten
