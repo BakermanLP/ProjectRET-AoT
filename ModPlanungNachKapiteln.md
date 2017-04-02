@@ -11,6 +11,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * roots
 * Charset
 * Inductive Automation (mit Einschränkungen)
+* EnderIO
 * endertanks
 * Fancy Fluid Storage (FFS)
 * buildersguide
@@ -23,6 +24,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Tinker IO
 * topaddons
 * ViesCraft
+* Eventuell Storage Network
 
 #### Config Changes
 * Forestry Maschinen freischalten
@@ -35,7 +37,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Common Capabilities
 * Deep Resonance
 * Electric Advantage
-* EnderIO
 * Neotech
 * RF Tools
 * Tesla
@@ -51,6 +52,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 
 ### Moar Power
 #### Zusätzliche Mods
+* Refined Storage + Reborn Storage
 * Extrem Reactors
 * OpenComputers
 * Power Advantage
