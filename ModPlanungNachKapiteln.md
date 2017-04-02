@@ -1,7 +1,7 @@
 ## Modplanung nach Kapiteln
 Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welche groben Änderungen sich ergeben
 
-### It's a kind of magic
+### Dark Age (war SteamPunk + It's a kind of magic)
 #### Zusätzliche Mods
 * Botania
 * Bloodmagic
@@ -9,9 +9,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * NotEnoughWands
 * Totemic
 * roots
-
-### Steam Punk
-#### Zusätzliche Mods
 * Charset
 * endertanks
 * Fancy Fluid Storage (FFS)
@@ -25,12 +22,12 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * topaddons
 * ViesCraft
 
-#### Config Änderungen
+#### Config Changes
 * Forestry Maschinen freischalten
 * Progressiv Automation freischalten (RF Power)
 * Platforms Metall Plattformen freischalten (eventuell)
 
-### Electic Age
+### Electric Age
 #### Zusätzliche Mods
 * Bookshelf API (Neotech Abhängigkeit)
 * Common Capabilities
