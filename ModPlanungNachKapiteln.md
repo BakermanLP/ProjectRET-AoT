@@ -1,44 +1,46 @@
 ## Modplanung nach Kapiteln
 Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welche groben Änderungen sich ergeben
 
-### It's a kind of magic
+### Dark Age (war SteamPunk + It's a kind of magic)
 #### Zusätzliche Mods
 * Botania
 * Bloodmagic
 * GuideAPI (Abhängigkeit von BloodMagic)
 * NotEnoughWands
+* Totemic
 * roots
-
-### Steam Punk
-#### Zusätzliche Mods
 * Charset
+* Inductive Automation (mit Einschränkungen)
+* EnderIO
 * endertanks
 * Fancy Fluid Storage (FFS)
 * buildersguide
-* generators (mit starken Einschränkungen)
-* hopperducts (Eventuell auch von Anfang an?)
-* multistorage (Eventuell auch von Anfang an?) 
 * Pressure (mit starken Einschränkungen)
+* Automated Redstone (Einschränkungen?)
+* Simple Generators (max Tier 1)
 * Steam Advantage
 * Tinker IO
-* topaddons
 * ViesCraft
+* Eventuell Storage Network
 
-#### Config Änderungen
+#### Config Changes
 * Forestry Maschinen freischalten
 * Progressiv Automation freischalten (RF Power)
 * Platforms Metall Plattformen freischalten (eventuell)
 
-### Electic Age
+### Electric Age
 #### Zusätzliche Mods
 * Bookshelf API (Neotech Abhängigkeit)
 * Common Capabilities
+* Deep Resonance
 * Electric Advantage
-* EnderIO
+* generators (mit starken Einschränkungen)
 * Neotech
+* RF Tools
 * Tesla
 * TIS-3D
 * woot
+* XNet
 
 #### Config Änderungen
 * Pressure Pipes komplett freischalten
@@ -48,6 +50,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 
 ### Moar Power
 #### Zusätzliche Mods
+* Refined Storage + Reborn Storage
 * Extrem Reactors
 * OpenComputers
 * Power Advantage
@@ -60,8 +63,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 
 ## Eventuelle weitere Mods
 * Magneticraft (Bis Electric Age nur wenige Blöcke eventuell)
+* NuclearCraft
 * Psi (im Magic Age)
 * Buildcraft (Steam Power?)
-
-## Anmerkungen
-* Eventuelles drehen von Magic und Steampunk in der Reihenfolge
