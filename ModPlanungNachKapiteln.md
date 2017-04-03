@@ -15,12 +15,11 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * endertanks
 * Fancy Fluid Storage (FFS)
 * buildersguide
-* generators (mit starken Einschränkungen)
 * Pressure (mit starken Einschränkungen)
 * Automated Redstone (Einschränkungen?)
+* Simple Generators (max Tier 1)
 * Steam Advantage
 * Tinker IO
-* topaddons
 * ViesCraft
 * Eventuell Storage Network
 
@@ -35,6 +34,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Common Capabilities
 * Deep Resonance
 * Electric Advantage
+* generators (mit starken Einschränkungen)
 * Neotech
 * RF Tools
 * Tesla
