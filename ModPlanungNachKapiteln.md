@@ -5,6 +5,7 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 #### Zusätzliche Mods
 * Botania
 * Bloodmagic
+* Common Capabilities
 * GuideAPI (Abhängigkeit von BloodMagic)
 * NotEnoughWands
 * Totemic
@@ -15,10 +16,9 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * endertanks
 * Fancy Fluid Storage (FFS)
 * buildersguide
-* Pressure (mit starken Einschränkungen)
 * Automated Redstone (Einschränkungen?)
 * Simple Generators (max Tier 1)
-* Steam Advantage
+* ~~Steam Advantage~~
 * Tinker IO
 * ViesCraft
 * Eventuell Storage Network
@@ -31,13 +31,13 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 ### Electric Age
 #### Zusätzliche Mods
 * Bookshelf API (Neotech Abhängigkeit)
-* Common Capabilities
 * Deep Resonance
-* Electric Advantage
+* ~~Electric Advantage~~
 * generators (mit starken Einschränkungen)
 * Neotech
+* Pressure (mit starken Einschränkungen)
 * RF Tools
-* Tesla
+* ~~Tesla~~
 * TIS-3D
 * woot
 * XNet
@@ -46,7 +46,6 @@ Hier könnt ihr erfahren, in welchem Kapitel Mods hinzugefügt werden, oder welc
 * Pressure Pipes komplett freischalten
 * morebees (irgendwas wollte ich hier erst freischalten?!?!)
 * grapplemod höhere Grapples freischalten
-* generators komplett freischalten
 
 ### Moar Power
 #### Zusätzliche Mods
