@@ -39,7 +39,7 @@ Dieses Zeitalter soll sich in den meisten Teilen anfühlen, wie Vanilla Minecraf
 * [ClockHUD](https://minecraft.curseforge.com/projects/clock-hud)
 * [CodeChickenLib](https://minecraft.curseforge.com/projects/codechicken-lib-1-8)
 * [CoFHCore](https://minecraft.curseforge.com/projects/cofhcore)
-* [compatlayer](://minecraft.curseforge.com/projects/compatlayer)
+* [compatlayer](https://minecraft.curseforge.com/projects/compatlayer)
 * [CraftingTweaks](https://minecraft.curseforge.com/projects/crafting-tweaks)
 * [CraftTweaker](https://minecraft.curseforge.com/projects/crafttweaker)
 * [CustomMainMenu](https://minecraft.curseforge.com/projects/custom-main-menu)
