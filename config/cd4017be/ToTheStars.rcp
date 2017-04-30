@@ -1,0 +1,30 @@
+
+INIT() {
+	!--Inductive Automation--
+	add("shaped", it("m.amAcelerator"), "000/010/000", it("m.unbrC"), it("m.mAccelerator"));
+	add("shaped", it("m.Focus"), "010/121/010", it("m.Circuit"), it("tile.electricCoilH"), it("m.ingotQAlloy"));
+	add("shaped", it("item.jetpackUnbr"), "010", it("m.unbrC"), it("item.jetpack"));
+	add("shapedNBT", "#energy, #antimatter, #matter", it("item.amLaser"), "012/334/056", it("m.Focus"), it("tile.magnet"), it("tile.matterOrb"), it("m.amAcelerator"), it("tile.antimatterTank"), it("tile.link"), it("tile.OCSU"));
+	add("shapedNBT", "#energy, #matter", it("item.mCannon"), "255/001/234", it("m.mAccelerator"), it("tile.matterOrb"), it("m.Focus"), it("tile.link"), it("tile.OCSU"), it("m.Circuit"));
+	add("shaped", it("item.matterInterface"), "000/121/333", it("itemPipeI"), it("m.ingotQAlloy"), it("m.Circuit"), it("itemPipeE"));
+	add("shaped", it("tile.matterOrb"), "000/010/000", it("tile.massstorageChest"), it("m.QMatrix"));
+	add("shaped", it("tile.matterInterfaceB"), "010", it("m.WoodC"), it("item.matterInterface"));
+	add("shaped", it("tile.antimatterBombE"), "010/232/040", it("m.DenseM"), it("tile.antimatterTank"), it("m.SteelH"), it("m.unbrC"), it("tile.matterOrb"));
+	add("shaped", it("tile.antimatterBombF"), "010/121/010", it("minecraft:gunpowder"), it("minecraft:tnt"), it("tile.antimatterBombE"));
+	add("shaped", it("tile.quantumTank"), "202/010/202", it("tile.hugeTank"), it("m.QMatrix"), it("m.ingotQAlloy"));
+	add("shaped", it("tile.fluidPacker"), "000/121/343", it("tile.tank"), it("m.ingotQAlloy"), it("m.GlassC"), it("minecraft:piston"), it("m.WoodC"));
+	add("shaped", it("tile.unbrGlass", 32), "000/010/000", it("m.GlassC"), it("m.unbrC"));
+	{Loc dyes = core.dyes;
+	for(i : #dyes) {
+		add("ore", "blockUnbrStone", it("tile.unbrStone", 1, i));
+		add("shaped", it("tile.unbrStone", 32, i), "010/121/010", it("m.StoneC"), it("minecraft:wool", 1, 15 - i), it("m.unbrC"));
+		add("shaped", it("tile.unbrStone", 8, i), "000/010/000", "blockUnbrStone", dyes:i);
+	}}
+	print("added crafting recipes");
+	
+	add("advFurn", [fl("antimatter", 2000), it("minecraft:ender_pearl", 2), it("minecraft:end_stone", 4), it("m.ingotHydrogen")], [it("m.ingotQAlloy")], 20000);
+	add("compAs", it("m.QMatrix"), it("m.EMatrix"), it("m.QSGen"), it("m.ingotQAlloy", 2), it("m.LCHelium"));
+	add("compAs", it("m.unbrC"), nil, nil, it("m.DenseM"), it("minecraft:bedrock"));
+	add("trash", it("minecraft:bedrock"), it("minecraft:diamond_block"), 40960000);
+	print("added misc machine recipes");
+}

@@ -1,0 +1,229 @@
+
+INIT() {
+	!--Automated Redstone--
+	Loc WILDCARD = core.WILDCARD;
+	Loc slab = it("minecraft:stone_slab");
+	Loc nbt = "#IO,#Cap,#Gate,#Calc,#data,#name,#io,#ofs";!<- DON'T EDIT (bad things would happen)
+	add("shapedNBT", nbt, it("tile.circuit", 1, 1), "0/1", it("tile.circuit"), "ingotGold");
+	add("shapedNBT", nbt, it("tile.circuit", 1, 2), " 1 /202/ 1 ", it("tile.circuit", 1, 1), "gemQuartz", it("minecraft:dye", 1, 4));
+	add("shaped", it("tile.oszillograph"), "222/010", it("m.CalcPrc"), it("tile.display8bit"), it("minecraft:glass_pane"));
+	add("shaped", it("tile.fluidValve"), "010/232/040", slab, it("minecraft:comparator"), it("minecraft:bucket"), it("minecraft:piston"), it("tile.rsp8bit"));
+	add("shaped", it("tile.energyValve"), "010/232/040", slab, it("minecraft:comparator"), "ingotGold", "blockRedstone", it("tile.rsp8bit"));
+	add("shaped", it("tile.wirelessCon"), "010/2 2/3 3", it("minecraft:obsidian"), it("minecraft:ender_eye"), "gemQuartz", it("tile.rsp8bit"));
+	add("shaped", it("tile.wirelessCon"), "00", it("tile.wirelessCon", 1, 1));
+	add("shaped", it("tile.bitShifter"), "0/1", it("m.IORelay"), it("tile.rsp8bit"));
+	add("shaped", it("tile.blockSensor"), " 3 /010/ 2 ", slab, "gemQuartz", it("tile.rsp8bit"), it("minecraft:chest"));
+	add("shaped", it("tile.lever8bit"), "000/010/000", it("minecraft:lever"), slab);
+	add("shaped", it("tile.rsp8bit", 2), "000/010/000", it("rsp1bitN"), "nuggetGold");
+	add("shaped", it("m.emptySensor", 4), " 0 /010/232", "nuggetGold", it("minecraft:paper"), "ingotIron", it("minecraft:comparator"));
+	add("shapeless", it("item.itemSensor"), it("m.emptySensor"), it("minecraft:chest"));
+	add("shapeless", it("item.fluidSensor"), it("m.emptySensor"), it("minecraft:bucket"));
+	add("shapeless", it("item.timeSensor"), it("m.emptySensor"), it("minecraft:clock"));
+	add("shapeless", it("item.energySensor"), it("m.emptySensor"), it("minecraft:piston"));
+	
+	!--Inductive Automation--
+	!Ore processing
+	for(metal : core.metals) {
+		Loc ingot = ["ore:ingot", metal]$,
+			dust = ["m.dust", metal]$,
+			oxide = ["m.oxide", metal]$,
+			oreB = ["ore", metal]$;
+		!if(hasit(oreB, ingot)) {add("smelt", it(oreB), it(ingot));}
+		if(hasit(dust, ingot)) {add("smelt", it(dust), it(ingot));}
+		if(hasit(oxide, ingot)) {add("smelt", it(oxide), it(ingot));}
+		if(hasit(["ore:", oreB]$, ingot)) {add("advFurn", [fl("lava", 20), ore(oreB)], [it(ingot, 2), it("minecraft:stone")], 400);}
+		if(hasit(["ore:", oreB]$, dust)) {add("advFurn", [fl("water", 10), ore(oreB)], [fl("waterg", 16000), it(oxide, 2), it("minecraft:gravel")], 800);}
+		if(hasit(oxide, dust)) {add("electr", it(oxide, 2), it(dust, 3), fl("oxygeng", 2000), 1000);}
+	}
+	print("added ore processing recipes");
+	
+	!Crafting
+	!Syntax: add("shapeless", result, ingredients...);
+	!Syntax: add("shaped", result, pattern, ingredients...);
+	!Syntax: add("shapedNBT", tags, result, pattern, ingredients...); tag prefix: '#' copy tag from ingred, '+' sum tag values of all ingreds
+	add("shaped", it("m.magnet"), "  0/ 1 /0  ", "ingotIron", "ingotRedstAlloy");
+	add("shaped", it("m.Motor"), " 0 /121/ 0 ", it("tile.shaft"), it("tile.electricCoilA"), it("m.magnet"));
+	add("shaped", it("m.Breaker"), "01/ 4/23", it("minecraft:golden_pickaxe"), it("m.Motor"), it("minecraft:hopper"), it("m.WoodC"), it("m.IronC"));
+	add("shaped", it("m.Placer"), "01/ 4/23", it("minecraft:piston"), it("tile.electricCoilA"), it("minecraft:dispenser"), it("m.WoodC"), it("m.IronC"));
+	add("shaped", it("m.AreaFrame"), "000/123/000", it("minecraft:iron_bars"), it("m.Circuit"), it("m.Motor"), it("tile.shaft"));
+	add("shaped", it("m.Strap"), "0 0/000/000", it("minecraft:string"));
+	add("shaped", it("m.Control"), "010/234", it("tile.potentiometer"), it("tile.display8bit"), it("item.energySensor"), it("m.Circuit"), it("item.timeSensor"));
+	add("shaped", it("m.JetTurbine"), "010/232/454", it("tile.pneumaticPiston"), it("tile.shaft"), it("tile.gasPipe"), it("m.Turbine"), it("m.SteelH"), it("tile.gasVent"));
+	add("shapedNBT", "+energy", it("item.energyCell"), "0", it("tile.SCSU"));
+	add("shaped", it("item.contJetFuel"), "010/222", it("liquidPipeT"), it("tile.fluidValve"), it("tile.tank"));
+	add("shaped", it("item.contLiquidAir"), "00/01", it("m.LCNitrogen"), it("m.LCOxygen"));
+	add("shaped", it("item.contAlgaeFood"), "000/010/000", it("m.LCAlgae"), it("minecraft:golden_apple"));!balanced
+	add("shaped", it("item.jetpack"), " 3 /010/2 2", "ingotSteel", it("m.Strap"), it("m.JetTurbine"), it("m.Control"));
+	add("shaped", it("item.jetpackIron"), "010", it("m.IronC"), it("item.jetpack"));
+	add("shaped", it("item.jetpackSteel"), "010", it("m.SteelH"), it("item.jetpack"));
+	add("shaped", it("item.jetpackGraphite"), "010", it("m.GDPlate"), it("item.jetpack"));
+	add("shaped", it("item.selectionTool"), "0/1", it("minecraft:compass"), it("m.Circuit"));
+	add("shaped", it("item.voltMeter"), "1/2/0", it("m.emptySensor"), it("minecraft:compass"), it("tile.electricCoilC"));
+	add("shaped", it("item.manometer"), "323/410", it("minecraft:glass_bottle"), it("minecraft:leather"), it("minecraft:stick"), it("minecraft:paper"), it("m.emptySensor"));
+	add("shaped", it("item.rotationSensor"), "012/ 3 ", "dustGlowstone", it("tile.shaft"), it("minecraft:daylight_detector"), it("m.emptySensor"));
+	add("shaped", it("item.thermometer"), "323/004/11 ", "ingotIron", "ingotCopper", it("minecraft:stick"), it("minecraft:paper"), it("m.emptySensor"));
+	add("shapedNBT", "+energy", it("item.chisle"), " 00/120/31 ", "gemDiamond", it("tile.electricCoilA"), it("m.magnet"), it("item.energyCell", 1, WILDCARD));
+	add("shapedNBT", "+energy", it("item.cutter"), "20/10/3 ", "gemDiamond", it("m.Motor"), "ingotIron", it("item.energyCell", 1, WILDCARD));
+	add("shapedNBT", "+energy", it("item.portableMagnet"), "0/1", it("tile.magnet", 1), it("item.energyCell", 1, WILDCARD));
+	add("shaped", it("item.stoneDrill"), " 0 /010/ 0 ", it("minecraft:stone_pickaxe"), it("m.StoneC"));
+	add("shaped", it("item.ironDrill"), " 0 /010/ 0 ", it("minecraft:iron_pickaxe"), it("m.SteelH"));
+	add("shaped", it("item.diamondDrill"), " 0 /010/ 0 ", it("minecraft:diamond_pickaxe"), it("m.GDPlate"));
+	add("shaped", it("item.fluidUpgrade", 4), "012", it("minecraft:comparator"), it("m.GlassC"), it("m.Circuit"));
+	add("shapedNBT", "#mode, #list", it("item.fluidUpgrade", 2), "00", it("item.fluidUpgrade"));
+	add("shaped", it("item.itemUpgrade", 4), "012", it("minecraft:comparator"), it("m.WoodC"), it("m.Circuit"));
+	add("shapedNBT", "#mode, #maxAm, #list", it("item.itemUpgrade", 2), "00", it("item.itemUpgrade"));
+	add("shapedNBT", "#energy", it("item.portableFurnace"), " 0 /123/ 0 ", it("minecraft:string"), it("itemPipeE"), it("tile.energyFurnace"), it("item.energyCell"));
+	add("shaped", it("item.portableCrafter"), "0/1/0", it("minecraft:string"), it("tile.autoCrafting"));
+	add("shaped", it("item.portableGenerator"), " 0 /123/ 0 ", it("minecraft:string"), it("itemPipeE"), it("tile.steamBoiler"), it("tile.steamEngine"));
+	add("shapedNBT", "#energy", it("item.portablePump"), "01/23/45", it("tile.collector"), it("liquidPipeE"), it("m.Motor"), it("liquidPipeI"), it("item.energyCell"), it("m.GlassC"));
+	add("shaped", it("item.placement", 4), "012", it("m.WoodC"), it("m.Circuit"), it("minecraft:dispenser"));
+	add("shapedNBT", "#list", it("item.placement", 2), "00", it("item.placement"));
+	add("shaped", it("item.remBlockType"), "0/1", it("minecraft:wooden_pickaxe", 1, WILDCARD), it("minecraft:paper"));
+	add("shapeless", it("minecraft:paper"), it("item.builderTexture"));
+	!add("shaped", it("item.vertexSel"), "0/1", it("minecraft:compass"), it("m.ingotRedstAlloy"));
+	!add("shaped", it("minecraft:paper"), " 0 ", it("minecraft:paper"));
+	!add("shaped", it("minecraft:book"), " 0 ", it("minecraft:book"));
+	print("added item crafting recipes");
+	add("shaped", it("tile.wireC", 8), "000", "ingotCopper");
+	add("shaped", it("tile.wireA", 8), "000", "ingotConductive");
+	add("shaped", it("tile.electricHeater"), "020/212/303", it("minecraft:iron_bars"), it("tile.thermIns"), "ingotGraphite", it("tile.wireC"));
+	add("shaped", it("tile.electricHeater"), "000/010/202", "ingotInvar", it("tile.thermIns"), it("tile.wireC"));
+	add("shaped", it("tile.electricCoilC"), "000/010/000", it("tile.wireC"), "ingotIron");
+	add("shaped", it("tile.electricCoilA"), "000/010/000", it("tile.wireA"), "ingotIron");
+	add("shapedNBT", "+energy", it("tile.SCSU"), "0/1", it("item.energyCell", 1, WILDCARD), it("tile.wireC"));
+	add("shapedNBT", "+energy", it("tile.OCSU"), "000/010/000", it("item.energyCell", 1, WILDCARD), it("tile.wireA"));
+	add("shaped", it("tile.steamEngine"), "010/ 23", it("m.GlassC"), it("tile.pneumaticPiston"), it("m.magnet"), it("tile.electricCoilC"));
+	add("shaped", it("tile.steamGenerator"), "000/121/000", it("tile.pneumaticPiston"), it("m.GlassC"), it("m.Motor"));
+	add("shaped", it("tile.energyFurnace"), "010/232", it("tile.electricHeater"), it("tile.heatedFurnace"), it("tile.wireA"), it("m.IronC"));
+	add("shaped", it("tile.magnet", 2), "010/121/010", it("minecraft:iron_bars"), it("tile.electricCoilA"), "ingotIron");
+	add("shaped", it("tile.farm"), "1 4/023", it("m.Circuit"), it("m.WoodC"), it("m.AreaFrame"), it("m.Breaker"), it("m.Placer"));
+	add("shaped", it("tile.miner"), "1 3/023", it("m.IronC"), it("m.WoodC"), it("m.AreaFrame"), it("m.Breaker"));
+	add("shaped", it("tile.builder"), "1 3/023", it("m.Circuit"), it("m.WoodC"), it("m.AreaFrame"), it("m.Placer"));
+	add("shaped", it("tile.link"), "002/113/002", "ingotIron", it("tile.electricCoilA"), "ingotElectrum", it("m.Circuit"));
+	add("shaped", it("tile.texMaker"), "021/333", it("minecraft:feather"), "dyeBlack", it("m.WoodC"), it("minecraft:stone_slab"));
+	add("shaped", it("tile.pool"), "1/0", it("m.GlassC"), "paneGlass");
+	add("shaped", it("tile.algaePool"), "000/123", it("m.GlassC"), it("m.WoodC"), it("m.Circuit"), it("m.IronC"));
+	add("shaped", it("tile.teslaTransmitterLV"), "000/121/131", "ingotGold", it("tile.electricCoilA"), it("m.LCNitrogen"), it("tile.OCSU"));
+	add("shaped", it("tile.pump"), "0 4/123", it("m.Circuit"), it("m.GlassC"), it("m.AreaFrame"), it("tile.electricCoilA"), it("tile.collector"));
+	add("shaped", it("tile.advancedFurnace"), "121/343/050", it("tile.electricHeater"), it("m.WoodC"), it("m.IronC"), it("m.GlassC"), it("m.Vent"), it("m.StoneC"));
+	add("shaped", it("tile.electricCompressor"), "0 0/121/3 3", it("tile.electricCoilA"), it("minecraft:piston"), it("m.IronC"), it("m.WoodC"));
+	add("shaped", it("tile.autoCrafting"), " 1 /030/020", it("m.WoodC"), it("m.Circuit"), it("minecraft:crafting_table"), it("minecraft:piston"));
+	add("shaped", it("tile.decompCooler"), "202/343/202", it("m.Vent"), it("m.SteelH"), it("m.GlassC"), it("tile.pneumaticPiston"), it("m.Motor", 1));
+	add("shaped", it("tile.electrolyser"), "0 0/121/333", "ingotConductive", it("m.ingotGraphite"), it("m.SteelH"), it("m.GlassC"));
+	add("shaped", it("tile.itemSorter"), " 0 /010/ 0 ", it("itemPipeI"), it("m.WoodC"));
+	!add("shaped", it("tile.lightShaft", 4), "010/232/232", it("m.ingotSilicon"), it("minecraft:daylight_detector"), "dustGlowstone", "blockGlass");
+	add("shaped", it("tile.itemBuffer"), " 0 /121", it("m.Circuit"), it("m.WoodC"), it("minecraft:piston"));
+	!add("shaped", it("tile.vertShemGen"), "010/020/333", "dustGlowstone", it("minecraft:writable_book"), it("m.Circuit"), it("minecraft:stone_slab"));
+	add("shaped", it("tile.heatRadiator"), "000/121/000", it("minecraft:iron_bars"), it("m.GlassC"), it("m.Vent"));
+	print("added block crafting recipes");
+
+	!Advanced Furnace
+	!Syntax: add("advFurn", [ingredients...], [results...], energy);
+	add("advFurn", [fl("lava", 40), ore("ingotIron", 2), it("minecraft:coal")], [it("m.ingotSteel", 2), it("minecraft:stone")], 800);
+	add("advFurn", [fl("lava", 40), ore("gemQuartz"), it("minecraft:coal")], [it("m.ingotSilicon"), it("minecraft:stone")], 800);
+	add("advFurn", [fl("lava", 40), ore("gemQuartz"), it("minecraft:coal", 1, 1)], [it("m.ingotSilicon"), it("minecraft:stone")], 800);
+	add("advFurn", [fl("lava", 125), it("minecraft:coal", 4)], [it("m.ingotGraphite"), it("minecraft:stone", 2)], 800);
+	!add("advFurn", [fl("lava", 6000), it("m.ingotGraphite", 16), ore("gemDiamond", 8)], [it("minecraft:diamond_block"), it("minecraft:stone", 96)], 3200);
+	!add("advFurn", [fl("lava", 8000), it("m.GDPlate", 6)], [it("minecraft:diamond_block"), it("minecraft:stone", 128)], 20000);
+	add("advFurn", [fl("water", 5), ore("stone")], [fl("waterg", 8000), it("minecraft:cobblestone")], 200);
+	add("advFurn", [fl("water", 5), ore("cobblestone")], [fl("waterg", 8000), it("minecraft:gravel")], 200);
+	add("advFurn", [fl("water", 5), ore("gravel")], [fl("waterg", 8000), it("minecraft:sand")], 200);
+	add("advFurn", [fl("water", 10), ore("sandstone")], [fl("waterg", 16000), it("minecraft:sand", 4)], 400);
+	add("advFurn", [fl("water", 5), ore("oreCoal")], [fl("waterg", 8000), it("minecraft:coal", 2), it("minecraft:gravel")], 400);
+	add("advFurn", [fl("water", 10), ore("oreDiamond")], [fl("waterg", 16000), it("minecraft:diamond", 2), it("minecraft:gravel")], 800);
+	add("advFurn", [fl("water", 10), ore("oreEmerald")], [fl("waterg", 16000), it("minecraft:emerald", 2), it("minecraft:gravel")], 800);
+	add("advFurn", [fl("water", 5), ore("oreRedstone")], [fl("waterg", 8000), it("minecraft:redstone", 8), it("minecraft:gravel")], 400);
+	add("advFurn", [fl("water", 5), ore("oreLapis")], [fl("waterg", 8000), it("minecraft:dye", 8, 4), it("minecraft:gravel")], 400);
+	add("advFurn", [fl("water", 10), ore("oreQuartz")], [fl("waterg", 16000), it("minecraft:quartz", 2), it("minecraft:netherrack")], 800);
+	add("advFurn", [fl("water", 10), it("minecraft:sugar", 2), it("minecraft:rotten_flesh"), ore("dyeGreen")], [it("minecraft:slime_ball", 2)], 320);
+	add("advFurn", [fl("biomass", 100)], [fl("waterg", 8000), it("m.Biomass")], 400);
+	!add("advFurn", [fl("oxygeng", 1000), it("minecraft:coal", 1, 1)], [it("minecraft:dye", 1, 15)], 50);
+	add("advFurn", [ore("ingotSilver"), ore("ingotGold")], [it("m.ingotElectrum", 2)], 250);
+	add("advFurn", [ore("ingotCopper"), ore("ingotAluminium", 2)], [it("m.ingotBrass", 3)], 800);
+	add("advFurn", [ore("ingotCopper"), ore("dustRedstone")], [it("m.ingotRedstAlloy", 2)], 250);
+	add("advFurn", [ore("ingotSilver"), ore("ingotAluminium", 2), it("m.ingotRedstAlloy", 3)], [it("m.ingotConductive", 6)], 1000);
+	add("advFurn", [ore("stone")], [fl("lava", 100)], 2000);
+	add("advFurn", [it("minecraft:blaze_powder")], [fl("lava", 100)], 50);
+	add("advFurn", [it("minecraft:netherrack", 2)], [fl("lava", 100)], 1500);
+	print("added Advanced Furnace recipes");
+	
+	add("compAs", it("m.SteelH"), nil, nil, nil, ore("ingotSteel", 8));
+	add("compAs", it("m.GDPlate"), nil, nil, ore("gemDiamond"), it("m.ingotGraphite", 8));
+	add("compAs", it("m.Circuit"), ore("dustRedstone", 4), it("m.ingotSilicon", 2), it("m.ingotRedstAlloy", 2), it("m.ingotGraphite"));
+	add("compAs", it("m.Turbine"), nil, ore("ingotSteel", 16), nil, it("m.Motor"));
+	add("compAs", it("item.energyCell"), ore("gemLapis", 2), ore("ingotElectrum"), it("m.ingotRedstAlloy"), it("m.ingotGraphite"));
+	add("compAs", it("tile.solarpanel"), ore("paneGlass", 4), ore("ingotElectrum", 2), it("m.ingotRedstAlloy", 2), it("m.ingotSilicon", 2));
+	!add("compAs", it("m.dustConductive", 6), ore("dustRedstone", 2), ore("ingotElectrum"), ore("ingotCopper", 2), ore("ingotIron"));
+	add("compAs", it("m.ingotConductive", 3), it("tile.wireA", 8));
+	add("compAs", it("m.ingotCopper", 3), it("tile.wireC", 8));
+	print("added Compression Assembler recipes");
+	
+	!Electrolyser
+	!Syntax: add("electr", ingredient, result-, result+);
+	add("electr", fl("water", 2), fl("hydrogeng", 2000), fl("oxygeng", 1000), 2400);
+	add("electr", fl("waterg", 3000), fl("hydrogeng", 2000), fl("oxygeng", 1000), 2000);
+	add("electr", it("m.Biomass"), fl("hydrogeng", 8000), it("minecraft:coal", 1, 1), 1200);
+	add("electr", it("m.dustElectrum", 2), it("m.dustGold"), it("m.dustSilver"), 500);
+	add("electr", it("m.ingotRedstAlloy", 2), it("m.dustCopper"), it("minecraft:redstone"), 500);
+	print("added Electrolyser recipes");
+
+	!Heat Radiator
+	!Syntax: add("heatRad", materialIn, materialOut);
+	add("heatRad", fl("waterg", 1600), fl("water", 1));
+	add("heatRad", fl("nitrogenl", 1), fl("nitrogeng", 640));
+	add("heatRad", fl("oxygenl", 1), fl("oxygeng", 800));
+	add("heatRad", fl("hydrogenl", 1), fl("hydrogeng", 800));
+	print("added Heat Radiator recipes");
+
+	!Decompression Cooler
+	!Syntax: add("cool", coolantIn, coolantOut, materialIn, materialOut, energy);
+	add("cool", fl("water", 5), fl("waterg", 8000), fl("waterg", 8000), it("minecraft:snowball"), 20);
+	add("cool", fl("water", 5), fl("waterg", 8000), fl("water", 1000), it("minecraft:ice"), 40);
+	add("cool", fl("water", 5), fl("waterg", 8000), fl("nitrogeng", 3200), fl("nitrogenl", 5), 100);
+	add("cool", fl("water", 5), fl("waterg", 8000), fl("oxygeng", 4000), fl("oxygenl", 5), 100);
+	add("cool", fl("nitrogenl", 5), fl("nitrogeng", 3200), fl("hydrogeng", 4000), fl("hydrogenl", 5), 100);
+	print("added Decompression Cooler recipes");
+
+	!Algae fermenting
+	!Syntax: add("algae", ingredient, nutrientValue, algaeValue);
+	add("algae", it("minecraft:cactus"), 75, 0);
+	add("algae", it("minecraft:sugar"), 75, 0);
+	add("algae", it("minecraft:egg"), 240, 0);
+	add("algae", it("minecraft:waterlily"), 20, 10);
+	add("algae", ore("treeSapling"), 160, 0);
+	add("algae", ore("treeLeaves"), 20, 2);
+	add("algae", ore("dye"), 80, 0);
+	add("algae", ore("cropWheat"), 80, 0);
+	add("algae", ore("cropPotato"), 80, 0);
+	add("algae", ore("cropCarrot"), 80, 0);
+	add("algae", ore("logWood"), 120, 0);
+	add("algae", ore("itemSeeds"), 80, 0);
+	add("algae", ore("blockMushroom"), 40, 0);
+	!TODO: mehr hinzufügen (der neue Kompost)
+	print("added Algae Fermenting recipes");
+}
+
+POST_INIT() {
+	!Ore processing und Alloys für Materialien aus anderen mods (TODO: kann ergänzt werden)
+	!wenn sicher gestellt ist, dass die Materialien tatsächlich vorhanden sind, können die if-statements auch weggelassen werden.
+	if(hasit("ore:oreTin", "ore:ingotTin")) {add("advFurn", [fl("lava", 20), ore("oreTin")], [it("ore:ingotTin", 2), it("minecraft:stone")], 400);}
+	if(hasit("ore:oreLead", "ore:ingotLead")) {add("advFurn", [fl("lava", 20), ore("oreLead")], [it("ore:ingotLead", 2), it("minecraft:stone")], 400);}
+	if(hasit("ore:oreNickel", "ore:ingotNickel")) {add("advFurn", [fl("lava", 20), ore("oreNickel")], [it("ore:ingotNickel", 2), it("minecraft:stone")], 400);}
+	if(hasit("ore:orePlatinum", "ore:ingotPlatinum")) {add("advFurn", [fl("lava", 40), ore("orePlatinum")], [it("ore:ingotPlatinum", 2), it("minecraft:stone", 2)], 800);}
+	if(hasit("ore:oreUranium", "ore:ingotUranium")) {add("advFurn", [fl("lava", 40), ore("oreUranium")], [it("ore:ingotUranium", 2), it("minecraft:stone", 2)], 800);}
+	if(hasit("ore:oreYellorium", "ore:ingotYellorium")) {add("advFurn", [fl("lava", 40), ore("oreYellorium")], [it("ore:ingotYellorium", 2), it("minecraft:stone", 2)], 800);}
+	if(hasit("ore:oreTin", "ore:dustTin")) {add("advFurn", [fl("water", 5), ore("oreTin")], [fl("waterg", 8000), it("ore:dustTin", 2), it("minecraft:gravel")], 400);}
+	if(hasit("ore:oreLead", "ore:dustLead")) {add("advFurn", [fl("water", 5), ore("oreLead")], [fl("waterg", 8000), it("ore:dustLead", 2), it("minecraft:gravel")], 400);}
+	if(hasit("ore:oreNickel", "ore:dustNickel")) {add("advFurn", [fl("water", 5), ore("oreNickel")], [fl("waterg", 8000), it("ore:dustNickel", 2), it("minecraft:gravel")], 400);}
+	if(hasit("ore:orePlatinum", "ore:dustPlatinum")) {add("advFurn", [fl("water", 5), ore("orePlatinum")], [fl("waterg", 8000), it("ore:dustPlatinum", 2), it("minecraft:gravel")], 800);}
+	if(hasit("ore:oreUranium", "ore:dustUranium")) {add("advFurn", [fl("water", 5), ore("oreUranium")], [fl("waterg", 8000), it("ore:dustUranium", 2), it("minecraft:gravel")], 800);}
+	if(hasit("ore:oreYellorium", "ore:dustYellorium")) {add("advFurn", [fl("water", 5), ore("oreYellorium")], [fl("waterg", 8000), it("ore:dustYellorium", 2), it("minecraft:gravel")], 800);}
+	if(hasit("ore:ingotNickel", "ore:ingotInvar")) {
+		add("advFurn", [ore("ingotIron", 2), ore("ingotNickel")], [it("ore:ingotInvar", 3)], 600);
+		add("electr", ore("ingotInvar", 3), it("minecraft:iron_ingot", 2), it("ore:ingotNickel"), 900);
+	}
+	if(hasit("ore:ingotCopper", "ore:ingotTin", "ore:ingotBronze")) {
+		add("advFurn", [ore("ingotCopper", 3), ore("ingotTin")], [it("ore:ingotBronze", 4)], 800);
+		add("electr", ore("ingotBronze", 4), it("ore:ingotTin"), it("ore:ingotCopper", 3), 1200);
+	}
+}

@@ -1,0 +1,11 @@
+VERSION = 299792458; !die normalerweise auch hier definierten rezepte wurden in die Age-Dateien verschoben
+
+{
+	circuit_ticks = [20, 5, 1]#; !min operation delay in ticks for each tier of circuit casing
+	Loc range = 20; !maximum range for sensor modules in blocks
+	itemSensor_range = range;
+	fluidSensor_range = range;
+	energySensor_range = range;
+	timeSensor_range = range;
+	circuit_speed = 20 / circuit_ticks; !(just for tooltip)
+}

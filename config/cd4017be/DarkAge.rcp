@@ -1,0 +1,106 @@
+
+INIT() {
+	!--Automated Redstone--
+	Loc WILDCARD = core.WILDCARD;
+	Loc slab = it("minecraft:stone_slab");
+	add("shapeless", it("item.circuitPlan"), it("item.circuitPlan"));
+	add("shaped", it("item.circuitPlan"), "0/1/2", "dyeBlack", it("minecraft:paper"), it("minecraft:glass_pane"));
+	add("shaped", it("tile.designer"), "010/232", "dustRedstone", it("item.circuitPlan"), slab, it("minecraft:crafting_table"));
+	!add("shaped", it("tile.programmer"), "232/010", it("minecraft:wooden_slab", 1, WILDCARD), it("minecraft:crafting_table"), "dustRedstone", it("minecraft:writable_book"));
+	add("shaped", it("tile.assembler"), "010/232/010", "dustRedstone", it("minecraft:piston"), it("minecraft:chest"), it("minecraft:crafting_table"));
+	add("shaped", it("tile.circuit"), "000/010/000", slab, "ingotIron");
+	add("shaped", it("tile.potentiometer"), "01/02/01", it("minecraft:coal", 1, WILDCARD), slab, it("minecraft:redstone_torch"));
+	add("shaped", it("tile.display8bit"), "000/121/000", "dustGlowstone", slab, "gemQuartz");!<- Electric Age ?
+	!add("shaped", it("rsp1bitN", 8), "000/111/000", it("minecraft:iron_bars"), "dustRedstone");
+	add("shaped", it("rsp1bitN", 8), "000", "ingotRedstAlloy");
+	add("shaped", it("rsp1bitI", 2), "001", it("rsp1bitN"), "dustRedstone");
+	add("shaped", it("rsp1bitO", 2), "001", it("rsp1bitN"), it("minecraft:redstone_torch"));
+	add("shaped", it("m.IORelay", 16), "021", it("rsp1bitI"), it("rsp1bitO"), it("minecraft:lever"));
+	add("shaped", it("m.RAMPlate", 4), "111/000", slab, "ingotRedstAlloy");
+	add("shaped", it("m.LogicPrc", 8), "010/121/010", "dustRedstone", it("minecraft:redstone_torch"), "ingotIron");
+	add("shaped", it("m.CalcPrc", 2), "010/010/222", it("m.LogicPrc"), "gemQuartz", "nuggetGold");
+	
+	!--Inductive Automation--
+	!Fluid Containers
+	add("fluidCont", fl("biomass", 250), it("m.LCBiomass"), it("minecraft:glass_bottle"));
+	add("fluidCont", fl("nitrogenl", 100), it("m.LCNitrogen"), it("minecraft:glass_bottle"));
+	add("fluidCont", fl("hydrogenl", 100), it("m.LCHydrogen"), it("minecraft:glass_bottle"));
+	add("fluidCont", fl("heliuml", 100), it("m.LCHelium"), it("minecraft:glass_bottle"));
+	add("fluidCont", fl("oxygenl", 100), it("m.LCOxygen"), it("minecraft:glass_bottle"));
+	add("fluidCont", fl("antimatter", 2097152000), it("tile.CEU"), it("tile.antimatterAnihilator"));!<- frag einfach nicht ;)
+	
+	!Furnace
+	!Syntax: add("smelt", ingredient, result);
+	add("smelt", it("m.WoodC"), it("minecraft:coal", 1, 1));
+	add("smelt", it("m.GlassC"), it("minecraft:glass", 4));
+	add("smelt", it("m.IronC"), it("minecraft:iron_ingot", 4));
+	print("added smelting recipes");
+	
+	add("shaped", it("m.Vent"), "000/111/000", "ingotCopper", it("minecraft:iron_bars"));
+	add("shaped", it("item.portableInventory"), " 0 /123/ 0 ", it("minecraft:string"), it("itemPipeE"), it("m.WoodC"), it("itemPipeI"));
+	add("shaped", it("itemPipeE", 4), " 0 /010/ 0 ", it("itemPipeT"), it("minecraft:sticky_piston"));
+	add("shaped", it("itemPipeI", 4), " 0 /010/ 0 ", it("itemPipeT"), it("minecraft:piston"));
+	add("shaped", it("itemPipeT", 12), "000", it("m.WoodC"));
+	add("shaped", it("tile.thermIns", 3), "010/010/010", it("minecraft:brick"), "sandstone");
+	add("shaped", it("tile.shaft", 2), "000", "ingotIron");
+	add("shaped", it("liquidPipeT", 12), "000", it("m.GlassC"));
+	add("shaped", it("liquidPipeI", 4), " 0 /010/ 0 ", it("liquidPipeT"), it("minecraft:piston"));
+	add("shaped", it("liquidPipeE", 4), " 0 /010/ 0 ", it("liquidPipeT"), it("minecraft:sticky_piston"));
+	add("shaped", it("tile.steamBoiler"), "020/31 ", it("m.GlassC"), it("minecraft:furnace"), it("m.Vent"), it("m.WoodC"));
+	add("shaped", it("tile.steamBoiler"), "020/31 ", it("minecraft:bucket"), it("minecraft:furnace"), it("m.Vent"), it("minecraft:chest"));
+	add("shaped", it("tile.lavaCooler"), "230/010", it("m.GlassC"), it("m.StoneC"), it("m.WoodC"), it("m.Vent"));
+	add("shaped", it("tile.lavaCooler"), "230/010", it("minecraft:bucket"), it("m.StoneC"), it("minecraft:chest"), it("m.Vent"));
+	add("shaped", it("tile.geothermalFurnace"), " 0 /121/3 3", it("m.GlassC"), it("minecraft:furnace"), it("m.StoneC"), it("m.WoodC"));
+	add("shaped", it("tile.steamCompressor"), " 0 /121/3 3", it("m.GlassC"), it("minecraft:piston"), it("m.IronC"), it("m.WoodC"));
+	add("shaped", it("tile.steamCompressor"), " 0 /121/3 3", it("minecraft:bucket"), it("minecraft:piston"), "blockIron", it("minecraft:chest"));
+	add("shaped", it("tile.tank"), " 0 /0 0/ 0 ", it("m.GlassC"));
+	add("shaped", it("tile.collector"), "111/232/040", "ingotCopper", it("minecraft:iron_bars"), it("minecraft:redstone_torch"), it("minecraft:sticky_piston"), it("m.GlassC"));
+	add("shaped", it("tile.trash"), "000/123/000", "cobblestone", it("m.GlassC"), it("minecraft:lava_bucket"), it("m.WoodC"));
+	add("shaped", it("tile.fluidVent"), "111/232/040", "ingotSilver", it("minecraft:iron_bars"), "ingotRedstAlloy", it("minecraft:piston"), it("m.GlassC"));
+	add("shaped", it("tile.pneumaticPiston"), "010/232/010", "ingotIron", "blockGlass", it("tile.gasPipe"), it("minecraft:piston"));
+	add("shaped", it("tile.gasVent"), "01 /21 /01 ", "ingotIron", it("minecraft:iron_bars"), it("tile.gasPipe"));
+	add("shaped", it("tile.gasPipe", 8), "000/   /000", "ingotBrass");
+	add("shaped", it("tile.gasPipe", 8), "000/   /000", "ingotAluminumBrass");
+	add("shaped", it("tile.solidFuelHeater"), "000/121/131", "ingotCopper", it("tile.thermIns"), it("minecraft:furnace"), it("m.WoodC"));
+	add("shaped", it("tile.heatedFurnace"), "000/121/333", it("tile.thermIns"), it("m.WoodC"), it("minecraft:furnace"), "ingotCopper");
+	print("added crafting recipes");
+	
+	!Compression Assembler
+	!Syntax: add("compAs", result, ingredient1...ingredient4);
+	add("compAs", it("m.WoodC"), nil, nil, nil, ore("plankWood", 8));
+	add("compAs", it("m.GlassC"), nil, nil, ore("ingotCopper"), ore("blockGlass", 4));!TODO: statt kupfer evtl. anderes metall (wir haben ja so viele zur Auswahl)
+	add("compAs", it("m.IronC"), nil, nil, nil, ore("ingotIron", 8));
+	add("compAs", it("m.StoneC"), nil, nil, ore("ingotInvar", 4), it("tile.thermIns", 6));!obsidian durch invar ersetzt
+	add("compAs", it("m.ingotRedstAlloy", 2), nil, ore("dustRedstone", 2), ore("ingotCopper"));
+	!add("compAs", it("m.dustElectrum", 2), nil, ore("ingotSilver"), ore("ingotGold"));!<- tinkers contruct schmelze für anfang
+	!add("compAs", it("m.dustBrass", 3), nil, ore("ingotAluminium", 2), ore("ingotCopper"));!<- tinkers contruct schmelze für anfang
+	add("compAs", it("m.GlassC"), it("liquidPipeT", 8));
+	add("compAs", it("m.WoodC"), it("itemPipeT", 8));
+	add("compAs", it("minecraft:iron_ingot", 3), it("minecraft:iron_bars", 8));
+	add("compAs", it("minecraft:glass", 3), it("minecraft:glass_pane", 8));
+	add("compAs", it("minecraft:glowstone_dust", 4), ore("glowstone"));
+	add("compAs", it("minecraft:quartz", 4), ore("blockQuartz"));
+	add("compAs", it("minecraft:dye", 6, 15), it("minecraft:bone"));
+	add("compAs", it("minecraft:blaze_powder", 4), it("minecraft:blaze_rod"));
+	add("compAs", it("minecraft:flint"), ore("gravel"));
+	print("added Compression Assembler recipes");
+}
+
+POST_INIT() {
+	!Pulverisieren diverser materialien mit Compression Assembler
+	addDusting("ingot(\\w+)", "dust$1");
+	addDusting("item(\\w+)", "dust$1");
+	addDusting("crystal(\\w+)", "dust$1");
+	addDusting("pearl(\\w+)", "dust$1");
+	addDusting("gem(\\w+)", "dust$1");
+}
+
+addDusting(srcType, dstType) {
+	for (src : listore(srcType)) {
+		Loc dst = ["ore:", repl(src, srcType, dstType)]$;
+		if (hasit(dst)) {
+			add("compAs", it(dst), ore(src));
+			print(["crushing: ", src, "->", dst]$);
+		}
+	}
+}

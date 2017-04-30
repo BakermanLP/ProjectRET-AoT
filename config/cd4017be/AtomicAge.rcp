@@ -1,0 +1,57 @@
+
+INIT() {
+	!--Automated Redstone--
+	add("shaped", it("tile.invConnector", 12), "000/121/000", "gemQuartz", "blockGlass", it("m.EMatrix"));
+	
+	!--Inductive Automation--
+	add("shaped", it("m.Acelerator"), "010/222/010", it("m.ingotHydrogen"), it("m.Vent"), it("m.SteelH"));
+	add("shaped", it("m.AnihilationC"), "010/222/343", it("tile.electricCoilH"), it("m.Circuit"), it("tile.hpSolarpanel"), it("m.Vent"), it("m.SteelH"));
+	add("shaped", it("m.QSGen"), "010/232/010", it("m.ingotSilicon"), it("m.Circuit"), "glowstone", it("m.GDPlate"));
+	add("shaped", it("m.BHGen"), "030/212/030", it("m.Neutron"), it("m.BlackHole"), it("m.GDPlate"), it("tile.electricCoilH"));
+	add("shaped", it("m.mAccelerator"), "010/232/010", it("tile.wireH"), it("tile.electricCoilH"), it("m.Acelerator"), it("m.SteelH"));
+	add("shapedNBT", "+energy", it("item.contInvEnergy"), "010", it("tile.wireH"), it("tile.CCSU"));
+	add("shaped", it("item.portableRemoteInv"), " 0 /123/ 0 ", it("minecraft:string"), it("itemPipeE"), it("m.EMatrix"), it("itemPipeI"));
+	add("shapedNBT", "#energy", it("item.portableTeleporter"), "010/232/456", it("m.EMatrix"), it("m.BHGen"), it("minecraft:string"), it("m.QSGen"), it("tile.OCSU"), it("m.SteelH"), it("minecraft:writable_book"));
+	add("shaped", it("item.translocator"), "0 1/ 2 / 3 ", it("minecraft:sticky_piston"), it("minecraft:piston"), it("m.EMatrix"), it("m.IronC"));
+	add("shapeless", it("item.translocator"), it("item.translocator"));
+	add("shapedNBT", "#voltage", it("item.portableTesla"), " 0 /121", it("tile.teslaTransmitterLV"), it("minecraft:string"), it("tile.linkHV"));
+	add("shaped", it("item.synchronizer"), "0/1", it("m.AreaFrame"), it("m.EMatrix"));
+	add("shapeless", it("minecraft:paper"), it("item.teleporterCoords"));
+	print("added item crafting recipes");
+	add("shaped", it("tile.wireH", 8), "010/222/010", "ingotElectrum", it("m.ingotSilicon"), it("m.ingotHydrogen"));
+	add("shaped", it("tile.electricCoilH"), "000/010/000", it("tile.wireH"), "ingotIron");
+	add("shaped", it("tile.warpPipe", 24), "000/232/111", it("m.WoodC"), it("m.GlassC"), it("minecraft:obsidian"), it("m.EMatrix"));
+	add("shaped", it("tile.CCSU"), "010/232/010", it("m.ingotSilicon"), it("m.GDPlate"), it("tile.electricCoilH"), it("m.LCHelium"));
+	add("shaped", it("tile.steamTurbine"), "001/222/100", it("m.SteelH"), it("m.GlassC"), it("m.Turbine"));
+	add("shaped", it("tile.linkHV"), "002/113/002", "ingotSteel", it("tile.electricCoilH"), "ingotElectrum", it("m.Circuit"));
+	add("shaped", it("tile.teslaTransmitter"), "000/121/131", "ingotElectrum", it("tile.electricCoilH"), it("m.LCHelium"), it("tile.CCSU"));
+	add("shaped", it("tile.teleporter"), "2  /016/435", it("m.EMatrix"), it("m.QSGen"), it("m.WoodC"), it("m.BHGen"), it("m.SteelH"), it("m.AreaFrame"), it("item.translocator"));
+	add("shaped", it("tile.massstorageChest"), "000/010/000", it("m.WoodC"), it("m.EMatrix"));
+	add("shaped", it("tile.antimatterFabricator"), "012/343/210", it("m.Vent"), it("tile.electricCoilH"), it("m.Circuit"), it("m.mAccelerator"), it("m.GDPlate"));
+	add("shaped", it("tile.antimatterAnihilator"), "210/345/210", it("m.Vent"), it("tile.electricCoilH"), it("m.Circuit"), it("m.mAccelerator"), it("m.AnihilationC"), it("tile.OCSU"));
+	add("shaped", it("tile.antimatterTank"), "010/232/010", "ingotSilver", it("tile.electricCoilH"), it("m.SteelH"), it("m.Circuit"));
+	add("shaped", it("tile.hpSolarpanel"), "010/020/030", it("tile.solarpanel"), "glowstone", it("m.GDPlate"), "blockLapis");
+	!add("shaped", it("tile.security"), "010/232/040", it("m.SteelH"), it("m.EMatrix"), it("minecraft:ender_pearl"), it("m.GDPlate"), it("item.energyCell", 1, WILDCARD));
+	add("shaped", it("tile.fuelCell"), "010/020/333", it("m.GDPlate"), it("item.energyCell"), it("m.SteelH"), it("m.GlassC"));
+	add("shaped", it("tile.wormhole"), "010/323/010", it("minecraft:obsidian"), it("minecraft:ender_eye"), it("m.QSGen"), it("m.BlackHole"));
+	add("shaped", it("tile.wormhole"), "00", it("tile.wormhole", 1, 1));
+	add("shaped", it("tile.hugeTank"), "000/010/000", it("tile.tank"), it("m.EMatrix"));
+	add("shaped", it("tile.gravCond"), "010/234/010", it("tile.electricCoilH"), it("tile.magnet"), it("tile.trash"), it("m.GDPlate"), it("m.WoodC"));
+	print("added block crafting recipes");
+	
+	add("advFurn", [ore("glowstone")], [fl("heliumg", 4000), it("minecraft:redstone", 2), it("minecraft:quartz", 2), it("minecraft:gold_nugget", 3)], 250);
+	add("advFurn", [it("minecraft:end_stone", 4)], [fl("heliumg", 4000), it("minecraft:sand", 3), it("minecraft:gravel", 1)], 250);
+	add("compAs", it("m.EMatrix"), it("m.Circuit"), ore("gemDiamond"), it("minecraft:ender_eye"), ore("dustGlowstone", 2));
+	add("heatRad", fl("heliuml", 1), fl("heliumg", 800));
+	add("cool", fl("nitrogenl", 10), fl("nitrogeng", 6400), fl("heliumg", 4000), fl("heliuml", 5), 200);
+	add("cool", fl("heliuml", 10), fl("heliumg", 8000), fl("hydrogenl", 100), it("m.ingotHydrogen"), 200);
+	print("added misc machine recipes");
+	
+	!Gravitational Condenser
+	!Syntax: add("trash", result, ingredient, requiredMass);
+	add("trash", it("minecraft:obsidian"), it("minecraft:netherrack", 4), 24000);
+	add("trash", it("m.DenseM"), it("minecraft:obsidian", 16), 512000);
+	add("trash", it("m.Neutron"), it("m.DenseM", 4), 6144000);
+	add("trash", it("m.BlackHole"), it("m.Neutron"), 24576000);
+	print("added Gravitational Condenser recipes");
+}

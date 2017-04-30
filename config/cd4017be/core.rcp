@@ -1,0 +1,111 @@
+AGE = 4; !Steuert das hinzufügen der crafting Rezepte zum aktuellen Zeitalter
+! 0: Stone Age, 1: Dark Age, 2: Electric Age, 3: Atomic Age, 4: To the Stars
+
+! die ganz bequeme vollautomatische Zeitalter Erkennung. (TODO: korrekte mods angeben)
+selectAge(){
+	Loc age = 0, tip = "\n§2Neu freigeschaltet";
+	if (hasmod("Botania")) { age = 1; print("Magie gefunden -> Dark Age"); }
+	if (hasmod("EnderIO")) { age = 2; print("Elektrische Technologie gefunden -> Electric Age"); }
+	if (hasmod("OpenComputers")) { age = 3; print("Reactor Technologie gefunden -> Atomic Age"); }
+	if (hasmod("AdvancedRocketry")) { age = 4; print("Raumfahrt Technologie gefunden -> To The Stars Age"); }
+	AGE = age;
+}
+
+!internal constants for recipe generation
+{
+	WILDCARD = 32767;
+	dyes = ["dyeBlack", "dyeRed", "dyeGreen", "dyeBrown", "dyeBlue", "dyePurple", "dyeCyan", "dyeLightGray", "dyeGray", "dyePink", "dyeLime", "dyeYellow", "dyeLightBlue", "dyeMagenta", "dyeOrange", "dyeWhite"];
+	metals = ["Gold", "Iron", "Copper", "Silver", "Aluminium", "Tin", "Electrum", "Brass", "Steel", "Conductive", "Graphite", "Silicon", "RedstAlloy"];!<- einige davon kann man evtl. durch die vom BaseMetals mod ersetzen
+	craftIngr = ["WoodC", "GlassC", "IronC", "StoneC", "SteelH", "GDPlate", "unbrC", "DenseM", "Neutron", "BlackHole", "ingotHydrogen", "magnet", "ingotQAlloy", "Biomass", "Motor", "Turbine", "Circuit", "EMatrix", "QMatrix", "QSGen", "BHGen", "Vent", "Acelerator", "AnihilationC", "Breaker", "Placer", "AreaFrame", "mAccelerator", "amAcelerator", "Focus", "JetTurbine", "Control", "Strap", "LCAlgae", "LCBiomass", "LCNitrogen", "LCOxygen", "LCHydrogen", "LCHelium"];
+}
+
+!-- hinzufügen der crafting items und OreDictionary Einträge --
+PRE_INIT() {
+	!selectAge();
+	
+	!Automated Redstone crafting materialien
+	add("item", 200, "IORelay");
+	add("item", 201, "RAMPlate");
+	add("item", 202, "LogicPrc");
+	add("item", 203, "CalcPrc");
+	add("item", 204, "emptySensor");
+	
+	!Inductive Automation crafting materialien
+	genTypes("ingot", 0, [0,0,1,1,1,0,1,1,1,1,1,1,1]);
+	!genTypes("nugget", 1, [0,1,1,1,1,1,1,1,1,1,0,0,0]);
+	genTypes("dust", 2, [1,1,1,1,1,0,1,1,1,1,1,0,0]);
+	!genTypes("plate", 3, [0,0,0,0,0,0,0,0,0,0,0,0,0]);
+	genTypes("oxide", 4, [1,1,1,1,1,0,0,0,0,0,0,0,0]);
+	for(i : #craftIngr) { add("item", 250 + i, craftIngr:i); }
+	print("added crafting materials");
+	
+	!Fuel
+	!Syntax: add("fuel", fuelItem, heatValue);
+	add("fuel", it("m.Biomass"), 6400);
+	add("fuel", it("m.ingotGraphite"), 12800);
+	print("added Furnace fuels");
+	
+	!OreDictionary
+	!Syntax: add("ore", name, items...);
+	add("ore", "gravel", it("minecraft:gravel"));
+	print("added OreDictionary entries");
+}
+
+!Materials
+genTypes(type, id, do) {
+	for(i : #metals) {
+		if(do:i ~= 0) {
+			Loc name = [type, metals:i]$;
+			add("item", 16 * id + i, name);
+			add("ore", name, it(["m.", name]$));
+		}
+	}
+}
+
+!-- alle crafting Rezepte nach Ages sortiert (externe Dateien) --
+INIT() {
+	if(AGE >= 1) {
+		print("Content für Steam Age wird initializiert:");
+		DarkAge.INIT();
+	}
+	if(AGE >= 2) {
+		print("Content für Electric Age wird initializiert:");
+		ElectricAge.INIT();
+	}
+	if(AGE >= 3) {
+		print("Content für Atomic Age wird initializiert:");
+		AtomicAge.INIT();
+	}
+	if(AGE >= 4) {
+		print("Content für To The Stars wird initializiert:");
+		ToTheStars.INIT();
+	}
+}
+
+POST_INIT(){
+	if(AGE >= 1) {DarkAge.POST_INIT();}
+	if(AGE >= 2) {ElectricAge.POST_INIT();}
+	
+	!unerwünschte direkt-alloy-crafting Rezepte entfernen
+	!for(type : [["Bronze", "Copper"], ["Invar", "Iron"], ["Brass", "Copper"], ["AluminiumBrass", "Aluminum"], ["Steel", "Iron"], ["Electrum", "Gold"]]) {
+	!	remRcp(ore(["ingot", type:0]$), isore(["ingot", type:1]$));
+	!	remRcp(ore(["dust", type:0]$), isore(["dust", type:1]$));
+	!}
+	
+	!just cleanup
+	dyes = nil;
+	metals = nil;
+	craftIngr = nil;
+	WILDCARD = nil;
+}
+
+remRcp(resTp, ingrTp) {
+	for(rcp : list("craftRes", resTp)) {
+		for(ingr : rcp:1) {
+			if(ingr == ingrTp) {
+				rcp = nil;
+				break;
+			}
+		}
+	}
+}

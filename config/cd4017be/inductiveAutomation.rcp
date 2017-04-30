@@ -1,0 +1,160 @@
+VERSION = 299792458; !die normalerweise auch hier definierten rezepte wurden in die Age-Dateien verschoben
+
+!Almost all the constant values in this mod are defined here:
+{
+	! ---------------------Energy Settings-----------------------
+
+	! Max voltage for: LV, MV, HV, teslaLV, teslaHV
+	Tiers_Umax = [300, 1200, 8000, 24000, 120000]#;
+	! El. resistance for: Copper, Conductive Alloy, Hydrogen
+	Tiers_Rcond = [0.05, 0.01, 0.0]#;
+	! Energy storage for: Single-cell, Octa-cell, Crystal-cell
+	Tiers_Ecap = [16000, 128000, 1024000]#;
+
+	! Energy conversions in kJ
+	EnergyConv_Steam = 0.2;
+	EnergyConv_RF = 0.1;
+	EnergyConv_EU = 0.4;
+	EnergyConv_OC = 1.0;
+
+	! Power output in kJ and max voltage in V for:
+	! Steam-(Engine, Generator, Turbine), Solarpanel(Basic, HighEff), FuelCell, Antimatter
+	Generators_Pmax = [4.0, 24.0, 120.0, 0.5, 4.0, 160.0, 36000.0]#;
+	Generators_Umax = [300, 600, 1200, 80, 160, 2400, 8000]#;
+
+	!minimum machine working resistance
+	Rwork_min = 10;
+
+	! Energy usage in kJ and electric resistance in Ohm for different tools and machines.
+	Tool_Chisle_Euse = 20;
+	Tool_Cutter_Euse = 16;
+	Tool_AMLaser_Euse = 16;
+	Tool_Furnace_Euse = 200;
+	Tool_MCannon_Euse = 16;
+	Tool_Pump_Euse = 8;
+	! (Euse = Emult * distance):
+	Tool_Teleport_Emult = 4.0;
+
+	Electrolyser_Umax = 1200;
+	Cooler_Umax = 800;
+	AdvFurn_Umax = 900;
+	Magnet_Umax = 4096;
+	ElCompr_Euse = 240.0;
+	ElCompr_Umax = 720;
+	StCompr_Euse = 200;
+	Furnace_Euse = 250.0;
+	Furnace_Umax = 1600;
+	GeothFurn_Euse = 160;
+	Magnet_Euse = 0.01;
+	! Energy consumed in J/kg :
+	GravCond_Euse = 8.0;
+	! Energy storage required in J/kg :
+	GravCond_Eforce = 5.0;
+	! Max Voltage (Ecap = Umax * Umax J/V²):
+	GravCond_Umax = 20000;
+
+	Builder_Euse = 25.0;
+	Builder_Rwork = 40.0;
+	Builder_Umax = 800;
+	Farm_Euse = 20.0;
+	Farm_Rwork = 64;
+	Farm_Umax = 640;
+	Pump_Euse = 8.0;
+	Pump_Rwork = 48.0;
+	Pump_Umax = 640;
+	! (Euse = Emult * blockHardness / drillEff):
+	Miner_Emult = 50.0;
+	Miner_Rwork = 25.0;
+	Miner_Umax = 1250;
+	! (Euse = Emult * distance * areaVolume):
+	Teleport_Emult = 2.0;
+	Teleport_Rwork = 50.0;
+	Teleport_Umax = Tiers_Umax:2;
+
+	! -------------------------Misc. Settings-------------------------------
+
+	! Fluid Storage for: pipes, internal tanks, Liquid Tank, Huge Tank, Antimatter Tank, Quantum Tank
+	FluidTiers_TankCap = [1000, 8000, 64000, 4096000, 160000000, 2097152000]#;
+
+	! max amount of queued operations when using computer control
+	computer_taskQueue_size = 16;
+	! max amount of operations/tick
+	Miner_maxSpeed = 4;!<- reduziert für performance (def=16)
+	Builder_maxSpeed = 4;!<- reduziert für performance (def=16)
+	! min delay between extract(pipes) or transfer(inventory) operations in ticks
+	inventory_ticks = 10;!<- erhöht für performance & balancing
+	itemPipe_ticks = 5;!<- erhöht für performance & balancing
+	fluidPipe_ticks = 2;!<- erhöht für performance & balancing
+
+	! Drill settings: stone, iron, diamond
+	minerDrill_durability = [4096, 8192, 16384]#;
+	minerDrill_harvestLvl = [1, 2, 3]#;!<- unbedingt anpassen falls harvest level table intern modifiziert wurde (bzw. alle auf 1 setzen wenn miner nicht für ore-mining verwendet werden soll)
+	minerDrill_efficiency = [1.5, 2.0, 4.0]#;
+	! Max harvest level for Electric Chisel (default: wood = 0, stone = 1, iron = 2, diamond = 3)
+	Chisle_harvestLvl = 3;!<- unbedingt anpassen falls harvest level table intern modifiziert wurde
+	Chisle_digSpeed = 16.0;
+	Cutter_hps = 5;
+	Cutter_dmg = 6;
+
+	!JetPack Fuel durability in seconds per m³ Hydrogen (max boost).[tank capacity is 128m³ by default]
+	Jetpack_H2_val = 5.0;
+	!JetPack Electric durability in seconds per kJ (max boost).[charge capacity is 1024000kJ by default]
+	Jetpack_el_val = 0.005;
+	!Air Tank durability in seconds
+	Tool_AirTank_dur = 600;
+	!Algae Food durability in full hunger points
+	Tool_AlgaeFood_dur = 250;!<- sollte reduziert werden falls zu overpowered gegenüber sonstigem essen (und/oder rezept teurer machen)
+
+	! Trash weight of Blocks / Items in kg :
+	GravCond_mBlock = 1000;
+	GravCond_mItem = 125;
+
+	! nutrient value of food = FoodNutr * (heal + saturation)
+	bioReact_FoodNutr = 20;!<- evtl. anpassen je nach dem wie heftig das zur verfügung stehende Essen ist
+	! Multiplier for algae growth and decay speed:
+	! Note that the algae tank will never get completely full if [decay > growth]
+	bioReact_growth = 1.0;
+	bioReact_decay = 1.0;
+
+	! -------------------- Antimatter Bomb -------------------------
+
+	! Max explosion radius of an Antimatter Bomb in blocks
+	AmBomb_MaxRad = 5; !<- reduziert um exzessive Verwüstungen zu vermeiden
+	! Max antimatter fillable into a Bomb in ng
+	AmBomb_MaxAM = 160000000;
+	! Explosion strength multiplier
+	AmBomb_ExplMult = 1.0;
+	! Antimatter usage multiplier for Antimatter Laser
+	Tool_AmLaser_AMmult = 1.0;
+	! The antimatter laser will deal <entity health> * DmgMult damage to entities.
+	Tool_AmLaser_DmgMult = 1.25;
+	! Max/Min damage vs entities
+	Tool_AmLaser_MaxDmg = 60;
+	Tool_AmLaser_MinDmg = 12;
+	! Antimatter cost multiplier and exponent for damage: : AMUse = (HP ^ AMDmgExp) * AMDmgMult
+	Tool_AmLaser_AMDmgMult = 0.5;
+	Tool_AmLaser_AMDmgExp = 2.0;
+	! Explosion resistance of Bedrock
+	Bedrock_ExplRes = 1000000.0;
+	! If you want to prevent players from destroying the whole world
+	! reduce the MaxRad variable to 16 blocks for example.
+	! When changing MaxAM, ExplMult or ExplRes make sure that it is
+	! still possible to break bedrock Blocks, otherwise some end
+	! game content would be unobtainable.
+	! Min antimatter needed to destroy Bedrock:
+	! Bomb = 4.0 * ExplRes / ExplMult
+	! Laser = 0.05 * ExplRes * AMmult
+
+	! -------------------------Chunk loading & protection manager-------------------------------
+
+	! Should the Chunk Manager protection functionality be -1: entirely disabled, 0: for admins only, or 1: available for everyone.
+	SecuritySys_permMode = -1;!<- deaktiviert
+	! Should the Chunk Manager loading functionality be -1: entirely disabled, 0: for admins only, or 1: available for everyone.
+	SecuritySys_chunkloadPerm = 1;!<- erstmal nicht deaktiviert (aber rezept)
+	! The maximum amount of chunks a single device can keep loaded (allowed range: 1-64)
+	SecuritySys_maxChunks = 32;
+	! Power consumption per chunk in kW for: unprotected, basic protection, no interaction, no inventory, chunkloading
+	SecuritySys_Euse = [0.0, 1.5, 2.0, 3.0, 2.4]#;
+	SecuritySys_Umax = Tiers_Umax:1;
+	SecuritySys_Ecap = Tiers_Ecap:0;
+}
