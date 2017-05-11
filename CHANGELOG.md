@@ -1,4 +1,84 @@
 # Changelog
+## Changelog v0.8 -> v0.8.2
+### Mod Updates
+* forestry_1.10.2-5.2.17.368.jar -> 1.10.2-5.2.17.374 ( Thanks to @nedelosk )
+
+
+## Changelog v0.8 -> v0.8.1
+### Mod Downgrade wegen Grafik / Render Fehler
+* forestry_1.10.2-5.2.17.373.jar -> 1.10.2-5.2.17.368
+
+## Changelog v0.7 -> v0.8
+### Mod Updates
+* [1.10.2]UncraftingTable-1.6.1-pre12.jar
+* achievementbooks-v1.0-MC1.10.2.jar
+* animania-1.10-1.0.4.5.jar -> 1.10-1.0.4.6
+* BaseGems-1.10.2-2.5.0-beta1.11.jar -> 1.10.2-2.5.0-beta1.13
+* BaseMetals-1.10.2-2.5.0-beta1.59.jar -> 1.10.2-2.5.0-beta1.74
+* BaseMinerals-1.10.2-2.5.0-beta1.10.jar -> 1.10.2-2.5.0-beta1.12
+* BetterFoliage-MC1.10.2-2.1.3.jar -> 2.1.4
+* BetterFps-1.3.2.jar -> 1.4.3-1.10
+* Better With Mods-0.14.19-1.10.2.jar -> 0.14.21-1.10.2
+* ChestTransporter-1.10.2-2.5.10.jar -> 1.10.2-2.5.13
+* Chisel_DEV-MC1.10.2-0.0.10.19.jar
+* Decocraft-2.3.6.1_1.10.2.jar -> 2.4_1.10.2
+* DynamicSurroundings-1.10.2-3.3.3.0.jar -> 1.10.2-3.3.4.1
+* endertanks-1.10.0-1.4.11.jar -> 1.10.0-1.4.12
+* EndMetals-1.10.2-1.2.0-beta1.12.jar -> 1.10.2-1.2.0-beta1.16
+* exnihiloadscensio-1.10.2-0.1.19.jar -> 1.10.2-0.1.20
+* FantasyMetals-1.10.2-2.5.0-beta1.11.jar -> 1.10.2-2.5.0-beta1.13
+* forestry_1.10.2-5.2.17.368.jar -> 1.10.2-5.2.17.373
+* inventorysorter-1.10.2-0.10.2+43.jar -> 1.10.2-0.11.0+47
+* IronBackpacks-1.10.2-2.2.23.jar -> 1.10.2-2.2.25
+* ModernMetals-1.10.2-2.5.0-beta1.21.jar -> 1.10.2-2.5.0-beta1.23
+* multistorage-1.10.0-1.2.16.jar -> 1.10.0-1.2.17
+* NetherMetals-1.10.2-1.2.0-beta1.14.jar -> 1.10.2-1.2.0-beta1.15
+* platforms-1.10.0-1.2.9.jar -> 1.10.0-1.2.10
+* ProgressiveAutomation-1.10.2-1.7.0.jar -> 1.10.2-1.7.4
+* StorageDrawers-1.10.2-3.6.2.jar -> 1.10.2-3.7.1
+* theoneprobe-1.1x-1.4.5.jar -> 1.1x-1.4.6
+* VTweaks-1.10.x-1.4.9.16.jar -> 1.10.x-1.4.10.0
+* zerocore-1.10.2-0.1.0.4.jar -> 1.10.2-0.1.0.5
+
+### Mod Additions
+* BetterBuildersWands-1.10.2-0.11.1.220+f8232fe.jar
+* BiomeTweaker-1.10.2-2.3.239.jar
+* BQ_DiabloTheme-2.0.2.jar
+* CookingForBlockheads_1.10.2-4.2.39.jar
+* DeathQuotes-1.2.0-mc1.9to1.10.2-forge.jar
+* dirt2path-1.4.0.jar
+* EnderZoo-1.10-1.2.3.44.jar
+* FancyBlockParticles-1.10.2-2.1.jar
+* FoodExpansion1.3.1-1.10.2.jar
+* more-foods-1.10.2-2011-1.17.jar
+* nice-0.1.0.jar
+* NoMobSpawningOnTrees-1.2.0-mc1.10.2.jar
+* notenoughwands-1.1x-1.5.4.jar
+* SpartanShields-1.10.2-1.3.jar
+
+### Mod Deletions
+* Buckets-1.10.2-0.0.1-alpha1.jar
+* mysticalagriculture[1.10.2]-1.4.5.jar
+* Pam's HarvestCraft 1.9.4-1.10.2h.jar
+
+### Config Changes
+* Entfernen der Pams Harvestcraft Plants aus den Biomen
+* Progressive Automation Config Changes durch Mod Updates
+* Animania Config Changes durch Mod Update - Spawn Limit Ref #89 - Käse machen Ref #60
+* VTweaks Config Changes durch Mod Update
+* BaseMetals Config Changes durch Mod Update
+* Forestry Config Changes durch Mod Updates
+* DynamicSurround Config Changes durch Mod Update
+* Challenger Mobs disabled
+* Tipfehler beim CompatLayer
+* Ausschalten Named Mob Death Messages - close #88
+* Noch einen Drop im Birds Nest vergessen
+* Loot Changes Birds Nest. Muss nochmal überdacht werden, was droppen soll
+* Notwendig für unterschiedliche Server hinter BungeeCord
+* Initialer Import weiterer ExNihiloAdscensio Configs zum anpassen
+* Dump von - Biomen - Blöcken - Enchantments - Entities - Fluids - Items - Loot Tables - Potions - Villagerprofessions zum nachschlagen und suchen
+* Version v0.7
+
 ## Changelog v0.6 -> v0.7
 ### Mod Updates
 * achievementbooks-1.0b78-MC1.10.2.jar -> 1.0b82-MC1.10.2
