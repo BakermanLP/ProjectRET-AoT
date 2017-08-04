@@ -1,6 +1,12 @@
 {
-  "minecraft:fire": 4,
+  "modernmetals:uranium_block": 10,
+  "modernmetals:plutonium_block": 10,
+  "thermalfoundation:fluid_pyrotheum": 15,
+  "thermalfoundation:fluid_aerotheum": 15,
+  "thermalfoundation:fluid_petrotheum": 15,
+  "minecraft:magma": 5,
   "minecraft:flowing_lava": 3,
   "minecraft:lava": 3,
-  "minecraft:torch": 1
+  "minecraft:torch": 1,
+  "minecraft:fire": 4
 }

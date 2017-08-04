@@ -1,4 +1,0 @@
-## Changelog v0.8 -> v0.8.2
-### Mod Updates
-* forestry_1.10.2-5.2.17.368.jar -> 1.10.2-5.2.17.374 ( Thanks to @nedelosk )
-

@@ -4,7 +4,6 @@
 print("Start 'TConstruct Script'...");
 
 # Blocks
-val EFLN = <tconstruct:throwball:1>;
 
 # Items
 val tcSlimeBoots = <tconstruct:slime_boots>;
@@ -15,8 +14,6 @@ val tcSlimeBoots4 = <tconstruct:slime_boots:4>;
 val tcSlimeSling = <tconstruct:slimesling>;
 
 # Rezepte entfernen
-recipes.remove( EFLN );
-mods.jei.JEI.hide( EFLN );
 recipes.remove( tcSlimeBoots );
 mods.jei.JEI.hide( tcSlimeBoots );
 recipes.remove( tcSlimeBoots1 );

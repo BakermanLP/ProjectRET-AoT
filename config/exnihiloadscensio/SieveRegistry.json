@@ -58,7 +58,7 @@
     },
     {
       "drop": {
-        "name": "modernmetals:aluminum_nugget",
+        "name": "hardcoreore:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -66,7 +66,7 @@
     },
     {
       "drop": {
-        "name": "modernmetals:aluminum_nugget",
+        "name": "hardcoreore:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -74,7 +74,7 @@
     },
     {
       "drop": {
-        "name": "modernmetals:aluminum_nugget",
+        "name": "hardcoreore:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -106,7 +106,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:copper_nugget",
+        "name": "hardcoreore:copper_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -114,7 +114,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:copper_nugget",
+        "name": "hardcoreore:copper_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -122,7 +122,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:copper_nugget",
+        "name": "hardcoreore:copper_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -130,7 +130,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:lead_nugget",
+        "name": "hardcoreore:lead_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -138,7 +138,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:lead_nugget",
+        "name": "hardcoreore:lead_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -146,7 +146,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:lead_nugget",
+        "name": "hardcoreore:lead_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -154,7 +154,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:tin_nugget",
+        "name": "hardcoreore:tin_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -162,7 +162,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:tin_nugget",
+        "name": "hardcoreore:tin_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -170,19 +170,11 @@
     },
     {
       "drop": {
-        "name": "basemetals:tin_nugget",
+        "name": "hardcoreore:tin_nugget",
         "meta": 0
       },
       "chance": 0.1,
       "meshLevel": 4
-    },
-    {
-      "drop": {
-        "name": "tconstruct:nuggets",
-        "meta": 1
-      },
-      "chance": 0.2,
-      "meshLevel": 2
     },
     {
       "drop": {
@@ -190,6 +182,14 @@
         "meta": 1
       },
       "chance": 0.2,
+      "meshLevel": 2
+    },
+    {
+      "drop": {
+        "name": "tconstruct:nuggets",
+        "meta": 1
+      },
+      "chance": 0.2,
       "meshLevel": 3
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:nickel_nugget",
+        "name": "hardcoreore:nickel_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -210,7 +210,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:nickel_nugget",
+        "name": "hardcoreore:nickel_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -218,7 +218,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:nickel_nugget",
+        "name": "hardcoreore:nickel_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -226,7 +226,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:silver_nugget",
+        "name": "hardcoreore:silver_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -234,7 +234,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:silver_nugget",
+        "name": "hardcoreore:silver_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -242,7 +242,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:silver_nugget",
+        "name": "hardcoreore:silver_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -250,7 +250,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:iron_nugget",
+        "name": "hardcoreore:iron_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -258,7 +258,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:iron_nugget",
+        "name": "hardcoreore:iron_nugget",
         "meta": 0
       },
       "chance": 0.2,
@@ -266,7 +266,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:iron_nugget",
+        "name": "hardcoreore:iron_nugget",
         "meta": 0
       },
       "chance": 0.1,
@@ -350,7 +350,7 @@
   "minecraft:sand:0": [
     {
       "drop": {
-        "name": "basemetals:copper_nugget",
+        "name": "hardcoreore:copper_nugget",
         "meta": 0
       },
       "chance": 0.039,
@@ -366,7 +366,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:iron_nugget",
+        "name": "hardcoreore:iron_nugget",
         "meta": 0
       },
       "chance": 0.0780,
@@ -374,7 +374,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:lead_nugget",
+        "name": "hardcoreore:lead_nugget",
         "meta": 0
       },
       "chance": 0.0195,
@@ -382,7 +382,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:nickel_nugget",
+        "name": "hardcoreore:nickel_nugget",
         "meta": 0
       },
       "chance": 0.0039,
@@ -390,7 +390,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:platinum_nugget",
+        "name": "hardcoreore:platinum_nugget",
         "meta": 0
       },
       "chance": 0.0005,
@@ -398,7 +398,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:silver_nugget",
+        "name": "hardcoreore:silver_nugget",
         "meta": 0
       },
       "chance": 0.0156,
@@ -406,7 +406,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:tin_nugget",
+        "name": "hardcoreore:tin_nugget",
         "meta": 0
       },
       "chance": 0.0390,
@@ -414,7 +414,7 @@
     },
     {
       "drop": {
-        "name": "basemetals:zinc_nugget",
+        "name": "hardcoreore:zinc_nugget",
         "meta": 0
       },
       "chance": 0.0156,
@@ -422,7 +422,7 @@
     },
     {
       "drop": {
-        "name": "modernmetals:aluminum_nugget",
+        "name": "hardcoreore:aluminum_nugget",
         "meta": 0
       },
       "chance": 0.0312,

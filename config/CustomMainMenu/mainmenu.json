@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "mainmenu:textures/gui/Ages-of-Time.png",
+            "image" : "mainmenu:textures/gui/agesoftime.png",
             "posX" : -272,
             "posY" : -63,
             "width" : 555,
