@@ -1,33 +1,33 @@
+import minetweaker.item.IItemStack;
+import mods.jei.JEI.hide as h;
+import mods.jei.JEI.removeAndHide as rh;
 ###
 # TConstruct Script
 ###
 print("Start 'TConstruct Script'...");
 
-# Blocks
-
 # Items
-val tcSlimeBoots = <tconstruct:slime_boots>;
-val tcSlimeBoots1 = <tconstruct:slime_boots:1>;
-val tcSlimeBoots2 = <tconstruct:slime_boots:2>;
-val tcSlimeBoots3 = <tconstruct:slime_boots:3>;
-val tcSlimeBoots4 = <tconstruct:slime_boots:4>;
-val tcSlimeSling = <tconstruct:slimesling>;
+val tcRemove = [
+    <tconstruct:slime_boots>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:3>,
+    <tconstruct:slime_boots:4>,
+    <tconstruct:slimesling>
+] as IItemStack[];
+
+for item in tcRemove
+{
+    rh( item );
+}
+
 
 # Rezepte entfernen
-recipes.remove( tcSlimeBoots );
-mods.jei.JEI.hide( tcSlimeBoots );
-recipes.remove( tcSlimeBoots1 );
-mods.jei.JEI.hide( tcSlimeBoots1 );
-recipes.remove( tcSlimeBoots2 );
-mods.jei.JEI.hide( tcSlimeBoots2 );
-recipes.remove( tcSlimeBoots3 );
-mods.jei.JEI.hide( tcSlimeBoots3 );
-recipes.remove( tcSlimeBoots4 );
-mods.jei.JEI.hide( tcSlimeBoots4 );
+# recipes.remove( tcSlimeBoots );
+# mods.jei.JEI.hide( tcSlimeBoots );
 
-
-recipes.remove( tcSlimeSling );
-mods.jei.JEI.hide( tcSlimeSling );
+# recipes.remove( tcSlimeSling );
+# mods.jei.JEI.hide( tcSlimeSling );
 
 # Ende
 print("Ende 'TConstruct Script'...");
