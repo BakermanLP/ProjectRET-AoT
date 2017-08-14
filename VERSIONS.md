@@ -1,17 +1,17 @@
 ## Mods
 * [1.11.2]UncraftingTable-1.7.4-beta1.jar
 * ActuallyAdditions-1.11.2-r110.jar
-* ActualMusic 2.0.3.132.jar
+* ActualMusic 2.0.4.133.jar
 * adminweapons-v3.2-mc1.11.jar
-* AdvancedRocketry-1.11.2-1.2.2.jar
+* AdvancedRocketry-1.11.2-1.2.3.jar
 * animania-1.11.2-1.2.2.jar
 * Architect-MC1.11.2-1.2.0.59.jar
 * Baubles-1.11-1.4.6.jar
-* BetterFoliage-MC1.11.2-2.1.7.jar
+* BetterFoliage-MC1.11.2-2.1.8.jar
 * BetterFps-1.4.5.jar
 * BetterQuesting-2.4.235.jar
 * BirdsNests1.11.2-1.5.1.jar
-* Blur-1.0.3-13.jar
+* Blur-1.0.4-14.jar
 * Botania r1.9-345.jar
 * buildersguides-1.11.2-0.1.0.jar
 * Chameleon-1.11.2-3.1.0.jar
@@ -34,10 +34,10 @@
 * deepresonance-1.1x-1.4.8.jar
 * DefaultOptions_1.11.2-8.2.2.jar
 * dirt2path-1.6.1.jar
-* DynamicSurroundings-1.11.2-3.4.6.1.jar
+* DynamicSurroundings-1.11.2-3.4.6.2.jar
 * ElecCore-1.11-1.7.425.jar
-* Embassy 1.11.2-1.1.1.116.jar
-* EnchantingTable-1.11-1.1.jar
+* Embassy 1.11.2-1.1.2.117.jar
+* EnchantingTable-1.11-1.1.2.jar
 * Enchiridion-1.11.2-3.2.0.jar
 * endertanks-1.11.0-1.5.5.jar
 * EnhancedVisuals v1.1.4 mc1.11.2.jar
@@ -45,23 +45,23 @@
 * Exchangers-1.11.2-1.4.1.jar
 * ExCompressum_1.11.2-3.0.0.jar
 * exnihiloadscensio-1.11.2-0.1.0.jar
+* expandedbonemeal-1.11-1.1.0.jar
 * ezstorage-2.4.1-[1.11.2].jar
 * foamfix-0.7.0-anarchy.jar
 * FullscreenWindowed-1.10.2-1.5.1.jar
 * furnus-1.11.2-1.93.jar
 * gravestone-1.7.4_.jar
-* growthcraft-3.0.0.1.jar
 * HardcoreDarkness-MC1.11.2-1.9.jar
 * HardcoreORE-1.11.2-0.0.30.jar
 * hopperducts-mc1.11.2-1.4.9.2.jar
 * ImmersiveEngineering-0.11-62.jar
-* immersivepetroleum-1.11.2-1.1.2.jar
+* immersivepetroleum-1.11.2-1.1.3.jar
 * InventoryTweaks-1.62.jar
 * ironchest-1.11.2-7.0.25.815.jar
 * itemscroller-1.11.2-0.11.0.jar
-* jei_1.11.2-4.5.0.295.jar
+* jei_1.11.2-4.5.1.296.jar
 * jeiintegration_1.11.2-1.2.0.21.jar
-* journeymap-1.11.2-5.4.7.jar
+* journeymap-1.11.2-5.5.0b1.jar
 * justenoughbuttons-1.11.2-1.4.6.jar
 * JustEnoughResources-1.11.2-0.6.6.12.jar
 * keywizard-1.11.2-1.5.jar
@@ -71,15 +71,16 @@
 * Mantle-1.11.2-1.2.0.26.jar
 * mcjtylib-1.1x-2.4.3.jar
 * MCMultiPart-2.0.2.jar
-* Mekanism-1.11.2-9.3.3.311-fix.jar
-* MekanismGenerators-1.11.2-9.3.3.311.jar
-* MekanismTools-1.11.2-9.3.3.311.jar
+* Mekanism-1.11.2-9.3.4-fix.jar
+* MekanismGenerators-1.11.2-9.3.4-fix.jar
+* MekanismTools-1.11.2-9.3.4-fix.jar
 * MmmMmmMmmMmm-1.11.2-1.13.jar
 * MobGrindingUtils-0.2.0.jar
 * modtweaker-3.0.2.jar
 * Morpheus-1.11.2-3.2.14.jar
 * MTLib-2.0.3.jar
 * multibeds-1.11.0-1.3.3.jar
+* multistorage-1.11.0-1.3.7b.jar
 * mysticalagradditions[1.11.2]-1.1.2.jar
 * mysticalagriculture[1.11.2]-1.5.8.jar
 * Neat 1.4-13.jar
@@ -90,13 +91,13 @@
 * OpenGlider-1.11.2-1.0.0.jar
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C3.jar
-* OreExcavation-1.3.99.jar
+* OreExcavation-1.3.103.jar
 * OTG-AgesOfTime-1.11.2-v1.jar
 * OTG-Flatlands-1.11.2-v4.jar
 * Plants-1.11.2-beta-0.8.5.jar
 * platforms-1.11.0-1.3.4.jar
-* PlayerRevive v1.2.1 mc1.11.2.jar
-* plustic-5.2.1.1.jar
+* PlayerRevive v1.2.2 mc1.11.2.jar
+* plustic-5.2.1.2.jar
 * ProjectTable-1.0.3_1.11.2.jar
 * QuickLeafDecay-MC1.11.2-1.2.3.jar
 * randomrestockablecrates-1.11.2-1.3.1.jar
@@ -110,7 +111,7 @@
 * rftools-1.1x-6.12.jar
 * rftoolsctrl-1.1x-1.6.8.jar
 * roots-2-0.025.jar
-* Scannable-MC1.11.2-1.4.1.25.jar
+* Scannable-MC1.11.2-1.4.1.26.jar
 * shetiphiancore-1.11.0-3.4.6.jar
 * simulatednights-1.11.2-1.3.0.jar
 * Snad-1.11.2-1.7.03.26a.jar
@@ -143,3 +144,5 @@
 * WaterStrainer-1.11.2-2.0.1.jar
 * WearableBackpacks-1.11.2-2.5.0.jar
 * woot-1.11.2-0.3.0.jar
+* World-Stripper-1.3.0-1.11.0.jar
+* xnet-1.4.0.jar
