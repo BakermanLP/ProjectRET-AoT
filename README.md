@@ -1,4 +1,4 @@
-![logoimage](resources/mainmenu/textures/gui/Ages-of-Time.png)
+![logoimage](https://raw.githubusercontent.com/BakermanLP/ProjectRET-AoT/1.11.2/resources/mainmenu/textures/gui/agesoftime.png)
 
 Das Modpack wird unterteilt in verschiedene Kapitel. In jedem Kapitel werden dem Modpack neue Mods hinzugefügt. Hier eine Übersicht der Kapitel:
 
