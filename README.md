@@ -148,6 +148,7 @@ In dieser Epoche wird es magisch und industriell. Geplant sind hier folgende Mod
 ### Murphys Gesetz ( Murphys Law )
 Diese Epoche ist die technische Weiterentwicklung mit mehr Maschinen und mehr Möglichkeiten. Das wird erreicht durch folgende Mods:
 * [Deep Resonance](https://minecraft.curseforge.com/projects/deep-resonance)
+* [Exchanger]()
 * [RF Tools](https://minecraft.curseforge.com/projects/rftools)
 * [RFTools Control](https://minecraft.curseforge.com/projects/rftools-control)
 * [TIS-3D](https://minecraft.curseforge.com/projects/tis-3d)
