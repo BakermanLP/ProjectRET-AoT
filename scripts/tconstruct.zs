@@ -13,7 +13,8 @@ val tcRemove = [
     <tconstruct:slime_boots:2>,
     <tconstruct:slime_boots:3>,
     <tconstruct:slime_boots:4>,
-    <tconstruct:slimesling>
+    <tconstruct:slimesling>,
+    <tconstruct:throwball:1>
 ] as IItemStack[];
 
 for item in tcRemove
