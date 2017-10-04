@@ -1,42 +1,46 @@
 ## Mods
-* [1.11.2]UncraftingTable-1.7.4-beta1.jar
+* [1.11.2]UncraftingTable-1.7.5.jar
+* achievementbooks-v1.0-MC1.11.2.jar
 * ActuallyAdditions-1.11.2-r110.jar
-* ActualMusic 2.0.4.133.jar
 * adminweapons-v3.2-mc1.11.jar
 * AdvancedRocketry-1.11.2-1.2.3.jar
-* animania-1.11.2-1.2.2.jar
+* animania-1.11.2-1.3.3.jar
 * Architect-MC1.11.2-1.2.0.59.jar
+* AutomatedRedstone-1.11.2-5.0.1.jar
 * Baubles-1.11-1.4.6.jar
-* BetterFoliage-MC1.11.2-2.1.8.jar
+* Bedrock Ores-MC1.11.2-1.2.3.44.jar
+* BetterFoliage-MC1.11.2-2.1.10.jar
 * BetterFps-1.4.5.jar
 * BetterQuesting-2.4.235.jar
 * BirdsNests1.11.2-1.5.1.jar
 * Blur-1.0.4-14.jar
 * Botania r1.9-345.jar
 * buildersguides-1.11.2-0.1.0.jar
+* CarryOn MC1.11.2 v1.5.1.jar
+* CD4017BE_lib-1.11.2-5.0.3.jar
 * Chameleon-1.11.2-3.1.0.jar
 * CharcoalPit-[1.11.2]-1.4_11.jar
 * ChestTransporter-1.11.2-2.7.11.jar
-* Chisel-MC1.11.2-0.0.13.22.jar
-* chiselsandbits-13.13.jar
+* Chisel-MC1.11.2-0.0.14.25.jar
+* chiselsandbits-13.14.jar
 * ChunkAnimator-MC1.11-1.2.jar
+* ClockHUD-1.11-1.3.3.jar
 * CodeChickenLib-1.11.2-3.0.0.284-universal.jar
-* CoFHCore-1.11.2-4.2.7.15-universal.jar
+* CoFHCore-1.11.2-4.2.8.16-universal.jar
 * compatlayer-1.11.2-0.2.9.jar
 * CraftingTweaks_1.11.2-7.1.9.jar
 * CraftStudioAPI-universal-0.3.0.86-mc1.11.2-beta.jar
 * CraftTweaker-1.11.2-3.0.26.jar
-* CreativeCore v1.8.5 mc1.11.2.jar
-* CTM-MC1.11.2-0.2.1.10.jar
+* CreativeCore v1.8.9 mc1.11.2.jar
+* CTM-MC1.11.2-0.2.3.14.jar
 * CustomMainMenu-MC1.11.2-2.0.5.jar
 * CustomNPCs_1.11.2(25may17).jar
-* Decocraft-2.4.2_1.11.2.jar
+* Decocraft-2.4.3_1.11.2.jar
 * deepresonance-1.1x-1.4.8.jar
 * DefaultOptions_1.11.2-8.2.2.jar
 * dirt2path-1.6.1.jar
-* DynamicSurroundings-1.11.2-3.4.6.2.jar
-* ElecCore-1.11-1.7.425.jar
-* Embassy 1.11.2-1.1.2.117.jar
+* DynamicSurroundings-1.11.2-3.4.7.2.jar
+* ElecCore-1.11-1.7.431.jar
 * EnchantingTable-1.11-1.1.2.jar
 * Enchiridion-1.11.2-3.2.0.jar
 * endertanks-1.11.0-1.5.5.jar
@@ -56,12 +60,14 @@
 * hopperducts-mc1.11.2-1.4.9.2.jar
 * ImmersiveEngineering-0.11-62.jar
 * immersivepetroleum-1.11.2-1.1.3.jar
+* InductiveLogistics-1.11.2-0.1.0.jar
 * InventoryTweaks-1.62.jar
 * ironchest-1.11.2-7.0.25.815.jar
 * itemscroller-1.11.2-0.11.0.jar
+* itlt-1.11-1.0.0.jar
 * jei_1.11.2-4.5.1.296.jar
 * jeiintegration_1.11.2-1.2.0.21.jar
-* journeymap-1.11.2-5.5.0b1.jar
+* journeymap-1.11.2-5.5.0.jar
 * justenoughbuttons-1.11.2-1.4.6.jar
 * JustEnoughResources-1.11.2-0.6.6.12.jar
 * keywizard-1.11.2-1.5.jar
@@ -71,28 +77,28 @@
 * Mantle-1.11.2-1.2.0.26.jar
 * mcjtylib-1.1x-2.4.3.jar
 * MCMultiPart-2.0.2.jar
-* Mekanism-1.11.2-9.3.4-fix.jar
-* MekanismGenerators-1.11.2-9.3.4-fix.jar
-* MekanismTools-1.11.2-9.3.4-fix.jar
+* Mekanism-1.11.2-9.3.5.206.jar
+* MekanismGenerators-1.11.2-9.3.5.206.jar
+* MekanismTools-1.11.2-9.3.5.206.jar
 * MmmMmmMmmMmm-1.11.2-1.13.jar
 * MobGrindingUtils-0.2.0.jar
 * modtweaker-3.0.2.jar
 * Morpheus-1.11.2-3.2.14.jar
 * MTLib-2.0.3.jar
-* multibeds-1.11.0-1.3.3.jar
-* multistorage-1.11.0-1.3.7b.jar
+* multibeds-1.11.0-1.3.6.jar
+* multistorage-1.11.0-1.3.9.jar
 * mysticalagradditions[1.11.2]-1.1.2.jar
 * mysticalagriculture[1.11.2]-1.5.8.jar
 * Neat 1.4-13.jar
 * notenoughwands-1.1x-1.5.5.jar
-* NuclearCraft-2.3a--1.11.2.jar
-* OnlinePicFrame v1.4.5 mc1.11.2.jar
+* NuclearCraft-2.4b--1.11.2.jar
+* OnlinePicFrame v1.4.6 mc1.11.2.jar
 * OpenComputers-MC1.11.2-1.7.0.40.jar
 * OpenGlider-1.11.2-1.0.0.jar
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C3.jar
 * OreExcavation-1.3.103.jar
-* OTG-AgesOfTime-1.11.2-v1.jar
+* OTG-AgesOfTime-1.11.2-v1.1.jar
 * OTG-Flatlands-1.11.2-v4.jar
 * Plants-1.11.2-beta-0.8.5.jar
 * platforms-1.11.0-1.3.4.jar
@@ -106,13 +112,14 @@
 * RefinedRelocation-mc1.11.2-3.1.14.jar
 * refinedstorage-1.4.20.jar
 * Reliquary-1.11.2-1.3.4.678.jar
+* replaymod-1.11.2-2.0.0.jar
 * reptilemod-1.11.2-3.6.2-68.jar
 * ResourceLoader-MC1.11.2-1.5.2.jar
-* rftools-1.1x-6.12.jar
+* rftools-1.1x-6.13.jar
 * rftoolsctrl-1.1x-1.6.8.jar
 * roots-2-0.025.jar
-* Scannable-MC1.11.2-1.4.1.26.jar
-* shetiphiancore-1.11.0-3.4.6.jar
+* Scannable-MC1.11.2-1.6.1.30.jar
+* shetiphiancore-1.11.0-3.4.7.jar
 * simulatednights-1.11.2-1.3.0.jar
 * Snad-1.11.2-1.7.03.26a.jar
 * SoundFilters-0.10_for_1.11.jar
@@ -122,27 +129,27 @@
 * TConstruct-1.11.2-2.7.1.34.jar
 * TechReborn-1.11.2-2.3.3.181-universal.jar
 * tellme-1.11.2-0.5.4.jar
-* theoneprobe-1.1x-1.4.14.jar
-* ThermalDynamics-1.11.2-2.2.6.13-universal.jar
-* ThermalExpansion-1.11.2-5.2.6.22-universal.jar
+* theoneprobe-1.1x-1.4.18.jar
+* ThermalDynamics-1.11.2-2.2.7.14-universal.jar
+* ThermalExpansion-1.11.2-5.2.7.24-universal.jar
 * ThermalFoundation-1.11.2-2.2.5.16-universal.jar
 * tinker_io-1.11.2-release 2.5.2d.jar
 * TinkerToolLeveling-1.11.2-1.0.1.jar
 * tinyprogressions-1.11.2-2.2.3.jar
-* TIS-3D-MC1.11.2-1.2.2.42.jar
+* TIS-3D-MC1.11.2-1.3.0.49.jar
 * topaddons-1.11.2-0.15.0.jar
 * Totemic-1.11.2-0.8.7.jar
-* TS2K16-1.1.4.jar
+* TS2K16-1.1.7.jar
 * UniDict-1.11.2-1.1b.jar
 * usefulnullifiers-1.3.5.jar
 * VeggieWay-1.0.2.jar
-* Vials-MC1.11.2-1.2.0.1.jar
+* Vials-MC1.11.2-1.2.1.2.jar
 * ViesCraft-1.11.2-5.0.6-final.jar
 * VTweaks-1.11.2-1.4.11.1.jar
-* Waddles-1.11.2-0.5.4.jar
+* Waddles-1.11.2-0.5.5.jar
 * WanionLib-1.11.2-1.1.jar
 * WaterStrainer-1.11.2-2.0.1.jar
 * WearableBackpacks-1.11.2-2.5.0.jar
-* woot-1.11.2-0.3.0.jar
-* World-Stripper-1.3.0-1.11.0.jar
+* woot-1.11.2-1.0.0.jar
+* World-Stripper-1.4.1-1.11.0.jar
 * xnet-1.4.0.jar
