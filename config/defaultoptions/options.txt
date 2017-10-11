@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:["faithful32-1.10.2-latest.zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -50,9 +50,9 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 soundCategory_master:0.5033113
-soundCategory_music:0.0
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:0.5
 soundCategory_block:1.0
