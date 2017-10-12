@@ -163,6 +163,11 @@ FoliageColorIsMultiplier: true
 
 Dungeon(8,100.0,0,160)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,15,100.0,0,63,STONE)
+Ore(hardcoreore:ore_aluminum,9,20,100.0,0,63,STONE)
+Ore(hardcoreore:ore_tin,9,20,100.0,0,32,STONE)
+Ore(hardcoreore:ore_copper,9,20,100.0,32,63,STONE)
 Ore(STONE,24,100,100.0,63,211,GRAVEL)
 Ore(DIRT,12,50,75.0,63,211,GRAVEL)
 Ore(GRASS,12,50,75.0,63,211,GRAVEL)
