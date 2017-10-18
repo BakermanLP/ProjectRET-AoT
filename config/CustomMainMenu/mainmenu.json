@@ -70,7 +70,7 @@
 			"imageHeight" : 64,
 			"alignment" : "bottom_right",
             "tooltip": "Changelog",
-            "wrappedButton" : 401
+            "wrappedButton" : 1000
         },	        
         "mods":
         {
