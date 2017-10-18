@@ -1,0 +1,10 @@
+{
+    "webservices" : {
+        "enabled"   : true,
+        "url"       : "<webservice url eintragen>",
+        "github" : {
+            "enabled"       : true,
+            "repository"    : "aot"
+        }   
+    }
+}
