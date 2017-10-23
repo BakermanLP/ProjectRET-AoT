@@ -115,7 +115,7 @@ OutsideSourceBlock: placeAnyway
 #  Spawns an object in the Mojang NBT structure format. For example, 
 #  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
 #  spawns the bottom part of an igloo.
-Block(0,0,0,randomrestockablecrates:block_crate_1,../../nbt/Crates/simple_dungeon.nbt)
+Block(0,0,0,randomrestockablecrates:BlockCrate1,../../nbt/Crates/simple_dungeon.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
