@@ -63,7 +63,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "mainmenu:textures/buttons/changelog.png",
             "posX" : -204,
-            "posY" : -140,
+            "posY" : -132,
             "width" : 64,
             "height" : 64,
 			"imageWidth" : 64,
@@ -72,14 +72,30 @@
             "tooltip": "Changelog",
             "wrappedButton" : 1000
         },	        
+        "bugreport":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/changelog.png",
+            "posX" : -124,
+            "posY" : -132,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 64,
+			"imageHeight" : 64,
+			"alignment" : "bottom_right",
+            "tooltip": "Bug Report",
+            "wrappedButton" : 1001
+        },	        
         "mods":
         {
             "text" : "",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "mainmenu:textures/buttons/mods.png",
-            "posX" : -124,
-            "posY" : -140,
+            "posX" : -244,
+            "posY" : -85,
             "width" : 64,
             "height" : 64,
 			"imageWidth" : 64,

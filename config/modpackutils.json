@@ -1,7 +1,7 @@
 {
     "webservices" : {
         "enabled"   : true,
-        "url"       : "<webservice url eintragen>",
+        "url"       : "http://blog.bakermanlp.de/githubissues",
         "github" : {
             "enabled"       : true,
             "repository"    : "aot"
