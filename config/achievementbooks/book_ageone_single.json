@@ -1,0 +1,139 @@
+{
+	"itemName": "book_ageone_single",
+	"bookName": "Die Steinzeit fuer den Solisten ",
+	"color": "blue",
+	"craftingMaterial": "minecraft:dirt",
+	"pages": [
+		[{
+			"id": 101,
+			"header": "Willkommen im neuen Modpack",
+			"description": "Hier wird euer Wissen zu den Mods des ersten Zeitalters abgefragt.Solltet ihr ganz neu sein im gemoddeten Minecraft und diese Mods euch fremd sein seien euch die Youtube Kanaele der teilnehmenden Lets Player ans Herz gelegt da findet ihr vieles"
+		}],
+		[{
+				"id": 102,
+				"achievement": "Oeffne 10 Vogelnester",
+				"mod": "Birds Nests"
+			},
+			{
+				"id": 103,
+				"achievement": "Fertige 5 Snad (Ja es ist besser als Sand)",
+				"mod": "Snad"
+			},
+			{
+				"id": 104,
+				"achievement": "Schilde sind DAS neue Accesoire!Bau dir einen Schild!",
+				"mod": "Spartan Shields"
+			},
+			{
+				"id": 105,
+				"achievement": "Finde 1 Bedrock Ore und baue daraus ab",
+				"mod": "Bedrock Ores"
+			},
+			{
+				"id": 106,
+				"achievement": "Finde und pluendere eine Random Restockable Crate! Bau sie NICHT ab!",
+				"mod": "Random Restockable Crates"
+			}
+		],
+		[{
+				"id": 107,
+				"achievement": "Wie so oft starten wir mit Tinkers Construct. Baue einen Stencil Table,eine Pattern Chest,einen Part Builder und eine Tool Station.",
+				"mod": "Tinkers Construct"
+			},
+			{
+				"id": 108,
+				"achievement": "Baue einen Satz Grundwerkzeuge von Tinkers Construct, bestehend aus: Spitzhacke,Schaufel,Axt und einer Waffe",
+				"mod": "Tinkers Construct"
+			},
+			{
+				"id": 109,
+				"achievement": "Nachdem ihr nun Werkzeug habt geht es an eine Tinkers Construct Schmelze.Der Vorteil gegenueber dem Ofen: Es verdoppelt die Ausbeute eines Erzes!",
+				"mod": "Tinkers Construct"
+			}
+		],
+		[{
+				"id": 110,
+				"achievement": "Bau einen Furnus und einen Pulvus",
+				"mod": "Furnus"
+			},
+			{
+				"id": 111,
+				"achievement": "Personalisiere deinen Furnus und deinen Pulvus mit je mindestens 2 Upgrades",
+				"mod": "Furnus"
+			},
+			{
+				"id": 112,
+				"achievement": "Irgendwo muss der Kram ja auch gelagert werden. Bau einen Storage Drawer jeder Groesse!",
+				"mod": "Storage Drawers"
+			},
+			{
+				"id": 113,
+				"achievement": "Fuer viele verschiedene Gegenstaende baue lieber grosse Kisten. Bau eine Iron und eine Gold Chest!",
+				"mod": "Iron Chests"
+			}
+		],
+		[{
+				"id": 114,
+				"achievement": " Baue eine Water Strainer Base und ein Netz. Sammle dann damit Ressourcen!",
+				"mod": "Water Strainer"
+			},
+			{
+				"id": 115,
+				"achievement": "Baue ein Ex Nihilo Sieb und Siebe je 1 Stack Dirt,Sand und Gravel!",
+				"mod": "Ex Nihilo Adscensio"
+			},
+			{
+				"id": 116,
+				"achievement": "Das ist euch zu langsam? Bau ein Heavy Sieve und mache dasselbe mit je einem Stack Compressed Dirt,Sand und Gravel!",
+				"mod": "Ex Compressum"
+			}
+		],
+		[{
+				"id": 117,
+				"achievement": " Baue einen Wearable Backpack um mehr mit dir tragen zu koennen!",
+				"mod": "Wearable Backpacks"
+			},
+			{
+				"id": 118,
+				"achievement": "Unschoene Restmengen Fluessigkeiten in deiner Schmelze? Mit Vials kannst du diese aus dem Basin entnehmen!",
+				"mod": "Vials"
+			},
+			{
+				"id": 119,
+				"achievement": "Du willst was von einem Hopper abtransportieren? Baue 16 Hopperducts!",
+				"mod": "Hopperducts"
+			},
+			{
+				"id": 120,
+
+				"achievement": "Schnauze voll vom Cobblestone ranschaffen? Bau dir doch einen Cobblestone Generator!",
+				"mod": "Tiny Progressions"
+		 }],
+		[{
+		        "id": 121,
+				"achievment": "Sammle genug Inferium Essence um deine ersten 9 Inferium Seeds zu bauen",
+				"mod": "Mystical Agriculture"
+		 },
+		 {  
+		       "id": 122,
+			   "achievement": "Fertige 9 Tier 1 Ressourcen Seeds (exklusive Inferium Seeds)!",
+			   "mod": "Mystical Agriculture"
+	     },
+		 { 
+		       "id":123,
+			   "achievement": "Fertige 9 Tier 2 und 9 Tier 3 Ressourcen Seeds!",
+			   "mod" : "Mystical Agriculture"
+	     },
+		 {
+		       "id":124,
+			   "achievement": "Bastel dir eine Giesskanne. Diese gibt es von Tiny Progressions oder von Mystical Agriculture!"
+		 },
+		 {
+		       "id":125,
+			   "achievement": "Das Gruenzeug wächst immer noch zu lahm? Versuche es mit Growth Blocks! Baue 3!",
+			   "mod": "Tiny Progressions"
+		 }]
+		 
+
+	]
+}
