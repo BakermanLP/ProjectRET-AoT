@@ -77,7 +77,7 @@
             "text" : "",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
-			"texture" : "mainmenu:textures/buttons/changelog.png",
+			"texture" : "mainmenu:textures/buttons/bugreport.png",
             "posX" : -124,
             "posY" : -132,
             "width" : 64,
