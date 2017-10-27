@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: FrozenOcean
 
-NotBorderNear: Deep Ocean, Beach, Beach Desert, Stone Beach, TaigaSmall, RedwoodSmall, ForestGrandFirSmall, ForestDry, UplandsBlackSpruce, Mesa Sandstone, Alpine, Alps, Autumnal Woods, Birch Forest, Birch Meadow, BirchForestHighlands, BirchForestMountainRange, BirchForestRocky, Caverns, Desert, Desert Cliffs, Desert M, DesertFlats, DesertHills, DesertLowlands, DesertRed, DesertSmall, DesertTropical, Dry Plains, Extreme Hills, Extreme Hills Jungle, FloatingPlains, Flower Forest, Forest, Forest M, Forest Wetland, ForestBaldCypress, ForestConifer, ForestEnchanted, ForestEnder, ForestFirThicket, ForestGrandFir, ForestHills, ForestMountainRange, ForestPlateauRoofed, ForestPoplar, High Cliffs, Highlands, Jungle, JungleCliffs, JungleHighlands, JungleHills, Mangrove Forest, Marsh, Mega Taiga, Mega Taiga Hills, Mesa, Mesa (Bryce), Mesa Small, Mesa Verde, MonumentValley, Mountain Range, MountainSteps, MountainStepsGlacier, PlainsCliffM, Pumpkin Plains, Rainforest, Redwood Forest, RockyMountains, RockyPlains, Roofed Forest, Savanna, SavannaSmall, Steppe, Sunflower Plains, Swampland, Swampland M, SwamplandLarge, Taiga, TaigaHighlands, TemperateHills, TemperateLonePeak, TemperateLowlands, TemperatePlains, TemperatePlainsDarkMeadow, TemperatePlainsHeathland, TemperatePlainsM, TemperatePlainsMeadow, TemperatePlainsMeadowM, Tropical Savanna, TropicalPillars, Tundra, Uplands, DesertSmallRed, OceanCoral, MonumentMountains
+NotBorderNear: Deep Ocean, Beach, Stone Beach, ForestDry, UplandsBlackSpruce, Birch Forest, Desert, Desert M, DesertHills, Extreme Hills, Flower Forest, Forest, ForestHills, Jungle, JungleHills, Mangrove Forest, Mega Taiga, Mega Taiga Hills, Mesa, Mesa (Bryce), Rainforest, Roofed Forest, Savanna, Sunflower Plains, Swampland, Swampland M, Taiga, Uplands
 
 BiomeSizeWhenBorder: 11
 
@@ -49,9 +49,7 @@ BiomeSizeWhenBorder: 11
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeHeight: -1.86
-
 
 BiomeVolatility: 0.1
 
@@ -84,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

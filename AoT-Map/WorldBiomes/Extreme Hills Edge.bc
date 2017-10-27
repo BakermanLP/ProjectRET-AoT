@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: Extreme Hills
 
-NotBorderNear: Extreme Hills M, IsleRiver, Extreme Hills+, BirchForestHighlands
+NotBorderNear: Extreme Hills M, Extreme Hills+
 
 BiomeSizeWhenBorder: 11
 

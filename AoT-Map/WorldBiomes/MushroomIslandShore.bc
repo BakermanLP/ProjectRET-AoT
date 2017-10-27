@@ -36,7 +36,7 @@ BiomeRarityWhenIsle: 50
 # Border biomes only #
 ######################
 
-BiomeIsBorder: MushroomIsland, GiantMushroomIsland
+BiomeIsBorder: MushroomIsland
 
 NotBorderNear: 
 

@@ -26,7 +26,7 @@ BiomeColor: #4C7009
 # Isle biomes only #
 ####################
 
-IsleInBiome: JunglePlateau, JunglePlateauLow, JungleHills, Ocean Island, TropicalPillars, Archipelago, JungleAncient
+IsleInBiome: JungleHills
 
 BiomeSizeWhenIsle: 9
 
@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverTropical
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

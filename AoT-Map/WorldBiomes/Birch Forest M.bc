@@ -26,7 +26,7 @@ BiomeColor: #4E6E58
 # Isle biomes only #
 ####################
 
-IsleInBiome: Forest, TemperatePlains, Birch Forest, TemperatePlainsM, TemperatePlains, RockyPlains, WoodlandBorder
+IsleInBiome: Forest, Birch Forest
 
 BiomeSizeWhenIsle: 9
 
@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverBirchForest
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

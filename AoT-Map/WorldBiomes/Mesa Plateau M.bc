@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: Mesa River
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

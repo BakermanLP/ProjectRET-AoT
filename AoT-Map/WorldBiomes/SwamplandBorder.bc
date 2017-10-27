@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 100
 # Border biomes only #
 ######################
 
-BiomeIsBorder: SwamplandLarge, Swampland, Swampland M, Mangrove Forest
+BiomeIsBorder: Swampland, Swampland M, Mangrove Forest
 
-NotBorderNear: SwamplandRuins, RainforestTropical, RiverWetland, Rocks, Swampland Bushes, Roofed Fungi Forest, SwamplandSpooky
+NotBorderNear: 
 
 BiomeSizeWhenBorder: 10
 
@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverSwampland
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

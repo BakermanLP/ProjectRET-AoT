@@ -186,6 +186,7 @@ Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,139,GRASS)
 Liquid(WATER,20,100.0,19,139,STONE:0)
 Liquid(LAVA,10,100.0,19,139,STONE:0)
+## INVALID CUSTOMOBJECT - No custom object found with the name HangingRockMedium2 ##
 CustomObject(HangingRockMedium1,HangingRockMedium2,HangingRockMedium3,HangingRockMedium4,HangingRockMedium5,HangingRockMedium6,HangingRockSmall1,HangingRockSmall2,HangingRockSmall3,HangingRockSmall4,HangingRockSmall5,HangingRockSmall6)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)
 CustomObject(SpruceFirSmall1,SpruceFirSmall2,SpruceFirSmall3,SpruceFirSmall4,SpruceFirSmall5,SpruceFirSmall6,SpruceFirSmall7,SpruceFirSmall8)

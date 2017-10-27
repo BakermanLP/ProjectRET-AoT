@@ -50,7 +50,6 @@ ExtrudeMode: None
 
 ExtrudeThroughBlocks: AIR
 
-
 MaxBranchDepth: 10
 
 ExcludedBiomes: All

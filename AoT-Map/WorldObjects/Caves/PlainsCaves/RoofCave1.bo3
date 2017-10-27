@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0
@@ -40,6 +39,7 @@ SpawnHeightVariance: 0
 ##############################
 
 MinHeight: 151
+
 MaxHeight: 151
 
 ######################

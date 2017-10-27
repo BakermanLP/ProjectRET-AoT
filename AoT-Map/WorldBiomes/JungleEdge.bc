@@ -36,9 +36,9 @@ BiomeRarityWhenIsle: 100
 # Border biomes only #
 ######################
 
-BiomeIsBorder: Jungle, ArchipelagoMid, JungleLowlands, JungleHighlands, JungleAncient
+BiomeIsBorder: Jungle
 
-NotBorderNear: JunglePlateau, JunglePlateauLow, IsleRiver, Jungle M, TemperateLowlands, SwamplandLarge, Swampland, TropicalMountain, ArchipelagoHigh, JungleLonePeak, JungleAncientMountain, JungleAncientMountainTall, JungleAncientMushrooms, JungleAncientRocks, JungleSwampy
+NotBorderNear: Jungle M, Swampland
 
 BiomeSizeWhenBorder: 10
 
@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverClay
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

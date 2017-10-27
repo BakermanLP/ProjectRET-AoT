@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: randomY
 
-
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0

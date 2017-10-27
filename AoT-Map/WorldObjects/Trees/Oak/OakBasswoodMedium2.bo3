@@ -30,7 +30,6 @@ RotateRandomly: true
 
 SpawnHeight: highestSolidBlock
 
-#Replaced MinHeight: 62
 SpawnHeightOffset: 0
 
 SpawnHeightVariance: 0

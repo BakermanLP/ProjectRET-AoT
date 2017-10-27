@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: Ocean
 
-NotBorderNear: Mega Taiga Hills, Mega Taiga Mountains, MountainStepsGlacierEdge1, MountainStepsGlacierEdge2, OceanPlateauLow, FloatingPlains, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, SavannaSmall, AlpineForest, SnowyCliff, SnowyMountains, IceWall, ForestPeak, OceanForestIsland, OceanDesertIsland, OceanPlateau, OceanPlateauM, ForestPlateau, OceanRocks, IcyMountains, FlyingForest, JungleEdge, RiverClay, ForestMountain, ForestMountainRange, RiverWetland, ForestBaldCypress, Alpine, AlpineM, Mega Spruce Taiga, RiverAlpine, FrozenOcean, SnowyPlains, Ice Plains, SnowyLonePeak, Taiga M, Cold Plains, PlainsCliff, PlainsCliffM, Mountain Range, ForestConiferSnow, ForestConifer, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, Stone Beach, ForestConifer, ForestEnchanted, ForestEnchantedBorder, MushroomIsland, MushroomIslandShore, Tundra, ForestEnchantedBorder, Roofed Forest, TemperateLowlandsEdge, ForestEnder, Mesa Verde Edge, Webbed Hills Edge, RainforestTropical, Archipelago, RiverForest, Taiga, ForestConifer, Arctic, TundraEdge, Ice Plains, Mesa Verde, Tropical Savanna, Mesa (Bryce), Mesa, Savanna, TemperateLonePeak, SnowyMesa, Glacier, Mesa Small, SnowyExtremeHills, ColdForestFirThicket, Cold Taiga, Frozen Forest, AlpineConiferSnow, TundraCliffs, TundraForest, OceanRocksDiorite, Drylands, OceanRocksDiorite, ForestLarch, Mega Taiga, TaigaSmall, DrylandsEdge2, Steppe, MountainStepsGlacier, RedwoodSmall, Snowy Cliffs, ArcticEdge, Desert Cliffs, Desert Cliffs Edge, OceanCoral, MesaWhite, Desert, Mesa Sandstone, Mesa Sandstone Edge, Alps, AlpsEdge, SnowyMountainsEdge, ColdTaigaBorder, SnowyCliffsEdge, SnowyCliffsMountainPeak1, SnowyMesaForest, SnowyMesaRocks, SnowyMesaEdge, ColdForestFirThicketEdge, RoofedForestEnchanted, GiantMushroomIsland, ForestGrandFir, SnowyCanyon, DesertCanyonMid, DesertCanyonHigh
+NotBorderNear: Mega Taiga Hills, DesertHills, Desert M, JungleEdge, Mega Spruce Taiga, FrozenOcean, Ice Plains, Taiga M, River, Deep Ocean, Cold Beach, Stone Beach, MushroomIsland, MushroomIslandShore, Roofed Forest, Taiga, Ice Plains, Mesa (Bryce), Mesa, Savanna, Cold Taiga, Mega Taiga, Desert
 
 BiomeSizeWhenBorder: 10
 
@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverSandy
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

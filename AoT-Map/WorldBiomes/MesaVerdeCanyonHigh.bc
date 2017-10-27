@@ -28,7 +28,7 @@ ReplaceToBiomeName: Jungle
 # Isle biomes only #
 ####################
 
-IsleInBiome: MesaVerdeCanyon, MesaVerdeCanyonMid
+IsleInBiome: 
 
 BiomeSizeWhenIsle: 9
 
@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 25.0, 25.0, 50.0, 
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverVerde
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

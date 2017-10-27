@@ -38,7 +38,7 @@ BiomeRarityWhenIsle: 98
 
 BiomeIsBorder: Ocean
 
-NotBorderNear: Glacier, FloatingPlains, JungleEdge, OceanDesertIsland, OceanIslandDesert, OceanRocks, OceanRocksM, RiverWetland, ForestBaldCypress, Alpine, RiverAlpine, FrozenOcean, Beach, Tundra, TemperateLowlands, FlyingForest, ForestBaldCypress, ForestWetlandM, Forest Wetland, IsleRiver, River, Deep Ocean, Cold Beach, MushroomIsland, MushroomIslandShore, TemperatePlainsM, TemperatePlains, Roofed Forest, SavannaEdge, RainforestTropical, Archipelago, ArchipelagoMid, ArchipelagoHigh, RiverForest, Forest, Swampland, SwamplandLarge, Birch Forest, DesertRed, DesertHills, DesertSmall, DesertLowlands, DesertTropical, DesertFlats, Desert M, Mesa Small, FrozenRiver, GlacierM, Pumpkin Plains, TemperatePlainsMeadow, TemperatePlainsMeadowM, TemperatePlainsOakgrove, SnowyExtremeHills, SnowyMesa, Cold Plains, Arctic, SnowyPlains, Alpine, IcyMountains, Ice Plains, SnowyMountains, ColdForestFirThicket, Cold Taiga, Frozen Forest, OceanForestHighlands, SwamplandBorder, Desert Cliffs, Desert Cliffs Edge, OceanCoral, ForestPeak, Desert, Mesa Sandstone, Mesa Sandstone Edge, GiantMushroomIsland
+NotBorderNear: JungleEdge, FrozenOcean, Beach, River, Deep Ocean, Cold Beach, MushroomIsland, MushroomIslandShore, Roofed Forest, SavannaEdge, Forest, Swampland, Birch Forest, DesertHills, Desert M, FrozenRiver, Ice Plains, Cold Taiga, SwamplandBorder, Desert
 
 BiomeSizeWhenBorder: 10
 
@@ -82,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

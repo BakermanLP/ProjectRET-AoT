@@ -49,7 +49,6 @@ BiomeSizeWhenBorder: 8
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeHeight: -1.36
 
 BiomeVolatility: 0.5
@@ -83,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverTaiga
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

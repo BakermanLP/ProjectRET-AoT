@@ -38,9 +38,9 @@ BiomeRarityWhenIsle: 100
 # Border biomes only #
 ######################
 
-BiomeIsBorder: ForestFirThicket, ForestDry, ForestPlateauPinyon
+BiomeIsBorder: ForestDry
 
-NotBorderNear: Rocks, DesertSmallRed, RedMountain
+NotBorderNear: 
 
 BiomeSizeWhenBorder: 12
 
@@ -84,7 +84,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

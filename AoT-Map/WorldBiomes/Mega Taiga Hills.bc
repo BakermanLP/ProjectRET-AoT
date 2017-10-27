@@ -49,7 +49,6 @@ BiomeSizeWhenBorder: 6
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-
 BiomeHeight: 0.14
 
 BiomeVolatility: 0.3
@@ -83,7 +82,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: RiverRocky
+RiverBiome: 
 
 #######################
 # ImprovedRivers:true #

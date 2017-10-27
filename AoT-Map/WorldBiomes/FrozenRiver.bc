@@ -26,7 +26,7 @@ BiomeColor: #A0A0FF
 # Isle biomes only #
 ####################
 
-IsleInBiome: Glacier
+IsleInBiome: 
 
 BiomeSizeWhenIsle: 8
 
