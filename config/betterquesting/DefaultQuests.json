@@ -1,13 +1,13 @@
 {
   "questSettings": {
     "betterquesting": {
+      "livesdef": 3,
+      "home_anchor_y": 0.0,
+      "livesmax": 10,
+      "home_anchor_x": 0.5,
       "editmode": true,
       "hardcore": false,
-      "livesdef": 3,
-      "livesmax": 10,
       "home_image": "betterquesting:textures/gui/default_title.png",
-      "home_anchor_x": 0.5,
-      "home_anchor_y": 0.0,
       "home_offset_x": -128,
       "home_offset_y": 0
     }
@@ -1015,13 +1015,1238 @@
         15
       ],
       "questID": 16
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:coal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Es werde Licht.",
+          "desc": "Es ist dunkel und kalt. Du brauchst also Kohle.\n\n\nDafür brauchen wir ein paar Bäume, ein Feuerzeug und eine Grube.\n\nMachen wir uns ans Werk.\n\nBaue eine Grube, lege die Log-Piles hinein. Decke alles mit Erde oder Stein zu. Zünde vor dem letzen Block noch die Logs mit einem Feuerzeug an.\n\nNun must du nur noch warten. Am nächsten Tag kannst du die Holzkohle abbauen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 9,
+              "OreDict": "logWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "charcoal_pit:log_pile",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:coal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "charcoal_pit:item_ash",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 17
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "furnus:furnus",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Furnus?!",
+          "desc": "Der Furnus.\n\nEine Erweiterung des Ofen ist der Furnus..\n\nFinde herraus wozu die Mod gut ist."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "furnus:furnus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 18
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "furnus:pulvus",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "noch mehr Furnussese",
+          "desc": "Einen neuen Ofen haben wir ja schon gebaut..\n\nAber die Mod kann noch mehr..sehen wir weiter."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "furnus:pulvus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        18
+      ],
+      "questID": 19
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 234
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Das Schwein.",
+          "desc": "Schweine sind reinliche Tiere und lieben es sich im Dreck zu suhlen, um Parasiten loszuwerden. \n\nAlso musst du Mud herstellen damit die Tiere sich wohlfühlen.  \nIch denke 5 sollten für den Anfang reichen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:block_mud",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        24
+      ],
+      "questID": 20
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 233
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Eine Kuh mach muh..",
+          "desc": "Eine Kuh macht muh..viele Kühe machen Mühe..\n\nAber da du Milch brauchst ist und das egal. Also sammel dir ein paar Kühe."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:bait",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        24
+      ],
+      "questID": 21
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "props:props",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 237
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ei oder Huhn?",
+          "desc": "Wer war zuerst das Ei oder das Huhn?\n\nDas ist dir doch egal. Fange mit dem Nest an.  Um das Nest legst duSeeds auf den Boden. \n\nUnd bald hast du Eier und Hühner..oder anderers Federvieh."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:block_nest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        24
+      ],
+      "questID": 22
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:cheese_mold",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Alles Käse.",
+          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen.  Du brauchst eine Käseform und natürlich ein Eimer Milch.\n\nUm Käse zu machen must du die Form hinstellen und mit Milch füllen. Es kann auch Ziege oder Schaf sein. Hilft aber nicht bei der Quest.\n\nUnd viola hast du etwas Käse. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "milk_holstein",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:cheese_mold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "animania:holstein_cheese_wheel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        21
+      ],
+      "questID": 23
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:block_trough",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Grundregeln der Tierhaltung.",
+          "desc": "Für das halten von Tieren sind ein paar Grundregeln zu beachten.\n\nDie verschiedenen Tiere müssen glücklich sein. Dafür brauchen wir ein paar Items. Fangen wir mit Trögen an. Für Futter und Wasser."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:block_trough",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 24
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:entity_egg_random",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Noch mehr Viecher.",
+          "desc": "Schweine, Kühe und Hühner sind nicht die einzigen Tiere die es gibt.\n\nHamster, Ziegen, Schafe, Hasen und viel mehr bereichern unsere Welt.\n\nJedes Tier hat eingenes Futter und Bedürfnisse.\n\nAm besten hast du für den Notfall für jedes Tier etwas zu Hause."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:salt_lick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "animania:hamster_food",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "excompressum:bait",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        27,
+        28,
+        37
+      ],
+      "questID": 25
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "forge:bucketfilled",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "FluidName:8": "slop",
+              "Amount:3": 1000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mästen",
+          "desc": "Nach einem Schlammbad wollten Schweine was fressen. Mit ein bisschen Milch und Gemüse machst du lecker Schweine -\"Fraß\".\n\nDen Eimer kannst du einfach in einen Trog schütten. Guten Hunger."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "slop",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        20
+      ],
+      "questID": 26
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:truffle",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Trüffel",
+          "desc": "Wenn deine Schweine glücklich und satt sind, suchen sie für dich Trüffel. \n\nDaraus lässt sich eine herrliche Suppe herstellen.\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "animania:truffle",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:truffle_soup",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        26
+      ],
+      "questID": 27
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:egg",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ei Ei Ei",
+          "desc": "Wenn wir Vögel haben und ein Nest, bekommen wir auch bald Eier.\n\nSammel ein paar und bereite dir anschließend ein Omlett daraus zu."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:egg",
+              "Count": 5,
+              "OreDict": "egg",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:plain_omelette",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        22
+      ],
+      "questID": 28
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:cheese_mold",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Alles Käse.",
+          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen. Du brauchst eine Käseform und natürlich einen Eimer Milch.\n\nUm Käse zu machen must du die Form hinstellen und mit Milch füllen. Es geht auch Ziege oder Schaf. Hilft dir aber nicht bei der Quest.\n\nUnd viola hast du etwas Käse."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "milk_friesian",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:cheese_mold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "animania:friesian_cheese_wheel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        21
+      ],
+      "questID": 29
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "furnus:upgrade",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Upgrades",
+          "desc": "Es gibt noch ein paar Erweiterungen für die Furnus.\n\nBau doch mal 2 und probier sie aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "furnus:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "furnus:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        19
+      ],
+      "questID": 30
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "waterstrainer:strainer_survivalist_wide",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Siebe.",
+          "desc": "Nun hast du die Basis für den Filter.\n\n\nNun brauchst du nur noch die Netze. Wenn du den Filter einen Block tief unter die Wasseroberfläche gesetzt hast, siehst du im Wasser 4 Stäbe. Dazwischen spannen wir das Netz.\nEs gibt 3 verschiedene Weiten und 3 verschiede Stufen der Haltbarkeit.\n\nTeste aus welche für dich das Beste ist."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:strainer_survivalist_wide",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "waterstrainer:strainer_survivalist",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "waterstrainer:strainer_survivalist_tight",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        33
+      ],
+      "questID": 31
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "exnihiloadscensio:blocksieve",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Sieben für den Anfang.",
+          "desc": "Wenn du keine Mine hast, ist das ein guter Weg für den Anfang ein wenig Material zu erhalten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloadscensio:blocksieve",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "exnihiloadscensio:itemmesh",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:gravel",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sand",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 32
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "waterstrainer:strainer_base",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Material sammeln im Wasser",
+          "desc": "Wenn dir das sieben zu anstrengend ist. Oder aber du einfach keine Lust hast, nimm den Waterstrainer..\n\nEr fischt dir Materialien aus dem Wasser."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:strainer_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        32
+      ],
+      "questID": 33
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "waterstrainer:bait_pot",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 80
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Fisch",
+          "desc": "Mit dem Filter kannst du nicht nur Material sammeln. Auch Fisch und anderes verfängt sich gerne darin.\n\nAber nur wenn du einen Köder benutzt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:garden_trowel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:worm",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:bait_pot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 80
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        31
+      ],
+      "questID": 34
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:fish",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Fisch die 2te.",
+          "desc": "Nun hast du ein Köder und ein Topf. Füge beides im Craftingfeld zusammen.\n\nNur noch das Fischnetz und wir können den Filter bestücken und Fische fangen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:strainer_fisherman",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        34
+      ],
+      "questID": 35
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "waterstrainer:efficiency_meter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Effizient?",
+          "desc": "Es gibt ein Gerät, das dir verrät ob dein Filter effizient genug arbeitet.\n\nTeste es einfach aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:efficiency_meter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        32
+      ],
+      "questID": 36
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "animania:carving_knife",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Noch mehr Käse.",
+          "desc": "Damit du deinen Käse klein schneiden kannst, brauchst du ein gutes Messer. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "animania:carving_knife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        23,
+        29
+      ],
+      "questID": 37
     }
   ],
   "questLines": [
     {
       "properties": {
         "betterquesting": {
-          "name": "Der Schamane in Dir.",
+          "name": "Der Schamane in Dir.  (2)",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Hier bebist du dich auf eine Reise, eine spirituelle Reise.\n\nDu lernst neue Pflanzen zu züchten und ihre Kraft für dich zu nutzen.\n\nNeue mächtige Zauber zu beherrschen, die dich vor Tieren beschützen.\n\nAlles im Einklang mit der Natur."
@@ -1090,12 +2315,12 @@
         }
       ],
       "lineID": 0,
-      "order": 0
+      "order": 3
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "Der sich nen Wolf tanzt.",
+          "name": "Der sich nen Wolf tanzt.  (2)",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -1146,7 +2371,188 @@
         }
       ],
       "lineID": 1,
+      "order": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Der Beginn.",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Du brauchst Licht.\n\nUnd du brauchst einen Ofen.  Fang an."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -126,
+          "y": 162,
+          "id": 17
+        },
+        {
+          "size": 24,
+          "x": -126,
+          "y": 120,
+          "id": 18
+        },
+        {
+          "size": 24,
+          "x": -54,
+          "y": 102,
+          "id": 19
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 84,
+          "id": 30
+        }
+      ],
+      "lineID": 2,
+      "order": 0
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Viecherrei",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Um zu überleben brauchst du Nahrung.\n\nDafür kannst du dir Tiere halten. Aber auch die müssen zu erst versorgt werden."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 240,
+          "y": 102,
+          "id": 20
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 162,
+          "id": 21
+        },
+        {
+          "size": 24,
+          "x": 372,
+          "y": 252,
+          "id": 37
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 180,
+          "id": 22
+        },
+        {
+          "size": 24,
+          "x": 288,
+          "y": 234,
+          "id": 23
+        },
+        {
+          "size": 24,
+          "x": 174,
+          "y": 126,
+          "id": 24
+        },
+        {
+          "size": 24,
+          "x": 462,
+          "y": 312,
+          "id": 25
+        },
+        {
+          "size": 24,
+          "x": 288,
+          "y": 60,
+          "id": 26
+        },
+        {
+          "size": 24,
+          "x": 360,
+          "y": 48,
+          "id": 27
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 240,
+          "id": 28
+        },
+        {
+          "size": 24,
+          "x": 324,
+          "y": 192,
+          "id": 29
+        }
+      ],
+      "lineID": 3,
+      "order": 2
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Wir besorgen uns Erze.",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Wir haben Licht und auch einen tollen Ofen.\n\nAber wir brauchen noch Erze und andere Materialien..\n\nDa fangen wir jetzt mit an."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -138,
+          "y": 210,
+          "id": 32
+        },
+        {
+          "size": 24,
+          "x": -90,
+          "y": 132,
+          "id": 33
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 108,
+          "id": 34
+        },
+        {
+          "size": 24,
+          "x": 150,
+          "y": 102,
+          "id": 35
+        },
+        {
+          "size": 24,
+          "x": -78,
+          "y": 246,
+          "id": 36
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 114,
+          "id": 31
+        }
+      ],
+      "lineID": 4,
       "order": 1
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Reliquary  (2)",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [],
+      "lineID": 5,
+      "order": 5
     }
   ],
   "format": "1.0.0"
