@@ -35,18 +35,6 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:log": [
-    {
-      "stack": {
-        "name": "minecraft:diamond",
-        "amount": 1,
-        "meta": 0
-      },
-      "miningLevel": 0,
-      "chance": 1.0,
-      "fortuneChance": 0.0
-    }
-  ],
   "minecraft:cobblestone:0": [
     {
       "stack": {
