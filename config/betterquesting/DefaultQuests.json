@@ -5,7 +5,7 @@
       "home_anchor_y": 0.0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "betterquesting:textures/gui/default_title.png",
       "home_offset_x": -128,
