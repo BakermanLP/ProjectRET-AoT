@@ -50,22 +50,6 @@
     },
     {
       "drop": {
-        "name": "hardcoreore:nugget_osmium",
-        "meta": 0
-      },
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_iridium",
-        "meta": 0
-      },
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
         "name": "hardcoreore:nugget_aluminum",
         "meta": 0
       },
@@ -111,14 +95,6 @@
       },
       "chance": 0.30,
       "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_zinc",
-        "meta": 0
-      },
-      "chance": 0.10,
-      "meshLevel": 2
     }
   ],
   "minecraft:sand:0": [
@@ -144,54 +120,6 @@
         "meta": 0
       },
       "chance": 0.26,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_titanium",
-        "meta": 0
-      },
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_iridium",
-        "meta": 0
-      },
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_uranium",
-        "meta": 0
-      },
-      "chance": 0.05,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "hardcoreore:nugget_platinum",
-        "meta": 0
-      },
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "tconstruct:nuggets",
-        "meta": 0
-      },
-      "chance": 0.015,
-      "meshLevel": 2
-    },
-    {
-      "drop": {
-        "name": "tconstruct:nuggets",
-        "meta": 1
-      },
-      "chance": 0.015,
       "meshLevel": 2
     }
   ],
