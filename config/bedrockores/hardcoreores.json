@@ -8,8 +8,8 @@
     "widthMax": 6,
     "countMin": 10,
     "countMax": 16,
-    "yieldMin": 64,
-    "yieldMax": 80
+    "yieldMin": 32,
+    "yieldMax": 40
   },
   {
     "state": {
@@ -20,8 +20,8 @@
     "widthMax": 6,
     "countMin": 10,
     "countMax": 16,
-    "yieldMin": 56,
-    "yieldMax": 70
+    "yieldMin": 28,
+    "yieldMax": 35
   },
   {
     "state": {
@@ -32,8 +32,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 12,
-    "yieldMin": 32,
-    "yieldMax": 40
+    "yieldMin": 16,
+    "yieldMax": 20
   },
   {
     "state": {
@@ -44,8 +44,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 12,
-    "yieldMin": 32,
-    "yieldMax": 40
+    "yieldMin": 16,
+    "yieldMax": 20
   },
   {
     "state": {
@@ -56,8 +56,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 12,
-    "yieldMin": 64,
-    "yieldMax": 80
+    "yieldMin": 32,
+    "yieldMax": 40
   },
   {
     "state": {
@@ -68,8 +68,8 @@
     "widthMax": 4,
     "countMin": 4,
     "countMax": 8,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },
   {
     "state": {
@@ -80,20 +80,20 @@
     "widthMax": 4,
     "countMin": 4,
     "countMax": 8,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },
   {
     "state": {
-      "name": "hardcoreore:ore_platinum>"
+      "name": "hardcoreore:ore_platinum"
     },
     "weight": 30,
     "widthMin": 2,
     "widthMax": 4,
     "countMin": 4,
     "countMax": 8,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },  
   {
     "state": {
@@ -104,8 +104,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 12,
-    "yieldMin": 32,
-    "yieldMax": 40
+    "yieldMin": 16,
+    "yieldMax": 20
   },
   {
     "state": {
@@ -116,8 +116,8 @@
     "widthMax": 3,
     "countMin": 2,
     "countMax": 4,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },
   {
     "state": {
@@ -128,8 +128,8 @@
     "widthMax": 3,
     "countMin": 2,
     "countMax": 4,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },
   {
     "state": {
@@ -140,7 +140,7 @@
     "widthMax": 3,
     "countMin": 2,
     "countMax": 4,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   }
 ]

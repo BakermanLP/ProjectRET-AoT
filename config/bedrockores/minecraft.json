@@ -24,8 +24,8 @@
     "widthMax": 6,
     "countMin": 10,
     "countMax": 16,
-    "yieldMin": 180,
-    "yieldMax": 225
+    "yieldMin": 90,
+    "yieldMax": 110
   },
   {
     "state": {
@@ -36,8 +36,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 12,
-    "yieldMin": 18,
-    "yieldMax": 22
+    "yieldMin": 9,
+    "yieldMax": 11
   },
   {
     "state": {
@@ -48,8 +48,8 @@
     "widthMax": 4,
     "countMin": 4,
     "countMax": 8,
-    "yieldMin": 8,
-    "yieldMax": 10
+    "yieldMin": 4,
+    "yieldMax": 5
   },
   {
     "state": {
@@ -60,8 +60,8 @@
     "widthMax": 5,
     "countMin": 8,
     "countMax": 10,
-    "yieldMin": 64,
-    "yieldMax": 80
+    "yieldMin": 16,
+    "yieldMax": 40
   },
   {
     "state": {
@@ -72,8 +72,8 @@
     "widthMax": 3,
     "countMin": 4,
     "countMax": 6,
-    "yieldMin": 7,
-    "yieldMax": 9
+    "yieldMin": 3,
+    "yieldMax": 4
   },
   {
     "comment": [
@@ -96,8 +96,8 @@
     "widthMax": 3,
     "countMin": 2,
     "countMax": 4,
-    "yieldMin": 4,
-    "yieldMax": 5
+    "yieldMin": 2,
+    "yieldMax": 3
   },
   {
     "comment": [ "disabled" ],
