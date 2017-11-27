@@ -1,4 +1,59 @@
 # Changelog
+## Changelog v0.8.5 -> v0.8.6
+### Mod Updates
+* animania-1.11.2-1.3.6.1.jar -> 1.11.2-1.4.2
+* AutomatedRedstone-1.11.2-5.1.0.jar -> 1.11.2-5.1.2
+* CD4017BE_lib-1.11.2-5.1.0.jar -> 1.11.2-5.1.2
+* endertanks-1.11.0-1.5.5.jar -> 1.11.0-1.5.6
+* InductiveLogistics-1.11.2-0.2.1.jar -> 1.11.2-0.2.2
+* journeymap-1.11.2-5.5.1.jar -> 1.11.2-5.5.2
+* mcjtylib-1.1x-2.4.5.jar -> 1.1x-2.5.0
+* modpackutils-1.11.2-0.1.1-alpha-2993aa8.jar -> 1.11.2-0.1.1-alpha-d5adaae-all
+* multistorage-1.11.0-1.3.9.jar -> 1.11.0-1.3.10
+* OTG-AgesOfTime-1.11.2-v1.1.jar -> 1.11.2-v1.3
+* RebornCore-1.11.2-2.16.1.115-universal.jar -> 1.11.2-2.17.1-universal
+* rftools-1.1x-7.13.jar -> 1.1x-7.14
+* rftoolsctrl-1.1x-1.6.8.jar -> 1.1x-1.7.0
+* TechReborn-1.11.2-2.3.3.181-universal.jar -> 1.11.2-2.4.0-universal
+* CreativeCore v1.9.3 mc1.11.2.jar -> v1.9.8 mc1.11.2.jar
+* OnlinePicFrame v1.4.8 mc1.11.2.jar -> v1.4.14 mc1.11.2.jar
+* PlayerRevive v1.2.3 mc1.11.2.jar -> v1.2.7 mc1.11.2.jar
+
+### Mod Additions
+* backpacks 1.11.2 - 3.4.2.jar
+* environmentaltech-1.11.2-0.11.0d.jar
+* IronBackpacks-1.11.2-3.0.2-3.jar
+* valkyrielib-1.11.2-0.11.0c.jar
+
+### Mod Deletions
+* adminweapons-v3.2-mc1.11.jar
+* Enchiridion-1.11.2-3.2.0.jar
+* olis-common-library-1.11.2-0.2.0-2993aa8.jar
+* olis-ui-library-1.11.2-0.1.1-alpha-2993aa8.jar
+
+### Config Changes
+* Modpack Util zum Bug Reporten und Changelog schauen - Close #145
+* Finetuning bei ExNihilo
+* Ergänzungen, um aus Leaves Water zu machen
+* Umbau Wolliwood auf "feuerfest" - Close #156
+* Quest Update
+* Weitere Eingangs Materialien für Lava Produktion
+* Aus Milch macht man Slime - Close #171
+* Slat Lick Rezept - Issue #173
+* Fertilizer mit Ash craftbar - Issue #175
+* Umlaute ersetzt
+* Update book_ageone_comm.json
+* Create book_ageone_comm.json
+* The Probe Overlay wird von Effekt Overlay überdeckt - Issue #127
+* Min/Max Yield halbiert
+* Löschen nicht mehr benötigter Configs
+* Verschieben, Löschen und Hinzufügen von Mods in der Liste
+* TechReborn Erze im Nether und im End - Close #152
+* Buttons in JEI disablen - Ref #169
+* Generelle Anpassung Water Strainer - Ref #168
+* Anpassungen Water Strainer - Close #168
+
+
 ## Changelog v0.8.3 -> v0.8.5
 ### Mod Updates
 * AdvancedRocketry-1.11.2-1.2.4.jar -> 1.11.2-1.2.5a

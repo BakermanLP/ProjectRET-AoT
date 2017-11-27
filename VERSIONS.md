@@ -2,11 +2,11 @@
 * [1.11.2]UncraftingTable-1.7.5.jar
 * achievementbooks-v1.0-MC1.11.2.jar
 * ActuallyAdditions-1.11.2-r110.jar
-* adminweapons-v3.2-mc1.11.jar
 * AdvancedRocketry-1.11.2-1.2.5a.jar
-* animania-1.11.2-1.3.6.1.jar
+* animania-1.11.2-1.4.2.jar
 * Architect-MC1.11.2-1.2.0.59.jar
-* AutomatedRedstone-1.11.2-5.1.0.jar
+* AutomatedRedstone-1.11.2-5.1.2.jar
+* backpacks 1.11.2 - 3.4.2.jar
 * Baubles-1.11-1.4.6.jar
 * Bedrock Ores-MC1.11.2-1.2.5.52.jar
 * BetterFoliage-MC1.11.2-2.1.10.jar
@@ -18,7 +18,7 @@
 * Botania r1.9-345.jar
 * buildersguides-1.11.2-0.1.0.jar
 * CarryOn MC1.11.2 v1.7.jar
-* CD4017BE_lib-1.11.2-5.1.0.jar
+* CD4017BE_lib-1.11.2-5.1.2.jar
 * Chameleon-1.11.2-3.1.0.jar
 * CharcoalPit-[1.11.2]-1.4_11.jar
 * ChatTweaks_1.11.2-4.1.44.jar
@@ -32,7 +32,7 @@
 * CraftingTweaks_1.11.2-7.1.9.jar
 * CraftStudioAPI-universal-0.3.0.86-mc1.11.2-beta.jar
 * CraftTweaker-1.11.2-3.0.26.jar
-* CreativeCore v1.9.3 mc1.11.2.jar
+* CreativeCore v1.9.8 mc1.11.2.jar
 * CTM-MC1.11.2-0.2.3.14.jar
 * CustomMainMenu-MC1.11.2-2.0.5.jar
 * CustomNPCs_1.11.2(25may17).jar
@@ -43,9 +43,9 @@
 * DynamicSurroundings-1.11.2-3.4.7.1.jar
 * ElecCore-1.11-1.7.431.jar
 * EnchantingTable-1.11-1.1.2.jar
-* Enchiridion-1.11.2-3.2.0.jar
-* endertanks-1.11.0-1.5.5.jar
+* endertanks-1.11.0-1.5.6.jar
 * EnhancedVisuals v1.1.4 mc1.11.2.jar
+* environmentaltech-1.11.2-0.11.0d.jar
 * EpicSiegeMod-12.0.158.jar
 * Exchangers-1.11.2-1.6.2.jar
 * ExCompressum_1.11.2-3.0.0.jar
@@ -62,14 +62,15 @@
 * hopperducts-mc1.11.2-1.4.9.2.jar
 * ImmersiveEngineering-0.11-62.jar
 * immersivepetroleum-1.11.2-1.1.3.jar
-* InductiveLogistics-1.11.2-0.2.1.jar
+* InductiveLogistics-1.11.2-0.2.2.jar
 * InventoryTweaks-1.62.jar
+* IronBackpacks-1.11.2-3.0.2-3.jar
 * ironchest-1.11.2-7.0.25.815.jar
 * itemscroller-1.11.2-0.11.0.jar
 * itlt-1.11-1.0.0.jar
 * jei_1.11.2-4.5.1.296.jar
 * jeiintegration_1.11.2-1.2.0.21.jar
-* journeymap-1.11.2-5.5.1.jar
+* journeymap-1.11.2-5.5.2.jar
 * justenoughbuttons-1.11.2-1.4.6.jar
 * JustEnoughResources-1.11.2-0.6.6.12.jar
 * keywizard-1.11.2-1.5.jar
@@ -79,49 +80,47 @@
 * LootTweaker-1.11.2-0.0.6.3.jar
 * mail_1.11.2-1.0.0.2.jar
 * Mantle-1.11.2-1.2.0.26.jar
-* mcjtylib-1.1x-2.4.5.jar
+* mcjtylib-1.1x-2.5.0.jar
 * MCMultiPart-2.0.2.jar
 * Mekanism-1.11.2-9.3.5.206.jar
 * MekanismGenerators-1.11.2-9.3.5.206.jar
 * MekanismTools-1.11.2-9.3.5.206.jar
 * MmmMmmMmmMmm-1.11.2-1.13.jar
 * MobGrindingUtils-0.2.0.jar
-* modpackutils-1.11.2-0.1.1-alpha-2993aa8.jar
+* modpackutils-1.11.2-0.1.1-alpha-d5adaae-all.jar
 * modtweaker-3.0.2.jar
 * Morpheus-1.11.2-3.2.14.jar
 * MTLib-2.0.3.jar
 * multibeds-1.11.0-1.3.6.jar
-* multistorage-1.11.0-1.3.9.jar
+* multistorage-1.11.0-1.3.10.jar
 * mysticalagradditions-1.11.2-1.1.3.jar
 * mysticalagriculture-1.11.2-1.5.9.jar
 * Neat 1.4-13.jar
 * notenoughwands-1.1x-1.5.5.jar
 * NuclearCraft-2.5a--1.11.2.jar
-* olis-common-library-1.11.2-0.2.0-2993aa8.jar
-* olis-ui-library-1.11.2-0.1.1-alpha-2993aa8.jar
-* OnlinePicFrame v1.4.8 mc1.11.2.jar
+* OnlinePicFrame v1.4.14 mc1.11.2.jar
 * OpenComputers-MC1.11.2-1.7.0.51.jar
 * OpenGlider-1.11.2-1.0.0.jar
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C3.jar
 * OreExcavation-1.3.108.jar
-* OTG-AgesOfTime-1.11.2-v1.1.jar
+* OTG-AgesOfTime-1.11.2-v1.3.jar
 * Plants-1.11.2-beta-0.8.5.jar
 * platforms-1.11.0-1.3.4.jar
-* PlayerRevive v1.2.3 mc1.11.2.jar
+* PlayerRevive v1.2.7 mc1.11.2.jar
 * plustic-5.2.1.2.jar
 * ProjectTable-1.0.3_1.11.2.jar
 * QuickLeafDecay-MC1.11.2-1.2.3.jar
 * randomrestockablecrates-1.11.2-1.3.1.jar
 * ReAuth-3.5.0.jar
-* RebornCore-1.11.2-2.16.1.115-universal.jar
+* RebornCore-1.11.2-2.17.1-universal.jar
 * RefinedRelocation-mc1.11.2-3.1.14.jar
 * refinedstorage-1.4.20.jar
 * Reliquary-1.11.2-1.3.4.678.jar
 * reptilemod-1.11.2-3.6.2-68.jar
 * ResourceLoader-MC1.11.2-1.5.2.jar
-* rftools-1.1x-7.13.jar
-* rftoolsctrl-1.1x-1.6.8.jar
+* rftools-1.1x-7.14.jar
+* rftoolsctrl-1.1x-1.7.0.jar
 * roots-2-0.025.jar
 * Scannable-MC1.11.2-1.6.2.31.jar
 * shetiphiancore-1.11.0-3.4.7.jar
@@ -132,7 +131,7 @@
 * StandardExpansion-2.4.132.jar
 * StorageDrawers-1.11.2-4.2.10.jar
 * TConstruct-1.11.2-2.7.1.34.jar
-* TechReborn-1.11.2-2.3.3.181-universal.jar
+* TechReborn-1.11.2-2.4.0-universal.jar
 * tellme-1.11.2-0.5.4.jar
 * theoneprobe-1.1x-1.4.19.jar
 * ThermalDynamics-1.11.2-2.2.7.16-universal.jar
@@ -147,6 +146,7 @@
 * TS2K16-1.1.7.jar
 * UniDict-1.11.2-1.2.jar
 * usefulnullifiers-1.3.5.jar
+* valkyrielib-1.11.2-0.11.0c.jar
 * VeggieWay-1.0.2.jar
 * Vials-MC1.11.2-1.2.1.3.jar
 * ViesCraft-1.11.2-5.0.10-final.jar
