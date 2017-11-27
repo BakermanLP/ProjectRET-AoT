@@ -7,6 +7,26 @@
     "fluid": "lava",
     "amount": 1000
   },
+    "minecraft:leaves:-1": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "minecraft:leaves2:-1": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "exnihiloadscensio:blockInfestedLeaves:0": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "tconstruct:slime_leaves:0": {
+    "fluid": "blueslime",
+    "amount": 250
+  },
+  "tconstruct:slime_leaves:1": {
+    "fluid": "purpleslime",
+    "amount": 250
+  },
   "minecraft:netherrack": {
     "fluid": "lava",
     "amount": 500
