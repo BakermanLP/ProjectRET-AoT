@@ -23,10 +23,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:wood_knife",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:wood_knife"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -35,7 +39,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Der Beginn.",
-          "desc": "Am Anfang brauchen wir erst mal ein paar Zutaten. Um diese zu sammeln brauchen wir Werkzeuge.\n\nBaue dir ein Wooden Knife und sammel ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nMit ein paar weiteren Zutaten bauen wir nun das Buch Herblore"
+          "desc": "Am Anfang brauchen wir erst mal ein paar Zutaten. Um diese zu sammeln, brauchen wir Werkzeuge.\n\nBaue dir ein Wooden Knife und sammel ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nMit ein paar weiteren Zutaten bauen wir nun das Buch Herblore"
         }
       },
       "tasks": [
@@ -44,10 +48,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:wood_knife",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:wood_knife"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -61,10 +69,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "roots:bark_oak",
+              "id": "betterquesting:placeholder",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:bark_oak"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -75,10 +87,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:book_base",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:book_base"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -89,10 +105,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:herblore_book",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:herblore_book"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -113,10 +133,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:mortar",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:mortar"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -134,10 +158,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:mortar",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:mortar"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -148,10 +176,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:pestle",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:pestle"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -174,10 +206,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:moontinged_seed",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:moontinged_seed"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -186,7 +222,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Züchtungen im Mondlicht",
-          "desc": "Wir brauchen einen Steinkreis in dem wir bei Vollmond ein paar Dinge züchten können."
+          "desc": "Wir brauchen einen Steinkreis, in dem wir bei Vollmond ein paar Dinge züchten können."
         }
       },
       "tasks": [
@@ -198,34 +234,54 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "roots:moontinged_seed",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:moontinged_seed"
+              }
             },
             {
-              "id": "roots:terra_moss_spore",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:terra_moss_spore"
+              }
             },
             {
-              "id": "roots:wildroot_item",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:wildroot_item"
+              }
             },
             {
-              "id": "roots:pereskia_bulb",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:pereskia_bulb"
+              }
             },
             {
-              "id": "roots:aubergine_seeds",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:aubergine_seeds"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -248,10 +304,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:thatch",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:thatch"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -260,7 +320,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stroh",
-          "desc": "Nun bauen wir uns ein kleines Haus, dafür brauchen wir ein Dach aus Stroh.\n\nMit einer Schere können wir uns etwas Graß schneiden gehen. Diese wir dan im Ofen (Furnance) getrocknet. \n\nAnschließend müssen wir es nur noch Bündeln und unser Dach ist fast fertig."
+          "desc": "Nun bauen wir uns ein kleines Haus, dafür brauchen wir ein Dach aus Stroh.\n\nMit einer Schere können wir uns etwas Gras schneiden gehen. Dieses wird dann im Ofen (Furnance) getrocknet. \n\nAnschließend müssen wir es nur noch bündeln und unser Dach ist fast fertig."
         }
       },
       "tasks": [
@@ -269,10 +329,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:wood_shears",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:wood_shears"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -286,10 +350,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "roots:straw",
+              "id": "betterquesting:placeholder",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:straw"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -300,10 +368,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:thatch",
+              "id": "betterquesting:placeholder",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:thatch"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -326,10 +398,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:pouch",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:pouch"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -338,7 +414,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Zauberzutaten",
-          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell wenn du keine \"Munition\" dabei hast.\n\nDafür brauchen wir einen Beutel (Pouch). In diesen können wir 2 Stack von einer Sache füllen. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materiealien du bei haben solltest, verrät dir der jeweilige Zauber."
+          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell wenn du keine \"Munition\" dabei hast.\n\nDafür brauchen wir einen Beutel (Pouch). In diesen können wir 2 Stack von einer Sache füllen. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materialien du dabei haben solltest, verrät dir der jeweilige Zauber."
         }
       },
       "tasks": [
@@ -347,10 +423,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:pouch",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:pouch"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -373,16 +453,20 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:staff",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "spell3:8": "null",
-              "spell2:8": "null",
-              "selected:3": 0,
-              "spell1:8": "null",
-              "spell0:8": "null"
+              "orig_meta:3": 0,
+              "orig_tag:10": {
+                "spell3:8": "null",
+                "spell2:8": "null",
+                "selected:3": 0,
+                "spell1:8": "null",
+                "spell0:8": "null"
+              },
+              "orig_id:8": "roots:staff"
             }
           },
           "globalshare": false,
@@ -392,7 +476,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Zauberstab",
-          "desc": "Um Zaubern zu können benötigen wir einen Zauberstab (Staff).\n\nJedoch brauchen wir zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberrei loslegen."
+          "desc": "Um Zaubern zu können benötigen wir einen Zauberstab (Staff).\n\nJedoch brauchen wir zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte, bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberei loslegen."
         }
       },
       "tasks": [
@@ -401,10 +485,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:imbuer",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:imbuer"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -415,16 +503,20 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:staff",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "spell3:8": "null",
-                "spell2:8": "null",
-                "selected:3": 0,
-                "spell1:8": "null",
-                "spell0:8": "null"
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "spell3:8": "null",
+                  "spell2:8": "null",
+                  "selected:3": 0,
+                  "spell1:8": "null",
+                  "spell0:8": "null"
+                },
+                "orig_id:8": "roots:staff"
               }
             }
           ],
@@ -439,12 +531,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "roots:petal_dust",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "spell:8": "spell_peony"
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "spell:8": "spell_peony"
+                },
+                "orig_id:8": "roots:petal_dust"
               }
             }
           ],
@@ -469,10 +565,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:totempedia",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "totemic:totempedia"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -490,10 +590,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "totemic:totempedia",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:totempedia"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -514,10 +618,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:bark_stripper",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "totemic:bark_stripper"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -535,16 +643,24 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "totemic:totem_whittling_knife",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:totem_whittling_knife"
+              }
             },
             {
-              "id": "totemic:bark_stripper",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:bark_stripper"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -567,10 +683,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:tipi",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "totemic:tipi"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -588,10 +708,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "totemic:tipi",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:tipi"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -614,10 +738,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:totem_base",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 6
+            "Damage": 6,
+            "tag": {
+              "orig_meta:3": 6,
+              "orig_id:8": "totemic:totem_base"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -635,10 +763,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "totemic:totem_base",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:totem_base"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -662,10 +794,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:drum",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "totemic:drum"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -683,22 +819,34 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "totemic:flute",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:flute"
+              }
             },
             {
-              "id": "totemic:drum",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:drum"
+              }
             },
             {
-              "id": "totemic:wind_chime",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:wind_chime"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -721,10 +869,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:cedar_sapling",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "totemic:cedar_sapling"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -745,10 +897,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "totemic:cedar_sapling",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "totemic:cedar_sapling"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -771,10 +927,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "totemic:flute",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 1
+            "Damage": 1,
+            "tag": {
+              "orig_meta:3": 1,
+              "orig_id:8": "totemic:flute"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -795,10 +955,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "totemic:flute",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1
+              "Damage": 1,
+              "tag": {
+                "orig_meta:3": 1,
+                "orig_id:8": "totemic:flute"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -821,10 +985,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:spellcraft_book",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:spellcraft_book"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -842,10 +1010,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:spellcraft_book",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:spellcraft_book"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -868,10 +1040,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:runestone",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:runestone"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -892,10 +1068,14 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "roots:runestone",
+              "id": "betterquesting:placeholder",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:runestone"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -918,10 +1098,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:ritual_book",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:ritual_book"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -939,10 +1123,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:ritual_book",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:ritual_book"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -965,10 +1153,14 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "roots:bonfire",
+            "id": "betterquesting:placeholder",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {
+              "orig_meta:3": 0,
+              "orig_id:8": "roots:bonfire"
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -986,10 +1178,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:bonfire",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:bonfire"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -1000,10 +1196,14 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "roots:firestarter",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "roots:firestarter"
+              }
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -1097,7 +1297,20 @@
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:coal",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 17
     },
@@ -1123,7 +1336,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Furnus?!",
-          "desc": "Der Furnus.\n\nEine Erweiterung des Ofen ist der Furnus..\n\nFinde herraus wozu die Mod gut ist."
+          "desc": "Der Furnus.\n\nEine Erweiterung des Ofen ist der Furnus..\n\nFinde heraus wozu die Mod gut ist."
         }
       },
       "tasks": [
@@ -1142,7 +1355,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:sandstone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 18
     },
@@ -1187,7 +1413,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:snow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         18
       ],
@@ -1215,7 +1454,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das Schwein.",
-          "desc": "Schweine sind reinliche Tiere und lieben es sich im Dreck zu suhlen, um Parasiten loszuwerden. \n\nAlso musst du Mud herstellen damit die Tiere sich wohlfühlen.  \nIch denke 5 sollten für den Anfang reichen."
+          "desc": "Schweine sind reinliche Tiere und lieben es, sich im Dreck zu suhlen, um Parasiten loszuwerden. \n\nAlso musst du Mud herstellen damit die Tiere sich wohlfühlen.  \nIch denke 6 sollten für den Anfang reichen."
         }
       },
       "tasks": [
@@ -1225,7 +1464,7 @@
           "requiredItems": [
             {
               "id": "animania:block_mud",
-              "Count": 5,
+              "Count": 6,
               "OreDict": "",
               "Damage": 0
             }
@@ -1234,7 +1473,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:carrot",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         24
       ],
@@ -1262,7 +1514,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Eine Kuh mach muh..",
-          "desc": "Eine Kuh macht muh..viele Kühe machen Mühe..\n\nAber da du Milch brauchst ist und das egal. Also sammel dir ein paar Kühe."
+          "desc": "Eine Kuh macht muh..viele Kühe machen Mühe..\n\nAber da du Milch brauchst, ist uns das egal. Also sammel dir ein paar Kühe."
         }
       },
       "tasks": [
@@ -1271,17 +1523,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "excompressum:bait",
-              "Count": 1,
+              "id": "minecraft:lead",
+              "Count": 2,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 524
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         24
       ],
@@ -1309,7 +1574,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ei oder Huhn?",
-          "desc": "Wer war zuerst das Ei oder das Huhn?\n\nDas ist dir doch egal. Fange mit dem Nest an.  Um das Nest legst duSeeds auf den Boden. \n\nUnd bald hast du Eier und Hühner..oder anderers Federvieh."
+          "desc": "Wer war zuerst das Ei oder das Huhn?\n\nDas ist dir doch egal. Fange mit dem Nest an.  Um das Nest legst du Seeds auf den Boden. \n\nUnd bald hast du Eier und Hühner..oder anderes Federvieh."
         }
       },
       "tasks": [
@@ -1330,7 +1595,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -1345,7 +1610,20 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:beetroot_soup",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         24
       ],
@@ -1373,7 +1651,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Alles Käse.",
-          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen.  Du brauchst eine Käseform und natürlich ein Eimer Milch.\n\nUm Käse zu machen must du die Form hinstellen und mit Milch füllen. Es kann auch Ziege oder Schaf sein. Hilft aber nicht bei der Quest.\n\nUnd viola hast du etwas Käse. "
+          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen.  Du brauchst eine Käseform und natürlich ein Eimer Milch.\n\nUm Käse zu machen musst du die Form hinstellen und mit Milch füllen. Es kann auch Ziegen- oder Schafsmilch sein. Hilft aber nicht bei der Quest.\n\nUnd voilà hast du etwas Käse. "
         }
       },
       "tasks": [
@@ -1407,7 +1685,18 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "animania:holstein_cheese_wheel",
               "Count": 1,
@@ -1415,11 +1704,24 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
+          "taskID": "bq_standard:retrieval",
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:milk_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         21
       ],
@@ -1466,7 +1768,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leaves",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 24
     },
@@ -1492,7 +1807,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Noch mehr Viecher.",
-          "desc": "Schweine, Kühe und Hühner sind nicht die einzigen Tiere die es gibt.\n\nHamster, Ziegen, Schafe, Hasen und viel mehr bereichern unsere Welt.\n\nJedes Tier hat eingenes Futter und Bedürfnisse.\n\nAm besten hast du für den Notfall für jedes Tier etwas zu Hause."
+          "desc": "Schweine, Kühe und Hühner sind nicht die einzigen Tiere die es gibt.\n\nHamster, Ziegen, Schafe, Hasen und viel mehr bereichern unsere Welt.\n\nJedes Tier hat eigenes Futter und Bedürfnisse.\n\nAm besten hast du für den Notfall für jedes Tier etwas zu Hause."
         }
       },
       "tasks": [
@@ -1511,19 +1826,26 @@
               "Count": 5,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "excompressum:bait",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 7
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tconstruct:slime_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         27,
         28,
@@ -1580,7 +1902,24 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "slop",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         20
       ],
@@ -1608,7 +1947,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Trüffel",
-          "desc": "Wenn deine Schweine glücklich und satt sind, suchen sie für dich Trüffel. \n\nDaraus lässt sich eine herrliche Suppe herstellen.\n\n"
+          "desc": "Wenn deine Schweine glücklich und satt sind, suchen sie für dich Trüffel. \n\nDaraus lässt sich eine herrliche Suppe herstellen.\n\nSollte dein Schwein im Stall keine Trüffel finden, nimm es an die Leine und suche im Forest nach Trüffeln."
         }
       },
       "tasks": [
@@ -1644,7 +1983,20 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:mushroom_stew",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         26
       ],
@@ -1672,7 +2024,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ei Ei Ei",
-          "desc": "Wenn wir Vögel haben und ein Nest, bekommen wir auch bald Eier.\n\nSammel ein paar und bereite dir anschließend ein Omlett daraus zu."
+          "desc": "Wenn wir Vögel haben und ein Nest, bekommen wir auch bald Eier.\n\nSammel ein paar und bereite dir anschließend ein Omelette daraus zu."
         }
       },
       "tasks": [
@@ -1708,7 +2060,20 @@
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:beetroot_soup",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         22
       ],
@@ -1736,7 +2101,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Alles Käse.",
-          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen. Du brauchst eine Käseform und natürlich einen Eimer Milch.\n\nUm Käse zu machen must du die Form hinstellen und mit Milch füllen. Es geht auch Ziege oder Schaf. Hilft dir aber nicht bei der Quest.\n\nUnd viola hast du etwas Käse."
+          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen. Du brauchst eine Käseform und natürlich einen Eimer Milch.\n\nUm Käse zu machen, musst du die Form hinstellen und mit Milch füllen. Es geht auch Ziegen- oder Schafsmilch. Hilft dir aber nicht bei der Quest.\n\nUnd violà hast du etwas Käse."
         }
       },
       "tasks": [
@@ -1770,7 +2135,18 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "animania:friesian_cheese_wheel",
               "Count": 1,
@@ -1778,11 +2154,24 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
-          "index": 1
+          "taskID": "bq_standard:retrieval",
+          "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:milk_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         21
       ],
@@ -1835,7 +2224,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "furnus:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "furnus:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         19
       ],
@@ -1894,7 +2302,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:fish",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         33
       ],
@@ -1922,7 +2343,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Sieben für den Anfang.",
-          "desc": "Wenn du keine Mine hast, ist das ein guter Weg für den Anfang ein wenig Material zu erhalten."
+          "desc": "Wenn du keine Mine hast, ist das ein guter Weg für den Anfang, ein wenig Material zu erhalten."
         }
       },
       "tasks": [
@@ -1949,7 +2370,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -1970,7 +2391,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:gravel",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sand",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 32
     },
@@ -2015,7 +2455,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:string",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         32
       ],
@@ -2093,7 +2546,20 @@
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "waterstrainer:worm",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         31
       ],
@@ -2121,7 +2587,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Fisch die 2te.",
-          "desc": "Nun hast du ein Köder und ein Topf. Füge beides im Craftingfeld zusammen.\n\nNur noch das Fischnetz und wir können den Filter bestücken und Fische fangen."
+          "desc": "Nun hast du Köder und einen Topf. Füge beides im Craftingfeld zusammen.\n\nNur noch das Fischnetz und wir können den Filter bestücken und Fische fangen."
         }
       },
       "tasks": [
@@ -2140,7 +2606,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "waterstrainer:worm",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         34
       ],
@@ -2168,7 +2647,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Effizient?",
-          "desc": "Es gibt ein Gerät, das dir verrät ob dein Filter effizient genug arbeitet.\n\nTeste es einfach aus."
+          "desc": "Es gibt ein Gerät, das dir verrät, ob dein Filter effizient genug arbeitet.\n\nTeste es einfach aus."
         }
       },
       "tasks": [
@@ -2187,7 +2666,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         32
       ],
@@ -2234,12 +2726,1200 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 260
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         23,
         29
       ],
       "questID": 37
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:inferium_essence",
+            "Count": 2,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Der Start",
+          "desc": "Für den Anfang benötigen wir ein bisschen Material. Sammel ein paar Dinge. Für Einige davon musst du in den Nether ziehen und sie dort abbauen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:prosperity_shard",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:inferium_essence",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:prosperity_shard",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 38
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier1_inferium_seeds",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Saatgut der Beginner",
+          "desc": "Fangen wir mit ein paar einfachen Aufgaben der Herstellung an. Such dir ausreichend Material zusammen und produziere ein wenig Saatgut."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:base_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:tier1_inferium_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:tier1_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:nature_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:dirt_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:stone_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:ice_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:water_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mysticalagriculture:wood_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:fertilized_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        38
+      ],
+      "questID": 39
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier2_crafting_seed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Level 2",
+          "desc": "Um das Saatgut auf Level 2 zu bringen, brauchst du ein wenig Vorbereitung. Baue dir einen Infusion Crystal und \"Level\" deine Essence"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:infusion_crystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:prudentium_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:tier2_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:inferium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        39
+      ],
+      "questID": 40
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:inferium_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Magischer Ofen",
+          "desc": "Es gibt einen magischen Ofen. Dieser ist viel schneller als der Normale. Also testen wir es mal aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:inferium_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:inferium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        38
+      ],
+      "questID": 41
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:supremium_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "noch ein bisschen mehr schneller",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:supremium_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:supremium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        44
+      ],
+      "questID": 42
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:intermedium_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "bisschen Schneller",
+          "desc": "Der neue Ofen ist gut. Aber noch nicht schnell genug. Level ihn auf Level 2 hoch für mehr speed."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:intermedium_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:intermedium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        50
+      ],
+      "questID": 43
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:superium_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "noch ein bisschen Schneller",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:superium_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:superium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        43
+      ],
+      "questID": 44
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:ultimate_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "ganz dolle schnell",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:ultimate_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:supremium_essence",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        42
+      ],
+      "questID": 45
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier5_crafting_seed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Level 5",
+          "desc": "So! Das letze Leve steht an. Auch dieses ist für die Weiterentwicklung wichtig."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:supremium_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:tier5_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:superium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        48
+      ],
+      "questID": 46
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier3_crafting_seed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Level 3",
+          "desc": "Nach der 2 Folgt die 3. Also werte die Essence weiter auf. Wie es geht, hast du ja schon gelernt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:intermedium_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:tier3_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:prudentium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        40
+      ],
+      "questID": 47
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier4_crafting_seed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Level 4",
+          "desc": "Level 4 brauchst du auch für verschieden Saamen. Also stell welche her und erhalte weitere Resourcen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:superium_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:tier4_crafting_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:intermedium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        47
+      ],
+      "questID": 48
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagradditions:insanium",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Level 6",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagradditions:insanium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagradditions:insanium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagradditions:insanium",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        46,
+        44,
+        53,
+        54
+      ],
+      "questID": 49
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:prudentium_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Schneller",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:prudentium_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:prudentium_essence",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        41
+      ],
+      "questID": 50
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagradditions:tier6_inferium_seeds",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "New Quest",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        49
+      ],
+      "questID": 51
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier1_mob_chunk",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Monster Zutat",
+          "desc": "Hin und wieder lassen Monster etwas fallen. Das brauchst du für ein paar Saaten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:tier1_mob_chunk",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:zombie_chunk",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:tier1_mob_chunk",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        38
+      ],
+      "questID": 52
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:tier3_mob_chunk",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Noch mehr Zutaten",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        52
+      ],
+      "questID": 53
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mysticalagriculture:nature_essence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Essence der Natur",
+          "desc": "Um dir zu erklären wie du die Essencen verwendest, hier eine kleine Einführung.\n\nSammel dir ein Stapel Essence der Natur und erstelle daraus ein paar Kleinigkeiten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mysticalagriculture:nature_essence",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:poisonous_potato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:vine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:potato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mysticalagriculture:inferium_essence",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        39
+      ],
+      "questID": 54
     }
   ],
   "questLines": [
@@ -2249,7 +3929,7 @@
           "name": "Der Schamane in Dir.  (2)",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "Hier bebist du dich auf eine Reise, eine spirituelle Reise.\n\nDu lernst neue Pflanzen zu züchten und ihre Kraft für dich zu nutzen.\n\nNeue mächtige Zauber zu beherrschen, die dich vor Tieren beschützen.\n\nAlles im Einklang mit der Natur."
+          "desc": "Hier begibst du dich auf eine Reise, eine spirituelle Reise.\n\nDu lernst, neue Pflanzen zu züchten und ihre Kraft für dich zu nutzen.\n\nNeue mächtige Zauber zu beherrschen, die dich vor Tieren beschützen.\n\nAlles im Einklang mit der Natur."
         }
       },
       "quests": [
@@ -2261,61 +3941,61 @@
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 160,
+          "x": 126,
+          "y": 96,
           "id": 16
         },
         {
           "size": 24,
-          "x": 80,
-          "y": 24,
+          "x": 54,
+          "y": 60,
           "id": 1
         },
         {
           "size": 24,
-          "x": 64,
-          "y": 88,
+          "x": 36,
+          "y": 90,
           "id": 2
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 144,
+          "x": 12,
+          "y": 120,
           "id": 3
         },
         {
           "size": 24,
-          "x": 184,
-          "y": 48,
+          "x": 120,
+          "y": 60,
           "id": 4
         },
         {
           "size": 24,
-          "x": 128,
-          "y": 48,
+          "x": 90,
+          "y": 60,
           "id": 5
         },
         {
           "size": 24,
-          "x": 32,
-          "y": 48,
+          "x": 24,
+          "y": 60,
           "id": 13
         },
         {
           "size": 24,
-          "x": 128,
+          "x": 66,
           "y": 96,
           "id": 14
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 128,
+          "x": 96,
+          "y": 96,
           "id": 15
         }
       ],
       "lineID": 0,
-      "order": 3
+      "order": 4
     },
     {
       "properties": {
@@ -2335,43 +4015,43 @@
         },
         {
           "size": 24,
-          "x": 32,
-          "y": 104,
+          "x": 42,
+          "y": 126,
           "id": 7
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 200,
+          "x": 6,
+          "y": 186,
           "id": 8
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 96,
+          "x": 72,
+          "y": 138,
           "id": 9
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 144,
+          "x": 36,
+          "y": 156,
           "id": 10
         },
         {
           "size": 24,
-          "x": 192,
-          "y": 56,
+          "x": 96,
+          "y": 108,
           "id": 11
         },
         {
           "size": 24,
-          "x": 192,
-          "y": 104,
+          "x": 66,
+          "y": 168,
           "id": 12
         }
       ],
       "lineID": 1,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -2385,26 +4065,26 @@
       "quests": [
         {
           "size": 24,
-          "x": -126,
-          "y": 162,
+          "x": 12,
+          "y": 36,
           "id": 17
         },
         {
           "size": 24,
-          "x": -126,
-          "y": 120,
+          "x": 12,
+          "y": 6,
           "id": 18
         },
         {
           "size": 24,
-          "x": -54,
-          "y": 102,
+          "x": 42,
+          "y": 6,
           "id": 19
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 84,
+          "x": 72,
+          "y": 6,
           "id": 30
         }
       ],
@@ -2423,68 +4103,68 @@
       "quests": [
         {
           "size": 24,
-          "x": 240,
-          "y": 102,
+          "x": 30,
+          "y": -6,
           "id": 20
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 162,
+          "x": 30,
+          "y": 24,
           "id": 21
         },
         {
           "size": 24,
-          "x": 372,
-          "y": 252,
+          "x": 60,
+          "y": 54,
           "id": 37
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 180,
+          "x": -6,
+          "y": 24,
           "id": 22
         },
         {
           "size": 24,
-          "x": 288,
-          "y": 234,
+          "x": 30,
+          "y": 54,
           "id": 23
         },
         {
           "size": 24,
-          "x": 174,
-          "y": 126,
+          "x": -6,
+          "y": -6,
           "id": 24
         },
         {
           "size": 24,
-          "x": 462,
-          "y": 312,
+          "x": 96,
+          "y": 36,
           "id": 25
         },
         {
           "size": 24,
-          "x": 288,
-          "y": 60,
+          "x": 60,
+          "y": -6,
           "id": 26
         },
         {
           "size": 24,
-          "x": 360,
-          "y": 48,
+          "x": 90,
+          "y": -6,
           "id": 27
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 240,
+          "x": -6,
+          "y": 54,
           "id": 28
         },
         {
           "size": 24,
-          "x": 324,
-          "y": 192,
+          "x": 60,
+          "y": 24,
           "id": 29
         }
       ],
@@ -2503,38 +4183,38 @@
       "quests": [
         {
           "size": 24,
-          "x": -138,
-          "y": 210,
+          "x": 12,
+          "y": 6,
           "id": 32
         },
         {
           "size": 24,
-          "x": -90,
-          "y": 132,
+          "x": 48,
+          "y": 6,
           "id": 33
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 108,
+          "x": 120,
+          "y": 6,
           "id": 34
         },
         {
           "size": 24,
-          "x": 150,
-          "y": 102,
+          "x": 156,
+          "y": 6,
           "id": 35
         },
         {
           "size": 24,
-          "x": -78,
-          "y": 246,
+          "x": 12,
+          "y": 42,
           "id": 36
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 114,
+          "x": 84,
+          "y": 6,
           "id": 31
         }
       ],
@@ -2552,7 +4232,129 @@
       },
       "quests": [],
       "lineID": 5,
-      "order": 5
+      "order": 6
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Die Magie der Blume",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Um an Materialien heranzukommen, gibt es noch den magischen Weg. Hier kannst du erforschen wie es geht."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 0,
+          "y": 0,
+          "id": 38
+        },
+        {
+          "size": 24,
+          "x": 32,
+          "y": 0,
+          "id": 39
+        },
+        {
+          "size": 24,
+          "x": 64,
+          "y": 0,
+          "id": 40
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 36,
+          "id": 41
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 96,
+          "id": 42
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 96,
+          "id": 43
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 96,
+          "id": 44
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 96,
+          "id": 45
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 0,
+          "id": 46
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 0,
+          "id": 47
+        },
+        {
+          "size": 24,
+          "x": 128,
+          "y": 0,
+          "id": 48
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 54,
+          "id": 49
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 66,
+          "id": 50
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 60,
+          "id": 51
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 60,
+          "id": 52
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 60,
+          "id": 53
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 30,
+          "id": 54
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 30,
+          "id": 55
+        }
+      ],
+      "lineID": 6,
+      "order": 3
     }
   ],
   "format": "1.0.0"
