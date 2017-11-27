@@ -2,5 +2,13 @@
   "minecraft:cobblestone:0": {
     "fluid": "lava",
     "amount": 250
+  },
+  "minecraft:magma": {
+    "fluid": "lava",
+    "amount": 1000
+  },
+  "minecraft:netherrack": {
+    "fluid": "lava",
+    "amount": 500
   }
 }
