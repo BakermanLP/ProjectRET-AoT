@@ -108,6 +108,7 @@ Block(-1,5,0,WOOL:9)
 Block(-1,5,1,WOOL:9)
 Block(-1,5,2,WOOL:10)
 Block(-1,6,1,WOOL:10)
+Block(0,0,0,LOG)
 Block(0,1,1,LOG)
 Block(0,2,1,LOG)
 Block(0,3,-1,WOOL:11)
@@ -167,7 +168,7 @@ Block(2,4,2,WOOL:11)
 #   BlockCheck(0,-1,0,WOOL:0)      Require white wool just below the object
 #   BlockCheckNot(0,-1,0,WOOL:0)   Require that there is no white wool below the object
 #   LightCheck(0,0,0,0,1)          Require almost complete darkness just below the object
-BlockCheck(0,-1,0,GRASS,DIRT)
+BlockCheck(0,-1,0,GRASS,DIRT,WOOL)
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Branches                            | #
