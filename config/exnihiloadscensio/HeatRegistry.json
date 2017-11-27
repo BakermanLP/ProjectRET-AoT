@@ -8,5 +8,6 @@
   "minecraft:flowing_lava": 3,
   "minecraft:lava": 3,
   "minecraft:torch": 1,
+  "tconstruct:stone_torch": 1,
   "minecraft:fire": 4
 }
