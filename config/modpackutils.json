@@ -1,7 +1,7 @@
 {
     "webservices" : {
         "enabled"   : true,
-        "url"       : "http://blog.bakermanlp.de/githubissues",
+        "url"       : "https://webservice.bakermanlp.de",
         "github" : {
             "enabled"       : true,
             "repository"    : "aot"
