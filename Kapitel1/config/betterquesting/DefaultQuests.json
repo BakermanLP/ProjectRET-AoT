@@ -7,7 +7,7 @@
       "home_anchor_x": 0.5,
       "editmode": false,
       "hardcore": false,
-      "home_image": "betterquesting:textures/gui/default_title.png",
+      "home_image": "agesoftime:textures/gui/default_title.png",
       "home_offset_x": -128,
       "home_offset_y": 0
     }
