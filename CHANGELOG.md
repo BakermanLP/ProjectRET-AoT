@@ -1,4 +1,27 @@
 # Changelog
+## Changelog v0.8.6 -> v0.8.7
+### Mod Updates
+* LootTweaker-1.11.2-0.0.6.3.jar -> 1.11.2-0.0.6.5
+* OTG-AgesOfTime-1.11.2-v1.3.jar -> 1.11.2-v1.4
+
+### Mod Additions
+
+### Mod Deletions
+* backpacks 1.11.2 - 3.4.2.jar
+* simulatednights-1.11.2-1.3.0.jar
+* tellme-1.11.2-0.5.4.jar
+* WearableBackpacks-1.11.2-2.5.0.jar
+* World-Stripper-1.4.1-1.11.0.jar
+
+### Config Changes
+* Workaround um das Bedrock Ore Problem - Ref #146
+* Das Questbuch verdient ein schönes Bild
+* Default Config Einstellungen neu erstellt - Ref #185 - Dev Server entfernen - Tastaturbelegung neu - Resourcenpack eingepflegt - Neue schöne Server URL ( agesoftime.bakermanlp.de für Serverfarm )
+* Update Questbuch für Kapitel 1 - Ref #185
+* Flatlands Update Ores
+* Version v0.8.6
+
+
 ## Changelog v0.8.5 -> v0.8.6
 ### Mod Updates
 * animania-1.11.2-1.3.6.1.jar -> 1.11.2-1.4.2

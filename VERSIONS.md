@@ -6,7 +6,6 @@
 * animania-1.11.2-1.4.2.jar
 * Architect-MC1.11.2-1.2.0.59.jar
 * AutomatedRedstone-1.11.2-5.1.2.jar
-* backpacks 1.11.2 - 3.4.2.jar
 * Baubles-1.11-1.4.6.jar
 * Bedrock Ores-MC1.11.2-1.2.5.52.jar
 * BetterFoliage-MC1.11.2-2.1.10.jar
@@ -77,7 +76,7 @@
 * KleeSlabs_1.11.2-4.3.5.jar
 * LibVulpes-1.11.2-0.2.6-universal.jar
 * limelib-1.11.2-1.5.4.jar
-* LootTweaker-1.11.2-0.0.6.3.jar
+* LootTweaker-1.11.2-0.0.6.5.jar
 * mail_1.11.2-1.0.0.2.jar
 * Mantle-1.11.2-1.2.0.26.jar
 * mcjtylib-1.1x-2.5.0.jar
@@ -104,7 +103,7 @@
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C3.jar
 * OreExcavation-1.3.108.jar
-* OTG-AgesOfTime-1.11.2-v1.3.jar
+* OTG-AgesOfTime-1.11.2-v1.4.jar
 * Plants-1.11.2-beta-0.8.5.jar
 * platforms-1.11.0-1.3.4.jar
 * PlayerRevive v1.2.7 mc1.11.2.jar
@@ -124,7 +123,6 @@
 * roots-2-0.025.jar
 * Scannable-MC1.11.2-1.6.2.31.jar
 * shetiphiancore-1.11.0-3.4.7.jar
-* simulatednights-1.11.2-1.3.0.jar
 * Snad-1.11.2-1.7.03.26a.jar
 * SoundFilters-0.10_for_1.11.jar
 * SpartanShields-1.11.2-1.3a.jar
@@ -132,7 +130,6 @@
 * StorageDrawers-1.11.2-4.2.10.jar
 * TConstruct-1.11.2-2.7.1.34.jar
 * TechReborn-1.11.2-2.4.0-universal.jar
-* tellme-1.11.2-0.5.4.jar
 * theoneprobe-1.1x-1.4.19.jar
 * ThermalDynamics-1.11.2-2.2.7.16-universal.jar
 * ThermalExpansion-1.11.2-5.2.7.30-universal.jar
@@ -154,7 +151,5 @@
 * Waddles-1.11.2-0.5.5.jar
 * WanionLib-1.11.2-1.1.jar
 * WaterStrainer-1.11.2-2.0.1.jar
-* WearableBackpacks-1.11.2-2.5.0.jar
 * woot-1.11.2-1.0.0.jar
-* World-Stripper-1.4.1-1.11.0.jar
 * xnet-1.4.1.jar
