@@ -161,17 +161,16 @@ FoliageColorIsMultiplier: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,15,100.0,0,63,STONE)
+Ore(hardcoreore:ore_aluminum,9,20,100.0,0,63,STONE)
+Ore(hardcoreore:ore_tin,9,20,100.0,0,32,STONE)
+Ore(hardcoreore:ore_copper,9,20,100.0,32,63,STONE)
 Ore(DIRT,33,10,100.0,0,255,STONE)
 Ore(GRAVEL,33,8,100.0,0,255,STONE)
 Ore(STONE:1,33,10,100.0,0,79,STONE)
 Ore(STONE:3,33,10,100.0,0,79,STONE)
 Ore(STONE:5,33,10,100.0,0,79,STONE)
-Ore(COAL_ORE,17,20,100.0,0,127,STONE)
-Ore(IRON_ORE,9,20,100.0,0,63,STONE)
-Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
-Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
-Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
-Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
 UnderGroundLake(25,60,2,5.0,0,49)
 Liquid(STATIONARY_WATER,20,100.0,8,128,STONE)
 Liquid(STATIONARY_LAVA,10,100.0,8,128,STONE)
