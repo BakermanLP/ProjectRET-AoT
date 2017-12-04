@@ -1,4 +1,17 @@
 # Changelog
+## Changelog v0.8.7 -> v0.9.0
+### Mod Updates
+* mail_1.11.2-1.0.0.2.jar -> 1.11.2-1.0.0.4
+* modpackutils-1.11.2-0.1.1-alpha-d5adaae-all.jar -> 1.11.2-0.1.1-alpha-8e7630a-all
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Umlaut aus Datei entfernt
+
+
 ## Changelog v0.8.6 -> v0.8.7
 ### Mod Updates
 * LootTweaker-1.11.2-0.0.6.3.jar -> 1.11.2-0.0.6.5

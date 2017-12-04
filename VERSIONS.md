@@ -77,7 +77,7 @@
 * LibVulpes-1.11.2-0.2.6-universal.jar
 * limelib-1.11.2-1.5.4.jar
 * LootTweaker-1.11.2-0.0.6.5.jar
-* mail_1.11.2-1.0.0.2.jar
+* mail_1.11.2-1.0.0.4.jar
 * Mantle-1.11.2-1.2.0.26.jar
 * mcjtylib-1.1x-2.5.0.jar
 * MCMultiPart-2.0.2.jar
@@ -86,7 +86,7 @@
 * MekanismTools-1.11.2-9.3.5.206.jar
 * MmmMmmMmmMmm-1.11.2-1.13.jar
 * MobGrindingUtils-0.2.0.jar
-* modpackutils-1.11.2-0.1.1-alpha-d5adaae-all.jar
+* modpackutils-1.11.2-0.1.1-alpha-8e7630a-all.jar
 * modtweaker-3.0.2.jar
 * Morpheus-1.11.2-3.2.14.jar
 * MTLib-2.0.3.jar
