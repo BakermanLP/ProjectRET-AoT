@@ -2,8 +2,8 @@
 * [1.11.2]UncraftingTable-1.7.5.jar
 * achievementbooks-v1.0-MC1.11.2.jar
 * ActuallyAdditions-1.11.2-r110.jar
-* AdvancedRocketry-1.11.2-1.2.5a.jar
-* animania-1.11.2-1.4.2.jar
+* AdvancedRocketry-1.11.2-1.2.5a-56.jar
+* animania-1.11.2-1.4.3.jar
 * Architect-MC1.11.2-1.2.0.59.jar
 * AutomatedRedstone-1.11.2-5.1.2.jar
 * Baubles-1.11-1.4.6.jar
@@ -22,7 +22,7 @@
 * CharcoalPit-[1.11.2]-1.4_11.jar
 * ChatTweaks_1.11.2-4.1.44.jar
 * ChestTransporter-1.11.2-2.7.11.jar
-* Chisel-MC1.11.2-0.0.14.25.jar
+* Chisel-MC1.11.2-0.1.1.31.jar
 * chiselsandbits-13.14.jar
 * ChunkAnimator-MC1.11-1.2.jar
 * CodeChickenLib-1.11.2-3.0.0.284-universal.jar
@@ -31,7 +31,7 @@
 * CraftingTweaks_1.11.2-7.1.9.jar
 * CraftStudioAPI-universal-0.3.0.86-mc1.11.2-beta.jar
 * CraftTweaker-1.11.2-3.0.26.jar
-* CreativeCore v1.9.8 mc1.11.2.jar
+* CreativeCore v1.9.13 mc1.11.2.jar
 * CTM-MC1.11.2-0.2.3.14.jar
 * CustomMainMenu-MC1.11.2-2.0.5.jar
 * CustomNPCs_1.11.2(25may17).jar
@@ -39,6 +39,7 @@
 * deepresonance-1.1x-1.4.8.jar
 * DefaultOptions_1.11.2-8.2.2.jar
 * dirt2path-1.6.1.jar
+* DrawersBits-1.11.2-0.41.jar
 * DynamicSurroundings-1.11.2-3.4.7.1.jar
 * ElecCore-1.11-1.7.431.jar
 * EnchantingTable-1.11-1.1.2.jar
@@ -54,7 +55,7 @@
 * flatcoloredblocks-mc1.11-5.3.jar
 * foamfix-0.7.0-anarchy.jar
 * FullscreenWindowed-1.10.2-1.5.1.jar
-* furnus-1.11.2-1.93.jar
+* furnus-1.11.2-1.94.jar
 * gravestone-1.7.4_.jar
 * HardcoreDarkness-MC1.11.2-1.9.jar
 * HardcoreORE-1.11.2-0.0.32.jar
@@ -74,7 +75,7 @@
 * JustEnoughResources-1.11.2-0.6.6.12.jar
 * keywizard-1.11.2-1.5.jar
 * KleeSlabs_1.11.2-4.3.5.jar
-* LibVulpes-1.11.2-0.2.6-universal.jar
+* LibVulpes-1.11.2-0.2.7-29-universal.jar
 * limelib-1.11.2-1.5.4.jar
 * LootTweaker-1.11.2-0.0.6.5.jar
 * mail_1.11.2-1.0.0.4.jar
@@ -96,9 +97,9 @@
 * mysticalagriculture-1.11.2-1.5.9.jar
 * Neat 1.4-13.jar
 * notenoughwands-1.1x-1.5.5.jar
-* NuclearCraft-2.5a--1.11.2.jar
-* OnlinePicFrame v1.4.14 mc1.11.2.jar
-* OpenComputers-MC1.11.2-1.7.0.51.jar
+* NuclearCraft-2.7a--1.11.2.jar
+* OnlinePicFrame v1.4.15 mc1.11.2.jar
+* OpenComputers-MC1.11.2-1.7.1.79.jar
 * OpenGlider-1.11.2-1.0.0.jar
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C3.jar
@@ -106,23 +107,22 @@
 * OTG-AgesOfTime-1.11.2-v1.4.jar
 * Plants-1.11.2-beta-0.8.5.jar
 * platforms-1.11.0-1.3.4.jar
-* PlayerRevive v1.2.7 mc1.11.2.jar
 * plustic-5.2.1.2.jar
 * ProjectTable-1.0.3_1.11.2.jar
 * QuickLeafDecay-MC1.11.2-1.2.3.jar
 * randomrestockablecrates-1.11.2-1.3.1.jar
 * ReAuth-3.5.0.jar
 * RebornCore-1.11.2-2.17.1-universal.jar
-* RefinedRelocation-mc1.11.2-3.1.14.jar
+* RefinedRelocation-mc1.11.2-3.1.15.jar
 * refinedstorage-1.4.20.jar
 * Reliquary-1.11.2-1.3.4.678.jar
 * reptilemod-1.11.2-3.6.2-68.jar
 * ResourceLoader-MC1.11.2-1.5.2.jar
-* rftools-1.1x-7.14.jar
+* rftools-1.1x-7.15.jar
 * rftoolsctrl-1.1x-1.7.0.jar
 * roots-2-0.025.jar
 * Scannable-MC1.11.2-1.6.2.31.jar
-* shetiphiancore-1.11.0-3.4.7.jar
+* shetiphiancore-1.11.0-3.4.9.jar
 * Snad-1.11.2-1.7.03.26a.jar
 * SoundFilters-0.10_for_1.11.jar
 * SpartanShields-1.11.2-1.3a.jar
@@ -152,4 +152,4 @@
 * WanionLib-1.11.2-1.1.jar
 * WaterStrainer-1.11.2-2.0.1.jar
 * woot-1.11.2-1.0.0.jar
-* xnet-1.4.1.jar
+* xnet-1.5.0.jar

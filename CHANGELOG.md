@@ -1,4 +1,102 @@
 # Changelog
+## Changelog v0.9.0 -> v0.9.1
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a.jar -> 1.11.2-1.2.5a-56
+* animania-1.11.2-1.4.2.jar -> 1.11.2-1.4.3
+* Chisel-MC1.11.2-0.0.14.25.jar -> 0.1.1.31
+* CreativeCore v1.9.8 mc1.11.2.jar -> v1.9.13 mc1.11.2
+* furnus-1.11.2-1.93.jar -> 1.11.2-1.94
+* LibVulpes-1.11.2-0.2.6-universal.jar -> 1.11.2-0.2.7-29-universal
+* NuclearCraft-2.5a--1.11.2.jar -> 2.7a--1.11.2
+* OnlinePicFrame v1.4.14 mc1.11.2.jar -> v1.4.15 mc1.11.2
+* OpenComputers-MC1.11.2-1.7.0.51.jar -> 1.7.1.79
+* RefinedRelocation-mc1.11.2-3.1.14.jar -> 3.1.15
+* rftools-1.1x-7.14.jar -> 1.1x-7.15
+* shetiphiancore-1.11.0-3.4.7.jar -> 1.11.0-3.4.9
+* xnet-1.4.1.jar -> 1.5.0
+
+### Mod Additions
+* DrawersBits-1.11.2-0.41.jar
+
+### Mod Deletions
+* PlayerRevive v1.2.7 mc1.11.2.jar
+
+### Config Changes
+* Flugfähigkeiten Supremium Armor ausgeschaltet
+* Neue Mining Welt
+* Update animania.cfg
+* Update epicsiegemod.cfg
+* Update epicsiegemod.cfg
+* Fix Emerald melting/casting
+* Teleport und Mob Radar deaktiviert
+* Korrekturen
+
+
+## Changelog v0.9.0 -> v0.9.1
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a.jar -> 1.11.2-1.2.5a-56
+* animania-1.11.2-1.4.2.jar -> 1.11.2-1.4.3
+* Chisel-MC1.11.2-0.0.14.25.jar -> 0.1.1.31
+* CreativeCore v1.9.8 mc1.11.2.jar -> v1.9.13 mc1.11.2
+* furnus-1.11.2-1.93.jar -> 1.11.2-1.94
+* LibVulpes-1.11.2-0.2.6-universal.jar -> 1.11.2-0.2.7-29-universal
+* NuclearCraft-2.5a--1.11.2.jar -> 2.7a--1.11.2
+* OnlinePicFrame v1.4.14 mc1.11.2.jar -> v1.4.15 mc1.11.2
+* OpenComputers-MC1.11.2-1.7.0.51.jar -> 1.7.1.79
+* RefinedRelocation-mc1.11.2-3.1.14.jar -> 3.1.15
+* rftools-1.1x-7.14.jar -> 1.1x-7.15
+* shetiphiancore-1.11.0-3.4.7.jar -> 1.11.0-3.4.9
+* xnet-1.4.1.jar -> 1.5.0
+
+### Mod Additions
+* DrawersBits-1.11.2-0.41.jar
+
+### Mod Deletions
+* PlayerRevive v1.2.7 mc1.11.2.jar
+
+### Config Changes
+* Flugfähigkeiten Supremium Armor ausgeschaltet
+* Neue Mining Welt
+* Update animania.cfg
+* Update epicsiegemod.cfg
+* Fix Emerald melting/casting
+* Teleport und Mob Radar deaktiviert
+* Korrekturen
+* Version v0.9.0
+
+
+## Changelog v0.9.0 -> v0.9.1
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a.jar -> 1.11.2-1.2.5a-56
+* animania-1.11.2-1.4.2.jar -> 1.11.2-1.4.3
+* Chisel-MC1.11.2-0.0.14.25.jar -> 0.1.1.31
+* CreativeCore v1.9.8 mc1.11.2.jar -> v1.9.13 mc1.11.2
+* furnus-1.11.2-1.93.jar -> 1.11.2-1.94
+* LibVulpes-1.11.2-0.2.6-universal.jar -> 1.11.2-0.2.7-29-universal
+* NuclearCraft-2.5a--1.11.2.jar -> 2.7a--1.11.2
+* OnlinePicFrame v1.4.14 mc1.11.2.jar -> v1.4.15 mc1.11.2
+* OpenComputers-MC1.11.2-1.7.0.51.jar -> 1.7.1.79
+* RefinedRelocation-mc1.11.2-3.1.14.jar -> 3.1.15
+* rftools-1.1x-7.14.jar -> 1.1x-7.15
+* shetiphiancore-1.11.0-3.4.7.jar -> 1.11.0-3.4.9
+* xnet-1.4.1.jar -> 1.5.0
+
+### Mod Additions
+* DrawersBits-1.11.2-0.41.jar
+
+### Mod Deletions
+* PlayerRevive v1.2.7 mc1.11.2.jar
+
+### Config Changes
+* Flugfähigkeiten Supremium Armor ausgeschaltet
+* Neue Mining Welt
+* Update animania.cfg
+* Update epicsiegemod.cfg
+* Fix Emerald melting/casting
+* Teleport und Mob Radar deaktiviert
+* Korrekturen
+
+
 ## Changelog v0.8.7 -> v0.9.0
 ### Mod Updates
 * mail_1.11.2-1.0.0.2.jar -> 1.11.2-1.0.0.4
