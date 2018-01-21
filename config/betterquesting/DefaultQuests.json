@@ -23,14 +23,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:wood_knife",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:wood_knife"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -39,7 +35,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Der Beginn.",
-          "desc": "Am Anfang brauchen wir erst mal ein paar Zutaten. Um diese zu sammeln, brauchen wir Werkzeuge.\n\nBaue dir ein Wooden Knife und sammel ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nMit ein paar weiteren Zutaten bauen wir nun das Buch Herblore"
+          "desc": "Am Anfang brauchst duerst mal ein paar Zutaten. Um diese zu sammeln, benötigst du das passende Werkzeug.\n\nBaue dir ein Wooden Knife und sammel ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nMit ein paar weiteren Zutaten crafte nun das Buch Herblore"
         }
       },
       "tasks": [
@@ -48,14 +44,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:wood_knife",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:wood_knife"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -69,14 +61,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:bark_birch",
               "Count": 3,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:bark_oak"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -87,14 +75,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:book_base",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:book_base"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -105,21 +89,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:herblore_book",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:herblore_book"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 3
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:book_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 0
     },
@@ -133,14 +126,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:mortar",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:mortar"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -149,7 +138,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Baue ein Mortar",
-          "desc": "Wir brauchen ein Mortar."
+          "desc": "Um die Zutaten für die Zauber zu verarbeiten brauchst du Mortar und Pestle. Das Rezept sollte in deinem Zauberbuch doch zu finden sein."
         }
       },
       "tasks": [
@@ -158,14 +147,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:mortar",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:mortar"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -176,21 +161,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:pestle",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:pestle"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:coal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         13
       ],
@@ -206,14 +200,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:moontinged_seed",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:moontinged_seed"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -222,7 +212,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Züchtungen im Mondlicht",
-          "desc": "Wir brauchen einen Steinkreis, in dem wir bei Vollmond ein paar Dinge züchten können."
+          "desc": "Zum zaubern brauchst du spezielles Saatgut. Dieses bekommst du aus einem Steinkreis bei Vollmond. \n\nIn dem Zauberbuch Book of Herblore steht beschrieben wie du die \"Opfergaben\" anordnen musst, damit es sich bei Vollmond in das entsprechende Saatgut verwandelt.\n\n(In dem Kreis sind fast nicht zu sehende Markierungen auf die die Blumen gesetzt/gepflanzt werden müssen.)"
         }
       },
       "tasks": [
@@ -234,63 +224,80 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:moontinged_seed",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:moontinged_seed"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:terra_moss_spore",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:terra_moss_spore"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:wildroot_item",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:wildroot_item"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:pereskia_bulb",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:pereskia_bulb"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:aubergine_seeds",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:aubergine_seeds"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:pereskia_blossom",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "roots:aubergine_item",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "roots:moonglow_leaf",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "roots:terra_moss_ball",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "roots:wildroot_item",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        0
+        13
       ],
       "questID": 2
     },
@@ -304,14 +311,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:thatch",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:thatch"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -320,7 +323,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stroh",
-          "desc": "Nun bauen wir uns ein kleines Haus, dafür brauchen wir ein Dach aus Stroh.\n\nMit einer Schere können wir uns etwas Gras schneiden gehen. Dieses wird dann im Ofen (Furnance) getrocknet. \n\nAnschließend müssen wir es nur noch bündeln und unser Dach ist fast fertig."
+          "desc": "Nun brauchst du einen Schamanenhütte. Diese wird mit Stroh gedeckt. \n\nAls erstes baust du dir eine Schere damit du etwas Gras schneiden kannst. Dieses wird dann im Ofen (Furnance) getrocknet. \n\nAnschließend muss es nur noch gebündelt werden."
         }
       },
       "tasks": [
@@ -329,14 +332,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:wood_shears",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:wood_shears"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -350,14 +349,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:straw",
               "Count": 15,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:straw"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -368,21 +363,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:thatch",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:thatch"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:thatch",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         0
       ],
@@ -398,14 +402,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:pouch",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:pouch"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -414,7 +414,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Zauberzutaten",
-          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell wenn du keine \"Munition\" dabei hast.\n\nDafür brauchen wir einen Beutel (Pouch). In diesen können wir 2 Stack von einer Sache füllen. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materialien du dabei haben solltest, verrät dir der jeweilige Zauber."
+          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell wenn du keine \"Munition\" dabei hast.\n\nDafür benötigst du einen Beutel (Pouch). In diesen können bis zu 2 Stack von einer Sache gefüllt werden. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materialien du dabei haben solltest, verrät dir der jeweilige Zauber."
         }
       },
       "tasks": [
@@ -423,21 +423,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:pouch",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:pouch"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:pouch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         5
       ],
@@ -453,20 +462,16 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:staff",
             "Count": 1,
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "orig_meta:3": 0,
-              "orig_tag:10": {
-                "spell3:8": "null",
-                "spell2:8": "null",
-                "selected:3": 0,
-                "spell1:8": "null",
-                "spell0:8": "null"
-              },
-              "orig_id:8": "roots:staff"
+              "spell3:8": "null",
+              "spell2:8": "null",
+              "selected:3": 0,
+              "spell1:8": "null",
+              "spell0:8": "null"
             }
           },
           "globalshare": false,
@@ -476,7 +481,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Zauberstab",
-          "desc": "Um Zaubern zu können benötigen wir einen Zauberstab (Staff).\n\nJedoch brauchen wir zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte, bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberei loslegen."
+          "desc": "Um Zaubern zu können benötigst du einen Zauberstab (Staff).\n\nJedoch brauchst du zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte, bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberei loslegen."
         }
       },
       "tasks": [
@@ -485,14 +490,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:imbuer",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:imbuer"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -503,20 +504,16 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:staff",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "spell3:8": "null",
-                  "spell2:8": "null",
-                  "selected:3": 0,
-                  "spell1:8": "null",
-                  "spell0:8": "null"
-                },
-                "orig_id:8": "roots:staff"
+                "spell3:8": "null",
+                "spell2:8": "null",
+                "selected:3": 0,
+                "spell1:8": "null",
+                "spell0:8": "null"
               }
             }
           ],
@@ -531,16 +528,12 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:petal_dust",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "spell:8": "spell_peony"
-                },
-                "orig_id:8": "roots:petal_dust"
+                "spell:8": "spell_peony"
               }
             }
           ],
@@ -548,10 +541,26 @@
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:petal_dust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "spell:8": "spell_peony"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        2,
-        1
+        1,
+        2
       ],
       "questID": 5
     },
@@ -565,14 +574,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:totempedia",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "totemic:totempedia"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -581,7 +586,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Die \"Tanzanleitung\"",
-          "desc": "No Description"
+          "desc": "Willkommen in der Zeit der Indianer.\n\nDamit du alles richtig machst brauchst du eine \"Tanzanleitung\". Die sollte schnell gecraftet sein."
         }
       },
       "tasks": [
@@ -590,21 +595,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:totempedia",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:totempedia"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:wool",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [],
       "questID": 6
     },
@@ -618,14 +632,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:bark_stripper",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "totemic:bark_stripper"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -634,7 +644,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Werkzeuge",
-          "desc": "No Description"
+          "desc": "In einem jedem Indianerdorf steht mindestens ein Totempfahl. Dafür benötigst du als erstes die entsprechenden Werkzeuge.\n\nSobald du sie hast, stellst du ein Wood auf den Boden. Nimmst das Messer und \"schnitzt\" den Pfahl zurecht. "
         }
       },
       "tasks": [
@@ -643,31 +653,36 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:totem_whittling_knife",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:totem_whittling_knife"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:bark_stripper",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:bark_stripper"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "totemic:buffalo_items",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         6
       ],
@@ -683,14 +698,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:tipi",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "totemic:tipi"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -699,7 +710,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Tipi",
-          "desc": "No Description"
+          "desc": "Ein gescheiter Indianer hat auch ein Ordentliches Tipi. Schau in die Anleitung und fertige dir eines an."
         }
       },
       "tasks": [
@@ -708,21 +719,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:tipi",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:tipi"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leaves",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         6
       ],
@@ -738,70 +758,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:drum",
             "Count": 1,
             "OreDict": "",
-            "Damage": 6,
-            "tag": {
-              "orig_meta:3": 6,
-              "orig_id:8": "totemic:totem_base"
-            }
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Totempfahl",
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "requiredItems": [
-            {
-              "id": "betterquesting:placeholder",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:totem_base"
-              }
-            }
-          ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        10,
-        7
-      ],
-      "questID": 9
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
-            "id": "betterquesting:placeholder",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "totemic:drum"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -810,7 +770,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Musikinstrumente",
-          "desc": "No Description"
+          "desc": "Jedoch hilft dir ein Totempfahl alleine nicht weiter. Erst mit den richtigen, heiligen Gesängen und Tänzen erhälst du die \"Geschenke der Götter\"."
         }
       },
       "tasks": [
@@ -819,43 +779,50 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:flute",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:flute"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:drum",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:drum"
-              }
+              "Damage": 0
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:wind_chime",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:wind_chime"
-              }
+              "Damage": 0
+            },
+            {
+              "id": "totemic:rattle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "totemic:buffalo_items",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        6
+        7
       ],
       "questID": 10
     },
@@ -869,14 +836,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:cedar_sapling",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "totemic:cedar_sapling"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -885,7 +848,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Red Cedar Sappling",
-          "desc": "No Description"
+          "desc": "Probier noch einen Tanz aus. Verzauber einen Sappling in einen Zeder Sappling durch deine Gesänge und Tänze des \"Zaphkiel Waltz\"."
         }
       },
       "tasks": [
@@ -897,23 +860,26 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:cedar_sapling",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "totemic:cedar_sapling"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        9
+        10
       ],
       "questID": 11
     },
@@ -927,14 +893,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "totemic:flute",
             "Count": 1,
             "OreDict": "",
-            "Damage": 1,
-            "tag": {
-              "orig_meta:3": 1,
-              "orig_id:8": "totemic:flute"
-            }
+            "Damage": 1
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -942,8 +904,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "energie geladene Flöte",
-          "desc": "No Description"
+          "name": "Energie geladene Flöte",
+          "desc": "Mit Tänzen und Gesang kannst du die Macht deiner Flöte verstärken. Versuch es doch einfach mal.\n\n\n\n(Flut Imbutation)"
         }
       },
       "tasks": [
@@ -955,23 +917,26 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "totemic:flute",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "orig_meta:3": 1,
-                "orig_id:8": "totemic:flute"
-              }
+              "Damage": 1
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        9
+        10
       ],
       "questID": 12
     },
@@ -985,14 +950,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:spellcraft_book",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:spellcraft_book"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -1001,7 +962,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Buch der Zaubersprüche",
-          "desc": "No Description"
+          "desc": "Schamanen können zaubern. Ihre Sprüche stehen in einem geheimen Buch geschrieben. Fertige dir doch auch ein Buch an für deine Zaubersprüche."
         }
       },
       "tasks": [
@@ -1010,21 +971,30 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:spellcraft_book",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:spellcraft_book"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:book_base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         0
       ],
@@ -1040,14 +1010,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:runestone",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:runestone"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -1055,8 +1021,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Runnensteine",
-          "desc": "No Description"
+          "name": "Runensteine",
+          "desc": "Im Steinkreis kann mann auch noch Runensteine erstellen. Im Book of Herblore steht geschrieben wie es geht.\n\nDiese brauchst später für deinen eigenen Beschwörungskreis."
         }
       },
       "tasks": [
@@ -1068,21 +1034,30 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:runestone",
               "Count": 5,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:runestone"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:runestone",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         2
       ],
@@ -1098,14 +1073,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:ritual_book",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:ritual_book"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -1114,7 +1085,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Boof of the Natural Arts",
-          "desc": "No Description"
+          "desc": "Nun brauchst du noch das letzte Zauberbuch. Das mit den geheimen Beschwörungen im magischen Kreis."
         }
       },
       "tasks": [
@@ -1123,23 +1094,36 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:ritual_book",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:ritual_book"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:petal_dust",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "spell:8": "spell_rose"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        14
+        4,
+        16
       ],
       "questID": 15
     },
@@ -1153,14 +1137,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "betterquesting:placeholder",
+            "id": "roots:bonfire",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "orig_meta:3": 0,
-              "orig_id:8": "roots:bonfire"
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -1169,7 +1149,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Lagerfeuer",
-          "desc": "No Description"
+          "desc": "In der Mitte einens jeden Beschörungskreises gehört ein Feuer. Doch dafür brauchst du eine Zeremonielle Feuerstelle. \n\nDiese ist aber schnell und einfach gebaut."
         }
       },
       "tasks": [
@@ -1178,14 +1158,10 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:bonfire",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:bonfire"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
@@ -1196,23 +1172,32 @@
           "ignoreNBT": false,
           "requiredItems": [
             {
-              "id": "betterquesting:placeholder",
+              "id": "roots:firestarter",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "roots:firestarter"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:crafting",
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "roots:moonglow_leaf",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
-        15
+        14
       ],
       "questID": 16
     },
@@ -3920,6 +3905,3311 @@
         39
       ],
       "questID": 54
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:mob_ingredient",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Zutaten",
+          "desc": "Es gibt Religte und Zaubertränke. Und einiges anderes.\n\nDoch um zu diesen zu gelangen ist es ein weiter Weg. Dieser fängt an mit Sammeln. Von Monster - Teilen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 55
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:apothecary_cauldron",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Cauldron",
+          "desc": "Du kannst Zaubertränke brauen. Mächtige Magie.\n\nDafür must du zu erst einen Cauldron herstellen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:apothecary_cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        55
+      ],
+      "questID": 56
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:apothecary_mortar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mortar",
+          "desc": "Mit einem Kessel alleine kann man nicht brauen. Die Zutaten müssen noch vorbereitet werden."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:apothecary_mortar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        56
+      ],
+      "questID": 57
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:altar_idle",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Altar des Lichtes",
+          "desc": "Der Altar des Lichtes.\n\nEin Interessantes Item mit dem man Glowstone wachsen lassen kann."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:altar_idle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        55
+      ],
+      "questID": 58
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:handgun",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Gun",
+          "desc": "Eine neue Waffe.\n\nBau dir eine Pistole und jage dir weitere Zutaten für deine Tränke und Zauber."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:gun_part",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "xreliquary:gun_part",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:gun_part",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:handgun",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:gunpowder",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        63
+      ],
+      "questID": 59
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:potion",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Vial zum abfüllen.",
+          "desc": "Zum abfüllen brauchst du Flaschen. Bau dir ein paar auf Vorrat."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:potion",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:potion",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        57
+      ],
+      "questID": 60
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:fertile_lilypad",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Lilipath",
+          "desc": "Die Religte.\n\nNun übst du einige der Religte herzustellen. Fang mit etwas leichtem an."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:fertile_lilypad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        55
+      ],
+      "questID": 61
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:interdiction_torch",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Zauberfackel",
+          "desc": "Ein weiteres Relikt ist die Zauberfackel.  Sie hilft dir Bereiche von Monstern frei zu halten, bzw drin zu halten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:interdiction_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        61
+      ],
+      "questID": 62
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:pedestal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Das Podest.",
+          "desc": "Mit dem Podest lassen sich viele verschiedene Dinge machen.\n\nAusgerüstet mit einem Schwert tötet es Monster in der Nähe (solange bis Haltbarkeit vom Schwert weg). Und es gibt noch viele weiter Anwendungen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:pedestal_passive",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:pedestal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        58
+      ],
+      "questID": 63
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:twilight_cloak",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Umhang.",
+          "desc": "Du kannst dir einen Tarnumhang herstellen. Mit ein bisschen Wolle und ein paar Zauberzutaten, kannst du einen Umhang weben der dich nachts vor den Monstern versteckt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:twilight_cloak",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        62
+      ],
+      "questID": 64
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:magazine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Monition.",
+          "desc": "Damit du Schießen kannst brauchst du erst mal Muniton. Die gibt es nicht nur in Standart sondern auch mit verschiedenen Effekten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:magazine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:magazine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:magazine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        59
+      ],
+      "questID": 65
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "xreliquary:potion_essence",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "effects:9": {
+                "10": {
+                  "duration:3": 1750,
+                  "potency:3": 0,
+                  "name:8": "minecraft:night_vision"
+                }
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Trank Zutaten",
+          "desc": "Mit dem Staub solltest du nun alle Zustaten zusammen haben um dir Tränke zu brauen. Probier einfach mal 2 aus.\n\n(night vision, regeneration)"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:potion_essence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1750,
+                    "potency:3": 0,
+                    "name:8": "minecraft:night_vision"
+                  }
+                }
+              }
+            },
+            {
+              "id": "xreliquary:potion_essence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 250,
+                    "potency:3": 0,
+                    "name:8": "minecraft:regeneration"
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "xreliquary:potion",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 250,
+                    "potency:3": 0,
+                    "name:8": "minecraft:regeneration"
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1500,
+                    "potency:3": 0,
+                    "name:8": "minecraft:absorption"
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:potion_essence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1750,
+                    "potency:3": 0,
+                    "name:8": "minecraft:night_vision"
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        60
+      ],
+      "questID": 66
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:tool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3,
+            "tag": {
+              "lastMultiblock:8": "IE:Silo"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Das Buch der Ingenöre",
+          "desc": "Das Buch der Ingeniereure.\n\n\nStelle dir das Buch her um alles Notige wissen zu haben."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 67
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:tool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Werkzeuge",
+          "desc": "Jeder gescheite Ingenieur braucht  Werkzeug zum Arbeiten. Leg dir ein paar zu."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:brick",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        67
+      ],
+      "questID": 68
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stone_decoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Coke Oven.",
+          "desc": "Um weiter zu arbeiten brauchst du einen Coke Oven.\n\nDafür must du insgesammt 27 Cock Bricks herstellen. Diese werden dann in 3*3*3 augebaut und zum schluss nur noch mit dem Hammer draufhauen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        68
+      ],
+      "questID": 69
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:toolbox",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Inv:9": {
+                "10": {
+                  "Slot:1": 20,
+                  "id:8": "immersiveengineering:material",
+                  "Count:1": 64,
+                  "Damage:2": 23
+                }
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "der Werkzeugkoffe",
+          "desc": "Damit du nicht tausende von Kabeln, Scheren und Bücher mit im Inventar rumschleppst gibt es einen Werkzeugkoffer. Dieser ist leicht und geräumig. Du kannst viele Dinge drin verstauen und noch ne Stulle oben drauf."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:toolbox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Inv:9": {
+                  "10": {
+                    "Slot:1": 16,
+                    "id:8": "immersiveengineering:tool",
+                    "Count:1": 1,
+                    "Damage:2": 3
+                  }
+                },
+                "ench:9": {}
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        85
+      ],
+      "questID": 70
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stone_decoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blast Furnance verbessern.",
+          "desc": "Um schneller Steel zu produzieren kannst du deinen Blast Furnus aufwerten. Dafür baust du einfach deinen alten ab und ummantelst die Steine mit Steel.\n\nDanach wird er wieder in 3*3*3 aufgebaut. Aber diesmal mit einem Hopper oben auf der Spitze.\n\n\nDas Eisen und die Kohle wird von oben zugegeben, der Stahl kommt auf der Vorderseite herraus und die Schlacke auf der Rückseite."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        70
+      ],
+      "questID": 71
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metal_device1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blast Furnace noch ein bisschen schneller.",
+          "desc": "Du kannst den verbesserten Blast Furnance noch ein bisschen schneller machen. Dafür must du einfach von einer Seite heiße Luft reinpussten.  Damit du aber nicht den ganzen Tag da stehst und pustest, bau dir einfach einen riesigen Föhn."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "hardcoreore:ingot_steel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        71
+      ],
+      "questID": 72
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "hardcoreore:ingot_steel",
+            "Count": 64,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Matrialien zusammen tragen",
+          "desc": "Für einige Rezepte brauchst du Stahl.\n\n\nHier lernst du wie du ihn herstellen kannst. Das ist sogar recht einfach. 1 Eisen und 2 Kohle zusammen in der Tinker Schmiede schmelzen und als Barren ausgießen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "hardcoreore:ingot_steel",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "hardcoreore:ingot_steel",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        75
+      ],
+      "questID": 73
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stone_decoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Crude Blast Furnance",
+          "desc": "Um weitere Materiealien herstzustellen brauchst du einen Curde Blast Furnance.\n\nDieser besteht aus 27 Blast Bricks in 3*3*3 aufgebaut und mit dem Hammer zum schluss gehauen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        69
+      ],
+      "questID": 74
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:stone_decoration",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 10
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Alloy Kiln",
+          "desc": "Zu guter letzt brauchst du noch den Alloy Kiln um Legierungen herzustellen.\n\nDafür brauchst du 8 Kiln Bricks und ordnest sie in 2*2*2 an. Zum Schluss wieder mit dem Hammer drauf hauen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:stone_decoration",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        74
+      ],
+      "questID": 75
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:wooden_device0",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Werkbank",
+          "desc": "baue dir die Werkbank. Mit ihrer Hilfe kannst du viele Sachen aufwerten. Wie genau must du im Buch nachlesen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:wooden_device0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        87
+      ],
+      "questID": 76
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:wooden_device1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Strom durch Wasserkraft",
+          "desc": "Um weiter zu kommen brauchst du Strom. Da gibt es verschiedene Arten dran zu kommen.\n\nProbier es doch mal mit Wasserkraft. Baue alle erforderlichen Teile und stelle sie auf.\n\nAls erstes den Dynamo platzieren, daran das Wasserrad. Nun noch Wasser oben oder unten laufen lassen, so das das Rad sich dreht.\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:wooden_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        71
+      ],
+      "questID": 77
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:wooden_device1",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Strom durch Windkraft.",
+          "desc": "Nun brauchst du noch Strom. Da ist einfach ranzukommen.\n\nWindkraft heißt das Zauberwort.  Baue dir alle Teile und stelle es hin luftiger Höhe auf.\n\n\nAls erstest must du den Dynamo platzieren und daran die Windräder Montieren. Nur noch warten bis Wind kommt und fertig."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:wooden_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        71
+      ],
+      "questID": 78
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:conveyor",
+            "Count": 2,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "conveyorType:8": "immersiveengineering:conveyor"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "das Fließband",
+          "desc": "In der Maschine eben verbaut. Nun weiter anwendungen finden.\n\nDas Fließband. Man braucht es nicht nur um Maschinen zu bauen. Man kann auch sachen zu den Maschinen transportieren lassen. Oder davon weg in Kisten..\n\nBau dir welche und teste deine Möglichkeiten aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              }
+            },
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:covered"
+              }
+            },
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:dropper"
+              }
+            },
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:vertical"
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        80
+      ],
+      "questID": 79
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:metal_decoration1",
+            "Count": 2,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Stanzmaschiene",
+          "desc": "Um schnell und einfach verschiedene Arbeitschritte zu automatisieren gibt es Maschinen. Mit der folgenden kannst du deinen Kabel antomatisch stanzen lassen.\n\nMit der Bauhilfe oder der Anleitung im Buch findest du heraus wie du die Teile zusammen setzen must. Mit einem leichten Schlag mit dem Hammer wird die Machine in Betrieb genommen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal_decoration1",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "immersiveengineering:metal_decoration0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "immersiveengineering:metal_decoration0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:conveyor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        82
+      ],
+      "questID": 80
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersivepetroleum:speedboat",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Das Moterboot",
+          "desc": "Du kannst nun beschichtetes Holz herstellen.\n\nDaraus lässt sich auch einfach ein Boot bauen. Dieses kann man sogar mit einem größeren Tank, Rudern und anderen Dingen verbessern.\n\n(Du brauchst die Werkbank dabei)"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:speedboat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:treated_wood",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        86
+      ],
+      "questID": 81
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersivepetroleum:schematic",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Bauhilfe",
+          "desc": "Strom ist vorhanden. Die Leitungen sind auch geplatn. Fehlen noch die großen Maschinen die Strom brauchen. Damit du nicht raten must wie du sie baust gibt es eine Bauhilfe.\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:schematic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:wirecoil",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        83
+      ],
+      "questID": 82
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:connector",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Stromabnehmer",
+          "desc": "Strom produzierst du nun. Aber wie gelangt der in deine Maschinen später?\n\n\nMit Kabeln. Du brauchst ein paar Materialien und kannst dan Strom verteilen.\nAn ein Relay kann man zb 2 Kabel anklemmen, die einfachen nur 1. Mit einem Trafo dazwischen kann man zwischen Stromstärken wechseln..\n\n\nProbier einfach mal ein bisschen aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:wooden_device1",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "immersiveengineering:connector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "immersiveengineering:connector",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:connector",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:wirecoil",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "targettingInfo:10": {
+                  "side:3": 3,
+                  "hitX:5": 0.7148257,
+                  "hitY:5": 0.14400864,
+                  "hitZ:5": 0.6875
+                },
+                "linkingPos:11": [
+                  0,
+                  189,
+                  72,
+                  757
+                ]
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        78,
+        77
+      ],
+      "questID": 83
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersivepetroleum:oil_can",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "kleines Ölkännchen",
+          "desc": "Deine Machinen brauche gelegentlich Schmiermittel. Mit hilfe des Kännchen kannst du sie in Stand halten.\n\nDas Kännchen ist so vielseitig, du kannst sogar deine Golems behandel. Sie fühlen sich danach wie neu."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:oil_can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "plantoil",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        80
+      ],
+      "questID": 84
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:sheetmetal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 9
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ein Tank oder Silo",
+          "desc": "Um größere Mengen von deinem Öl zu lagern, oder aber auch lieber die Kohle, kannst du einen Tank / Silo bauen.\n\nDafür benötigst du 4 Impregnierte Zäune und einige (34/50) Iron Sheeetmetal.  Mach mal ein paar und entscheide dan was du brauchst."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:sheetmetal",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:sheetmetal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        76
+      ],
+      "questID": 85
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:treated_wood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "beschichtes Holz",
+          "desc": "Du brauchst für ein paar Dinge treated Wood. Also beschichtets Holz.\n\nDafür holst du dir einen Eimer Öl aus dem Coke Oven und craftest ihn mit dem Holz zusammen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "creosote",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:treated_wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "immersiveengineering:treated_wood",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        73
+      ],
+      "questID": 86
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 23
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Platten und Schnüre",
+          "desc": "Noch mehr Materialien werden benötigt.\n\nPlatten und Wire. Die Platten werden mit dem Hammer gehämmert und dan mit der Schere zu \"Schnüren\" zerschnitten. Die kann man weiter verarbeiten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "hardcoreore:plate_copper",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:material",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 20
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:wirecoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "hardcoreore:ingot_copper",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        86
+      ],
+      "questID": 87
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersivepetroleum:metal_device",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "das große Ölkännchen",
+          "desc": "Wenn du zu beschäftigt bis immer nach den Machinen zu schauen kannst du einfach das automatische \"Kännchen\" bauen.\n\nMit der Machine verbinden und es läuft wie von selbst."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:metal_device",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        84
+      ],
+      "questID": 88
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersivepetroleum:metal_device",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Strom to go",
+          "desc": "Manchmal braucht man Strom an Stellen wo kein Kabel hinkommt. Dafür gibt es den Transportablen Generator.\n\nDu kannst ihm direkt mit einem Stromkabel verbinden und jeder Zeit wieder mitnehmen (shift-rechts) und alles bleibt drin."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "immersivepetroleum:metal_device",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "gasoline",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        78,
+        77
+      ],
+      "questID": 89
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:lexicon",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Das Botaniabuch",
+          "desc": "Alles was du wissen must steht in diese Buch drine. Also ist es sinvoll zu erst eins zu besorgen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:lexicon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 90
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:altar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "\"Zauberkessel\"",
+          "desc": "Als nächstest benötigst du einen Kessel.\n\nDort wirfst du deine Zutaten ins Wasser und zauberst neue Dinge."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "botania:altar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:petal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        96
+      ],
+      "questID": 91
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:pool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mana Pool",
+          "desc": "In einem Manapool sammelst du das Mana ein. Richte den Spreader mit hilfe des Zauberstabs auf den Pool und das Mana aus den Blumen sammelt sich dort.\n\nMit hilfe des Pools kannst du neue Dinge erstellen. Wirf Eisen rein oder Diamanten. Du kannst im Buch nachlesen was alles geht.\n\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:manaresource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        94
+      ],
+      "questID": 92
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:twigwand",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "color1:3": 0,
+              "color2:3": 0,
+              "boundTileZ:3": 0,
+              "boundTileX:3": 0,
+              "boundTileY:3": -1
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ein Zauberstab",
+          "desc": "Um mit Mana zu arbeiten brauchst du einen Zauberstab. Der ist sehr einfach herzustellen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:twigwand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "color1:3": 0,
+                "color2:3": 0,
+                "boundTileZ:3": 0,
+                "boundTileX:3": 0,
+                "boundTileY:3": -1,
+                "bindMode:1": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:flower",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        97
+      ],
+      "questID": 93
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:spreader",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mana absaugen",
+          "desc": "Nun hast du eine oder mehr Blume volgeladen mit Mana. Wie bekommst du es da raus? Ganz einfach, mit dem Manaspreader. Bau dir einen und setze ihn in die Nähe deiner Pflanzen. Mit hilfe des Zauberstab kannst du sehen wo das Mana ist. Wer wie viel hat und von wo nach wo es weiter geleitet wird."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "botania:spreader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:manaresource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        98,
+        99
+      ],
+      "questID": 94
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "puredaisy"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Pure Daysi",
+          "desc": "Zauber das erste mal in deinem Kessel. Dafür must du die weißen Blumen in Petals zerlegen und 4 in den Kessel werfen. Mit einem Samenkorn wird daraus eine schöne weiße Blume."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "botania:petal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "puredaisy"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:flower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        91
+      ],
+      "questID": 95
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:flower",
+            "Count": 6,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Zutaten zusammen tragen.",
+          "desc": "Um weiter zu kommen brauchst du Blumen. Eine hast du schon als Geschenk erhalten. Davon brauchst du noch ein paar."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:flower",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        90
+      ],
+      "questID": 96
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:livingwood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Umwandlung",
+          "desc": "Mit der hübschen Blume kannst du nun einfach Holz und Stein in neues verwandeln. Die Blume kommt in die Mitte und das Holz/Stein wird herum gestellt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 8,
+              "OreDict": "logWood",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:livingrock",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:livingwood",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:flowerbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        95
+      ],
+      "questID": 97
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "endoflame"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Flammenblume",
+          "desc": "An Mana heranzukommen ist einfach. Auf diesen Weg lerst du es mit Hilfe von \"Feuer\" herzustellen.  Fütter die Blume mit Kohle oder Holz und sie produziert Mana für dich."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "endoflame"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:coal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        93
+      ],
+      "questID": 98
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "hydroangeas"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blume des Wassers",
+          "desc": "An Mana heranzukommen ist einfach. HIer lernst du wie du es aus Wasser bekommst. Baue dir deine Wasserblume und platziere sie auf die gleich ebene wie dein Wasse. Sie verbaucht es und wandelt es in Mana um."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "hydroangeas"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "hydroangeas"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        93
+      ],
+      "questID": 99
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:manatablet",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mana Tablett",
+          "desc": "Du kannst Mana mit dir nehmen. Dafür brauchst du das Manatablett und einen Zauberstab."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "botania:manatablet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:pestleandmortar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        92
+      ],
+      "questID": 100
     }
   ],
   "questLines": [
@@ -3935,26 +7225,26 @@
       "quests": [
         {
           "size": 24,
-          "x": 8,
-          "y": 88,
+          "x": 0,
+          "y": 90,
           "id": 0
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 96,
+          "x": 138,
+          "y": 108,
           "id": 16
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 60,
+          "x": 66,
+          "y": 72,
           "id": 1
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 90,
+          "x": 66,
+          "y": 108,
           "id": 2
         },
         {
@@ -3965,32 +7255,32 @@
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 60,
+          "x": 138,
+          "y": 72,
           "id": 4
         },
         {
           "size": 24,
-          "x": 90,
-          "y": 60,
+          "x": 102,
+          "y": 72,
           "id": 5
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 60,
+          "x": 30,
+          "y": 90,
           "id": 13
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 96,
+          "x": 102,
+          "y": 108,
           "id": 14
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 96,
+          "x": 174,
+          "y": 90,
           "id": 15
         }
       ],
@@ -4016,7 +7306,7 @@
         {
           "size": 24,
           "x": 42,
-          "y": 126,
+          "y": 144,
           "id": 7
         },
         {
@@ -4027,26 +7317,20 @@
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 138,
-          "id": 9
-        },
-        {
-          "size": 24,
-          "x": 36,
-          "y": 156,
+          "x": 78,
+          "y": 144,
           "id": 10
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 108,
+          "x": 120,
+          "y": 120,
           "id": 11
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 168,
+          "x": 120,
+          "y": 162,
           "id": 12
         }
       ],
@@ -4230,7 +7514,80 @@
           "desc": "No Description"
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 114,
+          "y": 162,
+          "id": 64
+        },
+        {
+          "size": 24,
+          "x": 150,
+          "y": 126,
+          "id": 65
+        },
+        {
+          "size": 24,
+          "x": 150,
+          "y": 84,
+          "id": 66
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 126,
+          "id": 55
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 84,
+          "id": 56
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 84,
+          "id": 57
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 126,
+          "id": 58
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 126,
+          "id": 59
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 84,
+          "id": 60
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 162,
+          "id": 61
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 162,
+          "id": 62
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 126,
+          "id": 63
+        }
+      ],
       "lineID": 5,
       "order": 6
     },
@@ -4355,6 +7712,238 @@
       ],
       "lineID": 6,
       "order": 3
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Immersive Engenieering (2)",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 18,
+          "y": 12,
+          "id": 67
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 48,
+          "id": 68
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 48,
+          "id": 69
+        },
+        {
+          "size": 24,
+          "x": 306,
+          "y": 84,
+          "id": 70
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 102,
+          "id": 71
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 120,
+          "id": 72
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 48,
+          "id": 73
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 48,
+          "id": 74
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 48,
+          "id": 75
+        },
+        {
+          "size": 24,
+          "x": 270,
+          "y": 48,
+          "id": 76
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 84,
+          "id": 77
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 120,
+          "id": 78
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 102,
+          "id": 79
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 102,
+          "id": 80
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 12,
+          "id": 81
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 102,
+          "id": 82
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 102,
+          "id": 83
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 138,
+          "id": 84
+        },
+        {
+          "size": 24,
+          "x": 306,
+          "y": 48,
+          "id": 85
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 48,
+          "id": 86
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 48,
+          "id": 87
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 174,
+          "id": 88
+        },
+        {
+          "size": 24,
+          "x": 198,
+          "y": 144,
+          "id": 89
+        }
+      ],
+      "lineID": 7,
+      "order": 7
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Botania Hilfestellung (2)",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 42,
+          "y": 12,
+          "id": 96
+        },
+        {
+          "size": 24,
+          "x": 150,
+          "y": 12,
+          "id": 97
+        },
+        {
+          "size": 24,
+          "x": 222,
+          "y": 0,
+          "id": 98
+        },
+        {
+          "size": 24,
+          "x": 222,
+          "y": 30,
+          "id": 99
+        },
+        {
+          "size": 24,
+          "x": 330,
+          "y": 12,
+          "id": 100
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 12,
+          "id": 90
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 12,
+          "id": 91
+        },
+        {
+          "size": 24,
+          "x": 294,
+          "y": 12,
+          "id": 92
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 12,
+          "id": 93
+        },
+        {
+          "size": 24,
+          "x": 258,
+          "y": 12,
+          "id": 94
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 12,
+          "id": 95
+        }
+      ],
+      "lineID": 8,
+      "order": 8
     }
   ],
   "format": "1.0.0"
