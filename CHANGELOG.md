@@ -1,4 +1,128 @@
 # Changelog
+## Changelog v0.9.1 -> v0.9.2
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a-56.jar -> 1.11.2-1.2.5a-69
+* animania-1.11.2-1.4.3.jar -> 1.11.2-1.4.4
+* AutomatedRedstone-1.11.2-5.1.2.jar -> 1.11.2-5.2.0
+* CD4017BE_lib-1.11.2-5.1.2.jar -> 1.11.2-5.1.5
+* compatlayer-1.11.2-0.2.9.jar -> 1.11.2-0.3.0
+* deepresonance-1.1x-1.4.8.jar -> 1.1x-1.4.9
+* DynamicSurroundings-1.11.2-3.4.7.1.jar -> 1.11.2-3.4.8.5
+* Exchangers-1.11.2-1.6.2.jar -> 1.11.2-1.7.2
+* InductiveLogistics-1.11.2-0.2.2.jar -> 1.11.2-0.3.1
+* LibVulpes-1.11.2-0.2.7-29-universal.jar -> 1.11.2-0.2.7-30-universal
+* mcjtylib-1.1x-2.5.0.jar -> 1.1x-2.5.1
+* platforms-1.11.0-1.3.4.jar -> 1.11.0-1.3.5
+* rftools-1.1x-7.15.jar -> 1.1x-7.16
+* SpartanShields-1.11.2-1.3a.jar -> 1.11.2-1.4
+* Vials-MC1.11.2-1.2.1.3.jar -> 1.2.1.4
+
+### Mod Additions
+* CoffeeSpawner-1.11.2-1.0.2.jar
+* CreativeCore v1.9.15 mc1.11.2.jar
+* ImmersiveRailroading-0.4.5a_1.11.jar
+* TrackAPI-1.0_1.11.jar
+
+### Mod Deletions
+* CreativeCore v1.9.13 mc1.11.2.jar
+* ViesCraft-1.11.2-5.0.10-final.jar
+
+### Config Changes
+* Questbook nach Kaptiel2/config verschoben. https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* reverted from commit fbdb0de475038742b732f91b11584226dfb510dc https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Questbook zusammengeführt https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Add files via upload
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/210
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/208
+* Version v0.9.1
+
+
+## Changelog v0.9.1 -> v0.9.2
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a-56.jar -> 1.11.2-1.2.5a-69
+* animania-1.11.2-1.4.3.jar -> 1.11.2-1.4.4
+* AutomatedRedstone-1.11.2-5.1.2.jar -> 1.11.2-5.2.0
+* CD4017BE_lib-1.11.2-5.1.2.jar -> 1.11.2-5.1.5
+* compatlayer-1.11.2-0.2.9.jar -> 1.11.2-0.3.0
+* deepresonance-1.1x-1.4.8.jar -> 1.1x-1.4.9
+* DynamicSurroundings-1.11.2-3.4.7.1.jar -> 1.11.2-3.4.8.5
+* Exchangers-1.11.2-1.6.2.jar -> 1.11.2-1.7.2
+* InductiveLogistics-1.11.2-0.2.2.jar -> 1.11.2-0.3.1
+* LibVulpes-1.11.2-0.2.7-29-universal.jar -> 1.11.2-0.2.7-30-universal
+* mcjtylib-1.1x-2.5.0.jar -> 1.1x-2.5.1
+* platforms-1.11.0-1.3.4.jar -> 1.11.0-1.3.5
+* rftools-1.1x-7.15.jar -> 1.1x-7.16
+* SpartanShields-1.11.2-1.3a.jar -> 1.11.2-1.4
+* Vials-MC1.11.2-1.2.1.3.jar -> 1.2.1.4
+
+### Mod Additions
+* CoffeeSpawner-1.11.2-1.0.2.jar
+* CreativeCore v1.9.15 mc1.11.2.jar
+* ImmersiveRailroading-0.4.5a_1.11.jar
+* TrackAPI-1.0_1.11.jar
+
+### Mod Deletions
+* CreativeCore v1.9.13 mc1.11.2.jar
+* ViesCraft-1.11.2-5.0.10-final.jar
+
+### Config Changes
+* Questbook nach Kaptiel2/config verschoben. https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* reverted from commit fbdb0de475038742b732f91b11584226dfb510dc https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Questbook zusammengeführt https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Add files via upload
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/210
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/208
+* Version v0.9.1
+
+
+## Changelog v0.9.1 -> v0.9.2
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a-56.jar -> 1.11.2-1.2.5a-69
+* animania-1.11.2-1.4.3.jar -> 1.11.2-1.4.4
+* AutomatedRedstone-1.11.2-5.1.2.jar -> 1.11.2-5.2.0
+* CD4017BE_lib-1.11.2-5.1.2.jar -> 1.11.2-5.1.5
+* compatlayer-1.11.2-0.2.9.jar -> 1.11.2-0.3.0
+* CreativeCore v1.9.13 mc1.11.2.jar -> v1.9.15 mc1.11.2
+* deepresonance-1.1x-1.4.8.jar -> 1.1x-1.4.9
+* DynamicSurroundings-1.11.2-3.4.7.1.jar -> 1.11.2-3.4.8.5
+* Exchangers-1.11.2-1.6.2.jar -> 1.11.2-1.7.2
+* InductiveLogistics-1.11.2-0.2.2.jar -> 1.11.2-0.3.1
+* LibVulpes-1.11.2-0.2.7-29-universal.jar -> 1.11.2-0.2.7-30-universal
+* mcjtylib-1.1x-2.5.0.jar -> 1.1x-2.5.1
+* platforms-1.11.0-1.3.4.jar -> 1.11.0-1.3.5
+* rftools-1.1x-7.15.jar -> 1.1x-7.16
+* SpartanShields-1.11.2-1.3a.jar -> 1.11.2-1.4
+* Vials-MC1.11.2-1.2.1.3.jar -> 1.2.1.4
+
+### Mod Additions
+* CoffeeSpawner-1.11.2-1.0.2.jar
+* ImmersiveRailroading-0.4.5a_1.11.jar
+* TrackAPI-1.0_1.11.jar
+
+### Mod Deletions
+* ViesCraft-1.11.2-5.0.10-final.jar
+
+### Config Changes
+* Questbook nach Kaptiel2/config verschoben. https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* reverted from commit fbdb0de475038742b732f91b11584226dfb510dc https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Questbook zusammengeführt https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Add files via upload
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/210
+* Closes https://github.com/BakermanLP/ProjectRET-AoT/issues/208
+* Version v0.9.1
+
+
+## Changelog v0.9.1 -> v0.9.2
+### Mod Updates
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Version v0.9.1
+
+
 ## Changelog v0.9.0 -> v0.9.1
 ### Mod Updates
 * AdvancedRocketry-1.11.2-1.2.5a.jar -> 1.11.2-1.2.5a-56
