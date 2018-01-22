@@ -35,7 +35,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Der Beginn.",
-          "desc": "Am Anfang brauchst duerst mal ein paar Zutaten. Um diese zu sammeln, benötigst du das passende Werkzeug.\n\nBaue dir ein Wooden Knife und sammel ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nMit ein paar weiteren Zutaten crafte nun das Buch Herblore"
+          "desc": "Am Anfang brauchst du erst mal ein paar Zutaten. Um diese zu sammeln, benötigst du das passende Werkzeug.\n\nBaue dir ein Wooden Knife und sammle ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nCrafte nun mit ein paar weiteren Zutaten das Buch Herblore"
         }
       },
       "tasks": [
@@ -138,7 +138,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Baue ein Mortar",
-          "desc": "Um die Zutaten für die Zauber zu verarbeiten brauchst du Mortar und Pestle. Das Rezept sollte in deinem Zauberbuch doch zu finden sein."
+          "desc": "Um die Zutaten für die Zauber zu verarbeiten, brauchst du Mortar und Pestle. Das Rezept sollte in deinem Zauberbuch doch zu finden sein."
         }
       },
       "tasks": [
@@ -212,7 +212,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Züchtungen im Mondlicht",
-          "desc": "Zum zaubern brauchst du spezielles Saatgut. Dieses bekommst du aus einem Steinkreis bei Vollmond. \n\nIn dem Zauberbuch Book of Herblore steht beschrieben wie du die \"Opfergaben\" anordnen musst, damit es sich bei Vollmond in das entsprechende Saatgut verwandelt.\n\n(In dem Kreis sind fast nicht zu sehende Markierungen auf die die Blumen gesetzt/gepflanzt werden müssen.)"
+          "desc": "Zum Zaubern brauchst du spezielles Saatgut. Dieses bekommst du aus einem Steinkreis bei Vollmond. \n\nIn dem Zauberbuch Book of Herblore steht beschrieben wie du die \"Opfergaben\" anordnen musst, damit es sich bei Vollmond in das entsprechende Saatgut verwandelt.\n\n(In dem Kreis sind fast nicht zu sehende Markierungen, auf die die Blumen gesetzt/gepflanzt werden müssen.)"
         }
       },
       "tasks": [
@@ -323,7 +323,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stroh",
-          "desc": "Nun brauchst du einen Schamanenhütte. Diese wird mit Stroh gedeckt. \n\nAls erstes baust du dir eine Schere damit du etwas Gras schneiden kannst. Dieses wird dann im Ofen (Furnance) getrocknet. \n\nAnschließend muss es nur noch gebündelt werden."
+          "desc": "Nun brauchst du eine Schamanenhütte. Diese wird mit Stroh gedeckt. \n\nAls erstes baust du dir eine Schere, damit du etwas Gras schneiden kannst. Dieses wird dann im Ofen (Furnace) getrocknet. \n\nAnschließend muss es nur noch gebündelt werden."
         }
       },
       "tasks": [
@@ -414,7 +414,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Zauberzutaten",
-          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell wenn du keine \"Munition\" dabei hast.\n\nDafür benötigst du einen Beutel (Pouch). In diesen können bis zu 2 Stack von einer Sache gefüllt werden. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materialien du dabei haben solltest, verrät dir der jeweilige Zauber."
+          "desc": "Einen Zauberstab hast du nun schon. Jedoch verfliegt der Zauber schnell, wenn du keine \"Munition\" dabei hast.\n\nDafür benötigst du einen Beutel (Pouch). In diesen können bis zu 2 Stacks von einer Sache gefüllt werden. \n\nMit Hilfe des Pedal befüllst du den Beutel. Welche Materialien du dabei haben solltest, verrät dir der jeweilige Zauber."
         }
       },
       "tasks": [
@@ -481,7 +481,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Zauberstab",
-          "desc": "Um Zaubern zu können benötigst du einen Zauberstab (Staff).\n\nJedoch brauchst du zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte, bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberei loslegen."
+          "desc": "Um Zaubern zu können, benötigst du einen Zauberstab (Staff).\n\nJedoch brauchst du zu erst eine Basis (Imbuer).\n\nLege den Zauberstab auf die Basis und füge den Zauber-Staub (Dust) in die Basis ein. Warte, bis der Zauberstab aufgeladen ist. Nun kannst du mit der Zauberei loslegen."
         }
       },
       "tasks": [
@@ -586,7 +586,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Die \"Tanzanleitung\"",
-          "desc": "Willkommen in der Zeit der Indianer.\n\nDamit du alles richtig machst brauchst du eine \"Tanzanleitung\". Die sollte schnell gecraftet sein."
+          "desc": "Willkommen in der Zeit der Indianer.\n\nDamit du alles richtig machst, brauchst du eine \"Tanzanleitung\". Die sollte schnell gecraftet sein."
         }
       },
       "tasks": [
@@ -644,7 +644,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Werkzeuge",
-          "desc": "In einem jedem Indianerdorf steht mindestens ein Totempfahl. Dafür benötigst du als erstes die entsprechenden Werkzeuge.\n\nSobald du sie hast, stellst du ein Wood auf den Boden. Nimmst das Messer und \"schnitzt\" den Pfahl zurecht. "
+          "desc": "In einem jedem Indianerdorf steht mindestens ein Totempfahl. Dafür benötigst du als erstes die entsprechenden Werkzeuge.\n\nSobald du sie hast, stellst du ein Wood auf den Boden. Nimmst das Messer und \"schnitze\" den Pfahl zurecht. "
         }
       },
       "tasks": [
@@ -710,7 +710,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Tipi",
-          "desc": "Ein gescheiter Indianer hat auch ein Ordentliches Tipi. Schau in die Anleitung und fertige dir eines an."
+          "desc": "Ein gescheiter Indianer hat auch ein ordentliches Tipi. Schau in die Anleitung und fertige dir eines an."
         }
       },
       "tasks": [
@@ -770,7 +770,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Musikinstrumente",
-          "desc": "Jedoch hilft dir ein Totempfahl alleine nicht weiter. Erst mit den richtigen, heiligen Gesängen und Tänzen erhälst du die \"Geschenke der Götter\"."
+          "desc": "Jedoch hilft dir ein Totempfahl alleine nicht weiter. Erst mit den richtigen, heiligen Gesängen und Tänzen erhältst du die \"Geschenke der Götter\"."
         }
       },
       "tasks": [
@@ -847,8 +847,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Red Cedar Sappling",
-          "desc": "Probier noch einen Tanz aus. Verzauber einen Sappling in einen Zeder Sappling durch deine Gesänge und Tänze des \"Zaphkiel Waltz\"."
+          "name": "Red Cedar Sapling",
+          "desc": "Probier noch einen Tanz aus. Verzauber einen Sapling in einen Zeder Sapling durch deine Gesänge und Tänze des \"Zaphkiel Waltz\"."
         }
       },
       "tasks": [
@@ -904,7 +904,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Energie geladene Flöte",
+          "name": "Energiegeladene Flöte",
           "desc": "Mit Tänzen und Gesang kannst du die Macht deiner Flöte verstärken. Versuch es doch einfach mal.\n\n\n\n(Flut Imbutation)"
         }
       },
@@ -962,7 +962,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Buch der Zaubersprüche",
-          "desc": "Schamanen können zaubern. Ihre Sprüche stehen in einem geheimen Buch geschrieben. Fertige dir doch auch ein Buch an für deine Zaubersprüche."
+          "desc": "Schamanen können zaubern. Ihre Sprüche stehen in einem geheimen Buch geschrieben. Fertige dir doch auch ein Buch für deine Zaubersprüche an."
         }
       },
       "tasks": [
@@ -1022,7 +1022,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Runensteine",
-          "desc": "Im Steinkreis kann mann auch noch Runensteine erstellen. Im Book of Herblore steht geschrieben wie es geht.\n\nDiese brauchst später für deinen eigenen Beschwörungskreis."
+          "desc": "Im Steinkreis kann man auch noch Runensteine erstellen. Im Book of Herblore steht geschrieben wie es geht.\n\nDiese brauchst später für deinen eigenen Beschwörungskreis."
         }
       },
       "tasks": [
@@ -1084,7 +1084,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Boof of the Natural Arts",
+          "name": "Book of the Natural Arts",
           "desc": "Nun brauchst du noch das letzte Zauberbuch. Das mit den geheimen Beschwörungen im magischen Kreis."
         }
       },
@@ -1498,7 +1498,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Eine Kuh mach muh..",
+          "name": "Eine Kuh macht muh..",
           "desc": "Eine Kuh macht muh..viele Kühe machen Mühe..\n\nAber da du Milch brauchst, ist uns das egal. Also sammel dir ein paar Kühe."
         }
       },
@@ -1559,7 +1559,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ei oder Huhn?",
-          "desc": "Wer war zuerst das Ei oder das Huhn?\n\nDas ist dir doch egal. Fange mit dem Nest an.  Um das Nest legst du Seeds auf den Boden. \n\nUnd bald hast du Eier und Hühner..oder anderes Federvieh."
+          "desc": "Wer war zuerst? Das Ei oder das Huhn?\n\nDas ist dir doch egal. Fange mit dem Nest an. Um das Nest legst du Seeds auf den Boden. \n\nUnd bald hast du Eier und Hühner..oder anderes Federvieh."
         }
       },
       "tasks": [
@@ -1636,7 +1636,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Alles Käse.",
-          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen.  Du brauchst eine Käseform und natürlich ein Eimer Milch.\n\nUm Käse zu machen musst du die Form hinstellen und mit Milch füllen. Es kann auch Ziegen- oder Schafsmilch sein. Hilft aber nicht bei der Quest.\n\nUnd voilà hast du etwas Käse. "
+          "desc": "Jetzt hast du Milch. Nun kannst du dir Käse machen.  Du brauchst eine Käseform und natürlich einen Eimer Milch.\n\nUm Käse zu machen, musst du die Form hinstellen und mit Milch füllen. Es kann auch Ziegen- oder Schafsmilch sein. Hilft aber nicht bei der Quest.\n\nUnd voilà hast du etwas Käse. "
         }
       },
       "tasks": [
@@ -1734,7 +1734,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Grundregeln der Tierhaltung.",
-          "desc": "Für das halten von Tieren sind ein paar Grundregeln zu beachten.\n\nDie verschiedenen Tiere müssen glücklich sein. Dafür brauchen wir ein paar Items. Fangen wir mit Trögen an. Für Futter und Wasser."
+          "desc": "Für das Halten von Tieren sind ein paar Grundregeln zu beachten.\n\nDie verschiedenen Tiere müssen glücklich sein. Dafür brauchen wir ein paar Items. Fangen wir mit Trögen an. Für Futter und Wasser."
         }
       },
       "tasks": [
@@ -2009,7 +2009,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ei Ei Ei",
-          "desc": "Wenn wir Vögel haben und ein Nest, bekommen wir auch bald Eier.\n\nSammel ein paar und bereite dir anschließend ein Omelette daraus zu."
+          "desc": "Wenn wir Vögel haben und ein Nest, bekommen wir auch bald Eier.\n\nSammle ein paar und bereite dir anschließend ein Omelette daraus zu."
         }
       },
       "tasks": [
@@ -2421,7 +2421,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Material sammeln im Wasser",
-          "desc": "Wenn dir das sieben zu anstrengend ist. Oder aber du einfach keine Lust hast, nimm den Waterstrainer..\n\nEr fischt dir Materialien aus dem Wasser."
+          "desc": "Wenn dir das Sieben zu anstrengend ist. Oder aber du einfach keine Lust hast, nimm den Waterstrainer..\n\nEr fischt dir Materialien aus dem Wasser."
         }
       },
       "tasks": [
@@ -2481,7 +2481,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Fisch",
-          "desc": "Mit dem Filter kannst du nicht nur Material sammeln. Auch Fisch und anderes verfängt sich gerne darin.\n\nAber nur wenn du einen Köder benutzt."
+          "desc": "Mit dem Filter kannst du nicht nur Material sammeln. Auch Fisch und anderes verfängt sich gerne darin.\n\nAber nur, wenn du einen Köder benutzt."
         }
       },
       "tasks": [
@@ -2753,7 +2753,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Der Start",
-          "desc": "Für den Anfang benötigen wir ein bisschen Material. Sammel ein paar Dinge. Für Einige davon musst du in den Nether ziehen und sie dort abbauen."
+          "desc": "Für den Anfang benötigen wir ein bisschen Material. Sammle ein paar Dinge. Für Einige davon musst du in den Nether ziehen und sie dort abbauen."
         }
       },
       "tasks": [
@@ -3333,7 +3333,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Level 5",
-          "desc": "So! Das letze Leve steht an. Auch dieses ist für die Weiterentwicklung wichtig."
+          "desc": "So! Das letze Level steht an. Auch dieses ist für die Weiterentwicklung wichtig."
         }
       },
       "tasks": [
@@ -3481,7 +3481,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Level 4",
-          "desc": "Level 4 brauchst du auch für verschieden Saamen. Also stell welche her und erhalte weitere Resourcen."
+          "desc": "Level 4 brauchst du auch für verschieden Samen. Also stell welche her und erhalte weitere Ressourcen."
         }
       },
       "tasks": [
@@ -3833,7 +3833,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Die Essence der Natur",
-          "desc": "Um dir zu erklären wie du die Essencen verwendest, hier eine kleine Einführung.\n\nSammel dir ein Stapel Essence der Natur und erstelle daraus ein paar Kleinigkeiten."
+          "desc": "Um dir zu erklären wie du die Essencen verwendest, hier eine kleine Einführung.\n\nSammle dir ein Stapel Essence der Natur und erstelle daraus ein paar Kleinigkeiten."
         }
       },
       "tasks": [
@@ -3928,7 +3928,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Zutaten",
-          "desc": "Es gibt Religte und Zaubertränke. Und einiges anderes.\n\nDoch um zu diesen zu gelangen ist es ein weiter Weg. Dieser fängt an mit Sammeln. Von Monster - Teilen."
+          "desc": "Es gibt Relikte und Zaubertränke. Und einiges anderes.\n\nDoch um zu diesen zu gelangen ist es ein weiter Weg. Dieser fängt an mit Sammeln. Von Monster - Teilen."
         }
       },
       "tasks": [
@@ -4135,7 +4135,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Altar des Lichtes",
-          "desc": "Der Altar des Lichtes.\n\nEin Interessantes Item mit dem man Glowstone wachsen lassen kann."
+          "desc": "Der Altar des Lichtes.\n\nEin Interessantes Item, mit dem man Glowstone wachsen lassen kann."
         }
       },
       "tasks": [
@@ -4282,7 +4282,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Vial zum abfüllen.",
-          "desc": "Zum abfüllen brauchst du Flaschen. Bau dir ein paar auf Vorrat."
+          "desc": "Zum Abfüllen brauchst du Flaschen. Bau dir ein paar auf Vorrat."
         }
       },
       "tasks": [
@@ -4344,7 +4344,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Lilipath",
-          "desc": "Die Religte.\n\nNun übst du einige der Religte herzustellen. Fang mit etwas leichtem an."
+          "desc": "Die Relikte.\n\nNun übst du einige der Relikte herzustellen. Fang mit etwas leichtem an."
         }
       },
       "tasks": [
@@ -4404,7 +4404,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Zauberfackel",
-          "desc": "Ein weiteres Relikt ist die Zauberfackel.  Sie hilft dir Bereiche von Monstern frei zu halten, bzw drin zu halten."
+          "desc": "Ein weiteres Relikt ist die Zauberfackel.  Sie hilft dir Bereiche von Monstern frei zu halten, bzw. drin zu halten."
         }
       },
       "tasks": [
@@ -4464,7 +4464,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das Podest.",
-          "desc": "Mit dem Podest lassen sich viele verschiedene Dinge machen.\n\nAusgerüstet mit einem Schwert tötet es Monster in der Nähe (solange bis Haltbarkeit vom Schwert weg). Und es gibt noch viele weiter Anwendungen."
+          "desc": "Mit dem Podest lassen sich viele verschiedene Dinge machen.\n\nAusgerüstet mit einem Schwert tötet es Monster in der Nähe (solange bis die Haltbarkeit vom Schwert weg ist). Und es gibt noch viele weitere Anwendungen."
         }
       },
       "tasks": [
@@ -4539,7 +4539,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Umhang.",
-          "desc": "Du kannst dir einen Tarnumhang herstellen. Mit ein bisschen Wolle und ein paar Zauberzutaten, kannst du einen Umhang weben der dich nachts vor den Monstern versteckt."
+          "desc": "Du kannst dir einen Tarnumhang herstellen. Mit ein bisschen Wolle und ein paar Zauberzutaten kannst du einen Umhang weben, der dich nachts vor den Monstern versteckt."
         }
       },
       "tasks": [
@@ -4613,8 +4613,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Die Monition.",
-          "desc": "Damit du Schießen kannst brauchst du erst mal Muniton. Die gibt es nicht nur in Standart sondern auch mit verschiedenen Effekten."
+          "name": "Die Munition.",
+          "desc": "Damit du Schießen kannst brauchst du erst mal Muniton. Die gibt es nicht nur in Standard sondern auch mit verschiedenen Effekten."
         }
       },
       "tasks": [
@@ -4711,7 +4711,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Trank Zutaten",
-          "desc": "Mit dem Staub solltest du nun alle Zustaten zusammen haben um dir Tränke zu brauen. Probier einfach mal 2 aus.\n\n(night vision, regeneration)"
+          "desc": "Mit dem Staub solltest du nun alle Zutaten zusammen haben, um dir Tränke zu brauen. Probier einfach mal 2 aus.\n\n(night vision, regeneration)"
         }
       },
       "tasks": [
@@ -4984,7 +4984,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Coke Oven.",
-          "desc": "Um weiter zu arbeiten brauchst du einen Coke Oven.\n\nDafür must du insgesammt 27 Cock Bricks herstellen. Diese werden dann in 3*3*3 augebaut und zum schluss nur noch mit dem Hammer draufhauen."
+          "desc": "Um weiter zu arbeiten brauchst du einen Coke Oven.\n\nDafür must du insgesamt 27 Cock Bricks herstellen. Diese werden dann in 3*3*3 augebaut und zum schluss nur noch mit dem Hammer draufhauen."
         }
       },
       "tasks": [
@@ -5053,8 +5053,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "der Werkzeugkoffe",
-          "desc": "Damit du nicht tausende von Kabeln, Scheren und Bücher mit im Inventar rumschleppst gibt es einen Werkzeugkoffer. Dieser ist leicht und geräumig. Du kannst viele Dinge drin verstauen und noch ne Stulle oben drauf."
+          "name": "Der Werkzeugkoffer",
+          "desc": "Damit du nicht Tausende von Kabeln, Scheren und Bücher mit im Inventar rumschleppst, gibt es einen Werkzeugkoffer. Dieser ist leicht und geräumig. Du kannst viele Dinge drin verstauen und noch ne Stulle oben drauf."
         }
       },
       "tasks": [
@@ -5122,7 +5122,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blast Furnance verbessern.",
-          "desc": "Um schneller Steel zu produzieren kannst du deinen Blast Furnus aufwerten. Dafür baust du einfach deinen alten ab und ummantelst die Steine mit Steel.\n\nDanach wird er wieder in 3*3*3 aufgebaut. Aber diesmal mit einem Hopper oben auf der Spitze.\n\n\nDas Eisen und die Kohle wird von oben zugegeben, der Stahl kommt auf der Vorderseite herraus und die Schlacke auf der Rückseite."
+          "desc": "Um schneller Steel zu produzieren, kannst du deinen Blast Furnus aufwerten. Dafür baust du einfach deinen alten ab und ummantelst die Steine mit Steel.\n\nDanach wird er wieder in 3*3*3 aufgebaut. Aber diesmal mit einem Hopper oben auf der Spitze.\n\n\nDas Eisen und die Kohle wird von oben zugegeben, der Stahl kommt auf der Vorderseite herraus und die Schlacke auf der Rückseite."
         }
       },
       "tasks": [
@@ -5258,8 +5258,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Matrialien zusammen tragen",
-          "desc": "Für einige Rezepte brauchst du Stahl.\n\n\nHier lernst du wie du ihn herstellen kannst. Das ist sogar recht einfach. 1 Eisen und 2 Kohle zusammen in der Tinker Schmiede schmelzen und als Barren ausgießen."
+          "name": "Materialien zusammentragen",
+          "desc": "Für einige Rezepte brauchst du Stahl.\n\n\nHier lernst du wie du ihn herstellen kannst. Das ist sogar recht einfach. 1 Eisen und 2 Kohle zusammen in der Tinkers' Schmiede schmelzen und als Barren ausgießen."
         }
       },
       "tasks": [
@@ -5319,7 +5319,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Crude Blast Furnance",
-          "desc": "Um weitere Materiealien herstzustellen brauchst du einen Curde Blast Furnance.\n\nDieser besteht aus 27 Blast Bricks in 3*3*3 aufgebaut und mit dem Hammer zum schluss gehauen."
+          "desc": "Um weitere Materialien herzustellen brauchst du einen Crude Blast Furnance.\n\nDieser besteht aus 27 Blast Bricks in 3*3*3 aufgebaut und mit dem Hammer zum Schluss gehauen."
         }
       },
       "tasks": [
@@ -5379,7 +5379,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Alloy Kiln",
-          "desc": "Zu guter letzt brauchst du noch den Alloy Kiln um Legierungen herzustellen.\n\nDafür brauchst du 8 Kiln Bricks und ordnest sie in 2*2*2 an. Zum Schluss wieder mit dem Hammer drauf hauen."
+          "desc": "Zu guter letzt brauchst du noch den Alloy Kiln, um Legierungen herzustellen.\n\nDafür brauchst du 8 Kiln Bricks und ordnest sie in 2*2*2 an. Zum Schluss wieder mit dem Hammer drauf hauen."
         }
       },
       "tasks": [
@@ -5439,7 +5439,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Die Werkbank",
-          "desc": "baue dir die Werkbank. Mit ihrer Hilfe kannst du viele Sachen aufwerten. Wie genau must du im Buch nachlesen."
+          "desc": "Baue dir die Werkbank. Mit ihrer Hilfe kannst du viele Sachen aufwerten. Wie genau, musst du im Buch nachlesen."
         }
       },
       "tasks": [
@@ -5493,7 +5493,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Strom durch Wasserkraft",
-          "desc": "Um weiter zu kommen brauchst du Strom. Da gibt es verschiedene Arten dran zu kommen.\n\nProbier es doch mal mit Wasserkraft. Baue alle erforderlichen Teile und stelle sie auf.\n\nAls erstes den Dynamo platzieren, daran das Wasserrad. Nun noch Wasser oben oder unten laufen lassen, so das das Rad sich dreht.\n"
+          "desc": "Um weiter zu kommen, brauchst du Strom. Da gibt es verschiedene Arten dran zu kommen.\n\nProbier es doch mal mit Wasserkraft. Baue alle erforderlichen Teile und stelle sie auf.\n\nAls erstes den Dynamo platzieren, daran das Wasserrad. Nun noch Wasser oben oder unten laufen lassen, damit das Rad sich dreht.\n"
         }
       },
       "tasks": [
@@ -5575,7 +5575,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Strom durch Windkraft.",
-          "desc": "Nun brauchst du noch Strom. Da ist einfach ranzukommen.\n\nWindkraft heißt das Zauberwort.  Baue dir alle Teile und stelle es hin luftiger Höhe auf.\n\n\nAls erstest must du den Dynamo platzieren und daran die Windräder Montieren. Nur noch warten bis Wind kommt und fertig."
+          "desc": "Nun brauchst du noch Strom. Da ist einfach ranzukommen.\n\nWindkraft heißt das Zauberwort.  Baue dir alle Teile und stelle es hin luftiger Höhe auf.\n\n\nAls erstes must du den Dynamo platzieren und daran die Windräder Montieren. Nur noch warten bis Wind kommt und fertig."
         }
       },
       "tasks": [
@@ -5659,8 +5659,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "das Fließband",
-          "desc": "In der Maschiene eben verbaut. Nun weiter anwendungen finden.\n\nDas Fließband. Man braucht es nicht nur um Maschienen zu bauen. Man kann auch sachen zu den Maschienen transportieren lassen. Oder davon weg in Kisten..\n\nBau dir welche und teste deine Möglichkeiten aus."
+          "name": "Das Fließband",
+          "desc": "In der Maschiene eben verbaut. Nun weiter Anwendungen finden.\n\nDas Fließband. Man braucht es nicht nur um Maschinen zu bauen. Man kann auch Sachen zu den Maschinen transportieren lassen. Oder davon weg in Kisten..\n\nBau dir welche und teste deine Möglichkeiten aus."
         }
       },
       "tasks": [
@@ -5743,8 +5743,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Stanzmaschiene",
-          "desc": "Um schnell und einfach verschiedene Arbeitschritte zu automatisieren gibt es Maschienen. Mit der folgenden kannst du deinen Kabel antomatisch stanzen lassen.\n\nMit der Bauhilfe oder der Anleitung im Buch findest du heraus wie du die Teile zusammen setzen must. Mit einem leichten Schlag mit dem Hammer wird die Machine in Betrieb genommen."
+          "name": "Stanzmaschine",
+          "desc": "Um schnell und einfach verschiedene Arbeitschritte zu automatisieren gibt es Maschinen. Mit der folgenden kannst du deinen Kabel antomatisch stanzen lassen.\n\nMit der Bauhilfe oder der Anleitung im Buch findest du heraus wie du die Teile zusammen setzen must. Mit einem leichten Schlag mit dem Hammer wird die Maschine in Betrieb genommen."
         }
       },
       "tasks": [
@@ -5844,7 +5844,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Das Moterboot",
+          "name": "Das Motorboot",
           "desc": "Du kannst nun beschichtetes Holz herstellen.\n\nDaraus lässt sich auch einfach ein Boot bauen. Dieses kann man sogar mit einem größeren Tank, Rudern und anderen Dingen verbessern.\n\n(Du brauchst die Werkbank dabei)"
         }
       },
@@ -5905,7 +5905,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Bauhilfe",
-          "desc": "Strom ist vorhanden. Die Leitungen sind auch geplatn. Fehlen noch die großen Maschienen die Strom brauchen. Damit du nicht raten must wie du sie baust gibt es eine Bauhilfe.\n\n"
+          "desc": "Strom ist vorhanden. Die Leitungen sind auch geplant. Fehlen noch die großen Maschinen, die Strom brauchen. Damit du nicht raten musst, wie du sie baust gibt es eine Bauhilfe.\n\n"
         }
       },
       "tasks": [
@@ -5965,7 +5965,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stromabnehmer",
-          "desc": "Strom produzierst du nun. Aber wie gelangt der in deine Maschienen später?\n\n\nMit Kabeln. Du brauchst ein paar Materialien und kannst dan Strom verteilen.\nAn ein Relay kann man zb 2 Kabel anklemmen, die einfachen nur 1. Mit einem Trafo dazwischen kann man zwischen Stromstärken wechseln..\n\n\nProbier einfach mal ein bisschen aus."
+          "desc": "Strom produzierst du nun. Aber wie gelangt der später in deine Maschenen?\n\n\nMit Kabeln. Du brauchst ein paar Materialien und kannst dann Strom verteilen.\nAn ein Relay kann man z.B. 2 Kabel anklemmen, an die einfachen nur 1. Mit einem Trafo dazwischen kann man zwischen Stromstärken wechseln..\n\n\nProbier einfach mal ein bisschen aus."
         }
       },
       "tasks": [
@@ -6057,8 +6057,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "kleines Ölkännchen",
-          "desc": "Deine Machinen brauche gelegentlich Schmiermittel. Mit hilfe des Kännchen kannst du sie in Stand halten.\n\nDas Kännchen ist so vielseitig, du kannst sogar deine Golems behandel. Sie fühlen sich danach wie neu."
+          "name": "Kleines Ölkännchen",
+          "desc": "Deine Machinen brauchen gelegentlich Schmiermittel. Mithilfe des Kännchen kannst du sie in Stand halten.\n\nDas Kännchen ist so vielseitig, du kannst sogar deine Golems behandeln. Sie fühlen sich danach wie neu."
         }
       },
       "tasks": [
@@ -6122,7 +6122,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ein Tank oder Silo",
-          "desc": "Um größere Mengen von deinem Öl zu lagern, oder aber auch lieber die Kohle, kannst du einen Tank / Silo bauen.\n\nDafür benötigst du 4 Impregnierte Zäune und einige (34/50) Iron Sheeetmetal.  Mach mal ein paar und entscheide dan was du brauchst."
+          "desc": "Um größere Mengen von deinem Öl zu lagern, oder aber auch lieber die Kohle, kannst du einen Tank / Silo bauen.\n\nDafür benötigst du 4 Imprägnierte Zäune und einige (34/50) Iron Sheeetmetal.  Mach mal ein paar und entscheide dann, was du brauchst."
         }
       },
       "tasks": [
@@ -6181,8 +6181,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "beschichtes Holz",
-          "desc": "Du brauchst für ein paar Dinge treated Wood. Also beschichtets Holz.\n\nDafür holst du dir einen Eimer Öl aus dem Coke Oven und craftest ihn mit dem Holz zusammen."
+          "name": "Beschichtetes Holz",
+          "desc": "Du brauchst für ein paar Dinge treated Wood. Also beschichtetes Holz.\n\nDafür holst du dir einen Eimer Öl aus dem Coke Oven und craftest ihn mit dem Holz zusammen."
         }
       },
       "tasks": [
@@ -6350,8 +6350,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "das große Ölkännchen",
-          "desc": "Wenn du zu beschäftigt bis immer nach den Machinen zu schauen kannst du einfach das automatische \"Kännchen\" bauen.\n\nMit der Machine verbinden und es läuft wie von selbst."
+          "name": "Das große Ölkännchen",
+          "desc": "Wenn du zu beschäftigt bistm immer nach den Machinen zu schauen, kannst du einfach das automatische \"Kännchen\" bauen.\n\nMit der Machine verbinden und es läuft wie von selbst."
         }
       },
       "tasks": [
@@ -6405,7 +6405,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Strom to go",
-          "desc": "Manchmal braucht man Strom an Stellen wo kein Kabel hinkommt. Dafür gibt es den Transportablen Generator.\n\nDu kannst ihm direkt mit einem Stromkabel verbinden und jeder Zeit wieder mitnehmen (shift-rechts) und alles bleibt drin."
+          "desc": "Manchmal braucht man Strom an Stellen, wo kein Kabel hinkommt. Dafür gibt es den transportablen Generator.\n\nDu kannst ihn direkt mit einem Stromkabel verbinden und jeder Zeit wieder mitnehmen (shift-rechts) und alles bleibt drin."
         }
       },
       "tasks": [
@@ -6471,7 +6471,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Das Botaniabuch",
-          "desc": "Alles was du wissen must steht in diese Buch drine. Also ist es sinvoll zu erst eins zu besorgen."
+          "desc": "Alles was du wissen must steht in diesem Buch. Also ist es sinvoll, zuerst eines zu besorgen."
         }
       },
       "tasks": [
@@ -6593,7 +6593,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana Pool",
-          "desc": "In einem Manapool sammelst du das Mana ein. Richte den Spreader mit hilfe des Zauberstabs auf den Pool und das Mana aus den Blumen sammelt sich dort.\n\nMit hilfe des Pools kannst du neue Dinge erstellen. Wirf Eisen rein oder Diamanten. Du kannst im Buch nachlesen was alles geht.\n\n\n"
+          "desc": "In einem Manapool sammelst du das Mana ein. Richte den Spreader mithilfe des Zauberstabs auf den Pool und das Mana aus den Blumen sammelt sich dort.\n\nMithilfe des Pools kannst du neue Dinge erstellen. Wirf Eisen oder Diamanten rein. Du kannst im Buch nachlesen, was alles geht.\n\n\n"
         }
       },
       "tasks": [
@@ -6660,7 +6660,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ein Zauberstab",
-          "desc": "Um mit Mana zu arbeiten brauchst du einen Zauberstab. Der ist sehr einfach herzustellen."
+          "desc": "Um mit Mana zu arbeiten, brauchst du einen Zauberstab. Der ist sehr einfach herzustellen."
         }
       },
       "tasks": [
@@ -6731,7 +6731,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana absaugen",
-          "desc": "Nun hast du eine oder mehr Blume volgeladen mit Mana. Wie bekommst du es da raus? Ganz einfach, mit dem Manaspreader. Bau dir einen und setze ihn in die Nähe deiner Pflanzen. Mit hilfe des Zauberstab kannst du sehen wo das Mana ist. Wer wie viel hat und von wo nach wo es weiter geleitet wird."
+          "desc": "Nun hast du eine oder mehrere Blumen volgeladen mit Mana. Wie bekommst du es da raus? Ganz einfach, mit dem Manaspreader. Bau dir einen und setze ihn in die Nähe deiner Pflanzen. Mithilfe des Zauberstab kannst du sehen, wo das Mana ist. Wer wie viel hat, und von wo nach wo es weiter geleitet wird."
         }
       },
       "tasks": [
@@ -6794,7 +6794,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Pure Daysi",
+          "name": "Pure Daisy",
           "desc": "Zauber das erste mal in deinem Kessel. Dafür must du die weißen Blumen in Petals zerlegen und 4 in den Kessel werfen. Mit einem Samenkorn wird daraus eine schöne weiße Blume."
         }
       },
@@ -6874,8 +6874,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Zutaten zusammen tragen.",
-          "desc": "Um weiter zu kommen brauchst du Blumen. Eine hast du schon als Geschenk erhalten. Davon brauchst du noch ein paar."
+          "name": "Zutaten zusammentragen.",
+          "desc": "Um weiter zu kommen, brauchst du Blumen. Eine hast du schon als Geschenk erhalten. Davon brauchst du noch ein paar."
         }
       },
       "tasks": [
@@ -7033,7 +7033,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Flammenblume",
-          "desc": "An Mana heranzukommen ist einfach. Auf diesen Weg lerst du es mit Hilfe von \"Feuer\" herzustellen.  Fütter die Blume mit Kohle oder Holz und sie produziert Mana für dich."
+          "desc": "An Mana heranzukommen ist einfach. Auf diesen Weg lernst du es mithilfe von \"Feuer\" herzustellen.  Füttere die Blume mit Kohle oder Holz und sie produziert Mana für dich."
         }
       },
       "tasks": [
@@ -7102,7 +7102,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blume des Wassers",
-          "desc": "An Mana heranzukommen ist einfach. HIer lernst du wie du es aus Wasser bekommst. Baue dir deine Wasserblume und platziere sie auf die gleich ebene wie dein Wasse. Sie verbaucht es und wandelt es in Mana um."
+          "desc": "An Mana heranzukommen ist einfach. Hier lernst du, wie du es aus Wasser bekommst. Baue dir deine Wasserblume und platziere sie auf die gleiche Ebene wie dein Wasser. Sie verbaucht es und wandelt es in Mana um."
         }
       },
       "tasks": [
@@ -7381,7 +7381,7 @@
           "name": "Viecherrei",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "Um zu überleben brauchst du Nahrung.\n\nDafür kannst du dir Tiere halten. Aber auch die müssen zu erst versorgt werden."
+          "desc": "Um zu überleben brauchst du Nahrung.\n\nDafür kannst du dir Tiere halten. Aber auch die müssen zuerst versorgt werden."
         }
       },
       "quests": [
