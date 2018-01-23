@@ -1,4 +1,18 @@
 # Changelog
+## Changelog v0.9.2 -> v0.9.3
+### Mod Updates
+* platforms-1.11.0-1.3.5.jar -> 1.11.0-1.3.5b
+
+### Mod Additions
+
+### Mod Deletions
+* ProjectTable-1.0.3_1.11.2.jar
+
+### Config Changes
+* Let's get immersive :)
+* Korrekturen am Questbuch
+
+
 ## Changelog v0.9.1 -> v0.9.2
 ### Mod Updates
 * AdvancedRocketry-1.11.2-1.2.5a-56.jar -> 1.11.2-1.2.5a-69

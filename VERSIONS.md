@@ -108,9 +108,8 @@
 * OreExcavation-1.3.108.jar
 * OTG-AgesOfTime-1.11.2-v1.4.jar
 * Plants-1.11.2-beta-0.8.5.jar
-* platforms-1.11.0-1.3.5.jar
+* platforms-1.11.0-1.3.5b.jar
 * plustic-5.2.1.2.jar
-* ProjectTable-1.0.3_1.11.2.jar
 * QuickLeafDecay-MC1.11.2-1.2.3.jar
 * randomrestockablecrates-1.11.2-1.3.1.jar
 * ReAuth-3.5.0.jar
