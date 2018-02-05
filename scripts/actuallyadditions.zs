@@ -14,3 +14,17 @@ recipes.addShaped( <actuallyadditions:item_food:1>, [
     [ null, <minecraft:pumpkin>, null ], 
     [ null, <minecraft:bowl>, null ] 
 ]);
+
+#Toast recipe
+recipes.remove( <actuallyadditions:item_food:10> );
+recipes.addShapeless( <actuallyadditions:item_food:10> * 2, [
+    <ore:bread>,
+    <actuallyadditions:item_knife>
+]);
+
+#Noodle recipe
+recipes.remove( <actuallyadditions:item_food:7> );
+recipes.addShapeless( <actuallyadditions:item_food:7>, [
+    <actuallyadditions:item_misc:4>,
+    <actuallyadditions:item_knife>
+]);
