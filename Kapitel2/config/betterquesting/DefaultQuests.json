@@ -758,6 +758,64 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
+            "id": "actuallyadditions:item_booklet",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Das Buch",
+          "desc": "Wie überall gibt es ein Allwissendes Buch. Stelle es her und mach dich doch mal schlau."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_booklet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_coffee_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 9
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
             "id": "totemic:drum",
             "Count": 1,
             "OreDict": "",
@@ -5061,29 +5119,15 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
           "requiredItems": [
             {
               "id": "immersiveengineering:toolbox",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Inv:9": {
-                  "10": {
-                    "Slot:1": 16,
-                    "id:8": "immersiveengineering:tool",
-                    "Count:1": 1,
-                    "Damage:2": 3
-                  }
-                },
-                "ench:9": {}
-              }
+              "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval",
+          "taskID": "bq_standard:crafting",
           "index": 0
         }
       ],
@@ -5259,13 +5303,16 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Materialien zusammentragen",
-          "desc": "Für einige Rezepte brauchst du Stahl.\n\n\nHier lernst du wie du ihn herstellen kannst. Das ist sogar recht einfach. 1 Eisen und 2 Kohle zusammen in der Tinkers' Schmiede schmelzen und als Barren ausgießen."
+          "desc": "Für einige Rezepte brauchst du Stahl.\n\n\nHier lernst du wie du ihn herstellen kannst. Das ist sogar recht einfach. 1 Eisen und 2 Kohle zusammen in der Tinkers\u0027 Schmiede schmelzen und als Barren ausgießen."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "hardcoreore:ingot_steel",
@@ -5274,7 +5321,7 @@
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:crafting",
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
@@ -7210,13 +7257,1608 @@
         92
       ],
       "questID": 100
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_crafter_on_a_stick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Tisch für die Handtasche",
+          "desc": "Es gibt einen Crafting-Tisch für die Tasche. Oh wie fein. Bau dir doch einen, es sollte in jeder Tasche einer sein."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_crafter_on_a_stick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        9
+      ],
+      "questID": 101
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_engineer_goggles",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Durchblick",
+          "desc": "Mit diesem speziellen Gerät hast du den Mega Durchblick bei fast allem."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_engineer_goggles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:coal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        101
+      ],
+      "questID": 102
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_worm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Wurm",
+          "desc": "Es lebt in der Erde ein Wurm. Der, sobald du ihn ausgräbst, für dich arbeitet. Er bewässert, düngt und Pflügt für dich."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_worm",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_worm",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        9
+      ],
+      "questID": 103
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_canola_seed",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Arbeit für den Wurm",
+          "desc": "Damit er was zum Arbeiten hat, sammel einfach was Saatgut."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_coffee_seed",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_rice_seed",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_canola_seed",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_flax_seed",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:block_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        103
+      ],
+      "questID": 104
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_knife",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der \"Küchensäbel\"",
+          "desc": "Es gibt ein schickes Küchenmesser. Damit kannst du viele verschiedene Dinge zubereiten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_knife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        103
+      ],
+      "questID": 105
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_food",
+            "Count": 2,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Guten Hunger",
+          "desc": "Hat die Belohnung geschmeckt? Dann stell doch einfach noch ein paar her."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_food",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        104,
+        105
+      ],
+      "questID": 106
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_misc",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 14
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Das schwarze Gold - Kaffe",
+          "desc": "Angepflanzt hast du das Gold schon. Nun must du es noch ernten und auf den Weg in die Tasse bringen......Wo ist die denn? Stell mal schnell eine her."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        105
+      ],
+      "questID": 107
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_misc",
+            "Count": 64,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Material sammeln",
+          "desc": "Wie überall brauchst du erst mal ein haufen Material um anzufangen. Also leg mal los und besorge ein wenig.\n\n\n(Ps: Sieb und Waterstrainer)"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        9
+      ],
+      "questID": 108
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_atomic_reconstructor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der Verwandler",
+          "desc": "Die erste Machine die du brauchst ist der Verwandler. Baue ihn mal auf und dan gehts weiter.\n\n\nPs: mit einem Button und einer Redstonetorch kannst du die Machine umstellen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_atomic_reconstructor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:redstone_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:stone_button",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        108
+      ],
+      "questID": 109
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_coal_generator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Strom aus Kohle",
+          "desc": "Mit Kohle kannst du Strom produzieren. Baue den Kohle Genenrator und teste es mal aus."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_coal_generator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:coal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        109
+      ],
+      "questID": 110
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_misc",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 18
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Verwandlung mit Linsen",
+          "desc": "Du kannst deinen Verwandler aufwerten. Mit Linsen. Baue die erste und wenn du diese beschießt erhälst du weitere. Teste mal ein wenig herum was es für möglichkeiten gibt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 18
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        121
+      ],
+      "questID": 111
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_laser_wrench",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ein Multitol",
+          "desc": "Um weiter vorran zu kommen brauchst du einen Werkzeug. Bau dir den Schraubenschlüssel, du wirst ihn bald brauchen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_laser_wrench",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        111
+      ],
+      "questID": 112
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_laser_relay",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "W-Lan was auch immer",
+          "desc": "Es gibt eine wunderbare Möglichkeit Items, Wasser und Strom von A nach B zu bringen. Per W-Lan. Sogar durch Wände durch. Du must nur eine Grundausrüstung zusammen stellen und ein wenig probieren wie es dir am besten gefällt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_laser_relay",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_laser_relay_fluids",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:block_laser_relay_item",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_food",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        112
+      ],
+      "questID": 113
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_item_viewer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Noch ein bisschen W-Lan",
+          "desc": "Ein paar Teile mehr brauchst du schon noch. Für die Items eine nette Kiste und Hopper. Ein kleiner Filter zum sortieren.\n\n"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_item_viewer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:block_item_viewer_hopping",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_jam",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        113
+      ],
+      "questID": 114
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_furnace_solar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Energie von der Sonne",
+          "desc": "Eine weiter Art an Strom heranzukommen ist die Kraft der Sonne zu nutzen. Dafür brauchst du ein paar Teile und schon geht es los."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_furnace_solar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:block_furnace_solar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        118
+      ],
+      "questID": 115
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_oil_generator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Immer noch Strom",
+          "desc": "Du hast nun aus dem Canola Öl hergestellt. Nun kannst du es im Generator verbrennen und Strom erzeugen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_oil_generator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "canolaoil",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        117
+      ],
+      "questID": 116
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_canola_press",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Noch eine möglichkeit Strom zu erzeugen",
+          "desc": "Es gibt noch eine weitere möglichkeit Strom zu erzeugen. Dafür brauchst du ein paar Geräte und Canola."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_canola_press",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:block_fermenting_barrel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "canolaoil",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        112
+      ],
+      "questID": 117
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_empowerer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Ladestation",
+          "desc": "Es gibt ein Paar Items die müssen aufgeladen werden. Dafür gibt es diese Ladestation. Doch sie ist ein wenig Kompliziert. Lies ausgiebig alle Seiten dazu in deinem Handbuch."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_empowerer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:block_display_stand",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_crystal_empowered",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        112
+      ],
+      "questID": 118
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_coffee_machine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Machine des Kaffes",
+          "desc": "Ein Tasse hast du nun. Brauchst aber noch die Machine die ihn dir brüht. Also ran ans Werk. Vergiss den Strom und den Eimer Wasser zum kochen nicht."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_coffee_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:milk_bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        107,
+        121
+      ],
+      "questID": 119
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_coffee",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Der KAFFE",
+          "desc": "Alles ist vorbereitet. Fülle die Maschine. Klemme sie an den Strom und warte kurz auf das schwarze Gold. Deine Tasse Kaffe.\n\n\nPs: du kannst ihn mit diversen Zusätzen ergänzen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_coffee",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:fish",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        119
+      ],
+      "questID": 120
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_crystal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Die Verwandlung",
+          "desc": "Du hast nun Strom und den Verwandler. Nun must du nur noch was verwandeln.\n\nDafür sorgst du das der Verwandler Strom hat und legst das Item was du verwandeln willst vor den grünen Punkt deiner Machine. Nur noch den Knopf drücken und fertig."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:coal",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:emerald",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "actuallyadditions:item_crystal",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        110
+      ],
+      "questID": 121
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_fishing_net",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Fischen für faule",
+          "desc": "Du brauchst Fisch. Hast aber keine Lust stundenlang die Angel auszuwerfen?. Dan bau dir das Fischernetz. Platzier es über dem Wasser und lass es für dich Arbeiten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_fishing_net",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:block_fishing_net",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        102
+      ],
+      "questID": 123
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_compost",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Compost aus Überschuss",
+          "desc": "Bei der Feldarbeit fallen Abfälle an. Einen Teil davon kannst du in den Compost stecken und bekommst guten Dünger wieder zurück."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_compost",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        104
+      ],
+      "questID": 124
     }
   ],
   "questLines": [
     {
       "properties": {
         "betterquesting": {
-          "name": "Der Schamane in Dir.  (2)",
+          "name": "(2)Der Schamane in Dir.",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Hier begibst du dich auf eine Reise, eine spirituelle Reise.\n\nDu lernst, neue Pflanzen zu züchten und ihre Kraft für dich zu nutzen.\n\nNeue mächtige Zauber zu beherrschen, die dich vor Tieren beschützen.\n\nAlles im Einklang mit der Natur."
@@ -7290,7 +8932,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Der sich nen Wolf tanzt.  (2)",
+          "name": "(2)Der sich nen Wolf tanzt.",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -7340,7 +8982,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Der Beginn.",
+          "name": "(1)Der Beginn.",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Du brauchst Licht.\n\nUnd du brauchst einen Ofen.  Fang an."
@@ -7378,7 +9020,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Viecherrei",
+          "name": "(1)Viecherrei",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Um zu überleben brauchst du Nahrung.\n\nDafür kannst du dir Tiere halten. Aber auch die müssen zuerst versorgt werden."
@@ -7458,7 +9100,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Wir besorgen uns Erze.",
+          "name": "(1)Wir besorgen uns Erze.",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Wir haben Licht und auch einen tollen Ofen.\n\nAber wir brauchen noch Erze und andere Materialien..\n\nDa fangen wir jetzt mit an."
@@ -7508,7 +9150,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Reliquary  (2)",
+          "name": "(2)Reliquary",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -7594,7 +9236,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Die Magie der Blume",
+          "name": "(1)Die Magie der Blume",
           "bg_image": "",
           "bg_size": 256,
           "desc": "Um an Materialien heranzukommen, gibt es noch den magischen Weg. Hier kannst du erforschen wie es geht."
@@ -7716,7 +9358,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Immersive Engenieering (2)",
+          "name": "(2)Immersive Engenieering",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -7868,7 +9510,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Botania Hilfestellung (2)",
+          "name": "(2)Botania Hilfestellung",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -7944,6 +9586,170 @@
       ],
       "lineID": 8,
       "order": 8
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "(2)Actually Additions",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 6,
+          "y": 90,
+          "id": 9
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 126,
+          "id": 101
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 162,
+          "id": 102
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 108,
+          "id": 103
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 150,
+          "id": 104
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 108,
+          "id": 105
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 150,
+          "id": 106
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 108,
+          "id": 107
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 42,
+          "id": 108
+        },
+        {
+          "size": 24,
+          "x": 84,
+          "y": 42,
+          "id": 109
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 42,
+          "id": 110
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 42,
+          "id": 111
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 42,
+          "id": 112
+        },
+        {
+          "size": 24,
+          "x": 264,
+          "y": 24,
+          "id": 113
+        },
+        {
+          "size": 24,
+          "x": 300,
+          "y": 24,
+          "id": 114
+        },
+        {
+          "size": 24,
+          "x": 294,
+          "y": 90,
+          "id": 115
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 114,
+          "id": 116
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 78,
+          "id": 117
+        },
+        {
+          "size": 24,
+          "x": 264,
+          "y": 60,
+          "id": 118
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 108,
+          "id": 119
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 144,
+          "id": 120
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 42,
+          "id": 121
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 60,
+          "id": 122
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 198,
+          "id": 123
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 186,
+          "id": 124
+        }
+      ],
+      "lineID": 9,
+      "order": 9
     }
   ],
   "format": "1.0.0"
