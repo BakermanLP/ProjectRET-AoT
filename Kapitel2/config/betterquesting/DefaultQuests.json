@@ -35,7 +35,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Der Beginn.",
-          "desc": "Am Anfang brauchst du erst mal ein paar Zutaten. Um diese zu sammeln, benötigst du das passende Werkzeug.\n\nBaue dir ein Wooden Knife und sammle ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nCrafte nun mit ein paar weiteren Zutaten das Buch Herblore"
+          "desc": "Am Anfang brauchst du erst mal ein paar Zutaten. Um diese zu sammeln, benötigst du das passende Werkzeug.\n\nBaue dir ein Wooden Knife und sammle ein paar Baumrinden. (Zerschlage dafür den Baum mit dem Messer).\n\n\nCrafte nun mit ein paar weitere Zutaten das Buch Herblore"
         }
       },
       "tasks": [
@@ -770,7 +770,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Das Buch",
-          "desc": "Wie überall gibt es ein Allwissendes Buch. Stelle es her und mach dich doch mal schlau."
+          "desc": "Wie überall gibt es ein allwissendes Buch. Stelle es her und mach dich doch mal schlau."
         }
       },
       "tasks": [
@@ -906,7 +906,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Red Cedar Sapling",
-          "desc": "Probier noch einen Tanz aus. Verzauber einen Sapling in einen Zeder Sapling durch deine Gesänge und Tänze des \"Zaphkiel Waltz\"."
+          "desc": "Probier noch einen Tanz aus. Verzaubere einen Sapling in einen Zeder Sapling durch deine Gesänge und Tänze des \"Zaphkiel Waltz\"."
         }
       },
       "tasks": [
@@ -1207,7 +1207,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Lagerfeuer",
-          "desc": "In der Mitte einens jeden Beschörungskreises gehört ein Feuer. Doch dafür brauchst du eine Zeremonielle Feuerstelle. \n\nDiese ist aber schnell und einfach gebaut."
+          "desc": "In die Mitte einens jeden Beschwörungskreises gehört ein Feuer. Doch dafür brauchst du eine zeremonielle Feuerstelle. \n\nDiese ist aber schnell und einfach gebaut."
         }
       },
       "tasks": [
@@ -3738,7 +3738,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "mysticalagradditions:tier6_inferium_seeds",
+            "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -3755,9 +3755,7 @@
       },
       "tasks": [],
       "rewards": [],
-      "preRequisites": [
-        49
-      ],
+      "preRequisites": [],
       "questID": 51
     },
     {
@@ -3986,7 +3984,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Zutaten",
-          "desc": "Es gibt Relikte und Zaubertränke. Und einiges anderes.\n\nDoch um zu diesen zu gelangen ist es ein weiter Weg. Dieser fängt an mit Sammeln. Von Monster - Teilen."
+          "desc": "Es gibt Relikte und Zaubertränke. Und einiges anderes.\n\nDoch um zu diesen zu gelangen ist es ein weiter Weg. Dieser fängt mit dem Sammeln von Monster - Teilen an."
         }
       },
       "tasks": [
@@ -4073,7 +4071,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Cauldron",
-          "desc": "Du kannst Zaubertränke brauen. Mächtige Magie.\n\nDafür must du zu erst einen Cauldron herstellen."
+          "desc": "Du kannst Zaubertränke brauen. Mächtige Magie.\n\nDafür musst du zuerst einen Cauldron herstellen."
         }
       },
       "tasks": [
@@ -4193,7 +4191,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Altar des Lichtes",
-          "desc": "Der Altar des Lichtes.\n\nEin Interessantes Item, mit dem man Glowstone wachsen lassen kann."
+          "desc": "Der Altar des Lichtes.\n\nEin interessantes Item, mit dem man Glowstone wachsen lassen kann."
         }
       },
       "tasks": [
@@ -5042,7 +5040,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Coke Oven.",
-          "desc": "Um weiter zu arbeiten brauchst du einen Coke Oven.\n\nDafür must du insgesamt 27 Cock Bricks herstellen. Diese werden dann in 3*3*3 augebaut und zum schluss nur noch mit dem Hammer draufhauen."
+          "desc": "Um weiter zu arbeiten brauchst du einen Coke Oven.\n\nDafür must du insgesamt 27 Coke Bricks herstellen. Diese werden dann in 3*3*3 augebaut und zum Schluss nur noch mit dem Hammer draufhauen."
         }
       },
       "tasks": [
@@ -5112,7 +5110,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Werkzeugkoffer",
-          "desc": "Damit du nicht Tausende von Kabeln, Scheren und Bücher mit im Inventar rumschleppst, gibt es einen Werkzeugkoffer. Dieser ist leicht und geräumig. Du kannst viele Dinge drin verstauen und noch ne Stulle oben drauf."
+          "desc": "Damit du nicht Tausende von Kabeln, Scheren und Bücher mit im Inventar rumschleppst, gibt es einen Werkzeugkoffer. Dieser ist leicht und geräumig. Du kannst viele Dinge darin verstauen und noch ne Stulle oben drauf packen."
         }
       },
       "tasks": [
@@ -5165,8 +5163,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Blast Furnance verbessern.",
-          "desc": "Um schneller Steel zu produzieren, kannst du deinen Blast Furnus aufwerten. Dafür baust du einfach deinen alten ab und ummantelst die Steine mit Steel.\n\nDanach wird er wieder in 3*3*3 aufgebaut. Aber diesmal mit einem Hopper oben auf der Spitze.\n\n\nDas Eisen und die Kohle wird von oben zugegeben, der Stahl kommt auf der Vorderseite herraus und die Schlacke auf der Rückseite."
+          "name": "Hochöfen verbessern.",
+          "desc": "Um schneller Stahl zu produzieren, kannst du deinen Hochofen aufwerten. Dafür baust du einfach deinen alten ab und ummantelst die Steine mit Steel.\n\nDanach wird er wieder in 3*3*3 aufgebaut. Aber diesmal mit einem Hopper oben auf der Spitze.\n\n\nDas Eisen und die Kohle wird von oben zugegeben, der Stahl kommt auf der Vorderseite herraus und die Schlacke auf der Rückseite."
         }
       },
       "tasks": [
@@ -5242,8 +5240,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Blast Furnace noch ein bisschen schneller.",
-          "desc": "Du kannst den verbesserten Blast Furnance noch ein bisschen schneller machen. Dafür must du einfach von einer Seite heiße Luft reinpussten.  Damit du aber nicht den ganzen Tag da stehst und pustest, bau dir einfach einen riesigen Föhn."
+          "name": "Hochöfen vorheizen.",
+          "desc": "Du kannst den verbesserten Hochofen noch ein bisschen beschleunigen. Dafür musst du einfach von einer Seite heiße Luft reinpusten. Damit du aber nicht den ganzen Tag da stehst und pustest, bau dir einfach einen riesigen Föhn.."
         }
       },
       "tasks": [
@@ -5622,7 +5620,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Strom durch Windkraft.",
-          "desc": "Nun brauchst du noch Strom. Da ist einfach ranzukommen.\n\nWindkraft heißt das Zauberwort.  Baue dir alle Teile und stelle es hin luftiger Höhe auf.\n\n\nAls erstes must du den Dynamo platzieren und daran die Windräder Montieren. Nur noch warten bis Wind kommt und fertig."
+          "desc": "Nun brauchst du noch Strom. Da ist einfach ranzukommen.\n\nWindkraft heißt das Zauberwort.  Baue dir alle Teile und stelle es hin luftiger Höhe auf.\n\n\nAls erstes must du den Dynamo platzieren und daran die Windräder montieren. Jetzt nur noch abwarten bis Wind kommt und fertig."
         }
       },
       "tasks": [
@@ -5707,7 +5705,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das Fließband",
-          "desc": "In der Maschiene eben verbaut. Nun weiter Anwendungen finden.\n\nDas Fließband. Man braucht es nicht nur um Maschinen zu bauen. Man kann auch Sachen zu den Maschinen transportieren lassen. Oder davon weg in Kisten..\n\nBau dir welche und teste deine Möglichkeiten aus."
+          "desc": "In der Maschiene eben verbaut. Nun gilt es, weitere Anwendungen zu finden.\n\nDas Fließband. Man braucht es nicht nur um Maschinen zu bauen. Man kann auch Sachen zu den Maschinen transportieren lassen. Oder davon weg in Kisten..\n\nBau dir welche und teste deine Möglichkeiten aus."
         }
       },
       "tasks": [
@@ -5791,7 +5789,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stanzmaschine",
-          "desc": "Um schnell und einfach verschiedene Arbeitschritte zu automatisieren gibt es Maschinen. Mit der folgenden kannst du deinen Kabel antomatisch stanzen lassen.\n\nMit der Bauhilfe oder der Anleitung im Buch findest du heraus wie du die Teile zusammen setzen must. Mit einem leichten Schlag mit dem Hammer wird die Maschine in Betrieb genommen."
+          "desc": "Um schnell und einfach verschiedene Arbeitschritte zu automatisieren gibt es Maschinen. Mit der folgenden kannst du deinen Kabel automatisch stanzen lassen.\n\nMit der Bauhilfe oder der Anleitung im Buch findest du heraus wie du die Teile zusammen setzen musst. Mit einem leichten Schlag mit dem Hammer wird die Maschine in Betrieb genommen."
         }
       },
       "tasks": [
@@ -5892,7 +5890,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das Motorboot",
-          "desc": "Du kannst nun beschichtetes Holz herstellen.\n\nDaraus lässt sich auch einfach ein Boot bauen. Dieses kann man sogar mit einem größeren Tank, Rudern und anderen Dingen verbessern.\n\n(Du brauchst die Werkbank dabei)"
+          "desc": "Du kannst nun beschichtetes Holz herstellen.\n\nDaraus lässt sich auch einfach ein Boot bauen. Dieses kann man sogar mit einem größeren Tank, Rudern und anderen Dingen verbessern.\n\n(Dazu brauchst du die Werkbank)"
         }
       },
       "tasks": [
@@ -6012,7 +6010,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Stromabnehmer",
-          "desc": "Strom produzierst du nun. Aber wie gelangt der später in deine Maschenen?\n\n\nMit Kabeln. Du brauchst ein paar Materialien und kannst dann Strom verteilen.\nAn ein Relay kann man z.B. 2 Kabel anklemmen, an die einfachen nur 1. Mit einem Trafo dazwischen kann man zwischen Stromstärken wechseln..\n\n\nProbier einfach mal ein bisschen aus."
+          "desc": "Strom produzierst du nun. Aber wie gelangt der später in deine Maschinen?\n\n\nMit Kabeln. Du brauchst ein paar Materialien und kannst dann Strom verteilen.\nAn ein Relay kann man z.B. 2 Kabel anklemmen, an die einfachen nur 1. Mit einem Trafo dazwischen kann man zwischen Stromstärken wechseln..\n\n\nProbier einfach mal ein bisschen aus."
         }
       },
       "tasks": [
@@ -6169,7 +6167,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Ein Tank oder Silo",
-          "desc": "Um größere Mengen von deinem Öl zu lagern, oder aber auch lieber die Kohle, kannst du einen Tank / Silo bauen.\n\nDafür benötigst du 4 Imprägnierte Zäune und einige (34/50) Iron Sheeetmetal.  Mach mal ein paar und entscheide dann, was du brauchst."
+          "desc": "Um größere Mengen von deinem Öl zu lagern, oder aber auch lieber die Kohle, kannst du einen Tank / Silo bauen.\n\nDafür benötigst du 4 imprägnierte Zäune und einige (34/50) Iron Sheetmetal.  Mach mal ein paar und entscheide dann, was du brauchst."
         }
       },
       "tasks": [
@@ -6310,7 +6308,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Platten und Schnüre",
-          "desc": "Noch mehr Materialien werden benötigt.\n\nPlatten und Wire. Die Platten werden mit dem Hammer gehämmert und dan mit der Schere zu \"Schnüren\" zerschnitten. Die kann man weiter verarbeiten."
+          "desc": "Noch mehr Materialien werden benötigt.\n\nPlatten und Wire. Die Platten werden mit dem Hammer gehämmert und dann mit der Schere zu \"Schnüren\" zerschnitten. Diese kann man dann weiter verarbeiten."
         }
       },
       "tasks": [
@@ -6398,7 +6396,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das große Ölkännchen",
-          "desc": "Wenn du zu beschäftigt bistm immer nach den Machinen zu schauen, kannst du einfach das automatische \"Kännchen\" bauen.\n\nMit der Machine verbinden und es läuft wie von selbst."
+          "desc": "Wenn du zu beschäftigt bist immer nach den Machinen zu schauen, kannst du einfach das automatische \"Kännchen\" bauen.\n\nMit der Machine verbinden und es läuft wie von selbst."
         }
       },
       "tasks": [
@@ -6580,7 +6578,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "\"Zauberkessel\"",
-          "desc": "Als nächstest benötigst du einen Kessel.\n\nDort wirfst du deine Zutaten ins Wasser und zauberst neue Dinge."
+          "desc": "Als nächstes benötigst du einen Kessel.\n\nDort wirfst du deine Zutaten in\u0027s Wasser und zauberst neue Dinge."
         }
       },
       "tasks": [
@@ -6640,7 +6638,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana Pool",
-          "desc": "In einem Manapool sammelst du das Mana ein. Richte den Spreader mithilfe des Zauberstabs auf den Pool und das Mana aus den Blumen sammelt sich dort.\n\nMithilfe des Pools kannst du neue Dinge erstellen. Wirf Eisen oder Diamanten rein. Du kannst im Buch nachlesen, was alles geht.\n\n\n"
+          "desc": "In einem Manapool sammelst du das Mana ein. Richte den Spreader mit Hilfe des Zauberstabs auf den Pool und das Mana aus den Blumen sammelt sich dort.\n\nMit Hilfe des Pools kannst du neue Dinge erstellen. Wirf Eisen oder Diamanten rein. Du kannst im Buch nachlesen, was alles geht.\n\n\n"
         }
       },
       "tasks": [
@@ -6778,7 +6776,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana absaugen",
-          "desc": "Nun hast du eine oder mehrere Blumen volgeladen mit Mana. Wie bekommst du es da raus? Ganz einfach, mit dem Manaspreader. Bau dir einen und setze ihn in die Nähe deiner Pflanzen. Mithilfe des Zauberstab kannst du sehen, wo das Mana ist. Wer wie viel hat, und von wo nach wo es weiter geleitet wird."
+          "desc": "Nun hast du eine oder mehrere Blumen vollgeladen mit Mana. Wie bekommst du es da raus? Ganz einfach, mit dem Manaspreader. Bau dir einen und setze ihn in die Nähe deiner Pflanzen. Mithilfe des Zauberstabes kannst du sehen, wo das Mana ist, wer wie viel hat und von wo nach wo es weitergeleitet wird."
         }
       },
       "tasks": [
@@ -6842,7 +6840,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Pure Daisy",
-          "desc": "Zauber das erste mal in deinem Kessel. Dafür must du die weißen Blumen in Petals zerlegen und 4 in den Kessel werfen. Mit einem Samenkorn wird daraus eine schöne weiße Blume."
+          "desc": "Zaubere das erste Mal in deinem Kessel. Dafür must du die weißen Blumen in Petals zerlegen und 4 in den Kessel werfen. Mit einem Samenkorn wird daraus eine schöne weiße Blume."
         }
       },
       "tasks": [
@@ -6985,7 +6983,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Umwandlung",
-          "desc": "Mit der hübschen Blume kannst du nun einfach Holz und Stein in neues verwandeln. Die Blume kommt in die Mitte und das Holz/Stein wird herum gestellt."
+          "desc": "Mit der hübschen Blume kannst du nun einfach Holz und Stein in Neues verwandeln. Die Blume kommt in die Mitte und das Holz/Stein wird herum gestellt."
         }
       },
       "tasks": [
@@ -7080,7 +7078,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Flammenblume",
-          "desc": "An Mana heranzukommen ist einfach. Auf diesen Weg lernst du es mithilfe von \"Feuer\" herzustellen.  Füttere die Blume mit Kohle oder Holz und sie produziert Mana für dich."
+          "desc": "An Mana heranzukommen ist einfach. Auf diesem Weg lernst du es, Mana mit Hilfe von \"Feuer\" herzustellen. Füttere die Blume mit Kohle oder Holz und sie produziert Mana für dich."
         }
       },
       "tasks": [
@@ -7149,7 +7147,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blume des Wassers",
-          "desc": "An Mana heranzukommen ist einfach. Hier lernst du, wie du es aus Wasser bekommst. Baue dir deine Wasserblume und platziere sie auf die gleiche Ebene wie dein Wasser. Sie verbaucht es und wandelt es in Mana um."
+          "desc": "An Mana heranzukommen ist einfach. Hier lernst du, wie du Mana aus Wasser bekommst. Baue dir deine Wasserblume und platziere sie auf die gleiche Ebene wie dein Wasser. Sie verbaucht es und wandelt es in Mana um."
         }
       },
       "tasks": [
@@ -7219,7 +7217,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana Tablett",
-          "desc": "Du kannst Mana mit dir nehmen. Dafür brauchst du das Manatablett und einen Zauberstab."
+          "desc": "Du kannst Mana mitnehmen. Dafür brauchst du das Manatablett und einen Zauberstab."
         }
       },
       "tasks": [
@@ -7394,7 +7392,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Wurm",
-          "desc": "Es lebt in der Erde ein Wurm. Der, sobald du ihn ausgräbst, für dich arbeitet. Er bewässert, düngt und Pflügt für dich."
+          "desc": "Es lebt in der Erde ein Wurm, der, sobald du ihn ausgräbst, für dich arbeitet. Er bewässert, düngt und pflügt für dich."
         }
       },
       "tasks": [
@@ -7457,7 +7455,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Arbeit für den Wurm",
-          "desc": "Damit er was zum Arbeiten hat, sammel einfach was Saatgut."
+          "desc": "Damit er was zum Arbeiten hat, sammel einfach etwas Saatgut."
         }
       },
       "tasks": [
@@ -7679,7 +7677,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Das schwarze Gold - Kaffe",
-          "desc": "Angepflanzt hast du das Gold schon. Nun must du es noch ernten und auf den Weg in die Tasse bringen......Wo ist die denn? Stell mal schnell eine her."
+          "desc": "Angepflanzt hast du das schwarze Gold schon. Nun musst du es noch ernten und auf den Weg in die Tasse bringen...... Wo ist die denn? Stell mal lieber schnell eine her!"
         }
       },
       "tasks": [
@@ -7802,7 +7800,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der Verwandler",
-          "desc": "Die erste Machine die du brauchst ist der Verwandler. Baue ihn mal auf und dan gehts weiter.\n\n\nPs: mit einem Button und einer Redstonetorch kannst du die Machine umstellen."
+          "desc": "Die erste Machine die du brauchst ist der Verwandler. Baue ihn mal auf und dann geht es weiter.\n\n\nPs: mit einem Button und einer Redstonetorch kannst du die Maschine einstellen."
         }
       },
       "tasks": [
@@ -7945,7 +7943,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Verwandlung mit Linsen",
-          "desc": "Du kannst deinen Verwandler aufwerten. Mit Linsen. Baue die erste und wenn du diese beschießt erhälst du weitere. Teste mal ein wenig herum was es für möglichkeiten gibt."
+          "desc": "Du kannst deinen Verwandler aufwerten. Mit Linsen. Baue die erste und wenn du diese beschießt erhälst du weitere. Teste einfach mal ein wenig herum was es für Möglichkeiten gibt."
         }
       },
       "tasks": [
@@ -8004,8 +8002,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Ein Multitol",
-          "desc": "Um weiter vorran zu kommen brauchst du einen Werkzeug. Bau dir den Schraubenschlüssel, du wirst ihn bald brauchen."
+          "name": "Ein Multitool",
+          "desc": "Um weiter voran zu kommen brauchst du einen Werkzeug. Bau dir den Schraubenschlüssel, du wirst ihn bald brauchen."
         }
       },
       "tasks": [
@@ -8065,7 +8063,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "W-Lan was auch immer",
-          "desc": "Es gibt eine wunderbare Möglichkeit Items, Wasser und Strom von A nach B zu bringen. Per W-Lan. Sogar durch Wände durch. Du must nur eine Grundausrüstung zusammen stellen und ein wenig probieren wie es dir am besten gefällt."
+          "desc": "Es gibt eine wunderbare Möglichkeit Items, Wasser und Strom von A nach B zu bringen. Per W-Lan. Sogar durch Wände hindurch. Du musst nur eine Grundausrüstung zusammenstellen und ein wenig probieren wie es dir am besten gefällt."
         }
       },
       "tasks": [
@@ -8148,7 +8146,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Noch ein bisschen W-Lan",
-          "desc": "Ein paar Teile mehr brauchst du schon noch. Für die Items eine nette Kiste und Hopper. Ein kleiner Filter zum sortieren.\n\n"
+          "desc": "Ein paar Teile mehr brauchst du schon noch. Für die Items eine nette Kiste und Hopper und zum Sortieren einen kleinen Filter."
         }
       },
       "tasks": [
@@ -8220,7 +8218,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Energie von der Sonne",
-          "desc": "Eine weiter Art an Strom heranzukommen ist die Kraft der Sonne zu nutzen. Dafür brauchst du ein paar Teile und schon geht es los."
+          "desc": "Eine weiterw Art um an Strom heranzukommen ist die Kraft der Sonne zu nutzen. Dafür brauchst du ein paar Teile und schon geht es los."
         }
       },
       "tasks": [
@@ -8344,7 +8342,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Noch eine möglichkeit Strom zu erzeugen",
-          "desc": "Es gibt noch eine weitere möglichkeit Strom zu erzeugen. Dafür brauchst du ein paar Geräte und Canola."
+          "desc": "Es gibt noch eine weitere Möglichkeit Strom zu erzeugen. Dafür brauchst du ein paar Geräte und Canola."
         }
       },
       "tasks": [
@@ -8431,7 +8429,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Die Ladestation",
-          "desc": "Es gibt ein Paar Items die müssen aufgeladen werden. Dafür gibt es diese Ladestation. Doch sie ist ein wenig Kompliziert. Lies ausgiebig alle Seiten dazu in deinem Handbuch."
+          "desc": "Es gibt einige Items die müssen aufgeladen werden. Dafür gibt es diese Ladestation. Doch sie ist ein wenig kompliziert. Lies ausgiebig alle Seiten dazu in deinem Handbuch."
         }
       },
       "tasks": [
@@ -8558,7 +8556,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Der KAFFE",
-          "desc": "Alles ist vorbereitet. Fülle die Maschine. Klemme sie an den Strom und warte kurz auf das schwarze Gold. Deine Tasse Kaffe.\n\n\nPs: du kannst ihn mit diversen Zusätzen ergänzen."
+          "desc": "Alles ist vorbereitet. Fülle die Maschine. Klemme sie an den Strom und warte kurz auf das heiße schwarze Gold. Deine Tasse Kaffe.\n\n\nPs: du kannst ihn mit diversen Zusätzen ergänzen."
         }
       },
       "tasks": [
@@ -8621,7 +8619,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Die Verwandlung",
-          "desc": "Du hast nun Strom und den Verwandler. Nun must du nur noch was verwandeln.\n\nDafür sorgst du das der Verwandler Strom hat und legst das Item was du verwandeln willst vor den grünen Punkt deiner Machine. Nur noch den Knopf drücken und fertig."
+          "desc": "Du hast nun Strom und den Verwandler. Nun musst du nur noch was verwandeln.\n\nSorge dafür, dass dein Verwandler Strom hat und lege das Item, welches du verwandeln willst, vor den grünen Punkt deiner Maschine. Nur noch den Knopf drücken und fertig."
         }
       },
       "tasks": [
@@ -8743,6 +8741,78 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
+            "id": "indlog:fluid_pipe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Flüssigkeitsröhren",
+          "desc": "Transportröhren gibt es auch für Flüssigkeiten, diese funktionieren im Prinzip genauso wie die Item-Version.\n\n\n\n§7§oLaut Hersteller sollte erst ab dem Betrieb von ca 300000 solcher Röhren eine kritische Verzerrung des Raumzeitkontinuums auftreten, jedoch wurde dies nie experimentell bestätigt."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:fluid_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "indlog:fluid_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "indlog:fluid_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        125
+      ],
+      "questID": 122
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
             "id": "actuallyadditions:block_fishing_net",
             "Count": 1,
             "OreDict": "",
@@ -8755,7 +8825,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Fischen für faule",
-          "desc": "Du brauchst Fisch. Hast aber keine Lust stundenlang die Angel auszuwerfen?. Dan bau dir das Fischernetz. Platzier es über dem Wasser und lass es für dich Arbeiten."
+          "desc": "Du brauchst Fisch. Hast aber keine Lust stundenlang die Angel auszuwerfen?. Dann baue dir das Fischernetz. Platzier es über dem Wasser und lass es für dich Arbeiten."
         }
       },
       "tasks": [
@@ -8815,7 +8885,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Compost aus Überschuss",
-          "desc": "Bei der Feldarbeit fallen Abfälle an. Einen Teil davon kannst du in den Compost stecken und bekommst guten Dünger wieder zurück."
+          "desc": "Bei der Feldarbeit fallen Abfälle an. Einen Teil davon kannst du in den Kompost stecken und bekommst guten Dünger zurück."
         }
       },
       "tasks": [
@@ -8852,6 +8922,968 @@
         104
       ],
       "questID": 124
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:item_pipe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Transport Röhren",
+          "desc": "Diese Röhren eigenen sich gut um Items schnell und effizient von A nach B zu transportieren.\n\nEs gibt jeweils 3 verschiedene Rohrtypen, die jeweils unterschiedliche Aufgaben übernehmen:\n\nDie §9§4Extraktionsröhren §0ziehen Items aus Inventaren heraus, während die §1§2Injektionsröhren§0 sie woanders wieder einfügen können und die §8Transportröhren§0 dienen dazu, den Weg dazwischen zu überbrücken. §o[siehe Shift-Hinweise]\n\n§l§o§r§nHinweis:§r Man kann Transportwege von unterschiedlichen Extraktionsröhren aus zwar zusammenführen aber nicht aufsplitten. Wenn man mehrere Ziele ansteuern will muss man also alle hintereinander ablaufen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:item_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "indlog:item_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "indlog:item_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:sticky_piston",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 125
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:tank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tanks",
+          "desc": "Diese Tanks können Flüssigkeiten nicht nur speichern, sondern auch bequem in oder aus Behältern umfüllen.\n\nMan kann Tanks auch übereinander stapeln, diese geben dann ihren Inhalt nach unten weiter."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:tank",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 126
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:buffer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Konfigurierbare Kisten",
+          "desc": "Kennst du das, wenn man eine Kiste braucht mit genau 4 Slots und in der Items nur bis 12 Stapeln - Wahrscheinlich nicht, aber falls doch sind diese Item Puffer genau das Richtige.\n\nMan kann Slotzahl und Stapelgröße mit Schiebereglern beliebig an seine Bedürfnisse anpassen. Besonders nützlich ist auch die Möglichkeit verschiedenen Seiten unterschiedliche Inventarbereiche zuzuordnen.\n§o[Nähere infos beim §9i§r §oim GUI]"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:buffer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:buffer",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [],
+      "questID": 127
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:auto_craft",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Automatisch Craften",
+          "desc": "Solche Geräte kennt man sicherlich bereits in diversen Ausführungen. Die Funktionsweise dieser Version ist vielleicht etwas ungewohnt jedoch in vielen Situationen äußerst nützlich.\n\nFalls es noch Fragen gibt: Tooltips sind dein Freund und Helfer"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:auto_craft",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 2,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 128
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:warp_pipe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Instant Transport",
+          "desc": "Oft ist es praktisch wenn Items oder Flüssigkeiten nicht in irgendeinem Rohr zwischengelagert werden und dieses eventuell sogar verstopfen. Diese Universal-Warp-Rohre teleportieren das Zeug einfach direkt von A nach B.\n\nBei geschickter verwendung von Filtern können sogar mehrere unabhängige Transportlinien durch dasselbe Rohr geleitet werden."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:warp_pipe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:warp_pipe",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        131,
+        130
+      ],
+      "questID": 129
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:item_filter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Item Filter",
+          "desc": "Item Filter bieten eine drastische Erhöhung der Nützlichkeit von Itemröhren.\n\nNeben dem bloßen Sortieren von Items haben diese noch diverse weitere Funktionen. Experimentiere doch einfach etwas damit herum."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:item_filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:item_filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mode:1": 22,
+                "prior:1": 42,
+                "Items:9": {
+                  "10": {
+                    "id:8": "minecraft:iron_ingot",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        125
+      ],
+      "questID": 130
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:fluid_filter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Flüssigkeitsfilter",
+          "desc": "Flüssigkeits Filter bieten eine drastische Erhöhung der Nützlichkeit von Flüssigkeitsröhren.\n\nNeben bloßem Sortieren von Flüssigkeiten haben diese noch diverse weitere Funktionen. Experimentiere doch einfach etwas damit herum."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:fluid_filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:fluid_filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mode:1": 2,
+                "Fluids:9": {
+                  "8": "blood"
+                },
+                "prior:1": 42,
+                "maxAm:3": 666000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        122
+      ],
+      "questID": 131
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:portable_craft",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tragbares Autocrafting",
+          "desc": "Automatisches Craften ist bequem.\nTragbares Craften ist auch bequem.\n-\u003e Tragbares Autocraften ist bequem²."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:portable_craft",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:item_food",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        130,
+        128
+      ],
+      "questID": 132
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:remote_inv",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Fernzugriff",
+          "desc": "Damit hast du immer und überall Zugriff auf deine lieblings Kiste zuhause.\n\nMit Filtern ausgerüstet kann man damit sogar automatisch sein Inventar entrümpeln lassen."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:remote_inv",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ironchest:iron_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Lieblingskiste"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        129,
+        128
+      ],
+      "questID": 133
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:fluid_outlet",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ebbe und Flut",
+          "desc": "Diese Geräte können künstliche Seen anlegen oder welche trocken legen.\nAber pass auf, dass du dir nicht versehentlich den Keller flutest!\n\nEs ist am einfachsten diese mit hinreichend großen Flüssigkeitstanks direkt im Interface zu betreiben."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:fluid_intake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "indlog:fluid_outlet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        126
+      ],
+      "questID": 134
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:trash",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Überlaufschutz",
+          "desc": "Manchmal möchte man zu viel produzierte Resourcen entsorgen um Überlaufkatastrophen zu vermeiden. Leider hat nicht unbedingt jede Maschine ein Void-Upgrade aber dafür gibts den Überlaufannihilator."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:trash",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "storagedrawers:upgrade_void",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        122
+      ],
+      "questID": 135
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:tank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Größere Tanks",
+          "desc": "Wie du wohl schon bemerkt hast gibt es auch die Tanks in unterschiedlichen Größen.\nWir bauen natürlich wie immer den größten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "indlog:tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "FluidName:8": "water",
+                "Amount:3": 2097152000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        126
+      ],
+      "questID": 136
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:drop_interface",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Items droppen und aufsammeln",
+          "desc": "Item-Dropper oder -Kollektoren sind oft unflexibel. Es wäre doch viel praktischer wenn Pipes mit herumliegenden Items wie mit einem normalen Inventar interagieren könnten..."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:drop_interface",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:item_pipe",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "indlog:item_pipe",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:entity_interface",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Interaktion mit Entitäten",
+          "desc": "Automatische Interaktion mit Inventaren von Entitäten wie z.B. Kistenwaggons ist oft schwierig, es gibt zwar Hopper, aber die sind recht unflexibel.\n\nDieses Gerät ermöglicht es Pipes (oder Maschinen) auf Inventar oder Tanks in Entitäten zuzugreifen, die sich direkt vor dem Block befinden.\n§oDas funktioniert auch mit Spielerinventaren also pass lieber auf wenn du bei anderen Leuten über die Türschwelle läufst."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:entity_interface",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:chest_minecart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        128
+      ],
+      "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "indlog:buffer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 15
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Größere Buffer",
+          "desc": "Diese Item Puffer gibt es in verschiedenen größen. Neben mehr Slots gibt es auch welche mit höherem Stapellimit, was recht nützlich ist zum lagern großer Mengen Resourcen.\n\nBau am besten einfach den größten."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": false,
+          "ignoreNBT": true,
+          "requiredItems": [
+            {
+              "id": "indlog:buffer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "indlog:buffer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12,
+              "tag": {
+                "stack:2": 4096,
+                "slots:1": 12,
+                "Items:9": {
+                  "10": {
+                    "Num:2": 4096,
+                    "Slot:1": 9,
+                    "id:8": "chisel:valentines",
+                    "Damage:2": 7
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 139
     }
   ],
   "questLines": [
@@ -9323,12 +10355,6 @@
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 60,
-          "id": 51
-        },
-        {
-          "size": 24,
           "x": 36,
           "y": 60,
           "id": 52
@@ -9600,12 +10626,6 @@
         {
           "size": 24,
           "x": 6,
-          "y": 90,
-          "id": 9
-        },
-        {
-          "size": 24,
-          "x": 6,
           "y": 126,
           "id": 101
         },
@@ -9626,6 +10646,12 @@
           "x": 48,
           "y": 150,
           "id": 104
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 90,
+          "id": 9
         },
         {
           "size": 24,
@@ -9731,12 +10757,6 @@
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 60,
-          "id": 122
-        },
-        {
-          "size": 24,
           "x": 6,
           "y": 198,
           "id": 123
@@ -9750,6 +10770,134 @@
       ],
       "lineID": 9,
       "order": 9
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "(2)Inductive Logistics",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "Umweltfeundliche Transport- und Lagersysteme"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 96,
+          "y": 54,
+          "id": 128
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 54,
+          "id": 129
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 30,
+          "id": 130
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 78,
+          "id": 131
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 6,
+          "id": 132
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 102,
+          "id": 133
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 6,
+          "id": 134
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 102,
+          "id": 135
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 102,
+          "id": 136
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 6,
+          "id": 137
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 6,
+          "id": 138
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 102,
+          "id": 139
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 42,
+          "id": 140
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 108,
+          "id": 141
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 78,
+          "id": 142
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 54,
+          "id": 122
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 6,
+          "id": 125
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 54,
+          "id": 126
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": 54,
+          "id": 127
+        }
+      ],
+      "lineID": 10,
+      "order": 10
     }
   ],
   "format": "1.0.0"
