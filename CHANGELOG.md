@@ -1,4 +1,14 @@
 # Changelog
+## Changelog v0.9.7 -> v0.9.8
+### Mod Updates
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+
+
 ## Changelog v0.9.2 -> v0.9.7
 ### Mod Updates
 * AdvancedRocketry-1.11.2-1.2.5a-69.jar -> 1.11.2-1.3.0-77
