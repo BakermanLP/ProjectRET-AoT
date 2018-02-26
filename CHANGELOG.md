@@ -1,4 +1,78 @@
 # Changelog
+## Changelog v0.9.2 -> v0.9.7
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a-69.jar -> 1.11.2-1.3.0-77
+* animania-1.11.2-1.4.4.jar -> 1.11.2-1.4.6
+* AutomatedRedstone-1.11.2-5.2.0.jar -> 1.11.2-5.2.3
+* Bedrock Ores-MC1.11.2-1.2.5.52.jar -> 1.2.6.56.jar
+* CarryOn MC1.11.2 v1.7.jar -> MC1.11.2+v1.7.1
+* CD4017BE_lib-1.11.2-5.1.5.jar -> 1.11.2-5.3.0
+* chiselsandbits-13.14.jar -> 13.15
+* compatlayer-1.11.2-0.3.0.jar -> 1.11.2-0.3.1
+* DynamicSurroundings-1.11.2-3.4.8.5.jar -> 1.11.2-3.4.9.5
+* Exchangers-1.11.2-1.7.2.jar -> 1.12.2-2.7
+* InductiveLogistics-1.11.2-0.3.1.jar -> 1.11.2-0.3.3
+* LibVulpes-1.11.2-0.2.7-30-universal.jar -> 1.11.2-0.2.8-35-universal
+* mail_1.11.2-1.0.0.4.jar -> 1.11.2-1.1.0.0
+* mcjtylib-1.1x-2.5.1.jar -> 1.1x-2.5.3
+* NuclearCraft-2.7a--1.11.2.jar -> 2.7b--1.11.2
+* OptiFine_1.11.2_HD_U_C3.jar -> 1.11.2_HD_U_C7
+* OreExcavation-1.3.108.jar -> 1.3.112
+* TIS-3D-MC1.11.2-1.3.0.53.jar -> 3D-MC1.11.2-1.3.1.55
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Ordnername war falsch
+* Korrekturen am Questbook & Stand von Testserver aktuallisiert.
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/222
+* Questbook Stand vom Testserver see: https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Add custom Toast & Noodle recipe see https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Update Dough recipe & add custom Pumpkin Stew recipe see https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* tweak config settings for InductiveLogistics
+* Create book_agetwo_comm.json
+* Version v0.9.3
+* Let's get immersive :)
+* Korrekturen am Questbuch
+
+
+## Changelog v0.9.2 -> v0.9.3
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.2.5a-69.jar -> 1.11.2-1.2.5a-74
+* animania-1.11.2-1.4.4.jar -> 1.11.2-1.4.5
+* Bedrock+Ores-MC1.11.2-1.2.5.52.jar -> MC1.11.2-1.2.6.56.jar
+* CarryOn+MC1.11.2 v1.7.jar -> MC1.11.2+v1.7.1.jar
+* chiselsandbits-13.14.jar -> 13.15
+* compatlayer-1.11.2-0.3.0.jar -> 1.11.2-0.3.1
+* DynamicSurroundings-1.11.2-3.4.8.5.jar -> 1.11.2-3.4.9.4
+* ImmersiveRailroading-0.4.5a_1.11.jar -> 0.5.0_1.11
+* LibVulpes-1.11.2-0.2.7-30-universal.jar -> 1.11.2-0.2.8-35-universal
+* mcjtylib-1.1x-2.5.1.jar -> 1.1x-2.5.3
+* NuclearCraft-2.7a--1.11.2.jar -> 2.7b--1.11.2
+* OptiFine_1.11.2_HD_U_C3.jar -> 1.11.2_HD_U_C7
+* OreExcavation-1.3.108.jar -> 1.3.112
+* TIS-3D-MC1.11.2-1.3.0.53.jar -> 3D-MC1.11.2-1.3.1.55
+
+### Mod Additions
+
+### Mod Deletions
+* CoffeeSpawner-1.11.2-1.0.2.jar
+
+### Config Changes
+* Korrekturen am Questbook & Stand von Testserver aktuallisiert.
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/222
+* Questbook Stand vom Testserver see: https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Add custom Toast & Noodle recipe see https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* Update Dough recipe & add custom Pumpkin Stew recipe see https://github.com/BakermanLP/ProjectRET-AoT/issues/214
+* tweak config settings for InductiveLogistics
+* Create book_agetwo_comm.json
+* Version v0.9.3
+* Let's get immersive :)
+* Korrekturen am Questbuch
+
+
 ## Changelog v0.9.2 -> v0.9.3
 ### Mod Updates
 * platforms-1.11.0-1.3.5.jar -> 1.11.0-1.3.5b
