@@ -502,18 +502,22 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
           "requiredItems": [
             {
               "id": "roots:staff",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "spell3:8": "null",
+                "spell2:8": "null",
+                "selected:3": 0,
+                "spell1:8": "null",
+                "spell0:8": "null"
+              }
             }
           ],
-          "taskID": "bq_standard:retrieval",
+          "taskID": "bq_standard:crafting",
           "index": 1
         },
         {
@@ -6707,7 +6711,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -7220,6 +7224,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "botania:manatablet",
@@ -7229,7 +7236,7 @@
               "tag": {}
             }
           ],
-          "taskID": "bq_standard:crafting",
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
