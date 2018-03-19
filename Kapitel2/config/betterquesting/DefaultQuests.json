@@ -7224,6 +7224,9 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "botania:manatablet",
@@ -7233,7 +7236,7 @@
               "tag": {}
             }
           ],
-          "taskID": "bq_standard:crafting",
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],

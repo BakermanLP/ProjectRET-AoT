@@ -16,10 +16,7 @@ recipes.addShaped( <actuallyadditions:item_food:1>, [
 
 #Toast recipe
 recipes.remove( <actuallyadditions:item_food:10> );
-recipes.addShapeless( <actuallyadditions:item_food:10> * 2, [
-    <ore:bread>,
-    <actuallyadditions:item_knife>
-]);
+recipes.addShapeless( <actuallyadditions:item_food:10> * 2, [ <animania:carving_knife:*>, <ore:bread> ]);
 
 #Noodle recipe
 recipes.remove( <actuallyadditions:item_food:7> );
