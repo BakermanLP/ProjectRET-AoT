@@ -24,3 +24,6 @@ recipes.addShapeless( <actuallyadditions:item_food:7>, [
     <actuallyadditions:item_misc:4>,
     <actuallyadditions:item_knife>
 ]);
+
+# Wings of the Bats (Creative fly)
+recipes.remove( <actuallyadditions:item_wings_of_the_bats> );
