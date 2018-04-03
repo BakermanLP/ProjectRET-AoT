@@ -2,8 +2,8 @@
 * [1.11.2]UncraftingTable-1.7.5.jar
 * achievementbooks-v1.0-MC1.11.2.jar
 * ActuallyAdditions-1.11.2-r110.jar
-* AdvancedRocketry-1.11.2-1.3.0-77.jar
-* animania-1.11.2-1.4.6.jar
+* AdvancedRocketry-1.11.2-1.4.0-85.jar
+* animania-1.11.2-1.4.7.jar
 * Architect-MC1.11.2-1.2.0.59.jar
 * AutomatedRedstone-1.11.2-5.2.3.jar
 * Baubles-1.11-1.4.6.jar
@@ -16,22 +16,22 @@
 * Blur-1.0.4-14.jar
 * Botania r1.9-345.jar
 * buildersguides-1.11.2-0.1.0.jar
-* CarryOn+MC1.11.2+v1.7.1.jar
-* CD4017BE_lib-1.11.2-5.3.0.jar
+* CarryOn+MC1.11.2+v1.8.jar
+* CD4017BE_lib-1.11.2-5.3.1.jar
 * Chameleon-1.11.2-3.1.0.jar
 * CharcoalPit-[1.11.2]-1.4_11.jar
 * ChatTweaks_1.11.2-4.1.44.jar
 * ChestTransporter-1.11.2-2.7.11.jar
 * Chisel-MC1.11.2-0.1.1.31.jar
-* chiselsandbits-13.15.jar
+* chiselsandbits-13.16.jar
 * ChunkAnimator-MC1.11-1.2.jar
-* CodeChickenLib-1.11.2-3.0.0.284-universal.jar
+* CodeChickenLib-1.11.2-3.0.0.328-universal.jar
 * CoFHCore-1.11.2-4.2.8.16-universal.jar
 * compatlayer-1.11.2-0.3.1.jar
 * CraftingTweaks_1.11.2-7.1.9.jar
 * CraftStudioAPI-universal-0.3.0.86-mc1.11.2-beta.jar
 * CraftTweaker-1.11.2-3.0.26.jar
-* CreativeCore v1.9.15 mc1.11.2.jar
+* CreativeCore_v1.9.22_mc1.11.2.jar
 * CTM-MC1.11.2-0.2.3.14.jar
 * CustomMainMenu-MC1.11.2-2.0.5.jar
 * CustomNPCs_1.11.2(25may17).jar
@@ -40,14 +40,14 @@
 * DefaultOptions_1.11.2-8.2.2.jar
 * dirt2path-1.6.1.jar
 * DrawersBits-1.11.2-0.41.jar
-* DynamicSurroundings-1.11.2-3.4.9.5.jar
+* DynamicSurroundings-1.11.2-3.4.9.11.jar
 * ElecCore-1.11-1.7.431.jar
 * EnchantingTable-1.11-1.1.2.jar
 * endertanks-1.11.0-1.5.6.jar
 * EnhancedVisuals v1.1.4 mc1.11.2.jar
 * environmentaltech-1.11.2-0.11.0d.jar
 * EpicSiegeMod-12.0.158.jar
-* Exchangers-1.12.2-2.7.jar
+* Exchangers-1.11.2-1.8.1.jar
 * ExCompressum_1.11.2-3.0.0.jar
 * exnihiloadscensio-1.11.2-0.1.0.jar
 * expandedbonemeal-1.11-1.2.1.jar
@@ -78,7 +78,7 @@
 * LibVulpes-1.11.2-0.2.8-35-universal.jar
 * limelib-1.11.2-1.5.4.jar
 * LootTweaker-1.11.2-0.0.6.5.jar
-* mail_1.11.2-1.1.0.0.jar
+* mail_1.11.2-1.1.0.1.jar
 * Mantle-1.11.2-1.2.0.26.jar
 * mcjtylib-1.1x-2.5.3.jar
 * MCMultiPart-2.0.2.jar
@@ -98,8 +98,8 @@
 * Neat 1.4-13.jar
 * notenoughwands-1.1x-1.5.5.jar
 * NuclearCraft-2.7b--1.11.2.jar
-* OnlinePicFrame v1.4.15 mc1.11.2.jar
-* OpenComputers-MC1.11.2-1.7.1.79.jar
+* OnlinePicFrame_v1.4.18_mc1.11.2.jar
+* OpenComputers-MC1.11.2-1.7.2.97.jar
 * OpenGlider-1.11.2-1.0.0.jar
 * OpenTerrainGenerator-1.11.2-v6.jar
 * OptiFine_1.11.2_HD_U_C7.jar
@@ -120,7 +120,7 @@
 * rftools-1.1x-7.16.jar
 * rftoolsctrl-1.1x-1.7.0.jar
 * roots-2-0.025.jar
-* Scannable-MC1.11.2-1.6.2.31.jar
+* Scannable-MC1.11.2-1.6.3.35.jar
 * shetiphiancore-1.11.0-3.4.9.jar
 * Snad-1.11.2-1.7.03.26a.jar
 * SoundFilters-0.10_for_1.11.jar

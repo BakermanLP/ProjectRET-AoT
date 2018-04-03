@@ -1,4 +1,66 @@
 # Changelog
+## Changelog v0.9.7 -> v0.9.9
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.3.0-77.jar -> 1.11.2-1.4.0-85
+* animania-1.11.2-1.4.6.jar -> 1.11.2-1.4.7
+* CarryOn+MC1.11.2+v1.7.1.jar -> 1.11.2+v1.8
+* CD4017BE_lib-1.11.2-5.3.0.jar -> 1.11.2-5.3.1
+* chiselsandbits-13.15.jar -> 13.16
+* CodeChickenLib-1.11.2-3.0.0.284-universal.jar -> 1.11.2-3.0.0.328-universal
+* CreativeCore v1.9.15 mc1.11.2.jar -> v1.9.22_mc1.11.2
+* DynamicSurroundings-1.11.2-3.4.9.5.jar -> 1.11.2-3.4.9.11
+* Exchangers-1.12.2-2.7.jar -> 1.11.2-1.8.1
+* mail_1.11.2-1.1.0.0.jar -> 1.11.2-1.1.0.1
+* OnlinePicFrame v1.4.15 mc1.11.2.jar -> v1.4.18_mc1.11.2
+* OpenComputers-MC1.11.2-1.7.1.79.jar -> 1.7.2.97
+* Scannable-MC1.11.2-1.6.2.31.jar -> 1.6.3.35
+
+### Config Changes
+* Die sollten dann auch in Kapitel 4 drinnen sein die Seeds
+* Neue Seeds extra für das Kapitel 3
+* Kleine Anpassung wegen Bau des Modpacks - Damit fällt die Änderung automatisch in Kapitel 3 wieder raus
+* Disable Wings of the Bats (Creative Fly) Auf den Servern bereits deaktiviert
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/230
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/234
+* Ignore Meta https://github.com/BakermanLP/ProjectRET-AoT/issues/233
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/232
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/233 Replace Actually Additions Knife with Animania Knife
+* Das Korn muss weg aus der Loot Liste
+* Version v0.9.8
+* In Kapitel 3 kann dann damit wieder geflogen werden
+* Vergessen auf Github hoch zu laden
+
+
+## Changelog v0.9.7 -> v0.9.9
+### Mod Updates
+* AdvancedRocketry-1.11.2-1.3.0-77.jar -> 1.11.2-1.4.0-85
+* animania-1.11.2-1.4.6.jar -> 1.11.2-1.4.7
+* CarryOn+MC1.11.2+v1.7.1.jar -> MC1.11.2+v1.8
+* CD4017BE_lib-1.11.2-5.3.0.jar -> 1.11.2-5.3.1
+* chiselsandbits-13.15.jar -> 13.16
+* CreativeCore v1.9.15 mc1.11.2.jar -> v1.9.22_mc1.11.2
+* DynamicSurroundings-1.11.2-3.4.9.5.jar -> 1.11.2-3.4.9.11
+* Exchangers-1.12.2-2.7.jar -> 1.11.2-1.8.1
+* mail_1.11.2-1.1.0.0.jar -> 1.11.2-1.1.0.1
+* OnlinePicFrame v1.4.15 mc1.11.2.jar v1.4.18_mc1.11.2
+* OpenComputers-MC1.11.2-1.7.1.79.jar -> 1.7.2.97
+* Scannable-MC1.11.2-1.6.2.31.jar -> 1.6.3.35
+
+### Config Changes
+* Die sollten dann auch in Kapitel 4 drinnen sein die Seeds
+* Neue Seeds extra für das Kapitel 3
+* Kleine Anpassung wegen Bau des Modpacks - Damit fällt die Änderung automatisch in Kapitel 3 wieder raus
+* Disable Wings of the Bats (Creative Fly) Auf den Servern bereits deaktiviert
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/230
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/234
+* Ignore Meta https://github.com/BakermanLP/ProjectRET-AoT/issues/233
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/232
+* Fixes https://github.com/BakermanLP/ProjectRET-AoT/issues/233 Replace Actually Additions Knife with Animania Knife
+* Das Korn muss weg aus der Loot Liste
+* In Kapitel 3 kann dann damit wieder geflogen werden
+* Vergessen auf Github hoch zu laden
+
+
 ## Changelog v0.9.7 -> v0.9.8
 ### Mod Updates
 
