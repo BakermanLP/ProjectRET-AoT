@@ -1,4 +1,32 @@
 # Changelog
+## Changelog v0.9.9 -> v0.9.10
+### Mod Updates
+* AutomatedRedstone-1.11.2-5.2.3.jar -> 1.11.2-5.2.4
+* CD4017BE_lib-1.11.2-5.3.1.jar -> 1.11.2-5.3.3
+* InductiveLogistics-1.11.2-0.3.3.jar -> 1.11.2-0.4.0
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Version v0.9.9
+
+
+## Changelog v0.9.9 -> v0.9.10
+### Mod Updates
+* AutomatedRedstone-1.11.2-5.2.3.jar -> 1.11.2-5.2.4
+* CD4017BE_lib-1.11.2-5.3.1.jar -> 1.11.2-5.3.3
+* InductiveLogistics-1.11.2-0.3.3.jar -> 1.11.2-0.4.0
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Version v0.9.9
+
+
 ## Changelog v0.9.7 -> v0.9.9
 ### Mod Updates
 * AdvancedRocketry-1.11.2-1.3.0-77.jar -> 1.11.2-1.4.0-85

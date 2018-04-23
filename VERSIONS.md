@@ -5,7 +5,7 @@
 * AdvancedRocketry-1.11.2-1.4.0-85.jar
 * animania-1.11.2-1.4.7.jar
 * Architect-MC1.11.2-1.2.0.59.jar
-* AutomatedRedstone-1.11.2-5.2.3.jar
+* AutomatedRedstone-1.11.2-5.2.4.jar
 * Baubles-1.11-1.4.6.jar
 * Bedrock+Ores-MC1.11.2-1.2.6.56.jar
 * BetterFoliage-MC1.11.2-2.1.10.jar
@@ -17,7 +17,7 @@
 * Botania r1.9-345.jar
 * buildersguides-1.11.2-0.1.0.jar
 * CarryOn+MC1.11.2+v1.8.jar
-* CD4017BE_lib-1.11.2-5.3.1.jar
+* CD4017BE_lib-1.11.2-5.3.3.jar
 * Chameleon-1.11.2-3.1.0.jar
 * CharcoalPit-[1.11.2]-1.4_11.jar
 * ChatTweaks_1.11.2-4.1.44.jar
@@ -62,7 +62,7 @@
 * hopperducts-mc1.11.2-1.4.9.2.jar
 * ImmersiveEngineering-0.11-62.jar
 * immersivepetroleum-1.11.2-1.1.3.jar
-* InductiveLogistics-1.11.2-0.3.3.jar
+* InductiveLogistics-1.11.2-0.4.0.jar
 * InventoryTweaks-1.62.jar
 * IronBackpacks-1.11.2-3.0.2-3.jar
 * ironchest-1.11.2-7.0.25.815.jar

@@ -6,8 +6,8 @@
             "image" : "mainmenu:textures/gui/agesoftime.png",
             "posX" : -272,
             "posY" : -63,
-            "width" : 555,
-            "height" : 126,
+            "width" : 512,
+            "height" : 241,
             "alignment" : "center"
         }
 	
@@ -167,7 +167,7 @@
     {
         "version":
         {
-            "text" : "Modpack Version v0.9.9",
+            "text" : "Modpack Version v0.9.10",
             "posX" : -107,
             "posY" : -20,
             "color" : -1,
