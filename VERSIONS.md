@@ -62,7 +62,7 @@
 * hopperducts-mc1.11.2-1.4.9.2.jar
 * ImmersiveEngineering-0.11-62.jar
 * immersivepetroleum-1.11.2-1.1.3.jar
-* InductiveLogistics-1.11.2-0.4.0.jar
+* InductiveLogistics-1.11.2-0.4.1.jar
 * InventoryTweaks-1.62.jar
 * IronBackpacks-1.11.2-3.0.2-3.jar
 * ironchest-1.11.2-7.0.25.815.jar

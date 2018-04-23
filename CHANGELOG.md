@@ -1,4 +1,17 @@
 # Changelog
+## Changelog v0.9.9 -> v0.9.11
+### Mod Updates
+* InductiveLogistics-1.11.2-0.4.0.jar -> 1.11.2-0.4.1
+
+### Mod Additions
+
+### Mod Deletions
+
+### Config Changes
+* Version v0.9.10
+* Version v0.9.9
+
+
 ## Changelog v0.9.9 -> v0.9.10
 ### Mod Updates
 * AutomatedRedstone-1.11.2-5.2.3.jar -> 1.11.2-5.2.4
