@@ -1,0 +1,12 @@
+{
+  "hardcoreore:block_uranium": 10,
+  "thermalfoundation:fluid_pyrotheum": 15,
+  "thermalfoundation:fluid_aerotheum": 15,
+  "thermalfoundation:fluid_petrotheum": 15,
+  "minecraft:magma": 5,
+  "minecraft:fire:-1": 4,
+  "minecraft:flowing_lava:-1": 3,
+  "minecraft:lava:-1": 3,
+  "tconstruct:stone_torch": 1,
+  "minecraft:torch:-1": 1
+}

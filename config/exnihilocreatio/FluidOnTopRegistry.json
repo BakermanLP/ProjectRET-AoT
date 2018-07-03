@@ -1,0 +1,52 @@
+[
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "water",
+    "result": "minecraft:obsidian:0"
+  },
+  {
+    "fluidInBarrel": "water",
+    "fluidOnTop": "lava",
+    "result": "minecraft:cobblestone:0"
+  },
+  {
+    "fluidInBarrel": "milk",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:slime",
+      "meta": 0
+    }
+  },
+  {
+    "fluidInBarrel": "milk_goat",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:slime",
+      "meta": 0
+    }
+  },
+  {
+    "fluidInBarrel": "milk_sheep",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:slime",
+      "meta": 0
+    }
+  },
+  {
+    "fluidInBarrel": "milk_friesian",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:slime",
+      "meta": 0
+    }
+  },
+  {
+    "fluidInBarrel": "milk_holstein",
+    "fluidOnTop": "water",
+    "result": {
+      "name": "minecraft:slime",
+      "meta": 0
+    }
+  }
+]

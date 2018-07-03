@@ -1,0 +1,34 @@
+{
+  "ore:listAllveggie": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "minecraft:apple:0": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "ore:treeLeaves": {
+    "fluid": "water",
+    "amount": 250
+  },
+  "ore:listAllfruit": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  },
+  "tconstruct:slime_leaves:0": {
+    "fluid": "blueslime",
+    "amount": 250
+  },
+  "tconstruct:slime_leaves:1": {
+    "fluid": "purpleslime",
+    "amount": 250
+  },
+  "ore:treeSapling": {
+    "fluid": "water",
+    "amount": 250,
+    "color": "minecraft:leaves:0"
+  }
+}
