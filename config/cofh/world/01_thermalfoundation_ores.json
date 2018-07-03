@@ -4,12 +4,7 @@
 		"copper": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -31,9 +26,7 @@
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "tin"
-					}
+					"metadata": 1
 				},
 				"material": "minecraft:stone",
 				"cluster-size": 8
@@ -57,16 +50,12 @@
 				"block": [
 					{
 						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "silver"
-						},
+						"metadata": 2,
 						"weight": 80
 					},
 					{
 						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "lead"
-						},
+						"metadata": 3,
 						"weight": 20
 					}
 				],
@@ -92,16 +81,12 @@
 				"block": [
 					{
 						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "lead"
-						},
+						"metadata": 3,
 						"weight": 90
 					},
 					{
 						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "silver"
-						},
+						"metadata": 2,
 						"weight": 10
 					}
 				],
@@ -126,9 +111,7 @@
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "nickel"
-					}
+					"metadata": 5
 				},
 				"material": "minecraft:stone",
 				"cluster-size": 4
@@ -149,12 +132,7 @@
 		"copper_ocean": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -182,12 +160,7 @@
 		"copper_high": {
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},

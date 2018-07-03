@@ -1,4 +1,4 @@
-import minetweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.hide as h;
 import mods.jei.JEI.removeAndHide as rh;
 

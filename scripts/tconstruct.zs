@@ -1,4 +1,4 @@
-import minetweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.hide as h;
 import mods.jei.JEI.removeAndHide as rh;
 ###
@@ -23,17 +23,17 @@ for item in tcRemove
 }
 
 # Fix Emerald melting/casting
-mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald>);
-mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald_block>);
-mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald_block>);
-mods.tconstruct.Smeltery.addMelting(<liquid:emerald> * 144, <minecraft:emerald>, 866 );
-mods.tconstruct.Smeltery.addMelting(<liquid:emerald> * 1296, <minecraft:emerald_block>, 999 );
-
-mods.tconstruct.Casting.removeTableRecipe( <minecraft:emerald> );
-mods.tconstruct.Casting.addTableRecipe( <minecraft:emerald>, <liquid:emerald> * 144, <tconstruct:cast_custom:2>, false, 20 );
-
-mods.tconstruct.Casting.removeBasinRecipe( <minecraft:emerald_block> );
-mods.tconstruct.Casting.addBasinRecipe( <minecraft:emerald_block>, <liquid:emerald> * 1296, null, false, 20);
+#mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald>);
+#mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald_block>);
+#mods.tconstruct.Smeltery.removeMelting(<minecraft:emerald_block>);
+#mods.tconstruct.Smeltery.addMelting(<liquid:emerald> * 144, <minecraft:emerald>, 866 );
+#mods.tconstruct.Smeltery.addMelting(<liquid:emerald> * 1296, <minecraft:emerald_block>, 999 );
+#
+#mods.tconstruct.Casting.removeTableRecipe( <minecraft:emerald> );
+#mods.tconstruct.Casting.addTableRecipe( <minecraft:emerald>, <liquid:emerald> * 144, <tconstruct:cast_custom:2>, false, 20 );
+#
+#mods.tconstruct.Casting.removeBasinRecipe( <minecraft:emerald_block> );
+#mods.tconstruct.Casting.addBasinRecipe( <minecraft:emerald_block>, <liquid:emerald> * 1296, null, false, 20);
 
 # Rezepte entfernen
 # recipes.remove( tcSlimeBoots );

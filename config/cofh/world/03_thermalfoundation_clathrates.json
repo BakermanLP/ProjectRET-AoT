@@ -7,9 +7,7 @@
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "redstone"
-						},
+						"metadata": 2,
 						"weight": 90
 					},
 					{
@@ -40,9 +38,7 @@
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "glowstone"
-						},
+						"metadata": 3,
 						"weight": 90
 					},
 					{
@@ -74,9 +70,7 @@
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore_fluid",
-					"properties": {
-						"type": "ender"
-					}
+					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
 				"cluster-size": 24
