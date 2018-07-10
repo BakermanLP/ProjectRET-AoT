@@ -7,3 +7,4 @@ recipes.addShapeless( <minecraft:fence> , [ <minecraft:dark_oak_fence> ]);
 recipes.addShapeless( <minecraft:fence> , [ <minecraft:jungle_fence> ]);
 recipes.addShapeless( <minecraft:fence> , [ <minecraft:spruce_fence> ]);
 
+furnace.addRecipe( <minecraft:brick>, <minecraft:clay_ball> );
