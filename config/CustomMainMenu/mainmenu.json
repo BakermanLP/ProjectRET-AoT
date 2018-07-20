@@ -4,10 +4,10 @@
         "title":
         {
             "image" : "mainmenu:textures/gui/agesoftime.png",
-            "posX" : -272,
-            "posY" : -63,
-            "width" : 555,
-            "height" : 126,
+            "posX" : -256,
+            "posY" : -110,
+            "width" : 512,
+            "height" : 241,
             "alignment" : "center"
         }
 	
